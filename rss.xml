@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>sdll</title><link>https://sdll.github.io/</link><description>I am Sasha, and I learn, discover, create and share mathematics and science. Let's live together, and when we die, we will stop getting dumber.</description><atom:link href="https://sdll.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 16 Aug 2016 11:34:03 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>INTRODUCTION TO ORGANIC FUNCTIONAL GROUPS</title><link>https://sdll.github.io/posts/ofg/</link><dc:creator>sdll</dc:creator><description>&lt;div&gt;&lt;script&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>sdll</title><link>https://sdll.github.io/</link><description>I am Sasha, and I learn, discover, create and share mathematics and science. Let's live together, and when we die, we will stop getting dumber.</description><atom:link href="https://sdll.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 16 Aug 2016 15:44:57 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>INTRODUCTION TO ORGANIC FUNCTIONAL GROUPS</title><link>https://sdll.github.io/posts/ofg/</link><dc:creator>sdll</dc:creator><description>&lt;div&gt;&lt;script&gt;
 
 var w = window,
     d = document,
@@ -572,4 +572,62 @@ EndSection
 &lt;p class="graf--pre graf-after--p"&gt;Change places of &lt;strong&gt;ScrollUpButton&lt;/strong&gt; and &lt;strong&gt;ScrollDownButton &lt;/strong&gt;to enable natural scrolling.&lt;/p&gt;
 &lt;p class="graf--pre graf-after--p"&gt;Next, add the user of your choice to the &lt;strong&gt;input&lt;/strong&gt; group to give the permissions required for setting the input methods up:&lt;/p&gt;
 &lt;p id="9007" class="graf--pre graf-after--p"&gt;&lt;strong&gt;sudo gpasswd -a &lt;em&gt;$USERNAME&lt;/em&gt; input&lt;/strong&gt;&lt;/p&gt;
-&lt;p class="graf--pre graf-after--p"&gt;Restart the X server and enjoy!&lt;/p&gt;</description><guid>https://sdll.github.io/posts/mtrack-arch-linux/</guid><pubDate>Sat, 02 Jan 2016 19:10:41 GMT</pubDate></item></channel></rss>
+&lt;p class="graf--pre graf-after--p"&gt;Restart the X server and enjoy!&lt;/p&gt;</description><guid>https://sdll.github.io/posts/mtrack-arch-linux/</guid><pubDate>Sat, 02 Jan 2016 19:10:41 GMT</pubDate></item><item><title>ALSA, ALSAEqual &amp; ARCH LINUX</title><link>https://sdll.github.io/posts/alsa-arch/</link><dc:creator>sdll</dc:creator><description>&lt;p&gt;Given:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arch Linux w/ 4.2.5-1-ARCH kernel&lt;/li&gt;
+&lt;li&gt;Macbook Pro Late 2013&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wanted:&lt;/p&gt;
+&lt;p style="padding-left:30px;"&gt;global sound settings compatible with all the applications installed&lt;/p&gt;
+&lt;p&gt;Solution:&lt;/p&gt;
+&lt;p style="padding-left:30px;"&gt;Kernel-driven sound card drivers are provided by the ALSA framework, which has replaced the OSS. To learn more, consult the &lt;a href="https://wiki.archlinux.org/index.php/ALSA"&gt;guide&lt;/a&gt; on Arch Linux wiki I have found particularly helpful.&lt;/p&gt;
+&lt;p style="padding-left:30px;text-align:left;"&gt;First, install the &lt;strong&gt;alsa-utils&lt;/strong&gt; package. By default, all the sound channels are initially muted. Manually unmute the channels by typing &lt;strong&gt;alsamixer &lt;/strong&gt;command, choosing the required channels and pressing &lt;strong&gt;m&lt;/strong&gt;.&lt;/p&gt;
+&lt;p style="padding-left:30px;"&gt;Secondly, check the ID of your sound card by typing the shell command &lt;strong&gt;aplay -l&lt;/strong&gt;. The ID of my sound card was HDMI. Set the default sound card by creating the file at &lt;strong&gt;/etc/modprobe.d/alsa-base.conf &lt;/strong&gt;:&lt;/p&gt;
+&lt;p style="padding-left:60px;"&gt;options snd_hda_intel index=0 model=intel-mac-auto id=PCH&lt;br&gt;
+options snd_hda_intel index=1 model=intel-mac-auto id=HDMI&lt;/p&gt;
+&lt;p style="padding-left:30px;"&gt;Thirdly, install &lt;strong&gt;alsa-oss &lt;/strong&gt;to insure compatibility of the OSS applications with &lt;strong&gt;dmix&lt;/strong&gt;. Then load the kernel modules by executing &lt;strong&gt;sudo modprobe snd-seq-oss snd-pcm-oss snd-mixer-oss .&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left:30px;"&gt;Next, install the &lt;strong&gt;alsaequal&lt;/strong&gt; package which provides the system equaliser. Edit the global ALSA configuration file located at /etc/asound.conf, replacing HDMI with your ID:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code class="bash"&gt;
+pcm.!default {
+    type plug
+    slave.pcm {
+        @func getenv
+        vars [ ALSAPCM ]
+        default "hw:HDMI"
+    }
+}
+ctl.equal {
+    type equal;
+}
+
+pcm.plugequal {
+    type equal;
+    # Modify the line below if you do not
+    # want to use sound card 0.
+    #slave.pcm "plughw:0,0";
+    # by default we want to play from more sources at time:
+    slave.pcm "plug:dmix";
+}
+
+# pcm.equal {
+# If you do not want the equalizer to be your
+# default soundcard comment the following
+# line and uncomment the above line. (You can
+# choose it as the output device by addressing
+# it with specific apps,eg mpg123 -a equal 06.Back_In_Black.mp3)
+pcm.!default {
+    type plug;
+    slave.pcm plugequal;
+}
+
+pcm.dsp {
+    type plug
+    slave.pcm "dmix"
+}
+
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p style="padding-left:30px;"&gt;Finally, reboot and ensure the setup works by executing &lt;strong&gt;speaker-test&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If everything is alright, congratulations! Otherwise, do not suffer alone; there are people happy to help!&lt;/p&gt;
+&lt;p style="padding-left:30px;"&gt;&lt;/p&gt;</description><guid>https://sdll.github.io/posts/alsa-arch/</guid><pubDate>Wed, 23 Dec 2015 00:00:00 GMT</pubDate></item></channel></rss>
