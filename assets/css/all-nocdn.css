@@ -794,11 +794,8 @@ pre.code, code {
 
 #logo {width:1em;
 display:inline-block;
-margin-bottom: 10px;
-margin-right: 5px;
-}
+vertical-align:middle;}
 
-#navbar span, #navbar img{ vertical-align: middle; }
 
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f0f0f0; }
