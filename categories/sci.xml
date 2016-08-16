@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>sdll (sci)</title><link>https://sdll.github.io/</link><description></description><atom:link href="https://sdll.github.io/categories/sci.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 16 Aug 2016 11:34:03 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>INTRODUCTION TO ORGANIC FUNCTIONAL GROUPS</title><link>https://sdll.github.io/posts/ofg/</link><dc:creator>sdll</dc:creator><description>&lt;div&gt;&lt;script&gt;
+
+var w = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    x = w.innerWidth || e.clientWidth || g.clientWidth,
+    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+&lt;/script&gt;
+
+&lt;p&gt;The graph below shows functional groups as nodes and characteristic reactions as edges, with mechanisms, conditions and reagents shown on hover.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Please reload the page to render a different configuration or move the nodes to a satisfying position.&lt;/em&gt;&lt;/p&gt;
+&lt;iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="https://sdll.github.io/assets/demos/ofg.html" marginwidth="0" marginheight="0" style="height:850px; width:100%; border:none;" scrolling="no"&gt;Sorry, your browser cannot open the iframe. Do you want to continue to the &lt;a href="https://sdll.github.io/assets/demos/ofg.html"&gt;graph page&lt;/a&gt;?&lt;/iframe&gt;
+
+&lt;p&gt;I am grateful to &lt;a href="https://bost.ocks.org/mike/"&gt;Mike Bostock&lt;/a&gt; and the D3.js team for &lt;a href="http://bl.ocks.org/"&gt;wonderful&lt;/a&gt; &lt;a href="https://d3js.org/"&gt;tools&lt;/a&gt;,&lt;/p&gt;
+&lt;p&gt;and &lt;a href="https://stackoverflow.com/users/4891079/thatoneguy"&gt;@thatOneGuy&lt;/a&gt; for a timely support.  &lt;/p&gt;&lt;/div&gt;</description><guid>https://sdll.github.io/posts/ofg/</guid><pubDate>Wed, 08 Jun 2016 00:00:00 GMT</pubDate></item><item><title>TRANSITION METALS | COLOURS OF COMPLEXES</title><link>https://sdll.github.io/posts/trmetcol/</link><dc:creator>sdll</dc:creator><description>&lt;div&gt;&lt;script src="https://sdll.github.io/assets/scripts/jquery-1.12.2.min.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;link rel="stylesheet" href="https://sdll.github.io/assets/scripts/katex/katex.min.css"&gt;
+&lt;script src="https://sdll.github.io/assets/scripts/katex/katex.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://sdll.github.io/assets/scripts/katex/contrib/auto-render.min.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Transition metal compounds and complexes appear in a rich variety of colours. The juiciness of their colours and vibrant hues make the oil paint one of the most versatile tools for art. But why do some species containing d-block elements have any colour at all?&lt;/p&gt;
+&lt;p&gt;When ligands approach a bare metal ion, they interact with the d-subshell. As repulsion between the electrons in the ion and ligands increases, the d-orbitals are pushed to higher energy levels. The degree of the push depends on the number of electrons in the outer shell of the ion, the number of interacting ligands and the shape of the resultant complex. &lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;&lt;table style="margin-top: -45px;" cellpadding="5"&gt;
+    &lt;tr&gt;
+    &lt;td align="center" valign="center"&gt;
+    &lt;center&gt;&lt;img width="100%" src="https://sdll.github.io/assets/site/ligand.jpg" alt="ligand splits d-subshell"&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;The splitting energy $\Delta$ corresponds to the energy of light in the visible spectrum in most complexes. Electrons in the partially filled d-subshell can be promoted to higher eigenstates by absorbing the energy $\Delta$. Thus, the complementary colour is either reflected or transmitted to give a characteristic colour.&lt;/p&gt;
+&lt;p&gt;The table of the most common transition metals and their corresponding behavior on addition of hydroxide and ammonia ligands, adapted from the work by Dr Richard Kowenicki, is given below:&lt;/p&gt;
+&lt;table class="tablch" width="100%"&gt; 
+&lt;tr&gt;&lt;td&gt;Metal&lt;/td&gt;
+&lt;td&gt;[M(H$_2$O)$_6$]$^{n+}$ (aq)&lt;/td&gt;
+&lt;td&gt;Adding OH$^-$(aq) /&lt;br&gt; Excess&lt;/td&gt;
+&lt;td&gt;Adding NH$_3$(aq) /&lt;br&gt; Excess&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Fe$^{2+}$&lt;/td&gt;
+&lt;td&gt;Pale Green&lt;/td&gt;
+&lt;td&gt;Fe(H$_2$O)$_4$(OH)$_2$ (s)&lt;br&gt;Dark green ppt darkens to red/brown Fe$^{3+}$  /&lt;br&gt;  N.C. &lt;/td&gt;
+&lt;td&gt;Fe(H$_2$O)$_4$(OH)$_2$ (s)&lt;br&gt;Dark green ppt darkens to red/brown Fe$^{3+}$  /&lt;br&gt; N.C.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Fe$^{3+}$&lt;/td&gt;
+&lt;td&gt;[Fe(H$_2$O)$_6$]$^{3+}$ violet $\to$ [Fe(H$_2$O)$_5$(OH)]$^{2+}$ yellow&lt;/td&gt;
+&lt;td&gt;Fe(H$_2$O)$_3$(OH)$_3$ (s)&lt;br&gt;Red/brown ppt  /&lt;br&gt; N.C.&lt;/td&gt;
+&lt;td&gt;Fe(H$_2$O)$_3$(OH)$_3$ (s)&lt;br&gt;Red/brown ppt  /&lt;br&gt; N. C. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ni$^{2+}$&lt;br&gt;&lt;/td&gt;
+&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Ni(H$_2$O)$_4$(OH)$_2$ (s)&lt;br&gt;Pale green ppt /&lt;br&gt; N. C.&lt;/td&gt;
+&lt;td&gt;Ni(H$_2$O)$_4$(OH)$_2$ (s)&lt;br&gt;Pale green ppt /&lt;br&gt; redissolves to pale blue soln [Ni(NH$_3$)$_4$(H$_2$O)$_2$]$^{2+}$ &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cu$^{2+}$&lt;/td&gt;
+&lt;td&gt;Pale Blue&lt;/td&gt;
+&lt;td&gt;Cu(H$_2$O)$_4$(OH)$_2$­ (s)&lt;br&gt;Blue ppt /&lt;br&gt; N.C.&lt;/td&gt;
+&lt;td&gt;Cu(H$_2$O)$_4$(OH)$_2$ (s)&lt;br&gt;Blue ppt /&lt;br&gt; redissolves to deep blue soln [Cu(NH$_3$)$_4$(H$_2$O)$_2$]$^{2+}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Zn$^{2+}$&lt;/td&gt;
+&lt;td&gt;[Zn(H$_2$O)$_4$]$^{2+}$, Colourless&lt;/td&gt;
+&lt;td&gt;Zn(H$_2$O)$_2$(OH)$_2$ (s)&lt;br&gt;white ppt/ redissolves to give [Zn(OH)$_4$]$^{2-}$&lt;/td&gt;
+    &lt;td&gt;Zn(H$_2$O)$_2$(OH)$_2$ (s)&lt;br&gt;white ppt /&lt;br&gt; redissolves to [Zn(NH$_3$)$_4$]$^{2+}$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cr$^{3+}$&lt;/td&gt;
+&lt;td&gt;Ruby/Purple/Green&lt;/td&gt;
+&lt;td&gt;Cr(H$_2$O)$_3$(OH)$_3$ (s)&lt;br&gt;Green ppt  /&lt;br&gt; redissolves to give[Cr(OH)$_6$]$^{3-}$ dark green soln&lt;/td&gt;
+    &lt;td&gt;Cr(H$_2$O)$_3$(OH)$_3$ (s)&lt;br&gt;Green ppt  /&lt;br&gt;lilac soln [Cr(NH$_3$)$_6$]3+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Mn$^{2+}$&lt;/td&gt;
+&lt;td&gt;Pale Pink&lt;/td&gt;
+&lt;td&gt;Mn(H$_2$O)$_4$(OH)$_2$ (s)&lt;br&gt;Sandy ppt which darkens in air /&lt;br&gt; N.C. &lt;/td&gt;
+&lt;td&gt;Mn(H$_2$O)$_4$(OH)$_2$ (s)&lt;br&gt;Sandy ppt which darkens in air /&lt;br&gt; N. C. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br&gt;
+The table can be visualised as follows:
+&lt;br&gt;
+&lt;br&gt;
+&lt;/p&gt;&lt;table style="margin-top: -25px;" cellpadding="5"&gt;
+    &lt;tr&gt;
+    &lt;td align="center" valign="center"&gt;
+    &lt;center&gt;&lt;img width="100%" src="https://sdll.github.io/assets/site/per.png" alt="colours of transition metal complexes with water, hydroxide and ammonia ligands"&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td align="center" valign="center"&gt;
+    &lt;em&gt; A spiral denotes dissolution of the precipitate in the medium. A star denotes the absence of colour. The lower stripes in the third and fourth row correspond to excess hydroxide ions and ammonia.&lt;/em&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;script&gt;
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false},
+              ]
+          }
+      );
+&lt;/script&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://sdll.github.io/posts/trmetcol/</guid><pubDate>Sun, 01 May 2016 00:00:00 GMT</pubDate></item><item><title>INTRODUCTION TO REDOX</title><link>https://sdll.github.io/posts/redox/</link><dc:creator>sdll</dc:creator><description>&lt;div&gt;&lt;script src="https://sdll.github.io/assets/scripts/jquery-1.12.2.min.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;link rel="stylesheet" href="https://sdll.github.io/assets/scripts/katex/katex.min.css"&gt;
+&lt;script src="https://sdll.github.io/assets/scripts/katex/katex.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://sdll.github.io/assets/scripts/katex/contrib/auto-render.min.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Redox reactions are ubiquitous and important in the evolution of species and their environment, from animal respiration to weathering of rocks. The knowledge of how redox reactions work is indispensable for understanding the world around us.&lt;/p&gt;
+&lt;h2&gt;Definitions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Redox&lt;/strong&gt; stands for &lt;strong&gt;reduction&lt;/strong&gt; and &lt;strong&gt;oxidation&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reduction&lt;/strong&gt; involves the gain of electrons and corresponds to the decrease in the &lt;strong&gt;oxidation number&lt;/strong&gt; of an atom or ion. The electron density increases, and the proness of an atom or ion to the addition of another electron is &lt;em&gt;reduced&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Oxidation&lt;/strong&gt; involves the loss of electrons and is associated with the increase in the &lt;strong&gt;oxidation number&lt;/strong&gt;. When an atom or ion is oxidised, its electon density decreases and it becomes more positive.&lt;/p&gt;
+&lt;p&gt;An &lt;strong&gt;oxidation number&lt;/strong&gt;, also called an &lt;em&gt;oxidation state&lt;/em&gt; is a number assigned to an atom or ion to describe its relative state of oxidation or reduction. The oxidation numbers are assigned according to a set of rules, most commonly &lt;a href="http://goldbook.iupac.org/O04365.html"&gt;given by the IUPAC&lt;/a&gt;, and represent an accounting tool for the chemical behaviour of the species. &lt;/p&gt;
+&lt;h2&gt;Oxidation numbers and Stoichiometry&lt;/h2&gt;
+&lt;p&gt;Oxidation and reduction reactions are linked by definition. When a compound is reduced, something must be oxidised, and vice versa. Using oxidation numbers it is possible to balance the equation by looking at how they change.&lt;/p&gt;
+&lt;p&gt;The procedure is the following for an unbalanced equation given:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Identify the elements which oxidation numbers change and note the extent of change.&lt;/li&gt;
+&lt;li&gt;Increase the quantity of the corresponding element so that the product of the moles of the compound with the change of the oxidation state is equal to the lowest common multiple of all changes in the oxidation state.&lt;/li&gt;
+&lt;li&gt;Balance for oxygen and hydrogen.&lt;/li&gt;
+&lt;li&gt;Check that the overall charges on both sides of the equation are equal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Oxidising and Reducing Agents&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Oxidising agents&lt;/strong&gt;, also called &lt;em&gt;oxidants&lt;/em&gt;, are chemical reagents which can oxidise other substances while themselves being reduced. They are potent electon acceptors, and either steal electons from other compounds or increase their oxidation numbers. &lt;/p&gt;
+&lt;p&gt;Some reagents can change colour in the oxidation reactions, and hence they can be used in the detection of oxidising agents. For instance, iodide ions are readily oxidised to iodine by suitable oxidation agents. Iodine is very slightly soluble in water, but nevertheless dissolves in a solution containing iodide ions to form the tri-iodide ion, I$^{-}_3$(aq):&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/triiodo.png" width="50%" alt="Tri-iodide ion"&gt;&lt;/center&gt;
+&lt;p&gt;A reagent presented as an iodine solution is usually solid iodine in KI(aq) which forms KI$_3$ (aq). The triiodide ion is yellow-brown which is responsible for the colour change when iodine is produced from iodide ions. &lt;/p&gt;
+&lt;p&gt;This test can be made more sensitive by the addition of starch, which forms a deep blue-black complex with iodine. &lt;/p&gt;
+&lt;table border="0" cellpadding="5"&gt;
+    &lt;tr&gt;
+    &lt;td align="center" valign="center"&gt;
+    &lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/starch.png" alt="starch complex with iodine"&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td&gt;
+     &lt;em&gt;Source: &lt;a href="http://knowledgepayback.blogspot.co.uk/2012/04/iodimetric-iodometric-titrations.html"&gt; Atul Singh Arora &lt;/a&gt;
+     &lt;br&gt;
+     Structure of the starch complex with iodine. The amylose chain forms a helix around the iodine units.&lt;/em&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Reducing agents&lt;/strong&gt;, also called &lt;em&gt;reductants&lt;/em&gt;, are chemical reagents which can reduce other substances while themselves being oxidised. They easily give up their electrons or decrease the oxidation number of the reduced compound. &lt;/p&gt;
+&lt;p&gt;Some compounds change colour when they interact with reducing agents. One of the most common examples is discolouration of purple MnO$_4^{2-}$ to a very pink solution of Mn$^{2+}$ ions. Another one is the change of dichromate orange solution to the green solution of Cr$^{3+}$.&lt;/p&gt;
+&lt;h2&gt;Redox Titrations&lt;/h2&gt;
+&lt;p&gt;In redox titrations, oxidising and reducing agents react with each other. The common aim of titrations is to measure the exact quantity of the oxidising or reducing agent required to react completely with some other reagent.&lt;/p&gt;
+&lt;h3&gt;Measuring reducing agents&lt;/h3&gt;
+&lt;p&gt;Potassium manganate (VII) is usually used for titration of reducing agents due to its ease of handling and stability. In acidic solution it reacts according to the following half-equation:&lt;/p&gt;
+&lt;p&gt;$ MnO_4 (aq) + 8H^{+} (aq) + 5e^{-} \to Mn^{2+} (aq) + 4H_2O$  &lt;/p&gt;
+&lt;p&gt;With the potassium manganate (VII) in the burette, the purple permanganate ions turn to pale pink Mn$^{2+}$ which appear colourless in a dilute solution. The acidic conditions are critical, since the titre value would be too high and a brown precipitate of MnO$_2$ would form if insufficient acid is added. This is due to the proneness of permanganate ions to successive reduction in a neutral medium.&lt;/p&gt;
+&lt;h3&gt;Measuring oxidizing agents&lt;/h3&gt;
+&lt;p&gt;The common method involves the titration of the oxidising agent in excess potassium iodide with sodium thiosulphate.   &lt;/p&gt;
+&lt;p&gt;The oxidising agent converts the iodide ions in the solution into iodine, which forms a yellow-brown solution. The amount of iodine produced is then determined by titration with sodium thiosulphate, $Na_{2} S_{2} O_{3}$, which reduces iodine back to colourless iodide solution while itself being converted into sodium tetrathionate, $Na_2S_4O_6$. Near the end point the solution is pale yellow, and starch is used to intensify the ultimate colour change from blue-black to colourless. &lt;/p&gt;
+&lt;p&gt;&lt;script&gt;
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false},
+              ]
+          }
+      );
+&lt;/script&gt; &lt;/p&gt;&lt;/div&gt;</description><guid>https://sdll.github.io/posts/redox/</guid><pubDate>Sat, 30 Apr 2016 00:00:00 GMT</pubDate></item><item><title>COMMON QUALITATIVE TESTS IN ORGANIC CHEMISTRY</title><link>https://sdll.github.io/posts/organic-chemtests/</link><dc:creator>sdll</dc:creator><description>&lt;div&gt;&lt;script src="https://sdll.github.io/assets/scripts/jquery-1.12.2.min.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;link rel="stylesheet" href="https://sdll.github.io/assets/scripts/katex/katex.min.css"&gt;
+&lt;script src="https://sdll.github.io/assets/scripts/katex/katex.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://sdll.github.io/assets/scripts/katex/contrib/auto-render.min.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;The standard A-level curriculum in the UK requires the knowledge of tests with the following reagents:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#dnph"&gt;2,4-dinitrophenylhydrazine solution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#fehben" name="back"&gt;boiling Fehling's or Benedict's solution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#agno"&gt;warm ammoniacal silver nitrate solution, called &lt;em&gt;Tollen's reagent&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#pcl"&gt;phosphorous (V) chloride&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#potdich"&gt;acidified potassium dichromate (VI) solution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#carb"&gt;sodium/potassium carbonate or hydrogencarbonate solution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#brom"&gt;bromine water &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#koh"&gt;warm aqueous sodium/potassium hydroxide, dilute nitric acid and aqueous silver nitrate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#na"&gt;small piece of sodium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#carboxy"&gt;warm carboxylic acid with a few drops of concentrated sulphuric acid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#nani"&gt;sodium nitrite and dilute hydrochloric acid followed by an alkaline solution of phenol in ice-cold condition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sdll.github.io/posts/organic-chemtests/#iodo"&gt;iodine in alkaline solution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let's go over them one by one:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="dnph" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;2,4-dinitrophenylhydrazine solution&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for carbonyl functional group&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;2,4-Dinitrophenylhydrazine is a molecule with a fascinating structure, shown below:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;table border="0" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;td align="center" valign="center"&gt;
+&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/dnph0.png" width="50%" alt="DNPH structural formula"&gt;
+&lt;/center&gt;
+&lt;/td&gt;
+&lt;td align="center" valign="center"&gt;
+&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/dnph.png" width="50%" alt="DNPH ball-and-stick model"&gt;
+&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;2,4-DNPH can be used to detect the carbonyl functional group of ketones and aldehydes. A positive test is indicated by the formation of a red or reddish yellow precipitate, provided the carbonyl reactant is aromatic or aliphatic respectively:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/dnp.gif" alt="DNPH positive result"&gt;
+&lt;br&gt;
+&lt;em&gt; Source: &lt;a href="http://www.chem.ucalgary.ca/courses/351/Carey5th/Ch17/ch17-3-3-2.html"&gt;Dr Ian Hunt, University of Calgary&lt;/a&gt;&lt;/em&gt;
+&lt;/center&gt;
+&lt;p&gt;The reaction can be described as a condensation reaction, since two molecules combine into one with loss of water, as well as an addition-elimination reaction, because of the addition of the amine functional group to the carbonyl group and elimination of the water molecule. The mechanism is given below:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/dnphmech.png" alt="DNPH mechanism"&gt;&lt;/center&gt;
+&lt;p&gt;The product of the reaction, a &lt;em&gt;hydrazone&lt;/em&gt;, can be crystallised and its unique melting and boiling points measured. Therefore, the identity of the substance reacting with 2,4-DNPH can be determined by this method, which is called &lt;em&gt;derivatisation&lt;/em&gt;. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="fehben" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;boiling Fehling's or Benedict's solution&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for differentiation between aldehydes and ketones&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Both reagents can be used to differentiate between almost all aldehydes and ketones. &lt;/p&gt;
+&lt;p&gt;Fehling's reagent is a solution of copper (II) ions complexed with tartarate ions in presence of sodium hydroxide:
+&lt;img alt="Formation of the Bistartarate Copper (II) ion" src="https://sdll.github.io/assets/site/fehlnaoh.png"&gt;&lt;/p&gt;
+&lt;p&gt;The tartarate tetraanions are bidentate ligands which give the complex the resultant charge of 6- and prevent precipitation of copper (II) hydroxide:
+&lt;img alt="Bitartarate Copper (II) ion" src="https://sdll.github.io/assets/site/fehlstruct.png"&gt;&lt;/p&gt;
+&lt;p&gt;Benedict's reagent is similar to Fehling's, but contains citrate instead of tartarate anions, and sodium carbonate is used instead of sodium hydroxide. Citrate ligands prevent the formation of copper (II) carbonate. The charges of the two complexes are equal:
+&lt;/p&gt;&lt;center&gt;&lt;img alt="the Bicitrate Copper (II) ion" src="https://sdll.github.io/assets/site/benstruct.png"&gt;&lt;/center&gt;
+&lt;p&gt;Testing procedure is the same for both reagents: a few drops of the compound are added to the reagent, and the mixture is warmed in the hot water bath. The positive test result for an aldehyde is the formation of a dark red precipitate of copper (I) oxide out of the deep blue solution. A ketone yields no change, unless it is an alpha-hydroxy ketone:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/alphaohket.png" alt="Hydroxyketones"&gt;&lt;/center&gt;
+&lt;p&gt;Moreover, aromatic aldehydes do not give a positive result due to the stabilising effect of resonance in the benzene ring. The results of the tests are shown in the images below:
+&lt;/p&gt;&lt;table border="0" cellpadding="5"&gt;
+&lt;p&gt;&lt;/p&gt;&lt;tr align="center" valign="center"&gt;
+&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/fehling.jpg" alt="Fehling Test"&gt;
+&lt;br&gt;
+&lt;em&gt;Fehling's reagent reacts with an a) ketone and b) aldehyde&lt;/em&gt; 
+&lt;/center&gt;
+&lt;/tr&gt;
+&lt;p&gt;&lt;/p&gt;&lt;tr align="center" valign="center"&gt;
+&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/benedict.jpg" alt="Benedict Test"&gt;
+&lt;br&gt;
+&lt;em&gt;Benedict's reagent reacts with an aldehyde&lt;/em&gt;
+&lt;/center&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="agno" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;warm ammoniacal silver nitrate solution, called &lt;b&gt;Tollen's reagent&lt;/b&gt;&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for differentiation between aldehydes and ketones&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Once presence of the carbonyl functional group has been established with 2,4-DNPH, Tollen's reagent can be used to differentiate between most ketones and aldehydes. &lt;/p&gt;
+&lt;p&gt;The test works due to the fact that aldehydes are more easily oxidised than ketones. The diamminesilver (I) complex in the reagent acts as an oxidising agent, while ammonia dissolves any silver oxide which may form in the process. &lt;/p&gt;
+&lt;p&gt;In a positive test, the aldehyde is oxidised to a carboxylate ion, while the elemental silver precipitates out of the solution due to the reduction of the silver nitrate. The silver occasionaly adsorbs to the inner surface of the vessel, forming a layer of &lt;em&gt;silver mirror&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/tollens.JPG" alt="Silver mirror test"&gt;&lt;/center&gt;
+&lt;p&gt;However, alpha-hydroxy ketones can give a false positive due to the stabilising affect of the oxygen in the hydroxyl group bonded to the alpha-carbon on the structure of the final product. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="pcl" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;phosphorous (V) chloride&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for -OH functional group&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Solid phoshorous (V) chloride reacts vigorously with alcohols at RTP, producing clouds of poisonous acidic hydrogen chloride gas. Thus, it can be used as a test for the -OH group.&lt;/p&gt;
+&lt;p&gt;However, phosphorous (V) chloride is such a good oxidising agent that it will oxidise any compound with the -OH group. To show that some compound is an alcohol, we need to make sure first that the sample is not contaminated with water, and secondly it is neutral. If the solution containing a carbonyl compound is acidic and reacts with $PCl_5$ in the cold to give acidic steamy fumes, the solution almost certainly contains a carboxylic acid participating in the following mechanism:
+&lt;img alt="Carboxylic Acylation" src="https://sdll.github.io/assets/site/pclacyl.png"&gt;&lt;/p&gt;
+&lt;p&gt;If the solution is pure and neutral and the reaction still takes place to produce steamy fumes, an alcohol is present. The reaction results in the aqueous mixture of phosphorous trichloride oxide and acyl chloride, which can be separated by fractional distillation.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="potdich" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt; &lt;em&gt;acidified potassium dichromate (VI) solution&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for aldehydes, primary and secondary alcohols&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Aldehydes and different types of alcohols can be identified using their proneness to oxidation. The usual oxidation agent used for these tests is a solution of sodium or potassium dichromate (VI) acidified with the dilute sulphuric acid. If the oxidation takes place, the protonated dichromate (VI) anions are reduced to a green solution of chromium (III) cations.     &lt;/p&gt;
+&lt;p&gt;To test for different kinds of alcohols, make sure that the tested solution is neutral, does not contain water, and reacts with phosphorous (V) chloride to produce acidic steamy fumes of hydrogen chloride. Then add a few drops of the alcohol under consideration to a test tube containing protonated dichromate ions and warm the mixture in the hot water bath. &lt;/p&gt;
+&lt;p&gt;Primary and secondary alcohols turn green, while there is no colour change for tertiary alcohols.&lt;/p&gt;
+&lt;p&gt;The result is similar for aldehydes, which are oxidised to the corresponding carboxylic acids.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="carb" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;carbonate or hydrogencarbonate solution&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for carboxylic acids&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Carbonates and hydrogencarbonates can be used to test for carboxylic acids. The procedure is easy to conduct safely and the resultant fizziness is easy to detect visually.&lt;/p&gt;
+&lt;p&gt;Reaction between a carboxylic acid and a carbonate or hydrogen carbonate is an acid-base reaction. A salt forms together with water and carbon dioxide, which explains the fizziness of the resultant solution. The difference in vigour between the carbonate or hydrogencarbonate reaction with a carboxylic and their reaction with  hydrochloric acid is small. &lt;/p&gt;
+&lt;p&gt;Nevertheless, the vigour of the reaction does depend on the carbonate: its size, shape, phase and polarisation affect the rate. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="brom" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;bromine water &lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for unsaturated hydrocarbons, enols and phenols&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Discolouration of bromine water indicates that the tested compound contains unsaturated hydrocarbon, enol or phenol. &lt;/p&gt;
+&lt;p&gt;There is an advantage in using water as a solvent in this reaction: increased polarity enhances the stability of the intermediate in the reaction and hence speed it up. Additional catalysts are not required. &lt;/p&gt;
+&lt;p&gt;The hydroxyl group in phenols activates the benzene ring toward the reaction with the electrophilic bromine. One of the lone pairs of the oxygen atom in -OH overlaps with the delocalised electrons in the ring, hence increasing the electron density and proneness to the electrophilic attack. The -OH group activates the ring in a special manner: incoming groups tend to assume the 2, 6 (next to the carbon with -OH) and 4 (opposite the carbon with -OH) position. This is because of the resonance structures formed due to the alcohol functional group, shown below: &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/orthopara.png" alt="phenol resonance"&gt;
+&lt;br&gt;
+&lt;em&gt; Source: &lt;a href="https://www.quora.com/Why-does-the-OH-group-have-a-2-4-directing-effect-in-phenols"&gt;Alex Kuang Chen&lt;/a&gt;&lt;/em&gt;
+&lt;/center&gt;
+&lt;p&gt;In the reaction of bromine with phenol, white precipitate forms. Enols are different, and react with bromine via electrophilic substitution route. Both mechanisms are given below:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/bromtest.svg" alt="bromine test with enols and phenols"&gt;
+&lt;br&gt;
+&lt;em&gt; Source: &lt;a href="http://organicchem.org/oc2web/lab/exp/oxid/brh2o.pdf"&gt;Martha A. Hass&lt;/a&gt;&lt;/em&gt;
+&lt;/center&gt;
+&lt;p&gt;Bromine water also reacts with alkenes and alkynes in an electrophilic addition reaction. The example reaction of ethene with bromine is shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Ethene and bromine water" src="https://sdll.github.io/assets/site/eladeth.png"&gt;    &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="koh" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;warm aqueous sodium/potassium hydroxide, dilute nitric acid and aqueous silver nitrate&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for differentiation between halides&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Unique colours of silver salts can be used to identify halides.     &lt;/p&gt;
+&lt;p&gt;Sodium/potassium hydroxyde deprotonates the tested compound which then dissociates to give off the halide into the solution, while nitric acid prevents the formation of other non-halide precipitates. Silver nitrate is then added to give the following colours with chlorine, bromine, and iodine respectively: &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/halidetest.jpg" alt="halide test result"&gt;&lt;/center&gt;
+&lt;p&gt;There is no coloured precipitate for the fluoride salts.&lt;/p&gt;
+&lt;p&gt;The identity of the precipitate can be &lt;a href="http://chemguide.co.uk/inorganic/group7/testing.html"&gt;confirmed&lt;/a&gt; by adding concentrated sulfuric acid or ammonia solution.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="na" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;small piece of sodium&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for alcohols, carboxylic acids and phenols&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If a small piece of sodium is dropped into the beaker of alcohol, it will dissolve steadily to give off bubbles of hydrogen gas and leave a colourless solution of the corresponding alkoxide, which is structurally similar to the alcohol, but with sodium instead of hydrogen bonded to the oxygen. The white alkoxide can then be retreived by careful evaporation. Sodium metal is highly reducing, and forms caustic soda in the reaction with water. Therefore, to avoid false positives we have to make sure that there are no traces of water.  &lt;/p&gt;
+&lt;p&gt;Sodium reacts violently with acids to produce a salt and hydrogen, hence the pH also should be checked. But carboxylic acids and their derivatives are not the only compounds encountered in high school organic chemistry acidic enough to react with sodium; phenol also works. Delocalisation of the negative charge around the benzene ring stabilises the phenoxide ion. However, since phenol is only a weak acid, the reaction is very slow. &lt;/p&gt;
+&lt;p&gt;To sum up, if there is some fizzing in the neutral solution on addition of metallic sodium, the tested compound is likely to be an alcohol. If the organic solution is acidic, it is likely to be a carboxylic acid or a phenol.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="carboxy" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;warm carboxylic acid with a few drops of concentrated sulphuric acid&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for alcohols&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;When a carboxylic acid is heated with an alcohol in presence of an acid catalyst, a corresponding ester forms. Esters are easily recognised by their characteristic smell. &lt;/p&gt;
+&lt;p&gt;The esterification reactions are both slow and reversible. The general equation is given below: &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/estergeneq.gif" alt="general equation of esterification"&gt;
+&lt;br&gt;
+&lt;em&gt; Source: &lt;a href="http://www.chemguide.co.uk/organicprops/alcohols/esterification.html"&gt;chemguide&lt;/a&gt;&lt;/em&gt;
+&lt;/center&gt;   
+&lt;p&gt;Decanting a solution at equilibrium into water helps to intensify the ester smell. Apart from the very small ones, esters are mostly insoluble in water and hence form a thin layer on the surface, while excess acid and water readily diffuse through water.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="nani" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;sodium nitrite and dilute hydrochloric acid followed by an alkaline solution of phenol in ice-cold condition&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for aromatic amines&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Colourful diazonium compounds can be produced from aromatic amines in the reaction with nitric (III) acid, which is produced by dissolving sodium nitrite in dilute hydrochloric acid, and phenol. Let's look at phenylamine.&lt;/p&gt;
+&lt;p&gt;First, the solution of phenylammonium chloride is cooled in the beaker of ice. The solution of the nitrite is then added slowly, so that the temperature never goes over 5°C. The obtained solution contains the following ion:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/bdc.gif" alt="benzenediazonium chloride"&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.chemguide.co.uk/organicprops/aniline/makediazo.html"&gt;chemguide&lt;/a&gt;
+&lt;/center&gt;   
+&lt;p&gt;Then cold phenol dissolved in NaOH is added to benzenediazonium chloride and the following reaction takes place:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/couplephol.gif" alt="phenol coupling"&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.chemguide.co.uk/organicprops/aniline/propsdiazo.html"&gt;chemguide&lt;/a&gt;
+&lt;/center&gt;   
+&lt;p&gt;This is an example of coupling, in which the simplest yellow-orange &lt;em&gt;azo&lt;/em&gt; compound forms.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name="iodo" href="https://sdll.github.io/posts/organic-chemtests/#back"&gt;&lt;em&gt;iodine in alkaline solution&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;for methyl ketones, ethanal, methyl secondary alcohol and ethanol&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Iodine can be used to identify methyl ketone or ethanal, given that the tested solution is a ketone, or, if it is known that the tested compound is an alcohol, to test for methyl alcohol or ethanol. A positive result for all of them is a characteristic antiseptic smell and formation of a very pale yellow precipitate of triiodomethane, also known as iodoform. &lt;/p&gt;
+&lt;p&gt;The reaction with suitable alcohols proceeds in three stages. First, the alcohol is oxidised to aldehyde or a methyl ketone, while the iodine reacts with the sodium hydroxide to produce sodium iodate, a potent oxidising agent. Then the aldehyde or ketone formed reacts with iodine, and the product reacts with hydroxide ions. Thus, the overall reaction for the second stage is the following:   &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img src="https://sdll.github.io/assets/site/iodoform.gif" alt="iodoform reaction"&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.chemguide.co.uk/organicprops/carbonyls/iodoform.html"&gt;chemguide&lt;/a&gt;
+&lt;/center&gt;   
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script&gt;
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false},
+              ]
+          }
+      );
+&lt;/script&gt;&lt;/div&gt;</description><guid>https://sdll.github.io/posts/organic-chemtests/</guid><pubDate>Wed, 30 Mar 2016 00:00:00 GMT</pubDate></item></channel></rss>

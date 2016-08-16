@@ -1,0 +1,4 @@
+Sitemap: https://sdll.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: sdll.github.io
