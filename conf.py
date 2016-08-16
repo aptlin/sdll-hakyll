@@ -135,6 +135,7 @@ NAVIGATION_LINKS = {
         ("/about", "About"),
         ("/links", "Links"),
         ("/pub", "Pub"),
+        ("/gallery", "Gallery"),
         ("/archive.html", "Archive"),
         ("/categories/", "Categories"),
         ("/rss.xml", "RSS"),
@@ -643,7 +644,7 @@ GITHUB_COMMIT_SOURCE = True
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-# GALLERY_FOLDERS = {"galleries": "galleries"}
+GALLERY_FOLDERS = {"gallery": "gallery"}
 # More gallery options:
 # THUMBNAIL_SIZE = 180
 # MAX_IMAGE_SIZE = 1280
@@ -651,7 +652,7 @@ GITHUB_COMMIT_SOURCE = True
 # EXTRA_IMAGE_EXTENSIONS = []
 #
 # If set to False, it will sort by filename instead. Defaults to True
-# GALLERY_SORT_BY_DATE = True
+GALLERY_SORT_BY_DATE = False
 
 # If set to True, EXIF data will be copied when an image is thumbnailed or
 # resized. (See also EXIF_WHITELIST)
