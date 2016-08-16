@@ -1068,6 +1068,11 @@ SEARCH_FORM = """
 <form method="get" id="search" action="https://duckduckgo.com/"
  class="navbar-form">
 <input type="hidden" name="sites" value="%s">
+<input type="hidden" name="ku" value="1">
+<input type="hidden" name="kh" value="1">
+<input type="hidden" name="kn" value="1">
+<input type="hidden" name="k1" value="-1">
+<input type="hidden" name="kae" value="c">
 <input type="hidden" name="k8" value="#444444">
 <input type="hidden" name="k9" value="#D51920">
 <input type="hidden" name="kt" value="h">
