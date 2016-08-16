@@ -428,7 +428,7 @@ table.codetable { width: 100%;} td.linenos {text-align: right; width: 4em;}
 body {
 	color: #4F5151;
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 1.4;
 	padding: 1em;
 }
@@ -489,7 +489,7 @@ body {
 }
 
 .entry-title {
-	font-size: 1.3em;
+	font-size: 1.5em;
         }
 .p-name.entry-title {
         margin-bottom:0px;
@@ -580,7 +580,7 @@ body {
 }
 
 #brand {
-	font-size: 1.5em;
+	font-size: 1.7em;
 	line-height: 1;
         color: #259359;
         margin-bottom: 0px;
