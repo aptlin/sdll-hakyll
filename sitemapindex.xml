@@ -10,20 +10,12 @@
   <lastmod>2016-08-16T15:52:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://sdll.github.io/categories/math/mathna.xml</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://sdll.github.io/categories/math/na.xml</loc>
   <lastmod>2016-08-16T15:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sdll.github.io/categories/org.xml</loc>
   <lastmod>2016-08-16T15:52:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://sdll.github.io/categories/org/orgos.xml</loc>
-  <lastmod>2016-08-16T15:44:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sdll.github.io/categories/org/os.xml</loc>
@@ -38,28 +30,12 @@
   <lastmod>2016-08-16T15:52:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://sdll.github.io/categories/sci/scichem.xml</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://sdll.github.io/galleries/demo/rss.xml</loc>
-  <lastmod>2016-08-16T16:01:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://sdll.github.io/galleries/rss.xml</loc>
-  <lastmod>2016-08-16T14:23:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://sdll.github.io/gallery/Notes/rss.xml</loc>
-  <lastmod>2016-08-16T16:43:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://sdll.github.io/gallery/notes/rss.xml</loc>
-  <lastmod>2016-08-16T16:43:00Z</lastmod>
+  <lastmod>2016-08-16T16:55:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sdll.github.io/gallery/rss.xml</loc>
-  <lastmod>2016-08-16T16:43:00Z</lastmod>
+  <lastmod>2016-08-16T16:55:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sdll.github.io/rss.xml</loc>
@@ -67,6 +43,6 @@
  </sitemap>
  <sitemap>
   <loc>https://sdll.github.io/sitemap.xml</loc>
-  <lastmod>2016-08-16T16:43:00Z</lastmod>
+  <lastmod>2016-08-16T16:55:00Z</lastmod>
  </sitemap>
 </sitemapindex>

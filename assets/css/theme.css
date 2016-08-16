@@ -397,3 +397,6 @@ pre.code, code {
 display:inline-block;
 vertical-align:middle;}
 
+.span2 {width:100%;}
+
+#search {height:2em;} 
