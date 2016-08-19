@@ -139,6 +139,7 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archive"),
         ("/categories/", "Categories"),
         ("/rss.xml", "RSS"),
+        ("https://github.com/sdll", "Github"),
     ),
 }
 
