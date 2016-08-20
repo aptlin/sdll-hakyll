@@ -7,102 +7,106 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://sdll.github.io/</loc>
-  <lastmod>2016-08-19T11:53:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/2015/</loc>
-  <lastmod>2016-08-16T15:44:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/2016/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
-  <loc>https://sdll.github.io/404.html/</loc>
-  <lastmod>2016-08-19T12:11:00Z</lastmod>
+  <loc>https://sdll.github.io/404.html</loc>
+  <lastmod>2016-08-20T18:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sdll.github.io/404/</loc>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/about/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/archive.html</loc>
-  <lastmod>2016-08-19T11:45:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/categories/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/categories/math/</loc>
-  <lastmod>2016-08-16T16:44:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/categories/math/na/</loc>
-  <lastmod>2016-08-16T15:52:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/categories/org/</loc>
-  <lastmod>2016-08-16T16:44:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/categories/org/os/</loc>
-  <lastmod>2016-08-16T15:52:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/categories/sci/</loc>
-  <lastmod>2016-08-16T16:44:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/categories/sci/chem/</loc>
-  <lastmod>2016-08-16T15:52:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/gallery/</loc>
-  <lastmod>2016-08-16T16:44:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/gallery/Notes/</loc>
-  <lastmod>2016-08-19T11:37:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/links/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/listings/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/posts/alsa-arch/</loc>
-  <lastmod>2016-08-16T15:44:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/posts/calendars-and-fractional-approximation/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/posts/mtrack-arch-linux/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/posts/ofg/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/posts/organic-chemtests/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/posts/redox/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/posts/trmetcol/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/pub/</loc>
-  <lastmod>2016-08-16T11:34:00Z</lastmod>
+  <lastmod>2016-08-20T18:59:00Z</lastmod>
  </url>
 </urlset>
