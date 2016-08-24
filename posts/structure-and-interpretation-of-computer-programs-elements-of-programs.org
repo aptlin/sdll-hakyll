@@ -1,0 +1,64 @@
+#+begin_src dot :file  ../files/assets/posts/sicp/elements.png :cmdline -Kdot -Tpng :exports none
+  digraph {
+  rankdir=TB;
+  splines=true;
+  node [shape=box];
+
+  e [label="Elements"]
+  exp [label="Expressions"]
+  pexp [label="Primitive\nExpressions" shape=triangle regular=true width=2 fixedsize=true]
+  cexp [label="Compound\nExpressions"]
+
+  e -> exp [dir=none]
+  exp -> pexp [dir=none]
+  exp -> cexp [dir=none]
+  e -> op [dir=none]
+
+  call [label="Call Expressions"]
+  op [label="Operators" shape=doublecircle]
+
+  oper [label="and" style="dotted" shape=circle]
+  pexp -> oper [style="dotted" dir=none]
+  op -> oper [style="dotted" dir=none]
+  oper -> cexp
+  
+  cexp -> call [dir=none]  
+
+  calland [label="and" style="dotted" shape=circle]
+  function [label="Functions" shape=doublecircle]
+  arg [label="Arguments" shape=triangle regular=true width=2 fixedsize=true]
+  function -> calland [style="dotted" dir=none]
+  arg -> calland [style="dotted" dir=none]
+  calland -> call
+
+  formpar [label="Formal\nParameters" shape=triangle regular=true width=2 fixedsize=true]
+  formpar -> nonpure [style="dotted"]
+  formpar -> pure [style="dotted"]
+
+  pure [label="Pure\nFunctions"]
+  nonpure [label="Non-Pure\nFunctions"]
+  pure -> function [dir=none]
+  nonpure -> function[dir=none]
+
+  env [label="Environments" shape=diamond]
+  var [label="Variables" shape=tripleoctagon]
+  e -> env [dir=none]
+  env -> var
+  func [label="Function\nDefinitions" shape=doublecircle style="dotted"]
+  env -> func
+  func -> function [dir=none]
+  
+  }
+#+end_src
+
+#+RESULTS:
+[[file:../files/assets/posts/sicp/elements.png]]
+
+
+
+
+
+
+[[../../assets/posts/sicp/elements.png]]
+
+
