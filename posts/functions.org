@@ -1,0 +1,42 @@
+#+begin_src dot :file  ../files/assets/posts/sicp/func.png :cmdline -Kdot -Tpng :exports none
+
+digraph{
+  resolution=192;
+  rankdir=TB;
+  splines=true;
+  node [shape=box];
+  overlap=scale;
+  ratio=1;
+
+  rec [label="Recursive\nFunctions" shape=doublecircle]
+  rfbody [label="Function\nBody" shape=doublecircle style="dotted"]
+
+  rfbody -> rec
+
+  bc [label="Base\nCase(s)" shape=triangle regular=true]
+  rc [label="Recursive\nCalls" shape=circle]
+
+  bc -> rfbody
+  rc -> rfbody
+
+  mut [label="Mutual\nRecursion" shape=diamond]
+  rec -> mut [dir=none style="dotted"]
+
+
+  tree [label="Tree\nRecursion" shape=diamond]
+  rec -> tree [dir=none style="dotted"]
+}
+#+end_src
+
+#+RESULTS:
+[[file:../files/assets/posts/sicp/func.png]]
+
+
+
+
+
+
+
+[[../../assets/posts/sicp/func.png]]
+
+
