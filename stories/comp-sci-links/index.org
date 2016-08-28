@@ -1,6 +1,0 @@
-#+TOC: headlines 2
-* Programming Languages
-** =Python=
-*** /Structure and Interpretation of Computer Programs/
-1. [[http://composingprograms.com/][Composing Programs]]
-** R

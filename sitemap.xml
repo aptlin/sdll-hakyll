@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://sdll.github.io/</loc>
-  <lastmod>2016-08-23T23:09:00Z</lastmod>
+  <lastmod>2016-08-25T22:41:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/2015/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://sdll.github.io/404.html</loc>
-  <lastmod>2016-08-23T23:09:00Z</lastmod>
+  <lastmod>2016-08-25T21:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/404/</loc>
@@ -31,7 +31,7 @@
  </url>
  <url>
   <loc>https://sdll.github.io/archive.html</loc>
-  <lastmod>2016-08-24T00:34:00Z</lastmod>
+  <lastmod>2016-08-28T21:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/categories/</loc>
@@ -60,6 +60,14 @@
  <url>
   <loc>https://sdll.github.io/categories/sci/chem/</loc>
   <lastmod>2016-08-20T18:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sdll.github.io/cs-links/</loc>
+  <lastmod>2016-08-25T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sdll.github.io/fibfun/</loc>
+  <lastmod>2016-08-25T21:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/gallery/</loc>
@@ -108,9 +116,5 @@
  <url>
   <loc>https://sdll.github.io/pub/</loc>
   <lastmod>2016-08-20T18:59:00Z</lastmod>
- </url>
- <url>
-  <loc>https://sdll.github.io/stories/comp-sci-links/</loc>
-  <lastmod>2016-08-23T12:48:00Z</lastmod>
  </url>
 </urlset>

@@ -1,0 +1,35 @@
+* Tree Recursion
+
+This implementation uses a common pattern of computation, tree recursion, in which a function is applied to itself more than once. 
+#+begin_src python :tangle yes :results output
+
+def fib(n):
+  if n == 0:
+    return 0
+  if n == 1:
+    return 1
+  else:
+    return fib(n-1) + fib(n-2)
+
+#+end_src
+
+#+RESULTS:
+: 2
+* Iteration
+
+Note how different the iterative definition is from the recursive implementation. Three variables additional to =n=: =pred=, =cur= and =k= -- are defined to keep track of the predecessors, successors and the number of iterations evaluated, while the recursive procedure depends only on =n=. Hence, the recursive definition is less prone to error, but depends on the /recursive leap of faith/, the assumption that if the simpler cases are correct, then the function itself is evaluated correctly.
+
+#+begin_src python :tangle yes :results output
+def fib(n):
+  pred, cur = 0, 1
+  k=2
+  while k < n:
+    pred, cur = cur, pred + cur
+    k = k + 1
+  return cur
+
+#+end_src
+
+#+RESULTS:
+
+    
