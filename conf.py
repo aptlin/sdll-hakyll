@@ -570,7 +570,7 @@ GITHUB_DEPLOY_BRANCH = 'master'
 # Whether or not github_deploy should commit to the source branch automatically
 # before deploying.
 GITHUB_COMMIT_SOURCE = True
-
+COMMIT_MESSAGE = "Yet another weblog update"
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
 # to the location of conf.py
