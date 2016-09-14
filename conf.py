@@ -134,6 +134,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about", "About"),
         ("/pub", "Pub"),
+        ("/notes","Notes"),
         ("/gallery", "Gallery"),
         ("/links", "Links"),
         ("/archive.html", "Archive"),
@@ -967,8 +968,8 @@ DEPLOY_DRAFTS = False
 # it's faster and the output looks better.
 # If you set USE_KATEX to True, you also need to add an extra CSS file
 # like this:
-EXTRA_HEAD_DATA = """<link rel="stylesheet" href="/assets/scripts/katex/katex.min.css">"""
-USE_KATEX = True
+#EXTRA_HEAD_DATA = """<link rel="stylesheet" href="/assets/scripts/katex/katex.min.css">"""
+USE_KATEX = False
 
 # Do you want to customize the nbconversion of your IPython notebook?
 # IPYNB_CONFIG = {}
