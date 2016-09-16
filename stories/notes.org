@@ -1,8 +1,12 @@
 * Mathematics
+** Analysis
 
-  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160912MAT157.pdf][20160912 MAT157: Introduction to Real Analysis]]
-  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
-  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160914MAT157.pdf][20160914 MAT157: Absolute Values, Triangle Inequality and Induction]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160912MAT157.pdf][20160912 MAT157: Introduction to Real Analysis]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160914MAT157.pdf][20160914 MAT157: Absolute Values, Triangle Inequality and Induction]]
+
+** Linear Algebra
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160915MAT240_Z%2Bmod%2Bp.pdf][20160915 MAT240: Introduction to Finite Fields]]
 * Computer Science
 
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
