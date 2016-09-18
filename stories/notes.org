@@ -18,7 +18,7 @@
 
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160912CHM151.pdf][20160912 CHM151: Introduction to Organic Chemistry]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160914CHM151.pdf][20160914 CHM151: Structure and Bonding]]
-  - [[https://github.com/sdll/NOTES/blob/master/CHM/20160916CHM151_Introduction%2Bto%2BVB%2BII%2Band%2BMO.pdf][20160916 CHM151:Introduction to VB II and MO]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20160916CHM151_Introduction%2Bto%2BVB%2BII%2Band%2BMO.pdf][20160916 CHM151: Introduction to VB II and MO]]
 
 * Biology
 
