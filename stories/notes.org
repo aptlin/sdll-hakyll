@@ -4,6 +4,7 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160912MAT157.pdf][20160912 MAT157: Introduction to Real Analysis]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160914MAT157.pdf][20160914 MAT157: Absolute Values, Triangle Inequality and Induction]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160916MAT157_Real%2BNumbers%2Band%2BLUB.pdf][20160916 MAT157: Real Numbers and LUB]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160919DRAFT__MAT157_Real%20Numbers+II.pdf][20160919 DRAFT: MAT157: Real Numbers II]]
 
 ** Linear Algebra
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -13,12 +14,15 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160914CSC148.pdf][20160914 CSC148: References, Mutability, Aliases]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160916CSC148_Function%2BDesign%2BRecipe.pdf][20160916 CSC148: Function Design Recipe]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20160916CSC148_FDR+and+Introduction+to+OOP.pdf][20160916 CSC148: FDR and Introduction to OOP]]
+
 * Physics
 * Chemistry
 
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160912CHM151.pdf][20160912 CHM151: Introduction to Organic Chemistry]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160914CHM151.pdf][20160914 CHM151: Structure and Bonding]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160916CHM151_Introduction%2Bto%2BVB%2BII%2Band%2BMO.pdf][20160916 CHM151: Introduction to VB II and MO]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20160919CHM151_Nomenclature,+Isomerism+and+Hydrocarbons.pdf][20160919 CHM151: Nomenclature, Isomerism and Hydrocarbons]]
 
 * Biology
 
