@@ -5,18 +5,27 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160914MAT157.pdf][20160914 MAT157: Absolute Values, Triangle Inequality and Induction]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160916MAT157_Real%2BNumbers%2Band%2BLUB.pdf][20160916 MAT157: Real Numbers and LUB]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160919DRAFT__MAT157_Real%20Numbers+II.pdf][20160919 DRAFT: MAT157: Real Numbers II]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160921MAT157_Real+Numbers+III.pdf][20160921 MAT157: Real Numbers III]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160923MAT157_Uniqueness+of+Reals+and+Functions.pdf][20160923 MAT157: Uniqueness of Reals and Functions]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160926MAT157_Radians+Functions+II.pdf][20160926 MAT157: Radians Functions II]]
 
 ** Linear Algebra
+
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160915MAT240_Z%2Bmod%2Bp.pdf][20160915 MAT240: Introduction to Finite Fields]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160920MAT240_Field+of+Complex+Numbers.pdf][20160920 MAT240: Field of Complex Numbers]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160920MAT240_Complex+Numbers.pdf][20160920 MAT240: Complex Numbers]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160922MAT240_Complex+Numbers+II.pdf][20160922 MAT240: Complex Numbers II]]
+
 * Computer Science
 
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160914CSC148.pdf][20160914 CSC148: References, Mutability, Aliases]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160916CSC148_Function%2BDesign%2BRecipe.pdf][20160916 CSC148: Function Design Recipe]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160916CSC148_FDR+and+Introduction+to+OOP.pdf][20160916 CSC148: FDR and Introduction to OOP]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20160921CSC148_Class+Methods.pdf][20160921 CSC148: Class Methods]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20160923CSC148_Class+Design+Recipe.pdf][20160923 CSC148: Class Design Recipe]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20160926CSC148+Inheritance.pdf][20160926 CSC148: Inheritance]]
 * Physics
 * Chemistry
 
@@ -25,8 +34,12 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160916CHM151_Introduction%2Bto%2BVB%2BII%2Band%2BMO.pdf][20160916 CHM151: Introduction to VB II and MO]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160919CHM151_Nomenclature,+Isomerism+and+Hydrocarbons.pdf][20160919 CHM151: Nomenclature, Isomerism and Hydrocarbons]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160920CHM151+CCS_Chemistry+Resources .pdf][20160920 CHM151 CCS: Chemistry Resources ]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20160921CHM151_Properties+of+Alkanes.pdf][20160921 CHM151: Properties of Alkanes]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20160923CHM151_Cyclic+Organic+Compounds.pdf][20160923 CHM151: Cyclic Organic Compounds]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20160926CHM151_Substituted+Cyclohexanes.pdf][20160926 CHM151: Substituted Cyclohexanes]]
 * Biology
 
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_2.pdf][20160914 BIO120: Charles Darwin & His Work]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160921BIO120_Variation.pdf][20160921 BIO120: Variation]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160921BIO120_What_Darwin_Saw.pdf][20160921 BIO120: What Darwin Saw]]
