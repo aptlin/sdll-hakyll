@@ -16,7 +16,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160920MAT240_Field+of+Complex+Numbers.pdf][20160920 MAT240: Field of Complex Numbers]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160920MAT240_Complex+Numbers.pdf][20160920 MAT240: Complex Numbers]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160922MAT240_Complex+Numbers+II.pdf][20160922 MAT240: Complex Numbers II]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160927MAT240_Vector+Spaces.pdf][20160927 MAT240: Vector Spaces]]
 * Computer Science
 
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
