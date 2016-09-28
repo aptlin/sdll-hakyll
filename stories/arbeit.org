@@ -26,7 +26,7 @@
 
 * Mathematics
 
-#+ATTR_HTML: :width 75%
+#+ATTR_HTML: :width 100%
 [[../../assets/org/nonsense.png]]
 
 ** Analysis
