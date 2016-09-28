@@ -1,0 +1,59 @@
+* Data                                                                 :noexport:
+#+TBLNAME: nonsense :exports none
+| Date         |  MAT |
+|--------------+------|
+| "2016-09-19" | 10.3 |
+| "2016-09-23" | 10.0 |
+|--------------+------|
+
+#+begin_src gnuplot :var data=nonsense :exports none :file nonsense.png
+  reset
+  set style data histogram
+  set style fill solid border -1
+
+  set title "Dynamics of Nonsense"
+
+  set xtics rotate by -45
+
+  set yrange [0:15]
+  set ylabel "Nonsense (%)"
+
+  plot data u 2:xticlabels(1) title "MAT" smooth freq with boxes
+#+end_src
+
+#+RESULTS:
+[[file:nonsense.png]]
+
+* Mathematics
+
+[[../../assets/org/nonsense.png]]
+
+** Analysis
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160919MAT157.pdf][20160919MAT157]]
+
+    Nonsense: 10.3%
+
+    + Lemma 1.5.1: use brackets for expressions between conjunctions
+    + 2.2: use direct proof rather than argument by analogy
+    + 2.3: focus on how you need to prove what to show, not what you want to show
+    + 6.1: use induction rather than soft explanation
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160923MAT157.pdf][20160923MAT157]]
+
+    /Pending/
+
+** Linear Algebra
+  - 20160923MAT240
+
+    Nonsense: 10.0%
+
+      - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_1.pdf][20160923MAT240 I]]
+      - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_2.pdf][20160923MAT240 II]]
+      - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_3.pdf][20160923MAT240 III]]
+      - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_4.pdf][20160923MAT240 IV]]
+
+        be extremely careful with arithmetic, don't be satisfied with
+        intuition and unclear reasoning
+
+      - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_5.pdf][20160923MAT240 V]]
