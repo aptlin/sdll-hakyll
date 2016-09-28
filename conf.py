@@ -135,7 +135,6 @@ NAVIGATION_LINKS = {
         ("/about", "About"),
         ("/pub", "Pub"),
         ("/log","Log"),
-        ("/gallery", "Gallery"),
         ("/links", "Links"),
         ("/archive.html", "Archive"),
         ("/categories/", "Categories"),
