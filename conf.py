@@ -134,7 +134,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about", "About"),
         ("/pub", "Pub"),
-        ("/notes","Notes"),
+        ("/log","Log"),
         ("/gallery", "Gallery"),
         ("/links", "Links"),
         ("/archive.html", "Archive"),
