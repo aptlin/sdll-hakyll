@@ -36,7 +36,8 @@
 
     + Lemma 1.5.1: use brackets for expressions between conjunctions
     + 2.2: use direct proof rather than argument by analogy
-    + 2.3: focus on how you need to prove what to show, not what you want to show
+    + 2.3: focus on how you need to prove what to show, not what you
+      want to show, and review your results
     + 6.1: use induction rather than a soft explanation as a proof
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160923MAT157.pdf][20160923MAT157]]
@@ -53,7 +54,6 @@
       - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_3.pdf][20160923MAT240 III]]
       - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_4.pdf][20160923MAT240 IV]]
 
-        be extremely careful with arithmetic, don't be satisfied with
-        intuition and unclear reasoning
+        be extremely careful with arithmetic and explicit in your reasoning
 
       - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_5.pdf][20160923MAT240 V]]
