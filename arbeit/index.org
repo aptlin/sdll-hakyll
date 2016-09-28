@@ -37,7 +37,7 @@
     + Lemma 1.5.1: use brackets for expressions between conjunctions
     + 2.2: use direct proof rather than argument by analogy
     + 2.3: focus on how you need to prove what to show, not what you want to show
-    + 6.1: use induction rather than soft explanation
+    + 6.1: use induction rather than a soft explanation as a proof
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160923MAT157.pdf][20160923MAT157]]
 
