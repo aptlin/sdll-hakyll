@@ -37,9 +37,12 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160921CHM151_Properties+of+Alkanes.pdf][20160921 CHM151: Properties of Alkanes]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160923CHM151_Cyclic+Organic+Compounds.pdf][20160923 CHM151: Cyclic Organic Compounds]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160926CHM151_Substituted+Cyclohexanes.pdf][20160926 CHM151: Substituted Cyclohexanes]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20160927CHM151_Chirality.pdf][20160927 CHM151: Chirality]]
 * Biology
 
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_2.pdf][20160914 BIO120: Charles Darwin & His Work]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160921BIO120_Variation.pdf][20160921 BIO120: Variation]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160921BIO120_What_Darwin_Saw.pdf][20160921 BIO120: What Darwin Saw]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160927BIO120_Model+Systems+in+Ecological+Genetics.pdf][20160927 BIO120: Model Systems in Ecological Genetics]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160927BIO120_Organismal+Reproductive+Diversity.pdf][20160927 BIO120: Organismal Reproductive Diversity]]
