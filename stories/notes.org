@@ -8,7 +8,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160921MAT157_Real+Numbers+III.pdf][20160921 MAT157: Real Numbers III]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160923MAT157_Uniqueness+of+Reals+and+Functions.pdf][20160923 MAT157: Uniqueness of Reals and Functions]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160926MAT157_Radians+Functions+II.pdf][20160926 MAT157: Radians and Functions II]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160928MAT157_Composite+Functions.pdf][20160928 MAT157: Composite Functions]]
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -17,6 +17,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160920MAT240_Complex+Numbers.pdf][20160920 MAT240: Complex Numbers]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160922MAT240_Complex+Numbers+II.pdf][20160922 MAT240: Complex Numbers II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160927MAT240_Vector+Spaces.pdf][20160927 MAT240: Vector Spaces]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20160928MAT240_Vector+Spaces+II.pdf][20160928 MAT240: Vector Spaces II]]
 * Computer Science
 
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
@@ -26,6 +27,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160921CSC148_Class+Methods.pdf][20160921 CSC148: Class Methods]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160923CSC148_Class+Design+Recipe.pdf][20160923 CSC148: Class Design Recipe]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160926CSC148+Inheritance.pdf][20160926 CSC148: Inheritance]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20160927CSC148_Inheritance+II.pdf][20160927 CSC148: Inheritance II]]
 * Physics
 * Chemistry
 
