@@ -1,4 +1,11 @@
-* Data                                                                 :noexport:
+#+begin_html
+<script src="/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="/assets/scripts/katex/katex.min.css">
+<script src="/assets/scripts/katex/katex.min.js"></script>
+<script src="/assets/scripts/katex/contrib/auto-render.min.js"></script>
+#+end_html
+
+* Raw Data                                                         :noexport:
 #+TBLNAME: nonsense :exports none
 | Date         | MAT157 | MAT240 |
 |--------------+--------+--------|
@@ -6,8 +13,16 @@
 | "2016-09-23" |   30.0 |   10.0 |
 |--------------+--------+--------|
 
+#+TBLNAME: sfscore :exports none
+| Date         | SF Score |
+|--------------+----------|
+| "2016-09-19" |     2    |
+| "2016-09-23" |     4    |
+|--------------+----------|
+
 #+begin_src gnuplot :var data=nonsense :exports none :file ../files/assets/org/nonsense.png
   reset
+  set terminal pngcairo
   C = "#99ffff"; Cpp = "#4671d5"
   set auto x
   set style data histogram
@@ -29,28 +44,132 @@
 #+RESULTS:
 [[file:../files/assets/org/nonsense.png]]
 
-* Mathematics
+#+begin_src gnuplot :var data=sfscore :exports none :file ../files/assets/org/sfscore.png
+  reset
+  set auto x
+  set style data histogram
+  set style histogram cluster gap 1
+  set style fill solid border rgb "black"
+
+  set title "Dynamics of Nonsense"
+
+  set boxwidth 0.9
+
+  set yrange [0:10]
+  set ylabel "SF Score"
+
+  stats data every ::1 using 2 nooutput
+  total = int(STATS_sum)
+
+  plot data u 2:xtic(1)  fc rgb '#259359' title  strftime("%Y/%m/%d ", time(0)) .sprintf('total: %d', total)
+
+#+end_src
+
+#+RESULTS:
+[[file:../files/assets/org/sfscore.png]]
+
+* Motivation
+
+#+BEGIN_QUOTE
+
+#+BEGIN_HTML
+<i>
+As a joke I said, "What is the purpose of Life?"
+<br/>
+<br/>
+
+"Proof and conjecture, and keep the SF's score low."
+<br/>
+<br/>
+Now, the game with the SF is defined as follows:
+<br/>
+<br/>
+If you do something bad the SF gets at least two points.
+
+<br/>
+
+If you don't do something good which you could
+have done, the SF gets at least one point.
+
+<br/>
+
+And if nothing — if you are okay, then no one gets any point.
+
+<br/>
+<br/>
+And the aim is to keep the SF's score low.
+<br/>
+<br/>
+</i>
+<b>Paul Erdős</b>
+
+#+END_HTML
+
+#+END_QUOTE
 
 #+ATTR_HTML: :width 100%
-[[../../assets/org/nonsense.png]]
+
+* Status
+
+[[../../assets/org/sfscore.png]]
+* Mathematics
+
 
 ** Analysis
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160923MAT157.pdf][20160923MAT157]]
+
+    Nonsense: 30.0%
+
+    Bad work.
+
+    1. No need to prove that the set given by definition is a real
+      number.
+
+      First show that $$\overline{x} \subseteq \alpha$$, as well as
+      that $$\alpha \in \{x \in \mathbb{Q}: \overline{x} < \alpha \}$$
+      by proving that $$\alpha$$ is a subset of the RHS.
+
+      Secondly, show that all $$x$$ such that $$x \in \mathbb{Q}$$ and $$
+      \overline{x} < \alpha$$ must be in $$\alpha$$.
+
+    2. No need in using the addition or subtraction. Follow the KISS principle.
+
+       It follows from the definition of < and $$\subset$$ that $$
+       \exists x \in \beta: x \notin \alpha $$. If
+       $$\alpha\in\mathbb{Q}: \alpha=\overline{z}$$, it can be that
+       $$x = z$$. Then use the fact that $$\beta$$ is real. In either
+       case, by Q1, $$\alpha < \overline{x} < \beta$$.
+
+    3. Use Q2 and be careful not to make a typo.
+
+    4. Badly written.
+
+    5. Bad statement of the theorem.
+
+       Hence no sincere understanding of what the meaning and
+       significance of the theorem is.
+
+       Consider $$\overline{x}$$ for $$x\in\mathbb{Q}$$. Prove that $$x$$
+       is the lub of $$\overline{x}$$.
+
+       Suppose that the lub of some real number is $$x$$. Get the
+       contradiction by assuming there exists $$y < x$$ and obtain
+       that $$\alpha$$ is rational.
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160919MAT157.pdf][20160919MAT157]]
 
     Nonsense: 10.3%
 
-    + Lemma 1.5.1: use brackets for expressions between conjunctions
-    + 2.2: use direct proof rather than argument by analogy
-    + 2.3: focus on how you need to prove what to show, not what you
-      want to show, and review your results
-    + 6.1: use induction rather than a soft explanation as a proof
+      + Lemma 1.5.1: use brackets for expressions between conjunctions
+      + 2.2: use direct proof rather than argument by analogy
+      + 2.3: focus on how you need to prove what to show, not what you
+        want to show, and review your results
+      + 6.1: use induction rather than a soft explanation as a proof
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160923MAT157.pdf][20160923MAT157]]
-
-    /Pending/
 
 ** Linear Algebra
+
   - 20160923MAT240
 
     Nonsense: 10.0%
@@ -63,3 +182,18 @@
         be extremely careful with arithmetic and explicit in your reasoning
 
       - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_5.pdf][20160923MAT240 V]]
+
+
+#+begin_html
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$$", right: "$$$", display: true},
+                  {left: "$$", right: "$$", display: false},
+              ]
+          }
+      );
+</script>
+#+end_html
