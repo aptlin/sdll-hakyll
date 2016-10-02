@@ -14,11 +14,11 @@
 |--------------+--------+--------|
 
 #+TBLNAME: sfscore :exports none
-| Date         | SF Score |
-|--------------+----------|
-| "2016-09-19" |     2    |
-| "2016-09-23" |     4    |
-|--------------+----------|
+| Date         | MAT157 | MAT240 |
+|--------------+--------+--------|
+| "2016-09-19" |      2 |      0 |
+| "2016-09-23" |      3 |      1 |
+|--------------+--------+--------|
 
 #+begin_src gnuplot :var data=nonsense :exports none :file ../files/assets/org/nonsense.png
   reset
@@ -46,22 +46,28 @@
 
 #+begin_src gnuplot :var data=sfscore :exports none :file ../files/assets/org/sfscore.png
   reset
-  set auto x
-  set style data histogram
-  set style histogram cluster gap 1
+  A = "#d33682"; B = "#586e75"
+  set terminal pngcairo size 1024,768 enhanced
   set style fill solid border rgb "black"
-
-  set title "Dynamics of Nonsense"
-
-  set boxwidth 0.9
-
-  set yrange [0:10]
+  set style histogram rowstacked
+  set style data histograms
   set ylabel "SF Score"
+  set boxwidth 0.8
+  set auto x
+  set yrange [0:10]
 
-  stats data every ::1 using 2 nooutput
+  stats data every ::1 using (sum[i=2:] column(i)) nooutput
   total = int(STATS_sum)
+  set title  "Dynamics of Nonsense\n"\
+  .strftime("Total on %Y/%m/%d: ", time(0)) .sprintf('%d', total)
 
-  plot data u 2:xtic(1)  fc rgb '#259359' title  strftime("%Y/%m/%d ", time(0)) .sprintf('total: %d', total)
+
+
+  plot data using 2:xtic(1) title col fc rgb A,\
+  '' using 3:xtic(1) title col fc rgb B,\
+  '' every ::1 using 0:(s = sum [i=2:3] column(i), s):(sprintf('%d', s)) \
+  with labels offset 0,1 notitle
+
 
 #+end_src
 
@@ -107,10 +113,10 @@ And the aim is to keep the SF's score low.
 
 #+END_QUOTE
 
-#+ATTR_HTML: :width 100%
+
 
 * Status
-
+#+ATTR_HTML: :width 100%
 [[../../assets/org/sfscore.png]]
 * Mathematics
 
