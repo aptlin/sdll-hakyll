@@ -28,6 +28,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160923CSC148_Class+Design+Recipe.pdf][20160923 CSC148: Class Design Recipe]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160926CSC148+Inheritance.pdf][20160926 CSC148: Inheritance]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160927CSC148_Inheritance+II.pdf][20160927 CSC148: Inheritance II]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20160930CSC148_Inheritance+III.pdf][20160930 CSC148: Inheritance III]]
 * Physics
 * Chemistry
 
@@ -40,6 +41,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160923CHM151_Cyclic+Organic+Compounds.pdf][20160923 CHM151: Cyclic Organic Compounds]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160926CHM151_Substituted+Cyclohexanes.pdf][20160926 CHM151: Substituted Cyclohexanes]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160927CHM151_Chirality.pdf][20160927 CHM151: Chirality]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20160930CHM151_Chirality+II.pdf][20160930 CHM151: Chirality II]]
 * Biology
 
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
