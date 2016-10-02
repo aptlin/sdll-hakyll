@@ -139,7 +139,8 @@ And the aim is to keep the SF's score low.
       Secondly, show that all $$x$$ such that $$x \in \mathbb{Q}$$ and $$
       \overline{x} < \alpha$$ must be in $$\alpha$$.
 
-    2. No need in using the addition or subtraction. Follow the KISS principle.
+    2. No need to use the addition or subtraction in the proof. Follow
+       the KISS principle.
 
        It follows from the definition of < and $$\subset$$ that $$
        \exists x \in \beta: x \notin \alpha $$. If
