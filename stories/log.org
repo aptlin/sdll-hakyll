@@ -1,4 +1,5 @@
 ------
 * [[https://sdll.github.io/notes][Notes]]
+* [[https://sdll.github.io/pentrivium][Pentrivium]]
 * [[https://sdll.github.io/arbeit][Arbeit]]
 * [[https://sdll.github.io/gallery][Gallery]]

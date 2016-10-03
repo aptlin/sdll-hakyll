@@ -1,4 +1,0 @@
-\contentsline {section}{Programming Languages}{}{section*.2}
-\contentsline {subsection}{\texttt {Python}}{}{section*.3}
-\contentsline {subsubsection}{\emph {Structure and Interpretation of Computer Programs}}{}{section*.4}
-\contentsline {subsection}{R}{}{section*.5}
