@@ -1,3 +1,11 @@
+The purpose of this list is to collect and preserve the ways to
+generate the Fibonacci sequence.
+
+Please note that the list is not extensive and is a continuous work in
+progress.
+
+The primary language of implementations is Python.
+
 * Tree Recursion
 
 This implementation uses a common pattern of computation, tree recursion, in which a function is applied to itself more than once. 
