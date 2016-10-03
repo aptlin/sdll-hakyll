@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://sdll.github.io/</loc>
-  <lastmod>2016-10-03T13:40:00Z</lastmod>
+  <lastmod>2016-10-03T22:34:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/2015/</loc>
@@ -76,6 +76,10 @@
  <url>
   <loc>https://sdll.github.io/gallery/Learning%20How%20To%20Learn/</loc>
   <lastmod>2016-10-03T13:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sdll.github.io/links%2Bmath/</loc>
+  <lastmod>2016-10-03T22:34:00Z</lastmod>
  </url>
  <url>
   <loc>https://sdll.github.io/links_unsorted/</loc>
