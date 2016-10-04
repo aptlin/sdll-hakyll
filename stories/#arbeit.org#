@@ -1,6 +1,4 @@
 #+STARTUP: showall
-#+OPTIONS: toc:3
-
 #+begin_html
 <script src="/assets/scripts/jquery-1.12.2.min.js"></script>
 <link rel="stylesheet" href="/assets/scripts/katex/katex.min.css">
@@ -78,13 +76,6 @@
 #+RESULTS:
 [[file:../files/assets/org/sfscore.png]]
 
-
-* Status
-#+ATTR_HTML: :width 100%
-[[../../assets/org/sfscore.png]]
-
-
-
 * Motivation
 
 #+BEGIN_QUOTE
@@ -126,6 +117,9 @@ And the aim is to keep the SF's score low.
 
 
 
+* Status
+#+ATTR_HTML: :width 100%
+[[../../assets/org/sfscore.png]]
 
 * Mathematics
 
@@ -200,7 +194,7 @@ Nonsense (%):
       + 2.3: focus on how you need to prove what to show, not what you
         want to show, and review your results
       + 6.1: use induction rather than a soft explanation as a proof
-
+p
 
 ** Linear Algebra
 
