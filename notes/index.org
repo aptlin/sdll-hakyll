@@ -9,6 +9,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160923MAT157_Uniqueness+of+Reals+and+Functions.pdf][20160923 MAT157: Uniqueness of Reals and Functions]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160926MAT157_Radians+Functions+II.pdf][20160926 MAT157: Radians and Functions II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160928MAT157_Composite+Functions.pdf][20160928 MAT157: Composite Functions]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161003MAT157_Ellipses,+Hyperbolas,+Limits.pdf][20161003 MAT157: Ellipses, Hyperbolas, Limits]]
+
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -18,6 +20,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160922MAT240_Complex+Numbers+II.pdf][20160922 MAT240: Complex Numbers II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160927MAT240_Vector+Spaces.pdf][20160927 MAT240: Vector Spaces]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160929MAT240_Vector+Spaces+II.pdf][20160929 MAT240: Vector Spaces II]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161004MAT240_Linear+Combinations,+Span+and+Basis.pdf][20161004 MAT240: Linear Combinations, Span and Basis]]
 * Computer Science
 
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
@@ -29,6 +32,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160926CSC148+Inheritance.pdf][20160926 CSC148: Inheritance]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160927CSC148_Inheritance+II.pdf][20160927 CSC148: Inheritance II]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160930CSC148_Inheritance+III.pdf][20160930 CSC148: Inheritance III]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161003CSC148_Abstract+Data+Types.pdf][20161003 CSC148: Abstract Data Types]]
 * Physics
 * Chemistry
 
@@ -42,6 +46,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160926CHM151_Substituted+Cyclohexanes.pdf][20160926 CHM151: Substituted Cyclohexanes]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160927CHM151_Chirality.pdf][20160927 CHM151: Chirality]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160930CHM151_Chirality+II.pdf][20160930 CHM151: Chirality II]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161003CHM151_Chirality+in+Nature.pdf][20161003 CHM151: Chirality in Nature]]
 * Biology
 
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
