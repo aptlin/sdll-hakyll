@@ -1,6 +1,7 @@
+#+STARTUP: showall
 * Reading lists
 
-
+  - [[http://www.mit.edu/~evanchen/recommend.html][Evan Chen`s Recommendations]]
   - [[https://qchu.wordpress.com/reading-recommendations/][Annoying Precision reading recommendations]]
   - [[https://burttotaro.wordpress.com/2010/10/19/books-for-beginning-research/][Books for beginning research]]
   - [[https://www.ocf.berkeley.edu/~abhishek/chicmath.htm][Chicago undergraduate mathematics bibliography]]
