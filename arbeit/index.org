@@ -237,17 +237,31 @@ Nonsense (%):
         Missing the point of the exercise and the meaning of the
         property yet again.
 
+    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_5.pdf][20160930 MAT240: 5]]
+
       + 5.a $$\Rightarrow$$: Poor argument. What if $$x=0$$?
 
         Order properties tend not to have anything to do with
         linear algebra.
 
-        Suppose that $$W$$ is a subset $$S$$ to prove by
-        contraposition that $$W \cup S$$ is not a subspace of $$V$$.
+        *WRONG APPROACH*:
 
+        Suppose that $$W$$ is a subset of $$S$$ to prove by
+        contraposition that $$W \cup S$$ is not a subspace of
+        $$V$$.
 
+        *It is not necessary that $$W$$ must be a subset of
+        $$S$$ if the negation of $$S \subset W$$ is assumed.*
 
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_5.pdf][20160930 MAT240: 5]]
+        *BETTER*:
+
+        It is required to show that $$\forall s \in S: s \in W $$. If
+        $$s=0$$, the result is trivial. If $$s\neq 0$$, consider $$tv
+        \in W\cup S$$ for some scalar $$t$$. Since $$S$$ is finite,
+        there exists $$t'$$ such that $$t's \in W\cup S$$, but not in
+        $$S$$. Hence, $$t'v \in W$$. Since $$\mathbb{F}=\mathbb{R}$$,
+        multiply $$t'v$$ by $$\frac{1}{t'}$$ to get $$v$$, which also
+        must be in $$W$$. Hence, all the elements of $$S$$ are in $$W$$.
 
 *** 20160923MAT240
 
