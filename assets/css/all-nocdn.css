@@ -433,6 +433,11 @@ body {
 	padding: 1em;
 }
 
+.leftbar {
+    float:left;
+    width: 150px;
+    background: red;    
+}
 #container {
 	margin: 1em auto;
 	max-width: 770px;
