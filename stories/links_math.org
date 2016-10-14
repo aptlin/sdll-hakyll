@@ -1,8 +1,8 @@
 #+STARTUP: showall
 * Reading lists
 
-  - [[http://www.mit.edu/~evanchen/recommend.html][Evan Chen`s Recommendations]]
-  - [[https://qchu.wordpress.com/reading-recommendations/][Annoying Precision reading recommendations]]
+  - [[http://www.mit.edu/~evanchen/recommend.html][Evan Chen`s Reading Recommendations]]
+  - [[https://qchu.wordpress.com/reading-recommendations/][Annoying Precision Reading Recommendations]]
   - [[https://burttotaro.wordpress.com/2010/10/19/books-for-beginning-research/][Books for beginning research]]
   - [[https://www.ocf.berkeley.edu/~abhishek/chicmath.htm][Chicago undergraduate mathematics bibliography]]
   - [[http://www.promys.org/resources/reading-list][PROMYS reading list]]
@@ -12,6 +12,7 @@
 
   - [[https://ncatlab.org/nlab/show/HomePage][nLab]]
   - [[http://www.mccme.ru/][MCCME]]
+  - [[https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp][George M. Bergman's Undergraduate Course Materials]]
 
 * Tools
 
