@@ -13,7 +13,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161005MAT157_Limits+II.pdf][20161005 MAT157: Limits II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161007MAT157_Limits+III.pdf][20161007 MAT157: Limits III]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161012MAT157_One-Sided+Limits.pdf][20161012 MAT157: One-Sided Limits]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161014MAT157_Continuity.pdf][20161014 MAT157: Continuity]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161017MAT157_Applications+of+IVT.pdf][20161017 MAT157: Applications of IVT]]
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -26,6 +27,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161004MAT240_Linear+Combinations,+Span+and+Basis.pdf][20161004 MAT240: Linear Combinations, Span and Basis]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161006MAT240_Linear+Independence+and+Bases.pdf][20161006 MAT240: Linear Independence and Bases]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161011MAT240_On+Bases+of+Vector+Spaces.pdf][20161011 MAT240: On Bases of Vector Spaces]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161014MAT240_Linear+Transformations.pdf][20161014 MAT240: Linear Transformations]]
 
 * Computer Science
 
@@ -41,6 +43,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161003CSC148_Abstract+Data+Types.pdf][20161003 CSC148: Abstract Data Types]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161005CSC148_Stacks+II.pdf][20161005 CSC148: Stacks II]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161012CSC148_List+Implementation.pdf][20161012 CSC148: List Implementation]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161014CSC148_GETITEM+in+Linked+Lists.pdf][20161014 CSC148: GETITEM in Linked Lists]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161017CSC148_Order+of+Code+Execution.pdf][20161017 CSC148: Order of Code Execution]]
 * Physics
 * Chemistry
 
@@ -58,6 +62,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161005CHM151_Formal+Charges.pdf][20161005 CHM151: Formal Charges]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161007CHM151_Resonance+and+Hybridisation+in+Amides,+Trends+in+Acidity.pdf][20161007 CHM151: Resonance and Hybridisation in Amides, Trends in Acidity]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161012CHM151_Lewis+Acids,+Lewis+Bases+and+Organic+Reactions.pdf][20161012 CHM151: Lewis Acids, Lewis Bases and Organic Reactions]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161017CHM151_Polar+Reactions.pdf][20161017 CHM151: Polar Reactions]]
 * Biology
 
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
