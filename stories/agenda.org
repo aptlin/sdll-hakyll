@@ -1,0 +1,54 @@
+#+STARTUP: showall
+#+OPTIONS: toc:3
+
+** Analysis
+
+*** Harvard Math 55b
+
+    + [[http://www.math.harvard.edu/~elkies/M55b.10/][Spring 2010 :elkies]]
+    + [[http://www.math.harvard.edu/~ctm/home/text/class/harvard/55b/10/html/][Spring 2010 :ctm ]]
+
+
+*** MIT
+
+    + [[https://ocw.mit.edu/courses/mathematics/18-100b-analysis-i-fall-2010/index.htm][MIT 18.100B]]
+
+*** HSE
+
+    + [[https://math.hse.ru/calculus2016][HSE Analysis I]]
+
+** Linear Algebra
+
+*** Harvard Math 55a
+
+    + [[http://www.math.harvard.edu/~ctm/home/text/class/harvard/55a/08/html/][Fall 2008]]
+    + [[http://www.math.harvard.edu/~ctm/home/text/class/harvard/55a/09/html/index.html][Fall 2009]]
+    + [[http://www.math.harvard.edu/~elkies/M55a.10/][Fall 2010]]
+    + [[http://www.math.harvard.edu/~elkies/M55a.16/index.html][Fall 2016]]
+
+*** MIT 18.700: Linear Algebra
+
+    + [[http://www-math.mit.edu/~dav/700.html][Fall 2014]]
+
+*** MIT 18.701: Algebra I
+
+    + [[http://math.mit.edu/classes/18.701/index.html][Fall 2016]]
+
+*** HSE 
+
+    + [[https://sites.google.com/site/akhoroshkin/home/algebra_1_2016][HSE Algebra I]]
+
+** Geometry
+
+    + [[https://math.hse.ru/geometry2016][HSE Geometry I]]
+
+** Miscellaneous
+
+*** [[http://yufeizhao.com/olympiad.html][Yufei Zhao's olympiad training handouts]]
+
+*** [[http://www.mit.edu/~alexrem/Math%2520Competitions.html][Alexander Remorov's Math Competition Handouts]]
+
+*** [[http://math.cmu.edu/~ploh/olympiad.shtml][Po-Shen Loh's Math Olympiad teaching notes]]
+
+    - [[http://math.cmu.edu/~ploh/docs/math/mop2011/prob-method.pdf][Probabilistic Methods in Combinatorics 2011]]
+    - [[http://math.cmu.edu/~ploh/docs/math/mop2012/combinatorics-black-soln.pdf][Probabilistic Methods in Combinatorics 2012]]

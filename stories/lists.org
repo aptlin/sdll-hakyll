@@ -1,3 +1,4 @@
 * Links
-
+  
+  + [[file:../agenda.html][Agenda]]
   + [[https://sdll.github.io/links+math][Mathematics]]
