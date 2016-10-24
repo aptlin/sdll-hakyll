@@ -4,6 +4,8 @@
 *** [[file:../assets/agenda/verbit_programme.txt][Misha Verbitsky's Programme]]
 **** Fall I:
 
+#+BEGIN_QUOTE
+
 1. Метрическая геометрия и топология
 
 А. Пополнение и вещественные числа
@@ -171,6 +173,7 @@
 
 И. Треугольные числа. Разбиения и перестановки. Рекуррентные соотношения.
 
+#+END_QUOTE
 ** Analysis
 
 *** Harvard Math 55b
