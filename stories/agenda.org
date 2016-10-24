@@ -1,6 +1,8 @@
 #+STARTUP: showall
 #+OPTIONS: toc:3
+** Absicht
 
++ [[file:../assets/agenda/verbit_programme.txt][Misha Verbitsky's Programme]]
 ** Analysis
 
 *** Harvard Math 55b
