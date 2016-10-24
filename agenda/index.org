@@ -214,7 +214,7 @@
 
 ** Geometry
 
-*** Geometry
+*** HSE
     
     + [[https://math.hse.ru/geometry2016][HSE Geometry I]]
 
