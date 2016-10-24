@@ -44,12 +44,14 @@
 ------------------------------------------------------------
 Литература.
 ------------------------------------------------------------
+#+END_EXAMPLE
 
-Виро О.Я., Иванов О.А., Харламов В.М., Нецветаев Н.Ю. Элементарная топология.
-Вербицкий М., Топология в задачах
-Бураго Д. Ю., Бураго Ю. Д, Иванов С. В. Курс метрической геометрии.
-Misha Gromov. Metric structures for Riemannian and non-Riemannian spaces
++ [[http://www.pdmi.ras.ru/~olegviro/topoman/e-unstable.pdf][Elementary Topology. Textbook in Problems by O.Ya.Viro, O.A.Ivanov, V.M.Kharlamov, N.Y.Netsvetaev]]
++ [[http://verbit.ru/MATH/UCHEBNIK/top-book.pdf][Вербицкий М., Топология в задачах]]
++ [[http://www.math.psu.edu/petrunin/papers/alexandrov/bbi.pdf][Бураго Д. Ю., Бураго Ю. Д, Иванов С. В. A Course in Metric Geometry ]]
++ Misha Gromov. Metric structures for Riemannian and non-Riemannian spaces
 
+#+BEGIN_EXAMPLE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 2. Линейная алгебра и основы алгебры.
@@ -107,11 +109,12 @@ Misha Gromov. Metric structures for Riemannian and non-Riemannian spaces
 ------------------------------------------------------------
 Литература.
 ------------------------------------------------------------
+#+END_EXAMPLE
 
 А. Шень. Простые и составные числа
 И. Л. Кантор, А. С. Солодовников. Гиперкомплексные числа.
 И. М. Гельфанд, А. Шень. Алгебра.
-В. Б. Алексеев. Теорема Абеля в задачах и решениях.
+[[http://www.mccme.ru/free-books/pdf/alekseev.pdf][В. Б. Алексеев. Теорема Абеля в задачах и решениях.]]
 М. М. Постников. Введение в теорию алгебраических чисел.
 И. Р. Шафаревич. Основные понятия алгебры.
 А. А. Кириллов. Что такое число?
@@ -119,6 +122,7 @@ Misha Gromov. Metric structures for Riemannian and non-Riemannian spaces
 М.М. Постников. Лекции по геометрии. Линейная алгебра
 S. Axler. "Linear algebra done Right"
 
+#+BEGIN_EXAMPLE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 3. Основы анализа.
