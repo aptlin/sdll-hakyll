@@ -40,6 +40,8 @@
 
 ** Geometry
 
+*** Geometry
+    
     + [[https://math.hse.ru/geometry2016][HSE Geometry I]]
 
 ** Miscellaneous
