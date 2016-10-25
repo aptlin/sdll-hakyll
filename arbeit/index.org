@@ -21,7 +21,10 @@
 |--------------+--------+--------|
 | "2016-09-19" |      4 |      0 |
 | "2016-09-23" |      8 |      4 |
-| "2016-10-30" |     64 |      4 |
+| "2016-09-30" |     64 |      4 |
+| "2016-10-12" |      0 |      0 |
+| "2016-10-14" |      0 |      2 |
+| "2016-10-21" |     16 |      0 |
 |--------------+--------+--------|
 
 #+begin_src gnuplot :var data=nonsense :exports none :file ../files/assets/org/nonsense.png
@@ -144,6 +147,18 @@ Nonsense (%):
 
 ** Analysis
 
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161021MAT157_Pset+IV.pdf][20161021 M157: Pset IV]]
+
+    Nonsense: 44.4%
+
+    Bad work.
+
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161012MAT157_Pset+III.pdf][20161012 M157: Pset III]]
+
+    Nonsense: 0.00%
+
+    Try to use less unnecessary lemma machinery.
+
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT157_Midterm.pdf][Midterm Exam]]
 
     Nonsense: 50.0%
@@ -203,6 +218,17 @@ Nonsense (%):
 
 
 ** Linear Algebra
+
+*** 20160914
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_1.pdf][20161014 MAT240: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_2.pdf][20161014 MAT240: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_3.pdf][20161014 MAT240: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_4.pdf][20161014 MAT240: 4]]
+
+    Argue about the dimensions to claim a basis.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_5.pdf][20161014 MAT240: 5]]
 
 *** 20160930
 

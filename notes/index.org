@@ -15,6 +15,10 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161012MAT157_One-Sided+Limits.pdf][20161012 MAT157: One-Sided Limits]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161014MAT157_Continuity.pdf][20161014 MAT157: Continuity]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161017MAT157_Applications+of+IVT.pdf][20161017 MAT157: Applications of IVT]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161019MAT157_Boundedness.pdf][20161019 MAT157: Boundedness]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161021MAT157_Differential.pdf][20161021 MAT157: Differential]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161026MAT157_Differentiation+II.pdf][20161026 MAT157: Differentiation II]]
+
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -28,6 +32,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161006MAT240_Linear+Independence+and+Bases.pdf][20161006 MAT240: Linear Independence and Bases]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161011MAT240_On+Bases+of+Vector+Spaces.pdf][20161011 MAT240: On Bases of Vector Spaces]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161014MAT240_Linear+Transformations.pdf][20161014 MAT240: Linear Transformations]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161020MAT240_Linear+Maps+II.pdf][20161020 MAT240: Linear Maps II]]
 
 * Computer Science
 
@@ -45,6 +50,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161012CSC148_List+Implementation.pdf][20161012 CSC148: List Implementation]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161014CSC148_GETITEM+in+Linked+Lists.pdf][20161014 CSC148: GETITEM in Linked Lists]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161017CSC148_Order+of+Code+Execution.pdf][20161017 CSC148: Order of Code Execution]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161019CSC148_Efficiency.pdf][20161019 CSC148: Efficiency]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161024CSC148_Efficiency+II+and+Recursion.pdf][20161024 CSC148: Efficiency II and Recursion]]
 * Physics
 * Chemistry
 
@@ -63,6 +70,9 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161007CHM151_Resonance+and+Hybridisation+in+Amides,+Trends+in+Acidity.pdf][20161007 CHM151: Resonance and Hybridisation in Amides, Trends in Acidity]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161012CHM151_Lewis+Acids,+Lewis+Bases+and+Organic+Reactions.pdf][20161012 CHM151: Lewis Acids, Lewis Bases and Organic Reactions]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161017CHM151_Polar+Reactions.pdf][20161017 CHM151: Polar Reactions]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161019CHM151_Alkenes_Structure+and+Reactivity.pdf][20161019 CHM151: Alkenes: Structure and Reactivity]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161021CHM151_Electrophylic+Addition.pdf][20161021 CHM151: Electrophylic Addition]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161024CHM151_Carbocation+Rearrangements.pdf][20161024 CHM151: Carbocation Rearrangements]]
 * Biology
 
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
@@ -75,3 +85,5 @@
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161005BIO120_Transmission+Bias.pdf][20161005 BIO120: Transmission Bias]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161012BIO120_Macroevolution.pdf][20161012 BIO120: Macroevolution]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161012BIO120_Speciation.pdf][20161012 BIO120: Speciation]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161019BIO120_Biodiversity,+Extinction+and+Conservation.pdf][20161019 BIO120: Biodiversity, Extinction and Conservation]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161019BIO120_Invasive+Species+and+Contemporary+Evolution.pdf][20161019 BIO120: Invasive Species and Contemporary Evolution]]
