@@ -134,11 +134,14 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about", "About"),
         ("/pub", "Pub"),
+        ("/agenda", "Agenda"),
+        ("/arbeit", "Arbeit"),
+        ("/notes", "Notes"),
         ("/log","Log"),
-        ("/lists", "Lists"),
-        ("/archive.html", "Archive"),
-        ("/categories/", "Categories"),
-        ("/rss.xml", "RSS"),
+#        ("/lists", "Lists"),
+#        ("/archive.html", "Archive"),
+#        ("/categories/", "Categories"),
+#        ("/rss.xml", "RSS"),
         ("https://github.com/sdll", "Github"),
     ),
 }
