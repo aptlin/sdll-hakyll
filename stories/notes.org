@@ -18,6 +18,11 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161019MAT157_Boundedness.pdf][20161019 MAT157: Boundedness]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161021MAT157_Differential.pdf][20161021 MAT157: Differential]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161026MAT157_Differentiation+II.pdf][20161026 MAT157: Differentiation II]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161028MAT157_Properties+of+Derivatives.pdf][20161028 MAT157: Properties of Derivatives]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161031MAT157_Derivative+of+Composite+Functions.pdf][20161031 MAT157: Derivative of Composite Functions]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161026MAT157_Derivative+II.pdf][20161026 MAT157: Derivative II]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161102MAT157_Rate+of+Change+Problems.pdf][20161102 MAT157: Rate of Change Problems]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161104MAT157_Chain+Rule+Review.pdf][20161104 MAT157: Chain Rule Review]]
 
 ** Linear Algebra
 
@@ -33,6 +38,10 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161011MAT240_On+Bases+of+Vector+Spaces.pdf][20161011 MAT240: On Bases of Vector Spaces]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161014MAT240_Linear+Transformations.pdf][20161014 MAT240: Linear Transformations]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161020MAT240_Linear+Maps+II.pdf][20161020 MAT240: Linear Maps II]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161025MAT240_Invertibility+II+and+Matrix+Representation.pdf][20161025 MAT240: Invertibility II and Matrix Representation]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161027MAT240_Matrix+Multuplication.pdf][20161027 MAT240: Matrix Multuplication]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161101MAT240_Matrix+Multiplication+II.pdf][20161101 MAT240: Matrix Multiplication II]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161103MAT240_Change+of+Basis+II.pdf][20161103 MAT240: Change of Basis II]]
 
 * Computer Science
 
@@ -52,6 +61,11 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161017CSC148_Order+of+Code+Execution.pdf][20161017 CSC148: Order of Code Execution]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161019CSC148_Efficiency.pdf][20161019 CSC148: Efficiency]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161024CSC148_Efficiency+II+and+Recursion.pdf][20161024 CSC148: Efficiency II and Recursion]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161026CSC148_Recursion+II.pdf][20161026 CSC148: Recursion II]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161028CSC148_Debugging+Recursion.pdf][20161028 CSC148: Debugging Recursion]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161031CSC148_Trees.pdf][20161031 CSC148: Trees]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161102CSC148_Trees+II.pdf][20161102 CSC148: Trees II]]
+
 * Physics
 * Chemistry
 
@@ -73,6 +87,10 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161019CHM151_Alkenes_Structure+and+Reactivity.pdf][20161019 CHM151: Alkenes: Structure and Reactivity]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161021CHM151_Electrophylic+Addition.pdf][20161021 CHM151: Electrophylic Addition]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161024CHM151_Carbocation+Rearrangements.pdf][20161024 CHM151: Carbocation Rearrangements]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161026CHM151_Hydroboration+of+Alkenes.pdf][20161026 CHM151: Hydroboration of Alkenes]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161031CHM151_Concerted+Additions,+Oxidative+Cleavage+and+Alkyl+Halides.pdf][20161031 CHM151: Concerted Additions, Oxidative Cleavage and Alkyl Halides]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161102CHM151_Alkyl+Halides+II+and+III.pdf][20161102 CHM151: Alkyl Halides II and III]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161104CHM151_Sn1,+Sn2+and+Elimination.pdf][20161104 CHM151: Sn1, Sn2 and Elimination]]
 * Biology
 
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
@@ -87,3 +105,5 @@
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161012BIO120_Speciation.pdf][20161012 BIO120: Speciation]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161019BIO120_Biodiversity,+Extinction+and+Conservation.pdf][20161019 BIO120: Biodiversity, Extinction and Conservation]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161019BIO120_Invasive+Species+and+Contemporary+Evolution.pdf][20161019 BIO120: Invasive Species and Contemporary Evolution]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161026BIO120_Introduction+to+Ecology.pdf][20161026 BIO120: Introduction to Ecology]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161102BIO120_Ecology+II+and+Introduction+to+Physiological+Ecology.pdf][20161102 BIO120: Ecology II and Introduction to Physiological Ecology]]
