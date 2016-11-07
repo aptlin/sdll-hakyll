@@ -239,7 +239,7 @@ Nonsense (%):
 
 *** 20161028: Pset V
 
-    Nonesense: 4.00%
+    Nonsense: 4.00%
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_1.pdf][20161028 MAT240: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_2.pdf][20161028 MAT240: 2]]
@@ -266,7 +266,7 @@ Nonsense (%):
 
 *** 20161014: Pset IV
 
-    Nonsense: 98.0%
+    Nonsense: 2.00%
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_1.pdf][20161014 MAT240: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_2.pdf][20161014 MAT240: 2]]
