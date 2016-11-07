@@ -139,6 +139,7 @@ NAVIGATION_LINKS = {
         ("/mikveh", "Mikveh"),
         ("/notes", "Notes"),
         ("/log", "Log"),
+        ("/gallery", "Gallery"),
 #        ("/archive.html", "Archive"),
 #        ("/categories/", "Categories"),
 #        ("/rss.xml", "RSS"),
