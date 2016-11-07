@@ -153,7 +153,10 @@ Nonsense (%):
 
     Nonesense: 13.3%
 
-    Very bad work.
+    Bad work.
+
+    All the proofs presented are clumsy and prone to error due to the
+    mindless application of the epsilon-delta machinery.
 
     1(ii). Epsilon-delta pushing is not a substitute for a clear,
     elegant, and correct argument. The ill-defined conclusion given is
