@@ -25,6 +25,7 @@
 | "2016-10-06" |      0 |      8 |
 | "2016-10-12" |      0 |      0 |
 | "2016-10-14" |      0 |      2 |
+| "2016-10-18" |      0 |      4 |
 | "2016-10-21" |     16 |      0 |
 | "2016-10-28" |      4 |      0 |
 |              |        |        |
@@ -249,7 +250,20 @@ Nonsense (%):
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_3.pdf][20161028 MAT240: 3]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_4.pdf][20161028 MAT240: 4]]
+
+*** 20161017: Midterm
     
+    Nonsense: 3.75%
+    
+    1. It is true that all square matrices over the field with the
+       characteristic not equal to 2 can be written uniquely as a sum
+       of a symmetric and a skew-symmetric matrix. Moral: rememember
+       that the definitive property of skew-symmetric matrices makes
+       their diagonal special.
+    2. Watch your arithmetic.
+
+       
+
 *** 20161014: Pset IV
 
     Nonsense: 98.0%
