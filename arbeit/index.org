@@ -175,7 +175,7 @@ Nonsense (%):
 
     Nonsense: 0.00%
 
-    Try to use less unnecessary lemma machinery.
+    Try to use less unnecessary lemmas.
 
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT157_Midterm.pdf][Midterm Exam]]
 
