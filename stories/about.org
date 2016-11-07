@@ -5,17 +5,17 @@ science.
 
 Here you can find:
 
-* [[https://sdll.github.io/agenda/][Educational agenda]]
++ [[https://sdll.github.io/agenda/][Educational agenda]]
 
-* [[https://sdll.github.io/pub/][Papers summarising personal investigations]]
++ [[https://sdll.github.io/pub/][Papers summarising personal investigations]]
 
-* [[https://sdll.github.io/arbeit/][Undergraduate coursework progress reports]]
++ [[https://sdll.github.io/arbeit/][Undergraduate coursework progress reports]]
 
-* [[https://sdll.github.io/mikveh/][Notes from presentations and seminars]]
++ [[https://sdll.github.io/mikveh/][Notes from presentations and seminars]]
 
-* Collection of short [[https://sdll.github.io/pentrivium/][memos]] and [[https://sdll.github.io/log/][articles]]
++ Collection of short [[https://sdll.github.io/pentrivium/][memos]] and [[https://sdll.github.io/log/][articles]]
 
-* [[https://sdll.github.io/gallery/][Gallery of slides, cards and other trivia]]
++ [[https://sdll.github.io/gallery/][Gallery of slides, cards and other trivia]]
 
 Let's live together, and when we die, we will stop getting dumber.
 
