@@ -199,8 +199,8 @@ Nonsense (%):
       Secondly, show that all $$x$$ such that $$x \in \mathbb{Q}$$ and $$
       \overline{x} < \alpha$$ must be in $$\alpha$$.
 
-    2. No need to use the addition or subtraction in the proof. Follow
-       the KISS principle.
+    2. No need to use addition or subtraction in the proof. Follow the
+       KISS principle.
 
        It follows from the definition of < and $$\subset$$ that $$
        \exists x \in \beta: x \notin \alpha $$. If
@@ -214,8 +214,8 @@ Nonsense (%):
 
     5. Bad statement of the theorem.
 
-       Hence no sincere understanding of what the meaning and
-       significance of the theorem is.
+       Hence no full understanding of what its meaning and
+       significance theorem is.
 
        Consider $$\overline{x}$$ for $$x\in\mathbb{Q}$$. Prove that $$x$$
        is the lub of $$\overline{x}$$.
