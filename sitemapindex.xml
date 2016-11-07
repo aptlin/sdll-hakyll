@@ -30,6 +30,10 @@
   <lastmod>2016-10-03T13:40:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://sdll.github.io/gallery/Elements%20of%20Imperative%20Programming%20Languages/rss.xml</loc>
+  <lastmod>2016-11-07T06:58:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://sdll.github.io/gallery/Learning%20How%20To%20Learn/rss.xml</loc>
   <lastmod>2016-11-07T04:44:00Z</lastmod>
  </sitemap>
@@ -47,6 +51,6 @@
  </sitemap>
  <sitemap>
   <loc>https://sdll.github.io/sitemap.xml</loc>
-  <lastmod>2016-11-07T04:44:00Z</lastmod>
+  <lastmod>2016-11-07T06:58:00Z</lastmod>
  </sitemap>
 </sitemapindex>
