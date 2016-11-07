@@ -138,8 +138,7 @@ NAVIGATION_LINKS = {
         ("/arbeit", "Arbeit"),
         ("/mikveh", "Mikveh"),
         ("/notes", "Notes"),
-        ("/log","Log"),
-#        ("/lists", "Lists"),
+        ("/log", "Log"),
 #        ("/archive.html", "Archive"),
 #        ("/categories/", "Categories"),
 #        ("/rss.xml", "RSS"),
@@ -479,7 +478,7 @@ HIDDEN_AUTHORS = ['Guest']
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
+INDEX_PATH = "log"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
