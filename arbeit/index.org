@@ -269,20 +269,22 @@ Nonsense (%):
     Show your work!
 
     Commentary, reproduced as is: 
+#+begin_html
+    <em>The reason your argument deserves no credit is that you haven't
+    given an argument. You pull the coefficients out of thin air,
+    without any explanation as to how you got them, or any proof that
+    they work. I have no assurances that you didn't simply copy them
+    from someone else, or use Wolfram Alpha, Maple, or another
+    computer algebra system to get these coefficients. Keep in mind:
+    the right answer isn't worth anything by itself.<\em>
+#+end_html
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_2.pdf][20161006 MAT240: 2]]
+  
+    The explanation is not lucid, and throwing big-name principles in the
+    face of the reader will not make it more so. It is much better to
+    argue from the observation that any vector space must include all
+    the scalar multiples of any vector it contains.
 
-    /The reason your argument deserves no credit is that you haven't/
-    /given an argument. You pull the coefficients out of thin air,/
-    /without any explanation as to how you got them, or any proof that/
-    /they work. I have no assurances that you didn't simply copy them/
-    /from someone else, or use Wolfram Alpha, Maple, or another/
-    /computer algebra system to get these coefficients. Keep in mind:/
-    /the right answer isn't worth anything by itself./
-
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_2.pdf][20161006 MAT240: 2]] The explanation is not lucid, and throwing
-    big-name principles in the face of the reader will not make it
-    more so. It is much better to argue from the observation that any
-    vector space must include all the scalar multiples of any vector it
-    contains.
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_3.pdf][20161006 MAT240: 3]]
 
     Write the proof in the direction that makes it rigorous, not in
