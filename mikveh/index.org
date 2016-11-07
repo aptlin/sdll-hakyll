@@ -1,4 +1,4 @@
-- Mikveh :: from Hebrew, a collection (מקווה), usually of water. Most
+- *Mikveh* :: from Hebrew, a collection (מקווה), usually of water. Most
              commonly used in the context of ritual purifications.
 
 * Affine Geometric Analysis
