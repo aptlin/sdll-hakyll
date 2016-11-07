@@ -289,12 +289,12 @@ Nonsense (%):
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_4.pdf][20161006 MAT240: 4]]
 
-    The reasoning why $\phi$ exists is wrong: it is because
-    $\sqrt{m^2+n^2} \neq 0$.
+    The reasoning why $$\phi$$ exists is wrong: it is because
+    $$\sqrt{m^2+n^2} \neq 0$$.
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_5.pdf][20161006 MAT240: 5]]
 
-    Improve your writing. For example, fixing $u'$ is not necessary in
+    Improve your writing. For example, fixing $$u'$$ is not necessary in
     the beginning.
 
 *** 20160930: Pset II
