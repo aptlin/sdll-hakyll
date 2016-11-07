@@ -269,7 +269,6 @@ Nonsense (%):
     Show your work!
 
     Commentary, reproduced as is: 
-
 #+begin_html
     <em>The reason your argument deserves no credit is that you haven't
     given an argument. You pull the coefficients out of thin air,
