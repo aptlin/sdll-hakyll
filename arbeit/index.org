@@ -240,9 +240,9 @@ Nonsense (%):
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_1.pdf][20161028 MAT240: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_2.pdf][20161028 MAT240: 2]]
 
-    The construction of a linear map $U$ as given satisfies the
-    condition for every vector in $W$ if and only if $v\neq
-    0$. Remember that the value of $S$ depends on its input.
+    The construction of a linear map $$U$$ as given satisfies the
+    condition for every vector in $$W$$ if and only if $$v\neq
+    0$$. Remember that the value of $$S$$ depends on its input.
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_3.pdf][20161028 MAT240: 3]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_4.pdf][20161028 MAT240: 4]]
