@@ -136,6 +136,7 @@ NAVIGATION_LINKS = {
         ("/pub", "Pub"),
         ("/agenda", "Agenda"),
         ("/arbeit", "Arbeit"),
+        ("/mikveh", "Mikveh"),
         ("/notes", "Notes"),
         ("/log","Log"),
 #        ("/lists", "Lists"),
