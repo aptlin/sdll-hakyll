@@ -1,5 +1,5 @@
 - *Mikveh* :: from Hebrew, a collection (מקווה), usually of water.
-               Most commonly used in the context of ritual purifications.
+               Most commonly used in the context of ritual purification.
 
 * Affine Geometric Analysis
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161104Professor+Burchard_Foldings+and+Symmetrization.pdf][20161104 Professor Burchard: Foldings and Symmetrization]]
