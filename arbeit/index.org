@@ -182,7 +182,7 @@ Nonsense (%):
 
     Very bad work.
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160923MAT157.pdf][20160923MAT157]]
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160923MAT157.pdf][20160923MAT157: Pset II]]
 
     Nonsense: 30.0%
 
@@ -223,7 +223,7 @@ Nonsense (%):
        contradiction by assuming there exists $$y < x$$ and obtain
        that $$\alpha$$ is rational.
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160919MAT157.pdf][20160919MAT157]]
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160919MAT157.pdf][20160919MAT157: Pset I]]
 
     Nonsense: 10.3%
 
