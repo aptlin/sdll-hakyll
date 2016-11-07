@@ -189,8 +189,8 @@ Nonsense (%):
 
     Bad work.
 
-    1. No need to prove that the set given by the described definition
-       is a real number.
+    1. No need to prove directly that the set given by the described definition
+       is a real number. Do the following instead.
 
       First show that $$\overline{x} \subseteq \alpha$$, as well as
       that $$\alpha \in \{x \in \mathbb{Q}: \overline{x} < \alpha \}$$
