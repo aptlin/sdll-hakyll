@@ -22,9 +22,12 @@
 | "2016-09-19" |      4 |      0 |
 | "2016-09-23" |      8 |      4 |
 | "2016-09-30" |     64 |      4 |
+| "2016-10-06" |      0 |      8 |
 | "2016-10-12" |      0 |      0 |
 | "2016-10-14" |      0 |      2 |
 | "2016-10-21" |     16 |      0 |
+| "2016-10-28" |      4 |      0 |
+|              |        |        |
 |--------------+--------+--------|
 
 #+begin_src gnuplot :var data=nonsense :exports none :file ../files/assets/org/nonsense.png
@@ -146,14 +149,25 @@ Nonsense (%):
   - Exams: Double the corresponding score for PS
 
 ** Analysis
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT157_PS+5.pdf][20161028 MAT157: Pset 5]]
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161021MAT157_Pset+IV.pdf][20161021 M157: Pset IV]]
+    Nonesense: 13.3%
+
+    Very bad work.
+
+    1(ii). Epsilon-delta pushing is not a substitute for a clear,
+    elegant, and correct argument. The ill-defined conclusion given is
+    disappointing.
+
+
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161021MAT157_Pset+IV.pdf][20161021 MAT157: Pset IV]]
 
     Nonsense: 44.4%
 
-    Bad work.
+    Very bad work.
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161012MAT157_Pset+III.pdf][20161012 M157: Pset III]]
+
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161012MAT157_Pset+III.pdf][20161012 MAT157: Pset III]]
 
     Nonsense: 0.00%
 
@@ -219,7 +233,23 @@ Nonsense (%):
 
 ** Linear Algebra
 
-*** 20160914
+*** 20161028 Pset V
+
+    Nonesense: 4.00%
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_1.pdf][20161028 MAT240: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_2.pdf][20161028 MAT240: 2]]
+
+    The construction of a linear map $U$ as given satisfies the
+    condition for every vector in $W$ if and only if $v\neq
+    0$. Remember that the value of $S$ depends on its input.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_3.pdf][20161028 MAT240: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_4.pdf][20161028 MAT240: 4]]
+    
+*** 20161014: Pset IV
+
+    Nonsense: 98.0%
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_1.pdf][20161014 MAT240: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_2.pdf][20161014 MAT240: 2]]
@@ -230,7 +260,44 @@ Nonsense (%):
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_5.pdf][20161014 MAT240: 5]]
 
-*** 20160930
+*** 20161006: Pset III
+
+    Nonsense: 37.0%
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_1.pdf][20161006 MAT240: 1]]
+
+    Show your work!
+
+    Commentary, reproduced as is:
+  /The reason your argument deserves no credit is that you haven't
+  given an argument. You pull the coefficients out of thin air,
+  without any explanation as to how you got them, or any proof that
+  they work. I have no assurances that you didn't simply copy them
+  from someone else, or use Wolfram Alpha, Maple, or another computer
+  algebra system to get these coefficients. Keep in mind: the right
+  answer isn't worth anything by itself./
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_2.pdf][20161006 MAT240: 2]] The explanation is not lucid, and throwing
+    big-name principles in the face of the reader will not make it
+    more so. It is much better to argue from the observation that any
+    vector space must include all the scalar multiples of any vector it
+    contains.
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_3.pdf][20161006 MAT240: 3]]
+
+    Write the proof in the direction that makes it rigorous, not in
+    the way it was obtained.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_4.pdf][20161006 MAT240: 4]]
+
+    The reasoning why $\phi$ exists is wrong: it is because
+    $\sqrt{m^2+n^2} \neq 0$.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_5.pdf][20161006 MAT240: 5]]
+
+    Improve your writing. For example, fixing $u'$ is not necessary in
+    the beginning.
+
+*** 20160930: Pset II
 
     Nonsense: 12.0%
 
@@ -289,7 +356,7 @@ Nonsense (%):
         multiply $$t'v$$ by $$\frac{1}{t'}$$ to get $$v$$, which also
         must be in $$W$$. Hence, all the elements of $$S$$ are in $$W$$.
 
-*** 20160923MAT240
+*** 20160923MAT240: Pset I
 
     Nonsense: 10.0%
 

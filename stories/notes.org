@@ -90,9 +90,11 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161021CHM151_Electrophylic+Addition.pdf][20161021 CHM151: Electrophylic Addition]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161024CHM151_Carbocation+Rearrangements.pdf][20161024 CHM151: Carbocation Rearrangements]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161026CHM151_Hydroboration+of+Alkenes.pdf][20161026 CHM151: Hydroboration of Alkenes]]
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161028CHM151_Oxydation,+Dihydroxylation,+Epoxydation.pdf][20161028 CHM151: Oxydation, Dihydroxylation, Epoxydation]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161031CHM151_Concerted+Additions,+Oxidative+Cleavage+and+Alkyl+Halides.pdf][20161031 CHM151: Concerted Additions, Oxidative Cleavage and Alkyl Halides]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161102CHM151_Alkyl+Halides+II+and+III.pdf][20161102 CHM151: Alkyl Halides II and III]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161104CHM151_Sn1,+Sn2+and+Elimination.pdf][20161104 CHM151: Sn1, Sn2 and Elimination]]
+
 * Biology
 
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
