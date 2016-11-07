@@ -233,7 +233,7 @@ Nonsense (%):
 
 ** Linear Algebra
 
-*** 20161028 Pset V
+*** 20161028: Pset V
 
     Nonesense: 4.00%
 
