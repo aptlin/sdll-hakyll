@@ -25,7 +25,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161026MAT157_Derivative+II.pdf][20161026 MAT157: Derivative II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161102MAT157_Rate+of+Change+Problems.pdf][20161102 MAT157: Rate of Change Problems]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161104MAT157_Chain+Rule+Review.pdf][20161104 MAT157: Chain Rule Review]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161109MAT157_Continuity+Problems.pdf][20161109 MAT157: Continuity Problems]]
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -44,6 +44,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161027MAT240_Matrix+Multuplication.pdf][20161027 MAT240: Matrix Multuplication]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161101MAT240_Matrix+Multiplication+II.pdf][20161101 MAT240: Matrix Multiplication II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161103MAT240_Change+of+Basis+II.pdf][20161103 MAT240: Change of Basis II]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161110MAT240_Row+Operations.pdf][20161110 MAT240: Row Operations]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161115MAT240_Application+of+Elementary+Row+Operations.pdf][20161115 MAT240: Application of Elementary Row Operations]]
 
 * Computer Science
 
@@ -67,7 +69,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161028CSC148_Debugging+Recursion.pdf][20161028 CSC148: Debugging Recursion]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161031CSC148_Trees.pdf][20161031 CSC148: Trees]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161102CSC148_Trees+II.pdf][20161102 CSC148: Trees II]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161109CSC148_Binary+Search+Trees.pdf][20161109 CSC148: Binary Search Trees]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161114CSC148_Deletion+in+BST.pdf][20161114 CSC148: Deletion in BST]]
 * Physics
 * Chemistry
 
@@ -94,7 +97,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161031CHM151_Concerted+Additions,+Oxidative+Cleavage+and+Alkyl+Halides.pdf][20161031 CHM151: Concerted Additions, Oxidative Cleavage and Alkyl Halides]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161102CHM151_Alkyl+Halides+II+and+III.pdf][20161102 CHM151: Alkyl Halides II and III]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161104CHM151_Sn1,+Sn2+and+Elimination.pdf][20161104 CHM151: Sn1, Sn2 and Elimination]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/CHM/20161109CHM151_Elimination+Reactions.pdf][20161109 CHM151: Elimination Reactions]]
 * Biology
 
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
