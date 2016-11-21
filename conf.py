@@ -651,7 +651,7 @@ GITHUB_COMMIT_SOURCE = True
 # Default is:
 GALLERY_FOLDERS = {"gallery": "gallery"}
 # More gallery options:
-# THUMBNAIL_SIZE = 180
+THUMBNAIL_SIZE = 1280
 # MAX_IMAGE_SIZE = 1280
 # USE_FILENAME_AS_TITLE = True
 # EXTRA_IMAGE_EXTENSIONS = []
