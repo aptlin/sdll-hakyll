@@ -66,7 +66,7 @@
   set boxwidth 0.5
   set auto x
   
-  set yrange [0:100]
+  set yrange [0:150]
 
   stats data every ::1 using (sum[i=2:3] column(i)) nooutput
   total = int(STATS_sum)
