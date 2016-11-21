@@ -264,7 +264,7 @@ Nonsense (%):
     Consider $$w'=v-w$$.
 
     $$T(w') = T(v)-T(w) = 0$$, and hence $$w'\in\ker(T)$$ and
-    $$w'\in W'$$. Therefore, $V=W+W'$.
+    $$w'\in W'$$. Therefore, $$V=W+W'$$.
 
     Consider now $$w\in W\cap W'$$. Therefore, $$T(w) = w$$, since
     $$w\in W$$, and $$T(w) = 0$$, since $$w\in W'$$. Hence, $$w=0$$,
