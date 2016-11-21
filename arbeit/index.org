@@ -87,7 +87,7 @@
 
 * Status
 #+ATTR_HTML: :width 100%
-[[../../assets/org/sfscore.png]]
+# [[file:../../assets/org/sfscore.png]]
 
 
 
