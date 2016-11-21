@@ -256,7 +256,7 @@ Nonsense (%):
     It is obvious that the proof has been written with no intuitive
     understanding of what the linear map given *is*. 
 
-    First, consider $$W=\Im(T), W' = \ker(T)$$. Given some $$v\in V$,
+    First, consider $$W=\Im(T), W' = \ker(T)$$. Given some $$v\in V$$,
     take $$w=T(v)$$
 
     Note that $$T(w)=T(T(v))=T(v)=w$$.
