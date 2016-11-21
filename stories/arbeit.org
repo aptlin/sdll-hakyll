@@ -152,7 +152,7 @@ Nonsense (%):
 
 ** Analysis
 
-***  [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161104MAT157_PS+6.pdf][20161104 MAT157: PS VI]]
+***  [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161104MAT157_PS+6.pdf][20161104 MAT157: Pset VI]]
 
     Nonsense: 26.3%
 
