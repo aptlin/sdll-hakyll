@@ -234,6 +234,9 @@ Nonsense (%):
         want to show, and review your results
       + 6.1: use induction rather than a soft explanation as a proof
 
+***  [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161104MAT157_PS+6.pdf][20161104 MAT157: PS 6]]
+
+    Nonsense: 26.3%
 
 ** Linear Algebra
 

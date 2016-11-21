@@ -26,6 +26,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161102MAT157_Rate+of+Change+Problems.pdf][20161102 MAT157: Rate of Change Problems]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161104MAT157_Chain+Rule+Review.pdf][20161104 MAT157: Chain Rule Review]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161109MAT157_Continuity+Problems.pdf][20161109 MAT157: Continuity Problems]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161118MAT157_Significance+of+Differentiation.pdf][20161118 MAT157: Significance of Differentiation]]
+
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -46,6 +48,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161103MAT240_Change+of+Basis+II.pdf][20161103 MAT240: Change of Basis II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161110MAT240_Row+Operations.pdf][20161110 MAT240: Row Operations]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161115MAT240_Application+of+Elementary+Row+Operations.pdf][20161115 MAT240: Application of Elementary Row Operations]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161117MAT240_Linear+Systems+of+Equations.pdf][20161117 MAT240: Linear Systems of Equations]]
 
 * Computer Science
 
@@ -71,6 +74,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161102CSC148_Trees+II.pdf][20161102 CSC148: Trees II]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161109CSC148_Binary+Search+Trees.pdf][20161109 CSC148: Binary Search Trees]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161114CSC148_Deletion+in+BST.pdf][20161114 CSC148: Deletion in BST]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161116CSC148_Efficiency+of+BST.pdf][20161116 CSC148: Efficiency of BST]]
 * Physics
 * Chemistry
 
@@ -114,3 +118,5 @@
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161019BIO120_Invasive+Species+and+Contemporary+Evolution.pdf][20161019 BIO120: Invasive Species and Contemporary Evolution]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161026BIO120_Introduction+to+Ecology.pdf][20161026 BIO120: Introduction to Ecology]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161102BIO120_Ecology+II+and+Introduction+to+Physiological+Ecology.pdf][20161102 BIO120: Ecology II and Introduction to Physiological Ecology]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161109BIO120_Physiological+Ecology+II+and+Population+Ecology.pdf][20161109 BIO120: Physiological Ecology II and Population Ecology]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161116BIO120_Age-structured+Populations+Life+Histories+and+Species+Interactions.pdf][20161116 BIO120: Age-structured Populations Life Histories and Species Interactions]]
