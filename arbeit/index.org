@@ -16,7 +16,7 @@
 | "2016-09-23" |   30.0 |   10.0 |
 |--------------+--------+--------|
 
-#+TBLNAME: sfscore :exports none
+#+TBLNAME: sfscore
 | Date         | MAT157 | MAT240 |
 |--------------+--------+--------|
 | "2016-09-19" |      4 |      0 |
@@ -54,7 +54,7 @@
 #+RESULTS:
 [[file:../files/assets/org/nonsense.png]]
 
-#+begin_src gnuplot :header-args: :var data='sfscore' :header-args: :exports none :header-args: :file ../files/assets/org/sfscore.png
+#+begin_src gnuplot :var data="/home/aleph/WERKE/sdll.github.io/files/assets/org/sfscore" :exports none :file /home/aleph/WERKE/sdll.github.io/files/assets/org/sfscore.png
   reset
   A = "#d33682"; B = "#586e75"
   set terminal pngcairo size 1024,768 enhanced
@@ -64,6 +64,7 @@
   set ylabel "SF Score"
   set boxwidth 0.5
   set auto x
+  
   set yrange [0:100]
 
   stats data every ::1 using (sum[i=2:3] column(i)) nooutput
@@ -72,7 +73,7 @@
   set title  "Dynamics of Nonsense\n" \
   .strftime("Total SF Score on %Y/%m/%d: ", time(0)) .sprintf('%d', total)
 
-
+  set xtics rotate by -45"
   plot data using 2:xtic(1) title col fc rgb A,\
   '' using 3:xtic(1) title col fc rgb B,\
   '' every ::1 using 0:(s = sum [i=2:3] column(i), s):(sprintf('%d', s)) \
@@ -82,12 +83,13 @@
 #+end_src
 
 #+RESULTS:
-[[file:../files/assets/org/sfscore.png]]
+[[file:/home/aleph/WERKE/sdll.github.io/files/assets/org/sfscore.png]]
+
 
 
 * Status
 #+ATTR_HTML: :width 100%
-# [[file:../../assets/org/sfscore.png]]
+[[../../assets/org/sfscore.png]]
 
 
 
