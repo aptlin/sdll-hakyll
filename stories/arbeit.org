@@ -251,7 +251,7 @@ Nonsense (%):
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_1.pdf][20161105 MAT240: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_2.pdf][20161105 MAT240: 2]] 
     
-    The $$\leftarrow$$ part is wrong, atrocious and disappointing.
+    The $$\Leftarrow$$ part is wrong, atrocious and disappointing.
 
     It is obvious that the proof has been written with no intuitive
     understanding of what the linear map given *is*. 
