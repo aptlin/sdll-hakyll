@@ -28,6 +28,7 @@
 | "2016-10-18" |      0 |      4 |
 | "2016-10-21" |     32 |      0 |
 | "2016-10-28" |      4 |      2 |
+| "2016-11-04" |      8 |      0 |
 |--------------+--------+--------|
 
 #+begin_src gnuplot :var data=nonsense :exports none :file ../files/assets/org/nonsense.png
@@ -78,8 +79,6 @@
   '' using 3:xtic(1) title col fc rgb B,\
   '' every ::1 using 0:(s = sum [i=2:3] column(i), s):(sprintf('%d', s)) \
   with labels offset 0,1 notitle
-
-
 #+end_src
 
 #+RESULTS:
@@ -152,6 +151,11 @@ Nonsense (%):
   - Exams: Double the corresponding score for PS
 
 ** Analysis
+
+***  [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161104MAT157_PS+6.pdf][20161104 MAT157: PS VI]]
+
+    Nonsense: 26.3%
+
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT157_PS+5.pdf][20161028 MAT157: Pset V]]
 
     Nonesense: 13.3%
@@ -236,11 +240,38 @@ Nonsense (%):
         want to show, and review your results
       + 6.1: use induction rather than a soft explanation as a proof
 
-***  [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161104MAT157_PS+6.pdf][20161104 MAT157: PS 6]]
 
-    Nonsense: 26.3%
 
 ** Linear Algebra
+
+*** 20161105: Pset VI
+
+    Nonsense: 8.00%
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_1.pdf][20161105 MAT240: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_2.pdf][20161105 MAT240: 2]] 
+    
+    The $$\leftarrow$$ part is wrong, atrocious and disappointing.
+
+    It is obvious that the proof has been written with no intuitive
+    understanding of what the linear map given *is*. 
+
+    First, consider $$W=\Im(T), W' = \ker(T)$$. Given some $$v\in V$,
+    take $$w=T(v)$$
+
+    Note that $$T(w)=T(T(v))=T(v)=w$$.
+
+    Consider $$w'=v-w$$.
+
+    $$T(w') = T(v)-T(w) = 0$$, and hence $$w'\in\ker(T)$$ and
+    $$w'\in W'$$. Therefore, $V=W+W'$.
+
+    Consider now $$w\in W\cap W'$$. Therefore, $$T(w) = w$$, since
+    $$w\in W$$, and $$T(w) = 0$$, since $$w\in W'$$. Hence, $$w=0$$,
+    and $$V=W\oplus W'$$.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_3.pdf][20161105 MAT240: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_4.pdf][20161105 MAT240: 4]]
 
 *** 20161028: Pset V
 
