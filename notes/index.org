@@ -27,7 +27,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161104MAT157_Chain+Rule+Review.pdf][20161104 MAT157: Chain Rule Review]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161109MAT157_Continuity+Problems.pdf][20161109 MAT157: Continuity Problems]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161118MAT157_Significance+of+Differentiation.pdf][20161118 MAT157: Significance of Differentiation]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161121MAT157_Local+Maxima+and+Minima.pdf][20161121 MAT157: Local Maxima and Minima]]
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -49,7 +49,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161110MAT240_Row+Operations.pdf][20161110 MAT240: Row Operations]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161115MAT240_Application+of+Elementary+Row+Operations.pdf][20161115 MAT240: Application of Elementary Row Operations]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161117MAT240_Linear+Systems+of+Equations.pdf][20161117 MAT240: Linear Systems of Equations]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161122MAT240_Applications+of+Row+Echelon+Reduction.pdf][20161122 MAT240: Applications of Row Echelon Reduction]]
 * Computer Science
 
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
@@ -75,6 +75,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161109CSC148_Binary+Search+Trees.pdf][20161109 CSC148: Binary Search Trees]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161114CSC148_Deletion+in+BST.pdf][20161114 CSC148: Deletion in BST]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161116CSC148_Efficiency+of+BST.pdf][20161116 CSC148: Efficiency of BST]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161121CSC148_Sorting.pdf][20161121 CSC148: Sorting]]
 * Physics
 * Chemistry
 
