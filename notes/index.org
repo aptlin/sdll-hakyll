@@ -28,6 +28,9 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161109MAT157_Continuity+Problems.pdf][20161109 MAT157: Continuity Problems]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161118MAT157_Significance+of+Differentiation.pdf][20161118 MAT157: Significance of Differentiation]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161121MAT157_Local+Maxima+and+Minima.pdf][20161121 MAT157: Local Maxima and Minima]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161123MAT157_MVT.pdf][20161123 MAT157: MVT]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161125MAT157_Applications+of+MVT.pdf][20161125 MAT157: Applications of MVT]]
+
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -76,6 +79,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161114CSC148_Deletion+in+BST.pdf][20161114 CSC148: Deletion in BST]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161116CSC148_Efficiency+of+BST.pdf][20161116 CSC148: Efficiency of BST]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20161121CSC148_Sorting.pdf][20161121 CSC148: Sorting]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161123CSC148_Sorting+II.pdf][20161123 CSC148: Sorting II]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20161125CSC148_Sorting+III.pdf][20161125 CSC148: Sorting III]]
 * Physics
 * Chemistry
 
@@ -121,3 +126,4 @@
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161102BIO120_Ecology+II+and+Introduction+to+Physiological+Ecology.pdf][20161102 BIO120: Ecology II and Introduction to Physiological Ecology]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161109BIO120_Physiological+Ecology+II+and+Population+Ecology.pdf][20161109 BIO120: Physiological Ecology II and Population Ecology]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161116BIO120_Age-structured+Populations+Life+Histories+and+Species+Interactions.pdf][20161116 BIO120: Age-structured Populations Life Histories and Species Interactions]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161123BIO120_Metapopulations,+Plant+Community+Composition+and+Dynamics.pdf][20161123 BIO120: Metapopulations, Plant Community Composition and Dynamics]]
