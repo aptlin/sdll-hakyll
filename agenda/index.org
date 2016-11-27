@@ -10,6 +10,8 @@
 Литература.
 ------------------------------------------------------------
 
+/cf. [[http://bogomolov-lab.ru/KURSY/TOP-2012/][HSΕ 2012 Course in Topology]]/
+
 + [[http://www.pdmi.ras.ru/~olegviro/topoman/e-unstable.pdf][Elementary Topology. Textbook in Problems by O.Ya.Viro, O.A.Ivanov, V.M.Kharlamov, N.Y.Netsvetaev]]
 + [[http://verbit.ru/MATH/UCHEBNIK/top-book.pdf][Вербицкий М., Топология в задачах]]
 + [[http://www.math.psu.edu/petrunin/papers/alexandrov/bbi.pdf][Бураго Д. Ю., Бураго Ю. Д, Иванов С. В. A Course in Metric Geometry ]]
@@ -188,7 +190,7 @@
  
 **** Logic and Discrete Mathematics
 
-/cf. HSΕ 2014/2015 Course in Logic and Algorithms/
+/cf. [[http://www.mi.ras.ru/~bekl/logic2014.html][HSΕ 2014/2015 Course in Logic and Algorithms]]/
  ------------------------------------------------------------
  Литература.
  ------------------------------------------------------------
