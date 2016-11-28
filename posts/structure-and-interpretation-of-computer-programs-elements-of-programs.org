@@ -1,4 +1,4 @@
-#+begin_src dot :file  ../files/assets/posts/sicp/elements.png :cmdline -Kdot -Tpng :exports none
+#+begin_src dot :file  ../files/assets/posts/sicp/elements.eps :cmdline -Kdot -Teps :exports none
   digraph {
   resolution=192;
   rankdir=TB;
@@ -134,7 +134,7 @@ subgraph cluster_exp {
 #+end_src
 
 #+RESULTS:
-[[file:../files/assets/posts/sicp/elements.png]]
+[[file:../files/assets/posts/sicp/elements.eps]]
 
 
 
