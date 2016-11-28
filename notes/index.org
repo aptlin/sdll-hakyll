@@ -30,7 +30,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161121MAT157_Local+Maxima+and+Minima.pdf][20161121 MAT157: Local Maxima and Minima]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161123MAT157_MVT.pdf][20161123 MAT157: MVT]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161125MAT157_Applications+of+MVT.pdf][20161125 MAT157: Applications of MVT]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161128MAT157_lHopitals+Rule.pdf][20161128 MAT157: l'Hopital's Rule]]
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -53,6 +53,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161115MAT240_Application+of+Elementary+Row+Operations.pdf][20161115 MAT240: Application of Elementary Row Operations]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161117MAT240_Linear+Systems+of+Equations.pdf][20161117 MAT240: Linear Systems of Equations]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161122MAT240_Applications+of+Row+Echelon+Reduction.pdf][20161122 MAT240: Applications of Row Echelon Reduction]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20161124MAT240_Dual+Spaces.pdf][20161124 MAT240: Dual Spaces]]
+
 * Computer Science
 
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
