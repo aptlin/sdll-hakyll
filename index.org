@@ -1,7 +1,14 @@
 Hello, Universe!
 
-I am Sasha, and I learn, discover, create and share mathematics and
-science.
+I am Sasha Illarionov, and I learn, discover, and share mathematics
+and science.
+
+My primary goal now is to learn more about algebraic geometry, making
+sure first I have sound foundations in core mathematics.
+
+In 2016 I started my first year at University of Toronto.
+
+E-mail: sasha.illarionov@mail.utoronto.ca
 
 Here you can find:
 
