@@ -21,7 +21,7 @@
 |--------------+--------+--------|
 | "2016-09-19" |      4 |      0 |
 | "2016-09-23" |     16 |      4 |
-| "2016-09-30" |     128 |      4 |
+| "2016-09-30" |    128 |      4 |
 | "2016-10-06" |      0 |     16 |
 | "2016-10-12" |      0 |      0 |
 | "2016-10-14" |      0 |      2 |
@@ -29,6 +29,7 @@
 | "2016-10-21" |     32 |      0 |
 | "2016-10-28" |      4 |      2 |
 | "2016-11-04" |      8 |      0 |
+| "2016-11-18" |      0 |      0 |
 |--------------+--------+--------|
 
 #+begin_src gnuplot :var data=nonsense :exports none :file ../files/assets/org/nonsense.png
@@ -243,6 +244,59 @@ Nonsense (%):
 
 
 ** Linear Algebra
+
+*** 20161202: Pset IX
+    Nonsense: 18.0%
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_1.pdf][20161201 MAT240: 1]]
+
+    Be careful with how you count.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_2.pdf][20161201 MAT240: 2]]
+
+    The argument lacks the substance -- a mishmash of terminology does
+    no good to the reasoning.
+
+    Let $$q_0(t) = 1$$, $$q_1(t) = x$$, $$q_2(t) = x^2$$, $$q_3(t) = x^3$$.
+
+    Notice that $$(p_0\ p_1\ p_2\ p_3) = (q_0\ q_1\ q_2\ q_3)C$$ for
+    some $$C\in M_{4\times 4}(\mathbb{F})$$ indepenedent of
+    $$t$$. Notice also that $$C$$ is invertible if and only if
+    $$\{p_i\}$$ is a basis.
+
+    Then argue that $$f(t) = 12\det(C)$$.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_3.pdf][20161201 MAT240: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_4.pdf][20161201 MAT240: 4]]
+
+    Use less abstruse language.
+
+    The phrase "The same arbitrary non-zero" is gibberish in the given
+    context.
+
+*** 20161124: Pset VIII
+
+    Nonsense: 0.00%
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_1.pdf][20161124 MAT240: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_2.pdf][20161124 MAT240: 2]]
+
+    Do not put equal signs between things which are not equal.
+
+    Avoid superfluous calculations (no need to look at the case
+    $$2=0$$ separately).
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_3.pdf][20161124 MAT240: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_4.pdf][20161124 MAT240: 4]]
+
+*** 20161118: Pset VII
+
+    Nonsense: 0.00%
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_1.pdf][20161118 MAT240: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_2.pdf][20161118 MAT240: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_3.pdf][20161118 MAT240: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_4.pdf][20161118 MAT240: 4]]
 
 *** 20161105: Pset VI
 
