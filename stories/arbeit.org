@@ -32,30 +32,6 @@
 | "2016-11-18" |      0 |      0 |
 |--------------+--------+--------|
 
-#+begin_src gnuplot :var data=nonsense :exports none :file ../files/assets/org/nonsense.png
-  reset
-  set terminal pngcairo
-  C = "#99ffff"; Cpp = "#4671d5"
-  set auto x
-  set style data histogram
-  set style histogram cluster gap 1
-  set style fill solid border rgb "black"
-
-  set title "Dynamics of Nonsense"
-
-  set xtics rotate by -45
-  set boxwidth 0.9
-
-  set yrange [0:50]
-  set ylabel "Nonsense (%)"
-
-  plot data u 2:xtic(1)  ti col fc rgb C,\
-  data u  3:xtic(1)  ti col fc rgb Cpp
-#+end_src
-
-#+RESULTS:
-[[file:../files/assets/org/nonsense.png]]
-
 #+begin_src gnuplot :var data="/home/aleph/WERKE/sdll.github.io/files/assets/org/sfscore" :exports none :file /home/aleph/WERKE/sdll.github.io/files/assets/org/sfscore.png
   reset
   A = "#d33682"; B = "#586e75"
