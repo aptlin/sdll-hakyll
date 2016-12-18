@@ -133,6 +133,9 @@ Nonsense (%):
 
     Nonsense: 26.3%
 
+    4: Details matter. Yet another case of mindless, mechanical
+    delta-epsilon pushing.
+
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT157_PS+5.pdf][20161028 MAT157: Pset V]]
 
     Nonesense: 13.3%
