@@ -34,7 +34,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161130MAT157_Convexity.pdf][20161130 MAT157: Convexity]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161202MAT157_Convexity+II+and+Inverse+Functions.pdf][20161202 MAT157: Convexity II and Inverse Functions]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161205MAT157_Derivative+of+the+Inverse+Function.pdf][20161205 MAT157: Derivative of the Inverse Function]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170106MAT157_Intro+to+Integral+Calculus.pdf][20170106 MAT157: Intro to Integral Calculus]]
 ** Linear Algebra
 
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -61,6 +61,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161129MAT240_Determinants.pdf][20161129 MAT240: Determinants]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161201MAT240_Determinants+II.pdf][20161201 MAT240: Determinants II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161206MAT240_Determinants+III.pdf][20161206 MAT240: Determinants III]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170105MAT247_Review+of+Determinants+and+Intro+to+Diagonalisation.pdf][20170105 MAT247: Review of Determinants and Intro to Diagonalisation]]
 
 * Computer Science
 
