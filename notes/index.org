@@ -36,6 +36,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20161205MAT157_Derivative+of+the+Inverse+Function.pdf][20161205 MAT157: Derivative of the Inverse Function]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170106MAT157_Intro+to+Integral+Calculus.pdf][20170106 MAT157: Intro to Integral Calculus]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170109MAT157_Intro+to+Integral+Calculus+II.pdf][20170109 MAT157: Intro to Integral Calculus II]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170111MAT157_Integrability+Condition.pdf][20170111 MAT157: Integrability Condition]]
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -64,7 +65,7 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20161206MAT240_Determinants+III.pdf][20161206 MAT240: Determinants III]]
 *** MAT247: UToronto Algebra II
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170105MAT247_Review+of+Determinants+and+Intro+to+Diagonalisation.pdf][20170105 MAT247: Review of Determinants and Intro to Diagonalisation]]
-
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170110MAT247_Diagonalisation+II.pdf][20170110 MAT247: Diagonalisation II]]
 * Computer Science
 
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
@@ -99,6 +100,7 @@
 
 * Physics
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170109PHY152_Fluid+Mechanics.pdf][20170109 PHY152: Fluid Mechanics]]
+  - [[https://github.com/sdll/NOTES/blob/master/PHY/20170111PHY152_Buoyancy.pdf][20170111 PHY152: Buoyancy]]
 * Chemistry
 
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20160912CHM151.pdf][20160912 CHM151: Introduction to Organic Chemistry]]
@@ -126,23 +128,24 @@
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161104CHM151_Sn1,+Sn2+and+Elimination.pdf][20161104 CHM151: Sn1, Sn2 and Elimination]]
   - [[https://github.com/sdll/NOTES/blob/master/CHM/20161109CHM151_Elimination+Reactions.pdf][20161109 CHM151: Elimination Reactions]]
 * Biology
-
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_2.pdf][20160914 BIO120: Charles Darwin & His Work]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160921BIO120_Variation.pdf][20160921 BIO120: Variation]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160921BIO120_What_Darwin_Saw.pdf][20160921 BIO120: What Darwin Saw]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160927BIO120_Model+Systems+in+Ecological+Genetics.pdf][20160927 BIO120: Model Systems in Ecological Genetics]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20160927BIO120_Organismal+Reproductive+Diversity.pdf][20160927 BIO120: Organismal Reproductive Diversity]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161005BIO120_Natural+Selection+and+Adaptation.pdf][20161005 BIO120: Natural Selection and Adaptation]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161005BIO120_Transmission+Bias.pdf][20161005 BIO120: Transmission Bias]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161012BIO120_Macroevolution.pdf][20161012 BIO120: Macroevolution]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161012BIO120_Speciation.pdf][20161012 BIO120: Speciation]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161019BIO120_Biodiversity,+Extinction+and+Conservation.pdf][20161019 BIO120: Biodiversity, Extinction and Conservation]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161019BIO120_Invasive+Species+and+Contemporary+Evolution.pdf][20161019 BIO120: Invasive Species and Contemporary Evolution]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161026BIO120_Introduction+to+Ecology.pdf][20161026 BIO120: Introduction to Ecology]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161102BIO120_Ecology+II+and+Introduction+to+Physiological+Ecology.pdf][20161102 BIO120: Ecology II and Introduction to Physiological Ecology]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161109BIO120_Physiological+Ecology+II+and+Population+Ecology.pdf][20161109 BIO120: Physiological Ecology II and Population Ecology]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161116BIO120_Age-structured+Populations+Life+Histories+and+Species+Interactions.pdf][20161116 BIO120: Age-structured Populations Life Histories and Species Interactions]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161123BIO120_Metapopulations,+Plant+Community+Composition+and+Dynamics.pdf][20161123 BIO120: Metapopulations, Plant Community Composition and Dynamics]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20161130BIO120_Trophic+Ecology.pdf][20161130 BIO120: Trophic Ecology]]
-  - [[https://github.com/sdll/NOTES/blob/master/BIO/20170105BIO130_Intro+to+Cells,+Diversity+and+Nucleic+Acids.pdf][20170105 BIO130: Intro to Cells, Diversity and Nucleic Acids]]
+** BIO120
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_1.pdf][20160914 BIO120: Introduction to Evolutionary Biology]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160914BIO120_2.pdf][20160914 BIO120: Charles Darwin & His Work]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160921BIO120_Variation.pdf][20160921 BIO120: Variation]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160921BIO120_What_Darwin_Saw.pdf][20160921 BIO120: What Darwin Saw]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160927BIO120_Model+Systems+in+Ecological+Genetics.pdf][20160927 BIO120: Model Systems in Ecological Genetics]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20160927BIO120_Organismal+Reproductive+Diversity.pdf][20160927 BIO120: Organismal Reproductive Diversity]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161005BIO120_Natural+Selection+and+Adaptation.pdf][20161005 BIO120: Natural Selection and Adaptation]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161005BIO120_Transmission+Bias.pdf][20161005 BIO120: Transmission Bias]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161012BIO120_Macroevolution.pdf][20161012 BIO120: Macroevolution]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161012BIO120_Speciation.pdf][20161012 BIO120: Speciation]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161019BIO120_Biodiversity,+Extinction+and+Conservation.pdf][20161019 BIO120: Biodiversity, Extinction and Conservation]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161019BIO120_Invasive+Species+and+Contemporary+Evolution.pdf][20161019 BIO120: Invasive Species and Contemporary Evolution]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161026BIO120_Introduction+to+Ecology.pdf][20161026 BIO120: Introduction to Ecology]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161102BIO120_Ecology+II+and+Introduction+to+Physiological+Ecology.pdf][20161102 BIO120: Ecology II and Introduction to Physiological Ecology]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161109BIO120_Physiological+Ecology+II+and+Population+Ecology.pdf][20161109 BIO120: Physiological Ecology II and Population Ecology]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161116BIO120_Age-structured+Populations+Life+Histories+and+Species+Interactions.pdf][20161116 BIO120: Age-structured Populations Life Histories and Species Interactions]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161123BIO120_Metapopulations,+Plant+Community+Composition+and+Dynamics.pdf][20161123 BIO120: Metapopulations, Plant Community Composition and Dynamics]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20161130BIO120_Trophic+Ecology.pdf][20161130 BIO120: Trophic Ecology]]
+** BIO130
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170105BIO130_Intro+to+Cells,+Diversity+and+Nucleic+Acids.pdf][20170105 BIO130: Intro to Cells, Diversity and Nucleic Acids]]
