@@ -19,6 +19,11 @@
 
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161116Madhu+Sudan_Imperfectly+Shared+Randomness+in+Communication.pdf][20161116 Madhu Sudan: Imperfectly Shared Randomness in Communication]]
 
+
 * Mathematical Physics
 
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161123Stephen+Gustafson_Geometric+Schrodinger+Equations+and+Topological+Solitons.pdf][20161123 Stephen Gustafson: Geometric Schrodinger Equations and Topological Solitons]]
+
+* Number Theory
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MIKVEH20170111_Bjorn+Poonen_Undecidability+in+Number+Theory.pdf][20170111: Bjorn Poonen: Undecidability in Number Theory]]
