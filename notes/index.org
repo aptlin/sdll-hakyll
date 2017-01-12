@@ -37,6 +37,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170106MAT157_Intro+to+Integral+Calculus.pdf][20170106 MAT157: Intro to Integral Calculus]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170109MAT157_Intro+to+Integral+Calculus+II.pdf][20170109 MAT157: Intro to Integral Calculus II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170111MAT157_Integrability+Condition.pdf][20170111 MAT157: Integrability Condition]]
+
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
