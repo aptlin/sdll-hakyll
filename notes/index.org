@@ -37,7 +37,9 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170106MAT157_Intro+to+Integral+Calculus.pdf][20170106 MAT157: Intro to Integral Calculus]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170109MAT157_Intro+to+Integral+Calculus+II.pdf][20170109 MAT157: Intro to Integral Calculus II]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170111MAT157_Integrability+Condition.pdf][20170111 MAT157: Integrability Condition]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170113MAT157_Algebra+of+Integrals.pdf][20170113 MAT157: Algebra of Integrals]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170116MAT157_Properties+of+Integrals.pdf][20170116 MAT157: Properties of Integrals]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170118MAT157_Application+of+the+Fundamental+Theorem+of+Calculus.pdf][20170118 MAT157: Application of the Fundamental Theorem of Calculus]]
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -67,6 +69,10 @@
 *** MAT247: UToronto Algebra II
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170105MAT247_Review+of+Determinants+and+Intro+to+Diagonalisation.pdf][20170105 MAT247: Review of Determinants and Intro to Diagonalisation]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170110MAT247_Diagonalisation+II.pdf][20170110 MAT247: Diagonalisation II]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170112MAT247_Tests+for+Diagonalizability+I.pdf][20170112 MAT247: Tests for Diagonalizability I]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170117MAT247_Tests+for+Diagonalisability+II.pdf][20170117 MAT247: Tests for Diagonalisability II]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170119MAT247_Introduction+to+Inner+Product+Spaces.pdf][20170119 MAT247: Introduction to Inner Product Spaces]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170119MAT247_Invariant+Subspaces.pdf][20170119 MAT247: Invariant Subspaces]]
 * Computer Science
 
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20160912CSC148.pdf][20160912 CSC148: Introduction to Computer Science]]
@@ -150,3 +156,5 @@
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20161130BIO120_Trophic+Ecology.pdf][20161130 BIO120: Trophic Ecology]]
 ** BIO130
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170105BIO130_Intro+to+Cells,+Diversity+and+Nucleic+Acids.pdf][20170105 BIO130: Intro to Cells, Diversity and Nucleic Acids]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170112BIO130_Study+of+Diversity.pdf][20170112 BIO130: Study of Diversity]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170119BIO130_Synthesis+of+Proteins.pdf][20170119 BIO130: Synthesis of Proteins]]
