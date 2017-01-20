@@ -5,8 +5,8 @@
 
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161109Frank+Sottile_Galois+Groups+in+Enumerative+Geometry+and+Applications.pdf][20161109 Frank Sottile: Galois Groups in Enumerative Geometry and Applications]]
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161124Askold+Khovanskii_Newton-Okounkov+Bodies.pdf][20161124 Askold Khovanskii: Newton-Okounkov Bodies]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MIKVEH20170117Curtis+McMullen_Almost+Simple+Loops+in+the+Plane.pdf][20170117 Curtis McMullen: Almost Simple Loops in the Plane]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MIKVEH20170118Curtis+McMullen_Surfaces+in+the+Space+of+Surfaces.pdf][20170118 Curtis McMullen: Surfaces in the Space of Surfaces]]
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170117Curtis+McMullen_Almost+Simple+Loops+in+the+Plane.pdf][20170117 Curtis McMullen: Almost Simple Loops in the Plane]]
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170118Curtis+McMullen_Surfaces+in+the+Space+of+Surfaces.pdf][20170118 Curtis McMullen: Surfaces in the Space of Surfaces]]
 
 * Affine Geometric Analysis
 
@@ -28,5 +28,5 @@
 
 * Number Theory
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MIKVEH20170111_Bjorn+Poonen_Undecidability+in+Number+Theory.pdf][20170111: Bjorn Poonen: Undecidability in Number Theory]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MIKVEH20170116Curtis+McMullen_A+Skeptical+History+of+Numbers.pdf][20170116 Curtis McMullen: A Skeptical History of Numbers]]
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170111_Bjorn+Poonen_Undecidability+in+Number+Theory.pdf][20170111: Bjorn Poonen: Undecidability in Number Theory]]
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170116Curtis+McMullen_A+Skeptical+History+of+Numbers.pdf][20170116 Curtis McMullen: A Skeptical History of Numbers]]
