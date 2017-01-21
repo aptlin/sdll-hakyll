@@ -71,10 +71,9 @@
 
 
 * Motivation
-
 #+BEGIN_QUOTE
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT html
 <i>
 As a joke I said, "What is the purpose of Life?"
 <br/>
@@ -105,7 +104,7 @@ And the aim is to keep the SF's score low.
 </i>
 <b>Paul Erdős</b>
 
-#+END_HTML
+#+END_EXPORT
 
 #+END_QUOTE
 
