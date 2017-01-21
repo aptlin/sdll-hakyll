@@ -1,8 +1,9 @@
 #+STARTUP: showall
 #+OPTIONS: toc:3
 
-
-#+BEGIN_EXPORT html 
+#+BEGIN_EXPORT html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css" integrity="sha384-wE+lCONuEo/QSfLb4AfrSk7HjWJtc4Xc1OiB2/aDBzHzjnlBP4SX7vjErTcwlA8C" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js" integrity="sha384-tdtuPw3yx/rnUGmnLNWXtfjb9fpmwexsd+lr6HUYnUY4B7JhB5Ty7a1mYd+kto/s" crossorigin="anonymous"></script>
 <script src="https://sdll.github.io/assets/scripts/jquery-1.12.2.min.js"></script>
 <link rel="stylesheet" href="https://sdll.github.io/assets/scripts/katex/katex.min.css">
 <script src="https://sdll.github.io/assets/scripts/katex/katex.min.js"></script>
@@ -43,15 +44,11 @@
   set ylabel "SF Score"
   set boxwidth 0.5
   set auto x
-  
   set yrange [0:150]
-
   stats data every ::1 using (sum[i=2:3] column(i)) nooutput
   total = int(STATS_sum)
-
   set title  "Dynamics of Nonsense\n" \
   .strftime("Total SF Score on %Y/%m/%d: ", time(0)) .sprintf('%d', total)
-
   set xtics rotate by -45"
   plot data using 2:xtic(1) title col fc rgb A,\
   '' using 3:xtic(1) title col fc rgb B,\
@@ -62,11 +59,9 @@
 #+RESULTS:
 [[file:/home/aleph/WERKE/sdll.github.io/files/assets/org/sfscore.png]]
 
-
-
 * Status
 #+ATTR_HTML: :width 100%
-[[../../assets/org/sfscore.png]]
+[[../assets/org/sfscore.png]]
 
 
 
@@ -128,6 +123,22 @@ Nonsense (%):
   - Exams: Double the corresponding score for PS
 
 ** Analysis
+
+***  [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161128MAT157_Pset+VIII.pdf][20161128 MAT157: Pset VIII]]
+
+    Nonsense: 31.8%
+
+    2: Too much of the computational wishful thinking.
+    6: What about the point when $$f$$ *is* zero?
+    
+    Rather, fix any $$y > c$$, $$y \in (a,b)$$. Then use MVT to find a
+    point $$\alpha \in (c,y) $$ such that $$f'(\alpha) = \frac{f(y) -
+    f(c)}{y-c}$$. Then obtain that $$f(y)> f(c)$$. 
+
+    By similar procedure, fix $$x$$ on $$(a, c)$$such that $$f(x) <
+    f(c)$$.
+
+    Thus, $$f(x) < f(c) < f(y)$$.
 
 ***  [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161104MAT157_PS+6.pdf][20161104 MAT157: Pset VI]]
 
@@ -355,7 +366,7 @@ Nonsense (%):
     Show your work!
 
     Commentary, reproduced as is: 
-#+begin_html
+#+begin_EXPORT html
     <em>The reason your argument deserves no credit is that you haven't
     given an argument. You pull the coefficients out of thin air,
     without any explanation as to how you got them, or any proof that
@@ -363,7 +374,7 @@ Nonsense (%):
     from someone else, or use Wolfram Alpha, Maple, or another
     computer algebra system to get these coefficients. Keep in mind:
     the right answer isn't worth anything by itself.</em>
-#+end_html
+#+end_EXPORT
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_2.pdf][20161006 MAT240: 2]]
   
@@ -460,16 +471,18 @@ Nonsense (%):
     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_5.pdf][20160923MAT240 V]]
 
 
-#+begin_html
+#+begin_EXPORT html
 <script>
-      renderMathInElement(
+renderMathInElement(
           document.body,
           {
               delimiters: [
-                  {left: "$$$", right: "$$$", display: true},
                   {left: "$$", right: "$$", display: false},
+                  {left: "\\[", right: "\\]", display: false},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
               ]
           }
       );
 </script>
-#+end_html
+#+end_EXPORT
