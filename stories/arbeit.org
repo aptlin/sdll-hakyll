@@ -2,12 +2,10 @@
 #+OPTIONS: toc:3
 
 #+BEGIN_EXPORT html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css" integrity="sha384-wE+lCONuEo/QSfLb4AfrSk7HjWJtc4Xc1OiB2/aDBzHzjnlBP4SX7vjErTcwlA8C" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js" integrity="sha384-tdtuPw3yx/rnUGmnLNWXtfjb9fpmwexsd+lr6HUYnUY4B7JhB5Ty7a1mYd+kto/s" crossorigin="anonymous"></script>
-<script src="https://sdll.github.io/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="https://sdll.github.io/assets/scripts/katex/katex.min.css">
-<script src="https://sdll.github.io/assets/scripts/katex/katex.min.js"></script>
-<script src="https://sdll.github.io/assets/scripts/katex/contrib/auto-render.min.js"></script>
+<script src="/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="/assets/scripts/katex/katex.min.css" integrity="sha384-wE+lCONuEo/QSfLb4AfrSk7HjWJtc4Xc1OiB2/aDBzHzjnlBP4SX7vjErTcwlA8C" crossorigin="anonymous">
+<script src="/assets/scripts/katex/katex.min.js" integrity="sha384-tdtuPw3yx/rnUGmnLNWXtfjb9fpmwexsd+lr6HUYnUY4B7JhB5Ty7a1mYd+kto/s" crossorigin="anonymous"></script>
+<script src="assets/scripts/katex/contrib/auto-render.min.js"></script>
 #+END_EXPORT
 
 * Raw Data                                                         :noexport:
@@ -63,8 +61,67 @@
 #+ATTR_HTML: :width 100%
 [[../assets/org/sfscore.png]]
 
+#+BEGIN_EXPORT html
+<script src= "https://sdll.github.io/assets/scripts/d3.v3.min.js" > </script> 
+<script>
 
+var svg = d3.select("svg"),
+    margin = {top: 20, right: 20, bottom: 30, left: 50},
+    width = +svg.attr("width") - margin.left - margin.right,
+    height = +svg.attr("height") - margin.top - margin.bottom,
+    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+var parseTime = d3.timeParse("%d-%b-%y");
+
+var x = d3.scaleTime()
+    .rangeRound([0, width]);
+
+var y = d3.scaleLinear()
+    .rangeRound([height, 0]);
+
+var line = d3.line()
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.close); });
+
+d3.tsv("/assets/org/sfscore", function(d) {
+  d.date = parseTime(d.date);
+  d.MAT157 = +d.MAT157;
+  d.MAT240 = +d.MAT240
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  x.domain(d3.extent(data, function(d) { return d.date; }));
+  y.domain(d3.extent(data, function(d) { return d.MAT157; }));
+
+  g.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x))
+    .select(".domain")
+      .remove();
+
+  g.append("g")
+      .call(d3.axisLeft(y))
+    .append("text")
+      .attr("fill", "#000")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "0.71em")
+      .attr("text-anchor", "end")
+      .text("Price ($)");
+
+  g.append("path")
+      .datum(data)
+      .attr("fill", "none")
+      .attr("stroke", "steelblue")
+      .attr("stroke-linejoin", "round")
+      .attr("stroke-linecap", "round")
+      .attr("stroke-width", 1.5)
+      .attr("d", line);
+});
+</script>
+
+#+END_EXPORT
 * Motivation
 #+BEGIN_QUOTE
 
