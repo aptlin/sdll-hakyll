@@ -40,6 +40,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170113MAT157_Algebra+of+Integrals.pdf][20170113 MAT157: Algebra of Integrals]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170116MAT157_Properties+of+Integrals.pdf][20170116 MAT157: Properties of Integrals]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170118MAT157_Application+of+the+Fundamental+Theorem+of+Calculus.pdf][20170118 MAT157: Application of the Fundamental Theorem of Calculus]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170120MAT157_More+on+Integrability.pdf][20170120 MAT157: More on Integrability]]
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
