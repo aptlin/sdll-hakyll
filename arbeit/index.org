@@ -58,13 +58,9 @@
 [[file:/home/aleph/WERKE/sdll.github.io/files/assets/org/sfscore.png]]
 
 * Status
-#+ATTR_HTML: :width 100%
-[[../assets/org/sfscore.png]]
-
+つよく なりたい
 #+BEGIN_EXPORT html
-
-
-
+<iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="/assets/demos/sfscore.html" marginwidth="0" marginheight="0" style="height:800px; width:100%; border:none;" scrolling="no">Sorry, your browser cannot open the iframe. Do you want to continue to the <a href="/assets/demos/sfscore.html">graph page</a>?</iframe>
 #+END_EXPORT
 * Motivation
 #+BEGIN_QUOTE
