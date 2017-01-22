@@ -2,7 +2,9 @@
 
   <html>
   <meta charset="utf-8">
+  
   <head>
+
   <script src="/assets/scripts/jquery-1.12.2.min.js"></script>
   <script src= "/assets//scripts/d3.v3.min.js" > </script> 
   
@@ -63,7 +65,7 @@ var parseDate = d3.time.format("%Y%m%d").parse;
 var formatDate = d3.time.format("%b %d %Y");
 var formatTitle = d3.time.format("%b %d %Y");
 
-
+  <!-- Thanks to Gerardo Furtado for kind support. -->
 // Scales. Note the inverted domain fo y-scale: bigger is up!
 var y = d3.scale.linear()
     .range([height, 0]);
