@@ -6,8 +6,8 @@
   <head>
 
   <script src="/assets/scripts/jquery-1.12.2.min.js"></script>
-  <script src= "/assets//scripts/d3.v3.min.js" > </script> 
-  
+  <script src= "/assets//scripts/d3.v3.min.js" > </script>
+  <script src= "/assets//scripts/d3.tip.min.js" > </script> 
   <style type="text/css">
   body {
     font: 11px sans-serif;
@@ -39,6 +39,15 @@
     padding-bottom: 1em;
   }
 
+  .d3-tip {
+      line-height: 1;
+      font-weight: bold;
+      padding: 12px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #efefef;
+      border-radius: 2px;
+  }
+
 </style>
   </head>
 
@@ -53,7 +62,7 @@
     left: 20
   },
 width = 450 - margin.left - margin.right,
-height = 360 - margin.top - margin.bottom;
+height = 350 - margin.top - margin.bottom;
 
 var formatScore = d3.format(".0%");
 
@@ -75,6 +84,12 @@ var yAxis = d3.svg.axis()
     .orient("left")
     .tickFormat(formatScore);
 
+var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-10, 0])
+    .html(function(d) {
+      return "<strong>" + "SF Score: " + "</strong><span style='color:#fff'>" + d.score + "</span>";
+    })
 // csv loaded asynchronously
 d3.tsv("sfscore.tsv", type, function(data) {
 
@@ -188,8 +203,11 @@ d3.tsv("sfscore.tsv", type, function(data) {
     })
     .attr("fill", function(d) {
       return color(d.score)
-    });
+    })
+    .on('mouseover', tip.show)
+    .on('mouseout', tip.hide);
 
+  svg.call(tip);
   document.getElementById('sfscore').innerHTML = "Total SF Score" +": <strong>" + sum.toString() +"</strong>";
 
 });
