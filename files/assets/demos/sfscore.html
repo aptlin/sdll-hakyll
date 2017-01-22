@@ -1,151 +1,203 @@
   <!DOCTYPE html>
+
+  <html>
   <meta charset="utf-8">
-  <style>
-
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: auto;
-  position: relative;
-  width: 960px;
-}
-
-text {
-  font: 10px sans-serif;
-}
-
-  .axis path {
-    display: none;
+  <head>
+  <script src="/assets/scripts/jquery-1.12.2.min.js"></script>
+  <script src= "/assets//scripts/d3.v3.min.js" > </script> 
+  
+  <style type="text/css">
+  body {
+    font: 11px sans-serif;
+    margin: 10px;
   }
 
+  .axis path,
   .axis line {
     fill: none;
     stroke: #000;
     shape-rendering: crispEdges;
   }
 
-  .course-label {
-    font-weight: bold;
-    text-anchor: end;
+  .bar:hover {
+    fill: #259359 ;
   }
 
-form {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
+  .x.axis path {
+    display: none; 
+  }
+
+  #vis{
+      text-align:center;
+  }
+
+  #sfscore{
+    text-align:center;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+  }
 
 </style>
-  <form>
-  <label><input type="radio" name="mode" score="multiples" checked> Multiples</label>
-  <label><input type="radio" name="mode" score="stacked"> Stacked</label>
-  </form>
-  <script src="http//d3js.org/d3.v3.min.js"></script>
-  <script>
+  </head>
 
-var parseDate = d3.time.format("%Y%m%d").parse,
-formatYear = d3.format("02d"),
-formatDate = function(d) { return "Q" + ((d.getMonth() / 3 | 0) + 1) + formatYear(d.getFullYear() % 100); };
+  <body>
+  <p id="sfscore"></p>
+  <div id="vis"></div>
+  <script type="text/javascript">
+  var margin = {
+    top: 224,
+    right: 100,
+    bottom: 120,
+    left: 20
+  },
+width = 450 - margin.left - margin.right,
+height = 360 - margin.top - margin.bottom;
 
-var margin = {top: 10, right: 20, bottom: 20, left: 60},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+var formatScore = d3.format(".0%");
 
-var y0 = d3.scale.ordinal()
-    .rangeRoundBands([height, 0], .2);
+var colours = ["#FFB363", "#FF8363", "#FF7363", "#FF6364"];
+var color =d3.scale.ordinal().range(colours);
+//var color = d3.scale.category10();
 
-var y1 = d3.scale.linear();
+var parseDate = d3.time.format("%Y%m%d").parse;
+var formatDate = d3.time.format("%b %d %Y");
+var formatTitle = d3.time.format("%b %d %Y");
 
-var x = d3.scale.ordinal()
-    .rangeRoundBands([0, width], .1, 0);
 
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .orient("bottom")
-    .tickFormat(formatDate);
+// Scales. Note the inverted domain fo y-scale: bigger is up!
+var y = d3.scale.linear()
+    .range([height, 0]);
 
-var nest = d3.nest()
-    .key(function(d) { return d.course; });
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickFormat(formatScore);
 
-var stack = d3.layout.stack()
-    .scores(function(d) { return d.scores; })
-    .x(function(d) { return d.date; })
-    .y(function(d) { return d.score; })
-    .out(function(d, y0) { d.scoreOffset = y0; });
+// csv loaded asynchronously
+d3.tsv("sfscore.tsv", type, function(data) {
 
-var color = d3.scale.category10();
+  // Data is nested by course
+  var courses = d3.nest()
+      .key(function(d) {
+        return d.course;
+      })
+  //      .key(function(d) { return d.date;})
+      .entries(data);
+  var dates = d3.nest()
+      .key(function(d) {
+        return d.date;
+      })
+  //      .key(function(d) { return d.date;})
+      .entries(data);
+  var score = d3.nest()
+      .key(function(d) {
+        return d.score;
+      })
+  //      .key(function(d) { return d.date;})
+      .entries(data);
 
-var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  var sum = d3.sum(data, function(d) { return d.score; });
+  
 
-d3.tsv("sfscore.tsv", function(error, data) {
+  var xScale = {};
 
-  data.forEach(function(d) {
-    d.date = parseDate(d.date);
-    d.score = +d.score;
+  courses.forEach(function(d) {
+    xScale[d.key] = d3.scale.ordinal()
+      .rangeRoundBands([0, width], .1)
+      .domain(d.values.map(function(e) {
+        return e.date
+      }));
   });
 
-  var dataByCourse = nest.entries(data);
+  // Parse dates and numbers. We assume values are sorted by date.
+  // Also compute the maximum price per symbol, needed for the y-domain.
+  //   s.maxPrice = d3.max(s.values, function(d) { return d.price; });
+  // });
 
-  stack(dataByCourse);
-  x.domain(dataByCourse[0].scores.map(function(d) { return d.date; }));
-  y0.domain(dataByCourse.map(function(d) { return d.key; }));
-  y1.domain([0, d3.max(data, function(d) { return d.score; })]).range([y0.rangeBand(), 0]);
+  // Compute the minimum and maximum date and score across symbols.
+  y.domain([0, d3.max(courses, function(s) {
+    return s.values[0].score;
+  })]);
 
-  var course = svg.selectAll(".course")
-      .data(dataByCourse)
-      .enter().append("g")
-      .attr("class", "course")
-      .attr("transform", function(d) { return "translate(0," + y0(d.key) + ")"; });
+  var xAxis = d3.svg.axis()
+      .orient("bottom");
 
-  course.append("text")
-    .attr("class", "course-label")
-    .attr("x", -6)
-    .attr("y", function(d) { return y1(d.scores[0].score / 2); })
-    .attr("dy", ".35em")
-    .text(function(d) { return "Course " + d.key; });
+  // Add an SVG element for each course, with the desired dimensions and margin.
+  var svg = d3.select("#vis").selectAll("svg")
+      .data(courses)
+      .enter()
+      .append("svg:svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  course.selectAll("rect")
-    .data(function(d) { return d.scores; })
-    .enter().append("rect")
-    .style("fill", function(d) { return color(d.course); })
-    .attr("x", function(d) { return x(d.date); })
-    .attr("y", function(d) { return y1(d.score); })
-    .attr("width", x.rangeBand())
-    .attr("height", function(d) { return y0.rangeBand() - y1(d.score); });
-
-  course.filter(function(d, i) { return !i; }).append("g")
+  svg.append("g")
     .attr("class", "x axis")
-    .attr("transform", "translate(0," + y0.rangeBand() + ")")
-    .call(xAxis);
+    .attr("transform", "translate(0," + height + ")")
+    .each(function(d) {
+      return d3.select(this).call(xAxis.scale(xScale[d.key]))
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dx", "-.8em")
+        .attr("dy", "-.55em")
+        .attr("transform", "rotate(-90)");
+    })
 
-  d3.selectAll("input").on("change", change);
 
-  var timeout = setTimeout(function() {
-    d3.select("input[score=\"stacked\"]").property("checked", true).each(change);
-  }, 2000);
+      svg.append("g")
+  // Hide y axis
+  // .attr("class", "y axis")
+  // .call(yAxis)
+    .append("text")
+    .attr("x", width / 2 + margin.left / 2 + margin.right / 4 )
+    .attr("y", 0.9 * margin.bottom)
+    .attr("dy", ".71em")
+    .style("font-weight", "bold")
+    .attr("text-anchor", "end")
+    .attr("font-size", "1.1em")
+    .text(function(d) {
+      return d.key
+    });
 
-  function change() {
-    clearTimeout(timeout);
-    if (this.score === "multiples") transitionMultiples();
-    else transitionStacked();
-  }
+  // Accessing nested data: https://groups.google.com/forum/#!topic/d3-js/kummm9mS4EA
+  // data(function(d) {return d.values;}) 
+  // this will dereference the values for nested data for each group
+  svg.selectAll(".bar")
+    .data(function(d) {
+      return d.values;
+    })
+    .enter()
+    .append("rect")
+    .attr("class", "bar")
+    .attr("x", function(d) {
+      var scale = d3.select(this.parentNode).datum().key;
+      return xScale[scale](d.date);
+    })
+    .attr("width", function() {
+      var scale = d3.select(this.parentNode).datum().key;
+      return xScale[scale].rangeBand()
+    })
+    .attr("y", function(d) {
+      return y(d.score);
+    })
+    .attr("height", function(d) {
+      return height - y(d.score);
+    })
+    .attr("fill", function(d) {
+      return color(d.score)
+    });
 
-  function transitionMultiples() {
-    var t = svg.transition().duration(750),
-        g = t.selectAll(".course").attr("transform", function(d) { return "translate(0," + y0(d.key) + ")"; });
-    g.selectAll("rect").attr("y", function(d) { return y1(d.score); });
-    g.select(".course-label").attr("y", function(d) { return y1(d.scores[0].score / 2); })
-  }
+  document.getElementById('sfscore').innerHTML = "Total SF Score" +": <strong>" + sum.toString() +"</strong>";
 
-  function transitionStacked() {
-    var t = svg.transition().duration(750),
-        g = t.selectAll(".course").attr("transform", "translate(0," + y0(y0.domain()[0]) + ")");
-    g.selectAll("rect").attr("y", function(d) { return y1(d.score + d.scoreOffset); });
-    g.select(".course-label").attr("y", function(d) { return y1(d.scores[0].score / 2 + d.scores[0].scoreOffset); })
-  }
 });
 
+function type(d) {
+  d.score = +d.score;
+  d.date = formatDate(parseDate(d.date));
+  return d;
+}
+
 </script>
+  </body>
+  </html>
