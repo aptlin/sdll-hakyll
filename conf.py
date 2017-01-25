@@ -138,6 +138,7 @@ NAVIGATION_LINKS = {
         ("/arbeit", "Arbeit"),
         ("/mikveh", "Mikveh"),
         ("/notes", "Notes"),
+        ("/trove", "Trove"),
         ("/log", "Log"),
         ("/gallery", "Gallery"),
 #        ("/archive.html", "Archive"),

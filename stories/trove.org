@@ -1,0 +1,7 @@
+* Blogs
+
+- [[http://blogs.ams.org/blogonmathblogs/#sthash.bSqyG4Jg.dpbs][AMS Blog on Blogs]]
+* People
+- [[https://math.uchicago.edu/~jpwang/][Jonathan Wang]]
+- [[http://yisun.io/index.html][Yi Sun]]
+- [[http://yufeizhao.com/][Yufei Zhao]]
