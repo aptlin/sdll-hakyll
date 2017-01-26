@@ -483,3 +483,6 @@ renderMathInElement(
       );
 </script>
 #+end_EXPORT
+
+** Logic
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170124CSC240_Pset+II.pdf][20170124 CSC240: Pset II]]
