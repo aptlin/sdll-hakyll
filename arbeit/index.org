@@ -486,3 +486,4 @@ renderMathInElement(
 
 ** Logic
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170124CSC240_Pset+II.pdf][20170124 CSC240: Pset II]]
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170131CSC240_Pset+III.pdf][20170131 CSC240: Pset III]]
