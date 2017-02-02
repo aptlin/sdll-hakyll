@@ -240,9 +240,22 @@ Nonsense (%):
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_4.pdf][20170201 MAT247: Pset III: 4]]
 **** 20170126: Pset II
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_1.pdf][20170126 MAT247: Pset II: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_2.pdf][20170126 MAT247: Pset II: 2]]
+  
+  Wrong change-of-basis matrix -- think about what goes where.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_2.pdf][20170126 MAT247: Pset II: 2]] 
+  
+  Insufficient justification of why eigenvectors are in one and only
+    one eigenspace.
+    
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_3.pdf][20170126 MAT247: Pset II: 3]]
+
+    Complete misunderstanding of the problem.
+
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_4.pdf][20170126 MAT247: Pset II: 4]]
+
+  Justify the relation between $$ |\bigcup \beta_i |$$ and $$\sum\dim W_i$$.
+
 **** 20170118: Pset I
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_1.pdf][20170118 MAT247: Pset I: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_2.pdf][20170118 MAT247: Pset I: 2]]
