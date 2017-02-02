@@ -259,8 +259,14 @@ Nonsense (%):
 **** 20170118: Pset I
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_1.pdf][20170118 MAT247: Pset I: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_2.pdf][20170118 MAT247: Pset I: 2]]
+
+  $$\beta$$ in the given form is not a basis of a polynomial vector
+space.
+
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_3.pdf][20170118 MAT247: Pset I: 3]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_4.pdf][20170118 MAT247: Pset I: 4]]
+
+  Explain better why conditions on the eigenspaces must hold.
 *** MAT240
 **** 20161202: Pset IX
      Nonsense: 18.0%
