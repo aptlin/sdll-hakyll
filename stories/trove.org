@@ -1,10 +1,9 @@
 * Libraries
-- [[http://www.mathnet.ru/php/presentation.phtml?&option_lang=eng][Mathnet.ru Video Library]]
-
-* Blogs
-
-- [[http://blogs.ams.org/blogonmathblogs/#sthash.bSqyG4Jg.dpbs][AMS Blog on Blogs]]
+** [[http://www.mathnet.ru/php/presentation.phtml?&option_lang=eng][Mathnet.ru Video Library]]
+* Blogs                                                              :elfeed:
+** http://blogs.ams.org/blogonmathblogs/feed/
+** [[http://blogs.ams.org/blogonmathblogs/#sthash.bSqyG4Jg.dpbs][AMS Blog on Blogs]]
 * People
-- [[https://math.uchicago.edu/~jpwang/][Jonathan Wang]]
-- [[http://yisun.io/index.html][Yi Sun]]
-- [[http://yufeizhao.com/][Yufei Zhao]]
+** [[https://math.uchicago.edu/~jpwang/][Jonathan Wang]]
+** [[http://yisun.io/index.html][Yi Sun]]
+** [[http://yufeizhao.com/][Yufei Zhao]]
