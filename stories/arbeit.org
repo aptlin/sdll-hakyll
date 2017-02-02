@@ -232,257 +232,274 @@ Nonsense (%):
 
 ** Linear Algebra
 
-*** 20161202: Pset IX
-    Nonsense: 18.0%
+*** MAT247
+**** 20170201: Pset III
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_1.pdf][20170201 MAT247: Pset III: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_2.pdf][20170201 MAT247: Pset III: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_3.pdf][20170201 MAT247: Pset III: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_4.pdf][20170201 MAT247: Pset III: 4]]
+**** 20170126: Pset II
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_1.pdf][20170126 MAT247: Pset II: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_2.pdf][20170126 MAT247: Pset II: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_3.pdf][20170126 MAT247: Pset II: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_4.pdf][20170126 MAT247: Pset II: 4]]
+**** 20170118: Pset I
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_1.pdf][20170118 MAT247: Pset I: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_2.pdf][20170118 MAT247: Pset I: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_3.pdf][20170118 MAT247: Pset I: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_4.pdf][20170118 MAT247: Pset I: 4]]
+*** MAT240
+**** 20161202: Pset IX
+     Nonsense: 18.0%
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_1.pdf][20161201 MAT240: 1]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_1.pdf][20161201 MAT240: 1]]
 
-    Be careful with how you count.
+     Be careful with how you count.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_2.pdf][20161201 MAT240: 2]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_2.pdf][20161201 MAT240: 2]]
 
-    The argument lacks the substance -- a mishmash of terminology does
-    no good to the reasoning.
+     The argument lacks the substance -- a mishmash of terminology does
+     no good to the reasoning.
 
-    Let $$q_0(t) = 1$$, $$q_1(t) = x$$, $$q_2(t) = x^2$$, $$q_3(t) = x^3$$.
+     Let $$q_0(t) = 1$$, $$q_1(t) = x$$, $$q_2(t) = x^2$$, $$q_3(t) = x^3$$.
 
-    Notice that $$(p_0\ p_1\ p_2\ p_3) = (q_0\ q_1\ q_2\ q_3)C$$ for
-    some $$C\in M_{4\times 4}(\mathbb{F})$$ indepenedent of
-    $$t$$. Notice also that $$C$$ is invertible if and only if
-    $$\{p_i\}$$ is a basis.
+     Notice that $$(p_0\ p_1\ p_2\ p_3) = (q_0\ q_1\ q_2\ q_3)C$$ for
+     some $$C\in M_{4\times 4}(\mathbb{F})$$ indepenedent of
+     $$t$$. Notice also that $$C$$ is invertible if and only if
+     $$\{p_i\}$$ is a basis.
 
-    Then argue that $$f(t) = 12\det(C)$$.
+     Then argue that $$f(t) = 12\det(C)$$.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_3.pdf][20161201 MAT240: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_4.pdf][20161201 MAT240: 4]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_3.pdf][20161201 MAT240: 3]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_4.pdf][20161201 MAT240: 4]]
 
-    Use less abstruse language.
+     Use less abstruse language.
 
-    The phrase "The same arbitrary non-zero" is gibberish in the given
-    context.
+     The phrase "The same arbitrary non-zero" is gibberish in the given
+     context.
 
-*** 20161124: Pset VIII
+**** 20161124: Pset VIII
 
-    Nonsense: 0.00%
+     Nonsense: 0.00%
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_1.pdf][20161124 MAT240: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_2.pdf][20161124 MAT240: 2]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_1.pdf][20161124 MAT240: 1]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_2.pdf][20161124 MAT240: 2]]
 
-    Do not put equal signs between things which are not equal.
+     Do not put equal signs between things which are not equal.
 
-    Avoid superfluous calculations (no need to look at the case
-    $$2=0$$ separately).
+     Avoid superfluous calculations (no need to look at the case
+     $$2=0$$ separately).
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_3.pdf][20161124 MAT240: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_4.pdf][20161124 MAT240: 4]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_3.pdf][20161124 MAT240: 3]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_4.pdf][20161124 MAT240: 4]]
 
-*** 20161118: Pset VII
+**** 20161118: Pset VII
 
-    Nonsense: 0.00%
+     Nonsense: 0.00%
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_1.pdf][20161118 MAT240: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_2.pdf][20161118 MAT240: 2]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_3.pdf][20161118 MAT240: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_4.pdf][20161118 MAT240: 4]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_1.pdf][20161118 MAT240: 1]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_2.pdf][20161118 MAT240: 2]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_3.pdf][20161118 MAT240: 3]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_4.pdf][20161118 MAT240: 4]]
 
-*** 20161105: Pset VI
+**** 20161105: Pset VI
 
-    Nonsense: 8.00%
+     Nonsense: 8.00%
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_1.pdf][20161105 MAT240: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_2.pdf][20161105 MAT240: 2]] 
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_1.pdf][20161105 MAT240: 1]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_2.pdf][20161105 MAT240: 2]] 
     
-    The $$\Leftarrow$$ part is wrong, atrocious and disappointing.
+     The $$\Leftarrow$$ part is wrong, atrocious and disappointing.
 
-    It is obvious that the proof has been written with no intuitive
-    understanding of what the linear map given *is*. 
+     It is obvious that the proof has been written with no intuitive
+     understanding of what the linear map given *is*. 
 
-    First, consider $$W=\Im(T), W' = \ker(T)$$. Given some $$v\in V$$,
-    take $$w=T(v)$$
+     First, consider $$W=\Im(T), W' = \ker(T)$$. Given some $$v\in V$$,
+     take $$w=T(v)$$
 
-    Note that $$T(w)=T(T(v))=T(v)=w$$.
+     Note that $$T(w)=T(T(v))=T(v)=w$$.
 
-    Consider $$w'=v-w$$.
+     Consider $$w'=v-w$$.
 
-    $$T(w') = T(v)-T(w) = 0$$, and hence $$w'\in\ker(T)$$ and
-    $$w'\in W'$$. Therefore, $$V=W+W'$$.
+     $$T(w') = T(v)-T(w) = 0$$, and hence $$w'\in\ker(T)$$ and
+     $$w'\in W'$$. Therefore, $$V=W+W'$$.
 
-    Consider now $$w\in W\cap W'$$. Therefore, $$T(w) = w$$, since
-    $$w\in W$$, and $$T(w) = 0$$, since $$w\in W'$$. Hence, $$w=0$$,
-    and $$V=W\oplus W'$$.
+     Consider now $$w\in W\cap W'$$. Therefore, $$T(w) = w$$, since
+     $$w\in W$$, and $$T(w) = 0$$, since $$w\in W'$$. Hence, $$w=0$$,
+     and $$V=W\oplus W'$$.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_3.pdf][20161105 MAT240: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_4.pdf][20161105 MAT240: 4]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_3.pdf][20161105 MAT240: 3]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_4.pdf][20161105 MAT240: 4]]
 
-*** 20161028: Pset V
+**** 20161028: Pset V
 
-    Nonsense: 4.00%
+     Nonsense: 4.00%
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_1.pdf][20161028 MAT240: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_2.pdf][20161028 MAT240: 2]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_1.pdf][20161028 MAT240: 1]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_2.pdf][20161028 MAT240: 2]]
 
-    The construction of a linear map $$U$$ as given satisfies the
-    condition for every vector in $$W$$ if and only if $$v\neq
-    0$$. Remember that the value of $$S$$ depends on its input.
+     The construction of a linear map $$U$$ as given satisfies the
+     condition for every vector in $$W$$ if and only if $$v\neq
+     0$$. Remember that the value of $$S$$ depends on its input.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_3.pdf][20161028 MAT240: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_4.pdf][20161028 MAT240: 4]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_3.pdf][20161028 MAT240: 3]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_4.pdf][20161028 MAT240: 4]]
 
-*** 20161017: Midterm
+**** 20161017: Midterm
     
-    Nonsense: 3.75%
+     Nonsense: 3.75%
     
-    1. It is true that all square matrices over the field with the
-       characteristic not equal to 2 can be written uniquely as a sum
-       of a symmetric and a skew-symmetric matrix. Moral: rememember
-       that the definitive property of skew-symmetric matrices makes
-       their diagonal special.
-    2. Watch your arithmetic.
+     1. It is true that all square matrices over the field with the
+	characteristic not equal to 2 can be written uniquely as a sum
+	of a symmetric and a skew-symmetric matrix. Moral: rememember
+	that the definitive property of skew-symmetric matrices makes
+	their diagonal special.
+     2. Watch your arithmetic.
 
        
 
-*** 20161014: Pset IV
+**** 20161014: Pset IV
 
-    Nonsense: 2.00%
+     Nonsense: 2.00%
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_1.pdf][20161014 MAT240: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_2.pdf][20161014 MAT240: 2]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_3.pdf][20161014 MAT240: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_4.pdf][20161014 MAT240: 4]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_1.pdf][20161014 MAT240: 1]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_2.pdf][20161014 MAT240: 2]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_3.pdf][20161014 MAT240: 3]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_4.pdf][20161014 MAT240: 4]]
 
-    Argue about the dimensions to claim a basis.
+     Argue about the dimensions to claim a basis.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_5.pdf][20161014 MAT240: 5]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_5.pdf][20161014 MAT240: 5]]
 
-*** 20161006: Pset III
+**** 20161006: Pset III
 
-    Nonsense: 37.0%
+     Nonsense: 37.0%
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_1.pdf][20161006 MAT240: 1]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_1.pdf][20161006 MAT240: 1]]
 
-    Show your work!
+     Show your work!
 
-    Commentary, reproduced as is: 
-#+begin_EXPORT html
-    <em>The reason your argument deserves no credit is that you haven't
-    given an argument. You pull the coefficients out of thin air,
-    without any explanation as to how you got them, or any proof that
-    they work. I have no assurances that you didn't simply copy them
-    from someone else, or use Wolfram Alpha, Maple, or another
-    computer algebra system to get these coefficients. Keep in mind:
-    the right answer isn't worth anything by itself.</em>
-#+end_EXPORT
+     Commentary, reproduced as is: 
+ #+begin_EXPORT html
+     <em>The reason your argument deserves no credit is that you haven't
+     given an argument. You pull the coefficients out of thin air,
+     without any explanation as to how you got them, or any proof that
+     they work. I have no assurances that you didn't simply copy them
+     from someone else, or use Wolfram Alpha, Maple, or another
+     computer algebra system to get these coefficients. Keep in mind:
+     the right answer isn't worth anything by itself.</em>
+ #+end_EXPORT
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_2.pdf][20161006 MAT240: 2]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_2.pdf][20161006 MAT240: 2]]
   
-    The explanation is not lucid, and throwing big-name principles in the
-    face of the reader will not make it more so. It is much better to
-    argue from the observation that any vector space must include all
-    the scalar multiples of any vector it contains.
+     The explanation is not lucid, and throwing big-name principles in the
+     face of the reader will not make it more so. It is much better to
+     argue from the observation that any vector space must include all
+     the scalar multiples of any vector it contains.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_3.pdf][20161006 MAT240: 3]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_3.pdf][20161006 MAT240: 3]]
 
-    Write the proof in the direction that makes it rigorous, not in
-    the way it was obtained.
+     Write the proof in the direction that makes it rigorous, not in
+     the way it was obtained.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_4.pdf][20161006 MAT240: 4]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_4.pdf][20161006 MAT240: 4]]
 
-    The reasoning why $$\phi$$ exists is wrong: it is because
-    $$\sqrt{m^2+n^2} \neq 0$$.
+     The reasoning why $$\phi$$ exists is wrong: it is because
+     $$\sqrt{m^2+n^2} \neq 0$$.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_5.pdf][20161006 MAT240: 5]]
+   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_5.pdf][20161006 MAT240: 5]]
 
-    Improve your writing. For example, fixing $$u'$$ is not necessary in
-    the beginning.
+     Improve your writing. For example, fixing $$u'$$ is not necessary in
+     the beginning.
 
-*** 20160930: Pset II
+**** 20160930: Pset II
 
-    Nonsense: 12.0%
+     Nonsense: 12.0%
 
-    Bad work. Unattentiveness and unfounded intuitions lead to
-    misunderstandings.
+     Bad work. Unattentiveness and unfounded intuitions lead to
+     misunderstandings.
 
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_1.pdf][20160930 MAT240: 1]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_1.pdf][20160930 MAT240: 1]]
 
-      Be careful with what you copy and paste.
+       Be careful with what you copy and paste.
 
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_2.pdf][20160930 MAT240: 2]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_2.pdf][20160930 MAT240: 2]]
 
-      Simplify the notation.
+       Simplify the notation.
 
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_3.pdf][20160930 MAT240: 3]]
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_4.pdf][20160930 MAT240: 4]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_3.pdf][20160930 MAT240: 3]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_4.pdf][20160930 MAT240: 4]]
 
-      + Theorem 0.1:
+       + Theorem 0.1:
 
-        Think and possibly handwrite before you type to avoid overconfidence
-        and silly mistakes.
+         Think and possibly handwrite before you type to avoid overconfidence
+         and silly mistakes.
 
-      + 4.6:
+       + 4.6:
 
-        Another example of messing up the operations used. It is
-        not true that $$a\cdot(b\tilde{\cdot}x)=(ab)\tilde{\cdot}x$$.
+         Another example of messing up the operations used. It is
+         not true that $$a\cdot(b\tilde{\cdot}x)=(ab)\tilde{\cdot}x$$.
 
-      + 4.7:
+       + 4.7:
 
-        Missing the point of the exercise and the meaning of the
-        property yet again.
+         Missing the point of the exercise and the meaning of the
+         property yet again.
 
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_5.pdf][20160930 MAT240: 5]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_5.pdf][20160930 MAT240: 5]]
 
-      + 5.a $$\Rightarrow$$: Poor argument. What if $$x=0$$?
+       + 5.a $$\Rightarrow$$: Poor argument. What if $$x=0$$?
 
-        Order properties tend not to have anything to do with
-        linear algebra.
+         Order properties tend not to have anything to do with
+         linear algebra.
 
-        *WRONG APPROACH*:
+         *WRONG APPROACH*:
 
-        Suppose that $$W$$ is a subset of $$S$$ to prove by
-        contraposition that $$W \cup S$$ is not a subspace of
-        $$V$$.
+         Suppose that $$W$$ is a subset of $$S$$ to prove by
+         contraposition that $$W \cup S$$ is not a subspace of
+         $$V$$.
 
-        *It is not necessary that $$W$$ must be a subset of
-        $$S$$ if the negation of $$S \subset W$$ is assumed.*
+         *It is not necessary that $$W$$ must be a subset of
+         $$S$$ if the negation of $$S \subset W$$ is assumed.*
 
-        *BETTER*:
+         *BETTER*:
 
-        It is required to show that $$\forall s \in S: s \in W $$. If
-        $$s=0$$, the result is trivial. If $$s\neq 0$$, consider $$tv
-        \in W\cup S$$ for some scalar $$t$$. Since $$S$$ is finite,
-        there exists $$t'$$ such that $$t's \in W\cup S$$, but not in
-        $$S$$. Hence, $$t'v \in W$$. Since $$\mathbb{F}=\mathbb{R}$$,
-        multiply $$t'v$$ by $$\frac{1}{t'}$$ to get $$v$$, which also
-        must be in $$W$$. Hence, all the elements of $$S$$ are in $$W$$.
+         It is required to show that $$\forall s \in S: s \in W $$. If
+         $$s=0$$, the result is trivial. If $$s\neq 0$$, consider $$tv
+         \in W\cup S$$ for some scalar $$t$$. Since $$S$$ is finite,
+         there exists $$t'$$ such that $$t's \in W\cup S$$, but not in
+         $$S$$. Hence, $$t'v \in W$$. Since $$\mathbb{F}=\mathbb{R}$$,
+         multiply $$t'v$$ by $$\frac{1}{t'}$$ to get $$v$$, which also
+         must be in $$W$$. Hence, all the elements of $$S$$ are in $$W$$.
 
-*** 20160923MAT240: Pset I
+**** 20160923MAT240: Pset I
 
-    Nonsense: 10.0%
+     Nonsense: 10.0%
 
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_1.pdf][20160923MAT240 I]]
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_2.pdf][20160923MAT240 II]]
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_3.pdf][20160923MAT240 III]]
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_4.pdf][20160923MAT240 IV]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_1.pdf][20160923MAT240 I]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_2.pdf][20160923MAT240 II]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_3.pdf][20160923MAT240 III]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_4.pdf][20160923MAT240 IV]]
 
-      be extremely careful with arithmetic and explicit in your reasoning
+       be extremely careful with arithmetic and explicit in your reasoning
 
-    - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_5.pdf][20160923MAT240 V]]
+     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_5.pdf][20160923MAT240 V]]
 
 
-#+begin_EXPORT html
-<script>
-renderMathInElement(
-          document.body,
-          {
-              delimiters: [
-                  {left: "$$", right: "$$", display: false},
-                  {left: "\\[", right: "\\]", display: false},
-                  {left: "$", right: "$", display: false},
-                  {left: "\\(", right: "\\)", display: false}
-              ]
-          }
-      );
-</script>
-#+end_EXPORT
+ #+begin_EXPORT html
+ <script>
+ renderMathInElement(
+           document.body,
+           {
+               delimiters: [
+                   {left: "$$", right: "$$", display: false},
+                   {left: "\\[", right: "\\]", display: false},
+                   {left: "$", right: "$", display: false},
+                   {left: "\\(", right: "\\)", display: false}
+               ]
+           }
+       );
+ </script>
+ #+end_EXPORT
 
 ** Logic
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170124CSC240_Pset+II.pdf][20170124 CSC240: Pset II]]

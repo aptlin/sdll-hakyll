@@ -1,7 +1,6 @@
 * Libraries
 ** [[http://www.mathnet.ru/php/presentation.phtml?&option_lang=eng][Mathnet.ru Video Library]]
-* Blogs                                                              :elfeed:
-** http://blogs.ams.org/blogonmathblogs/feed/
+* Blogs                                                              
 ** [[http://blogs.ams.org/blogonmathblogs/#sthash.bSqyG4Jg.dpbs][AMS Blog on Blogs]]
 * People
 ** [[https://math.uchicago.edu/~jpwang/][Jonathan Wang]]
