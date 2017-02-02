@@ -250,7 +250,7 @@ Nonsense (%):
     
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_3.pdf][20170126 MAT247: Pset II: 3]]
 
-    Complete misunderstanding of the problem.
+  Complete misunderstanding of the problem.
 
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_4.pdf][20170126 MAT247: Pset II: 4]]
 
