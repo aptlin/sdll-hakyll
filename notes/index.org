@@ -50,6 +50,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170206MAT157_More+on+the+Exponential+Functions.pdf][20170206 MAT157: More on the Exponential Functions]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170208MAT157_Methods+of+Integration.pdf][20170208 MAT157: Methods of Integration]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170210MAT157_More+on+Integration.pdf][20170210 MAT157: More on Integration]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170213MAT157_Rational+Functions.pdf][20170213 MAT157: Rational Functions ]]
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
