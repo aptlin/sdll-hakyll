@@ -46,6 +46,10 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170127MAT157_Irrationality+of+Pi.pdf][20170127 MAT157: Irrationality of Pi]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170130MAT157_Planetary+Motion.pdf][20170130 MAT157: Planetary Motion]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170201MAT157_Logarithms.pdf][20170201 MAT157: Logarithms]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170203MAT157_More on Logarithms.pdf][20170203 MAT157: More on Logarithms]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170206MAT157_More+on+the+Exponential+Functions.pdf][20170206 MAT157: More on the Exponential Functions]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170208MAT157_Methods+of+Integration.pdf][20170208 MAT157: Methods of Integration]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170210MAT157_More+on+Integration.pdf][20170210 MAT157: More on Integration]]
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -83,6 +87,8 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170126MAT247_Orthogonality.pdf][20170126 MAT247: Orthogonality]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170131MAT247_Orthogonal+Complements.pdf][20170131 MAT247: Orthogonal Complements]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170202MAT247_Adjoints.pdf][20170202 MAT247: Adjoints]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170207MAT247_Spectral+Theorem.pdf][20170207 MAT247: Spectral Theorem]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170209MAT247_Spectral+Theorem+II.pdf][20170209 MAT247: Spectral Theorem II]]
 * Computer Science
 
 ** CSC148
@@ -120,6 +126,9 @@
 ** CSC240
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170130CSC240_Induction.pdf][20170130 CSC240: Induction]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170201CSC240_Induction+II.pdf][20170201 CSC240: Induction II]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170207CSC240_Induction+III.pdf][20170207 CSC240: Induction III]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170208CSC240_Structural+Induction.pdf][20170208 CSC240: Structural Induction]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170213CSC240_Well-Ordering.pdf][20170213 CSC240: Well-Ordering]]
 * Physics
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170109PHY152_Fluid+Mechanics.pdf][20170109 PHY152: Fluid Mechanics]]
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170111PHY152_Buoyancy.pdf][20170111 PHY152: Buoyancy]]
@@ -174,3 +183,6 @@
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170112BIO130_Study+of+Diversity.pdf][20170112 BIO130: Study of Diversity]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170119BIO130_Synthesis+of+Proteins.pdf][20170119 BIO130: Synthesis of Proteins]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170126BIO130_Chromatin+and+DNA+Replication.pdf][20170126 BIO130: Chromatin and DNA Replication]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170202BIO130_DNA+Replication.pdf][20170202 BIO130: DNA Replication]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170209BIO130_Transcription+III.pdf][20170209 BIO130: Transcription III]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170210BIO130_Translation.pdf][20170210 BIO130: Translation]]
