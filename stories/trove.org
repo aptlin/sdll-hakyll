@@ -11,3 +11,4 @@
 ** [[https://terrytao.wordpress.com/2008/09/27/what-is-a-gauge/][What is a Gauge? -- Terry Tao]]
 * Interviews
 ** [[https://www.youtube.com/watch?v=4T1sLEg8DpQ][Curtis McMullen]]
+** [[https://www.simonsfoundation.org/science_lives_video/pierre-deligne/][Pierre Deligne]]
