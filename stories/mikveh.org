@@ -26,12 +26,12 @@
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161123Stephen+Gustafson_Geometric+Schrodinger+Equations+and+Topological+Solitons.pdf][20161123 Stephen Gustafson: Geometric Schrodinger Equations and Topological Solitons]]
 
 * Network Theory
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20170222ARBEIT_Peter+Marbach_Modeling+and+Analysis+of+Social,+Economic+and+Financial+Networks.pdf][20170222 ARBEIT: Peter Marbach: Modeling and Analysis of Social, Economic and Financial Networks]]
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170222_Peter+Marbach_Modeling+and+Analysis+of+Social,+Economic+and+Financial+Networks.pdf][20170222 Peter Marbach: Modeling and Analysis of Social, Economic and Financial Networks]]
 * Number Theory
 
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170111_Bjorn+Poonen_Undecidability+in+Number+Theory.pdf][20170111: Bjorn Poonen: Undecidability in Number Theory]]
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170116Curtis+McMullen_A+Skeptical+History+of+Numbers.pdf][20170116: Curtis McMullen: A Skeptical History of Numbers]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20170221ARBEIT_Umberto+Zannier_The+Concept+of+Height+and+its+Usefulness.pdf][20170221: Umberto Zannier: The Concept of Height and its Usefulness]]
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170221_Umberto+Zannier_The+Concept+of+Height+and+its+Usefulness.pdf][20170221: Umberto Zannier: The Concept of Height and its Usefulness]]
 * Riemannian Geometry
 
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/20170222MIKVEH_Bruce+Kleiner_Ricci+flow,+Singularities,+Stability,+and+the+Topology+of+3-manifolds.pdf][20170222 MIKVEH: Bruce Kleiner: Ricci flow, Singularities, Stability, and the Topology of 3-manifolds]]
