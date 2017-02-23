@@ -233,6 +233,12 @@ Nonsense (%):
 ** Linear Algebra
 
 *** MAT247
+
+**** 20170208: Pset IV
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_1.pdf][20170208 MAT247: Pset IV: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_2.pdf][20170208 MAT247: Pset IV: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_3.pdf][20170208 MAT247: Pset IV: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_4.pdf][20170208 MAT247: Pset IV: 4]]
 **** 20170201: Pset III
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_1.pdf][20170201 MAT247: Pset III: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_2.pdf][20170201 MAT247: Pset III: 2]]
