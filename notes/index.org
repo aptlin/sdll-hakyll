@@ -51,6 +51,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170208MAT157_Methods+of+Integration.pdf][20170208 MAT157: Methods of Integration]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170210MAT157_More+on+Integration.pdf][20170210 MAT157: More on Integration]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170213MAT157_Rational+Functions.pdf][20170213 MAT157: Rational Functions ]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170215MAT157_Integration+Tricks.pdf][20170215 MAT157: Integration Tricks]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170217MAT157_Solids+of+Revolutions.pdf][20170217 MAT157: Solids of Revolutions]]
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -90,6 +92,7 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170202MAT247_Adjoints.pdf][20170202 MAT247: Adjoints]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170207MAT247_Spectral+Theorem.pdf][20170207 MAT247: Spectral Theorem]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170209MAT247_Spectral+Theorem+II.pdf][20170209 MAT247: Spectral Theorem II]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170214MAT247_Isometries+II.pdf][20170214 MAT247: Isometries]]
 * Computer Science
 
 ** CSC148
@@ -130,6 +133,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170207CSC240_Induction+III.pdf][20170207 CSC240: Induction III]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170208CSC240_Structural+Induction.pdf][20170208 CSC240: Structural Induction]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170213CSC240_Well-Ordering.pdf][20170213 CSC240: Well-Ordering]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170215CSC240_Diagonalisation.pdf][20170215 CSC240: Diagonalisation]]
 * Physics
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170109PHY152_Fluid+Mechanics.pdf][20170109 PHY152: Fluid Mechanics]]
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170111PHY152_Buoyancy.pdf][20170111 PHY152: Buoyancy]]
@@ -187,3 +191,5 @@
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170202BIO130_DNA+Replication.pdf][20170202 BIO130: DNA Replication]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170209BIO130_Transcription+III.pdf][20170209 BIO130: Transcription III]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170210BIO130_Translation.pdf][20170210 BIO130: Translation]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170216BIO130_Cellular+Form+and+Function.pdf][20170216 BIO130: Cellular Form and Function]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170216BIO130_Protein+Synthesis.pdf][20170216 BIO130: Protein Synthesis]]
