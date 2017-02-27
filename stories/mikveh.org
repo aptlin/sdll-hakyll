@@ -13,6 +13,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170117Curtis+McMullen_Almost+Simple+Loops+in+the+Plane.pdf][20170117 Curtis McMullen: Almost Simple Loops in the Plane]]
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170118Curtis+McMullen_Surfaces+in+the+Space+of+Surfaces.pdf][20170118 Curtis McMullen: Surfaces in the Space of Surfaces]]
 
+* Category Theory
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170224Fedor+Manin_Why+Should+You+Care+About+Model+Categories?.pdf][20170224 Fedor Manin: Why Should You Care About Model Categories?]]
 * Computational Complexity
 
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161116Madhu+Sudan_Imperfectly+Shared+Randomness+in+Communication.pdf][20161116 Madhu Sudan: Imperfectly Shared Randomness in Communication]]
@@ -35,3 +37,5 @@
 * Riemannian Geometry
 
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/20170222MIKVEH_Bruce+Kleiner_Ricci+flow,+Singularities,+Stability,+and+the+Topology+of+3-manifolds.pdf][20170222 MIKVEH: Bruce Kleiner: Ricci flow, Singularities, Stability, and the Topology of 3-manifolds]]
+* Probability Theory
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170224Mustazee+Rahman_From+Eigenvalues+To+Sorting.pdf][20170224 Mustazee Rahman: From Eigenvalues To Sorting]]
