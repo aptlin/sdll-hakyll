@@ -18,7 +18,7 @@
 * Computational Complexity
 
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161116Madhu+Sudan_Imperfectly+Shared+Randomness+in+Communication.pdf][20161116 Madhu Sudan: Imperfectly Shared Randomness in Communication]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170301David+Gamarnik_Arguably+Hard+On+Average+Constraint+Satisfaction+Problems.pdf][20170301 David Gamarnik: Arguably Hard On Average Constraint Satisfaction Problems]]
 * Decision Theory
 
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161107_Professor+Gracia-Saz_Voting+Theory.pdf][20161107: Professor Gracia-Saz: Voting Theory]]
@@ -39,3 +39,5 @@
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/20170222MIKVEH_Bruce+Kleiner_Ricci+flow,+Singularities,+Stability,+and+the+Topology+of+3-manifolds.pdf][20170222 Bruce Kleiner: Ricci flow, Singularities, Stability, and the Topology of 3-manifolds]]
 * Probability Theory
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170224Mustazee+Rahman_From+Eigenvalues+To+Sorting.pdf][20170224 Mustazee Rahman: From Eigenvalues To Sorting]]
+* Quantum Information
+  - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170308Arthur+Jaffe_A+New+Look+at+the+Mathematics+of+Quantum+Information.pdf][20170308 Arthur Jaffe: A New Look at the Mathematics of Quantum Information]]
