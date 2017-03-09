@@ -100,6 +100,7 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170228MAT247_Unitary+and+Orthogonal+Transformations.pdf][20170228 MAT247: Unitary and Orthogonal Transformations]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170302MAT247_Canonical Forms.pdf][20170302 MAT247: Canonical Forms]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170302MAT247_Orthogonal+Projection+and+Spectres.pdf][20170302 MAT247: Orthogonal Projection and Spectres]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170309MAT247_More+on+JCF.pdf][20170309 MAT247: More on JCF]]
 
 * Computer Science
 
