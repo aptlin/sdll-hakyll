@@ -53,6 +53,9 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170213MAT157_Rational+Functions.pdf][20170213 MAT157: Rational Functions ]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170215MAT157_Integration+Tricks.pdf][20170215 MAT157: Integration Tricks]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170217MAT157_Solids+of+Revolutions.pdf][20170217 MAT157: Solids of Revolutions]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170227MAT157_Polynomial+Approximation.pdf][20170227 MAT157: Polynomial Approximation]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170301MAT157_Approximating+Functions.pdf][20170301 MAT157: Approximating Functions]]
+
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -79,6 +82,7 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20161129MAT240_Determinants.pdf][20161129 MAT240: Determinants]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20161201MAT240_Determinants+II.pdf][20161201 MAT240: Determinants II]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20161206MAT240_Determinants+III.pdf][20161206 MAT240: Determinants III]]
+
 *** MAT247: UToronto Algebra II
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170105MAT247_Review+of+Determinants+and+Intro+to+Diagonalisation.pdf][20170105 MAT247: Review of Determinants and Intro to Diagonalisation]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170110MAT247_Diagonalisation+II.pdf][20170110 MAT247: Diagonalisation II]]
@@ -93,6 +97,10 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170207MAT247_Spectral+Theorem.pdf][20170207 MAT247: Spectral Theorem]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170209MAT247_Spectral+Theorem+II.pdf][20170209 MAT247: Spectral Theorem II]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170214MAT247_Isometries+II.pdf][20170214 MAT247: Isometries]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170228MAT247_Unitary+and+Orthogonal+Transformations.pdf][20170228 MAT247: Unitary and Orthogonal Transformations]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170302MAT247_Canonical Forms.pdf][20170302 MAT247: Canonical Forms]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170302MAT247_Orthogonal+Projection+and+Spectres.pdf][20170302 MAT247: Orthogonal Projection and Spectres]]
+
 * Computer Science
 
 ** CSC148
@@ -134,6 +142,10 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170208CSC240_Structural+Induction.pdf][20170208 CSC240: Structural Induction]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170213CSC240_Well-Ordering.pdf][20170213 CSC240: Well-Ordering]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170215CSC240_Diagonalisation.pdf][20170215 CSC240: Diagonalisation]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170227CSC240_Analysis+of+Algorithms.pdf][20170227 CSC240: Analysis of Algorithms]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170301CSC240_More+on+Algorithms.pdf][20170301 CSC240: More on Algorithms]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170306CSC240_Further+Analysis+of+Algorithms.pdf][20170306 CSC240: Further Analysis of Algorithms]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170308CSC240_Correctness+of+Algorithms.pdf][20170308 CSC240: Correctness of Algorithms]]
 * Physics
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170109PHY152_Fluid+Mechanics.pdf][20170109 PHY152: Fluid Mechanics]]
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170111PHY152_Buoyancy.pdf][20170111 PHY152: Buoyancy]]
@@ -193,3 +205,4 @@
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170210BIO130_Translation.pdf][20170210 BIO130: Translation]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170216BIO130_Cellular+Form+and+Function.pdf][20170216 BIO130: Cellular Form and Function]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170216BIO130_Protein+Synthesis.pdf][20170216 BIO130: Protein Synthesis]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170302BIO130_Membrane+Proteins.pdf][20170302 BIO130: Membrane Proteins]]

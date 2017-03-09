@@ -234,6 +234,16 @@ Nonsense (%):
 
 *** MAT247
 
+**** 20170309 MAT247: Pset VI
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_1.pdf][20170309 MAT247: Pset VI: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_2.pdf][20170309 MAT247: Pset VI: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_3.pdf][20170309 MAT247: Pset VI: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_4.pdf][20170309 MAT247: Pset VI: 4]]
+**** 20170302 MAT247: Pset V
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170302MAT247_Pset+V_1.pdf][20170302 MAT247: Pset V: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170302MAT247_Pset+V_2.pdf][20170302 MAT247: Pset V: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170302MAT247_Pset+V_3.pdf][20170302 MAT247: Pset V: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170302MAT247_Pset+V_4.pdf][20170302 MAT247: Pset V: 4]]
 **** 20170208: Pset IV
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_1.pdf][20170208 MAT247: Pset IV: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_2.pdf][20170208 MAT247: Pset IV: 2]]
@@ -530,3 +540,5 @@ space.
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170124CSC240_Pset+II.pdf][20170124 CSC240: Pset II]]
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170131CSC240_Pset+III.pdf][20170131 CSC240: Pset III]]
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208CSC240_Pset-IV.pdf][20170208 CSC240: Pset IV]]
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170215CSC240_Pset+V.pdf][20170215 CSC240: Pset V]]
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170301CSC240_Pset+VI.pdf][20170301 CSC240: Pset VI]]
