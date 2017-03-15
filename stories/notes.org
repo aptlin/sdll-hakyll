@@ -55,6 +55,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170217MAT157_Solids+of+Revolutions.pdf][20170217 MAT157: Solids of Revolutions]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170227MAT157_Polynomial+Approximation.pdf][20170227 MAT157: Polynomial Approximation]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170301MAT157_Approximating+Functions.pdf][20170301 MAT157: Approximating Functions]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170310MAT157_Taylor+Polynomial.pdf][20170310 MAT157: Taylor Polynomial]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170313MAT157_Taylor+Approximation.pdf][20170313 MAT157: Taylor Approximation]]
 
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
@@ -147,6 +149,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170301CSC240_More+on+Algorithms.pdf][20170301 CSC240: More on Algorithms]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170306CSC240_Further+Analysis+of+Algorithms.pdf][20170306 CSC240: Further Analysis of Algorithms]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170308CSC240_Correctness+of+Algorithms.pdf][20170308 CSC240: Correctness of Algorithms]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170313CSC240_More+on+Correctness+of+Algorithms.pdf][20170313 CSC240: More on Correctness of Algorithms]]
 * Physics
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170109PHY152_Fluid+Mechanics.pdf][20170109 PHY152: Fluid Mechanics]]
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170111PHY152_Buoyancy.pdf][20170111 PHY152: Buoyancy]]
