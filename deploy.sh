@@ -25,7 +25,7 @@ git push origin shyll
 git checkout master
 
 # delete old site
-rm -rf !(.git|.gitignore|) # dont delete CNAME and README.md
+rm -rf !(.git|.gitignore|.nojekyll) # dont delete CNAME and README.md
 git add -A && git commit -m "delete old site"
 
 # switch to hakyll branch and rebuild website
