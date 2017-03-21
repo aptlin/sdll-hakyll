@@ -1,0 +1,36 @@
+#+STARTUP: showall
+* Reading lists
+
+  - [[http://www.mit.edu/~evanchen/recommend.html][Evan Chen`s Reading Recommendations]]
+  - [[https://qchu.wordpress.com/reading-recommendations/][Annoying Precision Reading Recommendations]]
+  - [[https://burttotaro.wordpress.com/2010/10/19/books-for-beginning-research/][Books for beginning research]]
+  - [[https://www.ocf.berkeley.edu/~abhishek/chicmath.htm][Chicago undergraduate mathematics bibliography]]
+  - [[http://www.promys.org/resources/reading-list][PROMYS reading list]]
+  - [[https://github.com/sdll/MATHRES/tree/master/READING%20LIST][MATHRES]]
+
+* Troves
+
+  - [[https://ncatlab.org/nlab/show/HomePage][nLab]]
+  - [[http://www.mccme.ru/][MCCME]]
+  - [[https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp][George M. Bergman's Undergraduate Course Materials]]
+
+* Tools
+
+  - [[https://www.geogebra.org/apps][GEOGEBRA]]
+
+* Miscellaneous
+
+  - [[http://www.math.vanderbilt.edu/~schectex/commerrs/][THE MOST COMMON ERRORS IN UNDERGRADUATE MATHEMATICS]]
+
+* Blogs
+
+  - [[http://blog.jpolak.org/][Aleph Zero Categorical]]
+  - [[https://qchu.wordpress.com/][Annoying Precision]]
+  - [[https://cp4space.wordpress.com/][Complex Projective 4-Space]]
+  - [[http://blog.geomblog.org/][The Geomblog]]
+  - [[https://rjlipton.wordpress.com/][Gödel’s Lost Letter and P=NP]]
+  - [[http://mathbabe.org][mathbabe]]
+  - [[https://micromath.wordpress.com/][Mathematics under the Microscope]]
+  - [[https://golem.ph.utexas.edu/category/][The n-Category Café]]
+  - [[https://rigtriv.wordpress.com/][Rigorous Trivialities]]
+  - [[https://sbseminar.wordpress.com/][Secret Blogging Seminar]]
