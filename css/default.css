@@ -14,7 +14,7 @@ div#header {
     margin-bottom: 30px;
     padding: 15px 0px 0px 0px;
     display: table;
-    
+    width:100%
 }
 div#header #logo {
     display: table-cell;
@@ -81,4 +81,4 @@ div.info {
     color: #2aa198
 }
 
-                                                                  
+
