@@ -34,7 +34,7 @@
 
 <h1 id="status">Status</h1>
 <p>つよく なりたい</p>
-<iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="../assets/demos/sfscore.html" marginwidth="0" marginheight="0" style="height:800px; width:100%; border:none;" scrolling="no">Sorry, your browser cannot open the iframe. Do you want to continue to the <a href="../assets/demos/sfscore.html">graph page</a>?</iframe>
+<iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="../files/assets/demos/sfscore.html" marginwidth="0" marginheight="0" style="height:800px; width:100%; border:none;" scrolling="no">Sorry, your browser cannot open the iframe. Do you want to continue to the <a href="../files/assets/demos/sfscore.html">graph page</a>?</iframe>
 
 <h1 id="motivation">Motivation</h1>
 <blockquote>
@@ -75,23 +75,24 @@ And the aim is to keep the SF's score low.
 <ul>
 <li><p>Problem Sets (PS):</p>
 <ul>
-<li><br /><span class="math display">[00 : 10)→02</span><br /> SF points</li>
-<li><br /><span class="math display">[10 : 20)→04</span><br /> SF points</li>
-<li><br /><span class="math display">[20 : 30)→08</span><br /> SF points</li>
-<li><br /><span class="math display">[30 : 40)→16</span><br /> SF points</li>
-<li><br /><span class="math display">[40 : 50)→32</span><br /> SF points</li>
-<li><br /><span class="math display">  &gt; =50  → 64</span><br /> SF points</li>
+<li><span class="math inline">[00 : 10)→02</span> SF points</li>
+<li><span class="math inline">[10 : 20)→04</span> SF points</li>
+<li><span class="math inline">[20 : 30)→08</span> SF points</li>
+<li><span class="math inline">[30 : 40)→16</span> SF points</li>
+<li><span class="math inline">[40 : 50)→32</span> SF points</li>
+<li><span class="math inline">   ≥ 50  → 64</span> SF points</li>
 </ul></li>
 <li><p>Exams: Double the corresponding score for PS</p></li>
 </ul>
 <h2 id="analysis">Analysis</h2>
 <h3 id="mat157-pset-viii"><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161128MAT157_Pset+VIII.pdf">20161128 MAT157: Pset VIII</a></h3>
 <p>Nonsense: 31.8%</p>
-<p>2: Too much of the computational wishful thinking. 6: What about the point when <br /><span class="math display"><em>f</em></span><br /> <strong>is</strong> zero?</p>
-<p>Rather, fix any <br /><span class="math display"><em>y</em> &gt; <em>c</em></span><br />, <br /><span class="math display"><em>y</em> ∈ (<em>a</em>, <em>b</em>)</span><br />. Then use MVT to find a point <br /><span class="math display"><em>α</em> ∈ (<em>c</em>, <em>y</em>)</span><br /> such that <br /><span class="math display">$$f'(\alpha) = \frac{f(y) -
-    f(c)}{y-c}$$</span><br />. Then obtain that <br /><span class="math display"><em>f</em>(<em>y</em>)&gt;<em>f</em>(<em>c</em>)</span><br />.</p>
-<p>By similar procedure, fix <br /><span class="math display"><em>x</em></span><br /> on <br /><span class="math display">(<em>a</em>, <em>c</em>)</span><br />such that <br /><span class="math display"><em>f</em>(<em>x</em>)&lt;<em>f</em>(<em>c</em>)</span><br />.</p>
-<p>Thus, <br /><span class="math display"><em>f</em>(<em>x</em>)&lt;<em>f</em>(<em>c</em>)&lt;<em>f</em>(<em>y</em>)</span><br />.</p>
+<p>2: Too much of the computational wishful thinking.</p>
+<p>6: What about the point when <span class="math inline"><em>f</em></span> <strong>is</strong> zero?</p>
+<p>Rather, fix any <span class="math inline"><em>y</em> &gt; <em>c</em></span>, <span class="math inline"><em>y</em> ∈ (<em>a</em>, <em>b</em>)</span>. Then use MVT to find a point <span class="math inline"><em>α</em> ∈ (<em>c</em>, <em>y</em>)</span> such that <span class="math inline">$f'(\alpha) = \frac{f(y) -
+    f(c)}{y-c}$</span>. Then obtain that <span class="math inline"><em>f</em>(<em>y</em>)&gt;<em>f</em>(<em>c</em>)</span>.</p>
+<p>By similar procedure, fix <span class="math inline"><em>x</em></span> on $(a, c)$such that <span class="math inline"><em>f</em>(<em>x</em>)&lt;<em>f</em>(<em>c</em>)</span>.</p>
+<p>Thus, <span class="math inline"><em>f</em>(<em>x</em>)&lt;<em>f</em>(<em>c</em>)&lt;<em>f</em>(<em>y</em>)</span>.</p>
 <h3 id="mat157-pset-vi"><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161104MAT157_PS+6.pdf">20161104 MAT157: Pset VI</a></h3>
 <p>Nonsense: 26.3%</p>
 <p>4: Details matter. Yet another case of mindless, mechanical delta-epsilon pushing.</p>
@@ -114,17 +115,18 @@ And the aim is to keep the SF's score low.
 <p>Bad work.</p>
 <ol>
 <li><p>No need to prove directly that the set given by the described definition is a real number. Do the following instead.</p>
-<p>First show that <br /><span class="math display">$$\overline{x} \subseteq \alpha$$</span><br />, as well as that <br /><span class="math display">$$\alpha \in \{x \in \mathbb{Q}: \overline{x} &lt; \alpha \}$$</span><br /> by proving that <br /><span class="math display"><em>α</em></span><br /> is a subset of the RHS.</p>
-<p>Secondly, show that all <br /><span class="math display"><em>x</em></span><br /> such that <br /><span class="math display"><em>x</em> ∈ ℚ</span><br /> and <br /><span class="math display">$$
-\overline{x} &lt; \alpha$$</span><br /> must be in <br /><span class="math display"><em>α</em></span><br />.</p></li>
+<p>First show that <span class="math inline">$\overline{x} \subseteq \alpha$</span>, as well as that <span class="math inline">$\alpha \in \{x \in \mathbb{Q}: \overline{x} &lt; \alpha \}$</span> by proving that <span class="math inline"><em>α</em></span> is a subset of the RHS.</p>
+<p>Secondly, show that all <span class="math inline"><em>x</em></span> such that <span class="math inline"><em>x</em> ∈ ℚ</span> and <span class="math inline">$\overline{x} &lt; \alpha$</span> must be in <span class="math inline"><em>α</em></span>.</p></li>
 <li><p>No need to use addition or subtraction in the proof. Follow the KISS principle.</p>
-<p>It follows from the definition of &lt; and <br /><span class="math display">⊂</span><br /> that <br /><span class="math display">∃<em>x</em> ∈ <em>β</em> : <em>x</em> ∉ <em>α</em></span><br />. If <br /><span class="math display">$$\alpha\in\mathbb{Q}: \alpha=\overline{z}$$</span><br />, it can be that <br /><span class="math display"><em>x</em> = <em>z</em></span><br />. Then use the fact that <br /><span class="math display"><em>β</em></span><br /> is real. In either case, by Q1, <br /><span class="math display">$$\alpha &lt; \overline{x} &lt; \beta$$</span><br />.</p></li>
+<p>It follows from the definition of &lt; and <span class="math inline">⊂</span> that <span class="math inline">∃<em>x</em> ∈ <em>β</em> : <em>x</em> ∉ <em>α</em></span>. If <span class="math inline">$\alpha\in\mathbb{Q}:
+ \alpha=\overline{z}$</span>, it can be that <span class="math inline"><em>x</em> = <em>z</em></span>. Then use the fact that <span class="math inline"><em>β</em></span> is real. In either case, by Q1, <span class="math inline">$\alpha &lt;
+ \overline{x} &lt; \beta$</span>.</p></li>
 <li><p>Use Q2 and be careful not to make a typo.</p></li>
 <li><p>Badly written.</p></li>
 <li><p>Bad statement of the theorem.</p>
 <p>Hence no full understanding of what its meaning and significance theorem is.</p>
-<p>Consider <br /><span class="math display">$$\overline{x}$$</span><br /> for <br /><span class="math display"><em>x</em> ∈ ℚ</span><br />. Prove that <br /><span class="math display"><em>x</em></span><br /> is the lub of <br /><span class="math display">$$\overline{x}$$</span><br />.</p>
-<p>Suppose that the lub of some real number is <br /><span class="math display"><em>x</em></span><br />. Get the contradiction by assuming there exists <br /><span class="math display"><em>y</em> &lt; <em>x</em></span><br /> and obtain that <br /><span class="math display"><em>α</em></span><br /> is rational.</p></li>
+<p>Consider <span class="math inline">$\overline{x}$</span> for <span class="math inline"><em>x</em> ∈ ℚ</span>. Prove that <span class="math inline"><em>x</em></span> is the lub of <span class="math inline">$\overline{x}$</span>.</p>
+<p>Suppose that the lub of some real number is <span class="math inline"><em>x</em></span>. Get the contradiction by assuming there exists <span class="math inline"><em>y</em> &lt; <em>x</em></span> and obtain that <span class="math inline"><em>α</em></span> is rational.</p></li>
 </ol>
 <h3 id="mat157-pset-i"><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160919MAT157.pdf">20160919MAT157: Pset I</a></h3>
 <p>Nonsense: 10.3%</p>
@@ -181,13 +183,13 @@ And the aim is to keep the SF's score low.
 <ul>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_4.pdf">20170126 MAT247: Pset II: 4</a></li>
 </ul>
-<p>Justify the relation between <br /><span class="math display">|⋃<em>β</em><sub><em>i</em></sub>|</span><br /> and <br /><span class="math display">∑dim <em>W</em><sub><em>i</em></sub></span><br />.</p></li>
+<p>Justify the relation between <span class="math inline">|⋃<em>β</em><sub><em>i</em></sub>|</span> and <span class="math inline">∑dim <em>W</em><sub><em>i</em></sub></span>.</p></li>
 <li><p>20170118: Pset I</p>
 <ul>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_1.pdf">20170118 MAT247: Pset I: 1</a></li>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_2.pdf">20170118 MAT247: Pset I: 2</a></li>
 </ul>
-<p><br /><span class="math display"><em>β</em></span><br /> in the given form is not a basis of a polynomial vector space.</p>
+<p><span class="math inline"><em>β</em></span> in the given form is not a basis of a polynomial vector space.</p>
 <ul>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_3.pdf">20170118 MAT247: Pset I: 3</a></li>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_4.pdf">20170118 MAT247: Pset I: 4</a></li>
@@ -203,9 +205,9 @@ And the aim is to keep the SF's score low.
 <p>Be careful with how you count.</p></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_2.pdf">20161201 MAT240: 2</a></p>
 <p>The argument lacks the substance – a mishmash of terminology does no good to the reasoning.</p>
-<p>Let <br /><span class="math display"><em>q</em><sub>0</sub>(<em>t</em>)=1</span><br />, <br /><span class="math display"><em>q</em><sub>1</sub>(<em>t</em>)=<em>x</em></span><br />, <br /><span class="math display"><em>q</em><sub>2</sub>(<em>t</em>)=<em>x</em><sup>2</sup></span><br />, <br /><span class="math display"><em>q</em><sub>3</sub>(<em>t</em>)=<em>x</em><sup>3</sup></span><br />.</p>
-<p>Notice that <br /><span class="math display">(<em>p</em><sub>0</sub> <em>p</em><sub>1</sub> <em>p</em><sub>2</sub> <em>p</em><sub>3</sub>)=(<em>q</em><sub>0</sub> <em>q</em><sub>1</sub> <em>q</em><sub>2</sub> <em>q</em><sub>3</sub>)<em>C</em></span><br /> for some <br /><span class="math display"><em>C</em> ∈ <em>M</em><sub>4 × 4</sub>(𝔽)</span><br /> indepenedent of <br /><span class="math display"><em>t</em></span><br />. Notice also that <br /><span class="math display"><em>C</em></span><br /> is invertible if and only if <br /><span class="math display">{<em>p</em><sub><em>i</em></sub>}</span><br /> is a basis.</p>
-<p>Then argue that <br /><span class="math display"><em>f</em>(<em>t</em>)=12det(<em>C</em>)</span><br />.</p></li>
+<p>Let <span class="math inline"><em>q</em><sub>0</sub>(<em>t</em>)=1</span>, <span class="math inline"><em>q</em><sub>1</sub>(<em>t</em>)=<em>x</em></span>, <span class="math inline"><em>q</em><sub>2</sub>(<em>t</em>)=<em>x</em><sup>2</sup></span>, <span class="math inline"><em>q</em><sub>3</sub>(<em>t</em>)=<em>x</em><sup>3</sup></span>.</p>
+<p>Notice that <span class="math inline">(<em>p</em><sub>0</sub> <em>p</em><sub>1</sub> <em>p</em><sub>2</sub> <em>p</em><sub>3</sub>)=(<em>q</em><sub>0</sub> <em>q</em><sub>1</sub> <em>q</em><sub>2</sub> <em>q</em><sub>3</sub>)<em>C</em></span> for some <span class="math inline"><em>C</em> ∈ <em>M</em><sub>4 × 4</sub>(𝔽)</span> indepenedent of <span class="math inline"><em>t</em></span>. Notice also that <span class="math inline"><em>C</em></span> is invertible if and only if <span class="math inline">{<em>p</em><sub><em>i</em></sub>}</span> is a basis.</p>
+<p>Then argue that <span class="math inline"><em>f</em>(<em>t</em>)=12det(<em>C</em>)</span>.</p></li>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_3.pdf">20161201 MAT240: 3</a></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_4.pdf">20161201 MAT240: 4</a></p>
 <p>Use less abstruse language.</p>
@@ -217,7 +219,7 @@ And the aim is to keep the SF's score low.
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_1.pdf">20161124 MAT240: 1</a></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_2.pdf">20161124 MAT240: 2</a></p>
 <p>Do not put equal signs between things which are not equal.</p>
-<p>Avoid superfluous calculations (no need to look at the case <br /><span class="math display">2 = 0</span><br /> separately).</p></li>
+<p>Avoid superfluous calculations (no need to look at the case <span class="math inline">2 = 0</span> separately).</p></li>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_3.pdf">20161124 MAT240: 3</a></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_4.pdf">20161124 MAT240: 4</a></p></li>
 </ul></li>
@@ -234,13 +236,13 @@ And the aim is to keep the SF's score low.
 <ul>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_1.pdf">20161105 MAT240: 1</a></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_2.pdf">20161105 MAT240: 2</a></p>
-<p>The <br /><span class="math display">⇐</span><br /> part is wrong, atrocious and disappointing.</p>
+<p>The <span class="math inline">⇐</span> part is wrong, atrocious and disappointing.</p>
 <p>It is obvious that the proof has been written with no intuitive understanding of what the linear map given <strong>is</strong>.</p>
-<p>First, consider <br /><span class="math display"><em>W</em> = ℑ(<em>T</em>),<em>W</em>′=ker(<em>T</em>)</span><br />. Given some <br /><span class="math display"><em>v</em> ∈ <em>V</em></span><br />, take <br /><span class="math display"><em>w</em> = <em>T</em>(<em>v</em>)</span><br /></p>
-<p>Note that <br /><span class="math display"><em>T</em>(<em>w</em>)=<em>T</em>(<em>T</em>(<em>v</em>)) = <em>T</em>(<em>v</em>)=<em>w</em></span><br />.</p>
-<p>Consider <br /><span class="math display"><em>w</em>′=<em>v</em> − <em>w</em></span><br />.</p>
-<p><br /><span class="math display"><em>T</em>(<em>w</em>′) = <em>T</em>(<em>v</em>)−<em>T</em>(<em>w</em>)=0</span><br />, and hence <br /><span class="math display"><em>w</em>′∈ker(<em>T</em>)</span><br /> and <br /><span class="math display"><em>w</em>′∈<em>W</em>′</span><br />. Therefore, <br /><span class="math display"><em>V</em> = <em>W</em> + <em>W</em>′</span><br />.</p>
-<p>Consider now <br /><span class="math display"><em>w</em> ∈ <em>W</em> ∩ <em>W</em>′</span><br />. Therefore, <br /><span class="math display"><em>T</em>(<em>w</em>)=<em>w</em></span><br />, since <br /><span class="math display"><em>w</em> ∈ <em>W</em></span><br />, and <br /><span class="math display"><em>T</em>(<em>w</em>)=0</span><br />, since <br /><span class="math display"><em>w</em> ∈ <em>W</em>′</span><br />. Hence, <br /><span class="math display"><em>w</em> = 0</span><br />, and <br /><span class="math display"><em>V</em> = <em>W</em> ⊕ <em>W</em>′</span><br />.</p></li>
+<p>First, consider <span class="math inline"><em>W</em> = ℑ(<em>T</em>),<em>W</em>′=ker(<em>T</em>)</span>. Given some <span class="math inline"><em>v</em> ∈ <em>V</em></span>, take <span class="math inline"><em>w</em> = <em>T</em>(<em>v</em>)</span></p>
+<p>Note that <span class="math inline"><em>T</em>(<em>w</em>)=<em>T</em>(<em>T</em>(<em>v</em>)) = <em>T</em>(<em>v</em>)=<em>w</em></span>.</p>
+<p>Consider <span class="math inline"><em>w</em>′=<em>v</em> − <em>w</em></span>.</p>
+<p><span class="math inline"><em>T</em>(<em>w</em>′) = <em>T</em>(<em>v</em>)−<em>T</em>(<em>w</em>)=0</span>, and hence <span class="math inline"><em>w</em>′∈ker(<em>T</em>)</span> and <span class="math inline"><em>w</em>′∈<em>W</em>′</span>. Therefore, <span class="math inline"><em>V</em> = <em>W</em> + <em>W</em>′</span>.</p>
+<p>Consider now <span class="math inline"><em>w</em> ∈ <em>W</em> ∩ <em>W</em>′</span>. Therefore, <span class="math inline"><em>T</em>(<em>w</em>)=<em>w</em></span>, since <span class="math inline"><em>w</em> ∈ <em>W</em></span>, and <span class="math inline"><em>T</em>(<em>w</em>)=0</span>, since <span class="math inline"><em>w</em> ∈ <em>W</em>′</span>. Hence, <span class="math inline"><em>w</em> = 0</span>, and <span class="math inline"><em>V</em> = <em>W</em> ⊕ <em>W</em>′</span>.</p></li>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_3.pdf">20161105 MAT240: 3</a></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_4.pdf">20161105 MAT240: 4</a></p></li>
 </ul></li>
@@ -249,7 +251,7 @@ And the aim is to keep the SF's score low.
 <ul>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_1.pdf">20161028 MAT240: 1</a></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_2.pdf">20161028 MAT240: 2</a></p>
-<p>The construction of a linear map <br /><span class="math display"><em>U</em></span><br /> as given satisfies the condition for every vector in <br /><span class="math display"><em>W</em></span><br /> if and only if <br /><span class="math display"><em>v</em> ≠ 0</span><br />. Remember that the value of <br /><span class="math display"><em>S</em></span><br /> depends on its input.</p></li>
+<p>The construction of a linear map <span class="math inline"><em>U</em></span> as given satisfies the condition for every vector in <span class="math inline"><em>W</em></span> if and only if <span class="math inline"><em>v</em> ≠ 0</span>. Remember that the value of <span class="math inline"><em>S</em></span> depends on its input.</p></li>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_3.pdf">20161028 MAT240: 3</a></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_4.pdf">20161028 MAT240: 4</a></p></li>
 </ul></li>
@@ -277,25 +279,16 @@ And the aim is to keep the SF's score low.
 <ul>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_1.pdf">20161006 MAT240: 1</a></p>
 <p>Show your work!</p>
-Commentary, reproduced as is:</li>
-</ul>
-<em>The reason your argument deserves no credit is that you haven't
-given an argument. You pull the coefficients out of thin air,
-without any explanation as to how you got them, or any proof that
-they work. I have no assurances that you didn't simply copy them
-from someone else, or use Wolfram Alpha, Maple, or another
-computer algebra system to get these coefficients. Keep in mind:
-the right answer isn't worth anything by itself.</em>
-
-<ul>
+<p>Commentary, reproduced as is:</p>
+<p><em>The reason your argument deserves no credit is that you haven’t</em> /given an argument. You pull the coefficients out of thin air,/ <em>without any explanation as to how you got them, or any proof that</em> <em>they work. I have no assurances that you didn’t simply copy them</em> <em>from someone else, or use Wolfram Alpha, Maple, or another</em> <em>computer algebra system to get these coefficients. Keep in mind:</em> <em>the right answer isn’t worth anything by itself.</em></p></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_2.pdf">20161006 MAT240: 2</a></p>
 <p>The explanation is not lucid, and throwing big-name principles in the face of the reader will not make it more so. It is much better to argue from the observation that any vector space must include all the scalar multiples of any vector it contains.</p></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_3.pdf">20161006 MAT240: 3</a></p>
 <p>Write the proof in the direction that makes it rigorous, not in the way it was obtained.</p></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_4.pdf">20161006 MAT240: 4</a></p>
-<p>The reasoning why <br /><span class="math display"><em>ϕ</em></span><br /> exists is wrong: it is because <br /><span class="math display">$$\sqrt{m^2+n^2} \neq 0$$</span><br />.</p></li>
+<p>The reasoning why <span class="math inline"><em>ϕ</em></span> exists is wrong: it is because <span class="math inline">$\sqrt{m^2+n^2} \neq 0$</span>.</p></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_5.pdf">20161006 MAT240: 5</a></p>
-<p>Improve your writing. For example, fixing <br /><span class="math display"><em>u</em>′</span><br /> is not necessary in the beginning.</p></li>
+<p>Improve your writing. For example, fixing <span class="math inline"><em>u</em>′</span> is not necessary in the beginning.</p></li>
 </ul></li>
 <li><p>20160930: Pset II</p>
 <p>Nonsense: 12.0%</p>
@@ -311,19 +304,19 @@ the right answer isn't worth anything by itself.</em>
 <li><p>Theorem 0.1:</p>
 <p>Think and possibly handwrite before you type to avoid overconfidence and silly mistakes.</p></li>
 <li><p>4.6:</p>
-<p>Another example of messing up the operations used. It is not true that <br /><span class="math display">$$a\cdot(b\tilde{\cdot}x)=(ab)\tilde{\cdot}x$$</span><br />.</p></li>
+<p>Another example of messing up the operations used. It is not true that <span class="math inline">$a\cdot(b\tilde{\cdot}x)=(ab)\tilde{\cdot}x$</span>.</p></li>
 <li><p>4.7:</p>
 <p>Missing the point of the exercise and the meaning of the property yet again.</p></li>
 </ul></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_5.pdf">20160930 MAT240: 5</a></p>
 <ul>
-<li><p>5.a <br /><span class="math display">⇒</span><br />: Poor argument. What if <br /><span class="math display"><em>x</em> = 0</span><br />?</p>
+<li><p>5.a <span class="math inline">⇒</span>: Poor argument. What if <span class="math inline"><em>x</em> = 0</span>?</p>
 <p>Order properties tend not to have anything to do with linear algebra.</p>
 <p><strong>WRONG APPROACH</strong>:</p>
-<p>Suppose that <br /><span class="math display"><em>W</em></span><br /> is a subset of <br /><span class="math display"><em>S</em></span><br /> to prove by contraposition that <br /><span class="math display"><em>W</em> ∪ <em>S</em></span><br /> is not a subspace of <br /><span class="math display"><em>V</em></span><br />.</p>
-<p><strong>It is not necessary that <br /><span class="math display"><em>W</em></span><br /> must be a subset of <br /><span class="math display"><em>S</em></span><br /> if the negation of <br /><span class="math display"><em>S</em> ⊂ <em>W</em></span><br /> is assumed.</strong></p>
+<p>Suppose that <span class="math inline"><em>W</em></span> is a subset of <span class="math inline"><em>S</em></span> to prove by contraposition that <span class="math inline"><em>W</em> ∪ <em>S</em></span> is not a subspace of <span class="math inline"><em>V</em></span>.</p>
+<p><strong>It is not necessary that <span class="math inline"><em>W</em></span> must be a subset of <span class="math inline"><em>S</em></span> if the negation of <span class="math inline"><em>S</em> ⊂ <em>W</em></span> is assumed.</strong></p>
 <p><strong>BETTER</strong>:</p>
-<p>It is required to show that <br /><span class="math display">∀<em>s</em> ∈ <em>S</em> : <em>s</em> ∈ <em>W</em></span><br />. If <br /><span class="math display"><em>s</em> = 0</span><br />, the result is trivial. If <br /><span class="math display"><em>s</em> ≠ 0</span><br />, consider <br /><span class="math display"><em>t</em><em>v</em> ∈ <em>W</em> ∪ <em>S</em></span><br /> for some scalar <br /><span class="math display"><em>t</em></span><br />. Since <br /><span class="math display"><em>S</em></span><br /> is finite, there exists <br /><span class="math display"><em>t</em>′</span><br /> such that <br /><span class="math display"><em>t</em>′<em>s</em> ∈ <em>W</em> ∪ <em>S</em></span><br />, but not in <br /><span class="math display"><em>S</em></span><br />. Hence, <br /><span class="math display"><em>t</em>′<em>v</em> ∈ <em>W</em></span><br />. Since <br /><span class="math display">𝔽 = ℝ</span><br />, multiply <br /><span class="math display"><em>t</em>′<em>v</em></span><br /> by <br /><span class="math display">$$\frac{1}{t'}$$</span><br /> to get <br /><span class="math display"><em>v</em></span><br />, which also must be in <br /><span class="math display"><em>W</em></span><br />. Hence, all the elements of <br /><span class="math display"><em>S</em></span><br /> are in <br /><span class="math display"><em>W</em></span><br />.</p></li>
+<p>It is required to show that $∀ s ∈ S: s ∈ W $. If <span class="math inline"><em>s</em> = 0</span>, the result is trivial. If <span class="math inline"><em>s</em> ≠ 0</span>, consider <span class="math inline"><em>t</em><em>v</em> ∈ <em>W</em> ∪ <em>S</em></span> for some scalar <span class="math inline"><em>t</em></span>. Since <span class="math inline"><em>S</em></span> is finite, there exists <span class="math inline"><em>t</em>′</span> such that <span class="math inline"><em>t</em>′<em>s</em> ∈ <em>W</em> ∪ <em>S</em></span>, but not in <span class="math inline"><em>S</em></span>. Hence, <span class="math inline"><em>t</em>′<em>v</em> ∈ <em>W</em></span>. Since <span class="math inline">𝔽 = ℝ</span>, multiply <span class="math inline"><em>t</em>′<em>v</em></span> by <span class="math inline">$\frac{1}{t'}$</span> to get <span class="math inline"><em>v</em></span>, which also must be in <span class="math inline"><em>W</em></span>. Hence, all the elements of <span class="math inline"><em>S</em></span> are in <span class="math inline"><em>W</em></span>.</p></li>
 </ul></li>
 </ul></li>
 <li><p>20160923MAT240: Pset I</p>
@@ -334,22 +327,8 @@ the right answer isn't worth anything by itself.</em>
 <li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_3.pdf">20160923MAT240 III</a></li>
 <li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_4.pdf">20160923MAT240 IV</a></p>
 <p>be extremely careful with arithmetic and explicit in your reasoning</p></li>
-<li><p><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_5.pdf">20160923MAT240 V</a></p></li>
-</ul>
-<script>
-renderMathInElement(
-          document.body,
-          {
-              delimiters: [
-                  {left: "$$", right: "$$", display: false},
-                  {left: "\\[", right: "\\]", display: false},
-                  {left: "$", right: "$", display: false},
-                  {left: "\\(", right: "\\)", display: false}
-              ]
-          }
-      );
-</script>
-</li>
+<li><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_5.pdf">20160923MAT240 V</a></li>
+</ul></li>
 </ol>
 <h2 id="logic">Logic</h2>
 <h3 id="csc240-pset-ii"><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170124CSC240_Pset+II.pdf">20170124 CSC240: Pset II</a></h3>
@@ -357,6 +336,20 @@ renderMathInElement(
 <h3 id="csc240-pset-iv"><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208CSC240_Pset-IV.pdf">20170208 CSC240: Pset IV</a></h3>
 <h3 id="csc240-pset-v"><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170215CSC240_Pset+V.pdf">20170215 CSC240: Pset V</a></h3>
 <h3 id="csc240-pset-vi"><a href="https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170301CSC240_Pset+VI.pdf">20170301 CSC240: Pset VI</a></h3>
+<script>
+renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$", right: "$", display: false},
+                  {left: "\\[", right: "\\]", display: false},
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+</script>
+
 
         </div>
     </body>
