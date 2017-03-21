@@ -25,7 +25,7 @@ git push origin shyll
 git checkout master
 
 # delete old site
-rm -rf !(.|..|.git|.gitignore|.nojekyll)
+rm -rf !(.|..|.git|.gitignore|.nojekyll|.stack-work)
 git add -A && git commit -m "delete old site"
 
 # switch to hakyll branch and rebuild website
