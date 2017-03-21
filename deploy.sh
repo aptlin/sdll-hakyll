@@ -30,7 +30,7 @@ git add -A && git commit -m "delete old site"
 
 # switch to hakyll branch and rebuild website
 git checkout shyll
-stack exec blog rebuild
+stack exec site rebuild
 
 # switch to master, extract site and push
 git checkout master
