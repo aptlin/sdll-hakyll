@@ -1,4 +1,6 @@
-Hello, Universe!
+---
+title: Hello, Universe!
+---
 
 I am Sasha Illarionov, and my primary goal now is to have sound
 foundations in [[file:../assets/agenda/atiyah_singer_interview.pdf][core mathematics]].
@@ -10,23 +12,16 @@ E-mail: [[mailto:sasha.illarionov@mail.utoronto.ca][sasha.illarionov@mail.utoron
 
 Here you can find:
 
-+ [[https://sdll.github.io/agenda/][Educational agenda]]
-
-+ [[https://sdll.github.io/pub/][Papers summarising personal investigations]]
-
-+ [[https://sdll.github.io/arbeit/][Undergraduate coursework progress reports]]
-
-+ [[https://sdll.github.io/mikveh/][Notes from presentations and seminars]]
-
-+ Collection of short [[https://sdll.github.io/pentrivium/][memos]] and [[https://sdll.github.io/log/][articles]]
-
-+ [[https://sdll.github.io/gallery/][Gallery of slides, cards and other trivia]]
+#+BEGIN_EXPORT html
+$partial("templates/page-list.html")$
+#+END_EXPORT
 
 Let's live together, and when we die, we will stop getting dumber.
 
 #+BEGIN_QUOTE
 
 #+BEGIN_HTML
+
 
 <b>"Végre nem butulok tovább." — Erdős Pál, epitaph</b>
 

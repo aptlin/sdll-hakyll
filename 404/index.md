@@ -1,2 +1,0 @@
-*Hooray!*
-You have found something which does not exist yet. Shall we proceed to the [home page](https://sdll.github.io)?
