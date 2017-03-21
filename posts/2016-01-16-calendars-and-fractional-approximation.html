@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calendars and Fractional Approximation</title>
+        <link rel="stylesheet" href="../css/default.css" />
+    </head>
+    <body>
+        <div id="header">
+	  <td>
+            <div id="logo">
+	      <a href="../">
+	      <img src="../images/logo.png" width="50px" alt="@">
+	      </a>
+            </div>
+            <div id="navigation">
+                <a href="../">About</a>
+		<a href="../pages/pub.html">Papers</a>
+		<a href="../pages/agenda.html">Agenda</a>
+		<a href="../pages/mikveh.html">Mikveh</a>
+		<a href="../pages/arbeit.html">Arbeit</a>
+		<a href="../pages/notes.html">Notes</a>		
+                <a href="../log.html">Log</a>
+            </div>
+	  </td>
+        </div>
+        <div id="content">
+            <div class="info">
+    Posted on January 16, 2016
+    
+</div>
+<h1>Calendars and Fractional Approximation</h1>
+<script src="../files/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="../files/assets/scripts/katex/katex.min.css">
+<script src="../files/assets/scripts/katex/katex.min.js"></script>
+<script src="../files/assets/scripts/katex/contrib/auto-render.min.js"></script>
+<p>Have you ever wondered what a calendar <i>is</i>? How would you explain the notion of a calendar to an alien, albeit a very precocious one with some notion of homo sapiens common sense?</p>
+<p>The word <i>calendar</i> originates from Latin <i>calendae</i> , or “calends”. The calends was the first day of the month in the ancient Roman calendar, when the debts fell due and accounts were reckoned in accordance with the account book called <em>kalendaria</em>.</p>
+<p>A calendar is a systematic register of time. At the core of the solar calendar lies a notion of a day, or the period of the Earth complete rotation about its axis, and a year, or the period of the Earth moving in its orbit around the sun.</p>
+<p>In the common calendar, each day is assigned a unique date which corresponds to a particular day, month and year. One-to-one correspondence is established between a date and a certain period of time, serving a function of a complete and consistent register of human experience. There are several calendric systems fulfilling one purpose or another:</p>
+<ul>
+<pre><code>&lt;li&gt;fiscal calendars are used for budgeting, keeping accounts and taxation&lt;/li&gt;
+&lt;li&gt;religious calendars (e.g. Hebrew, Islamic) are used to determine dates of religious significance&lt;/li&gt;
+&lt;li&gt;civil calendars (e.g. Gregorian, Julian) are used for general purposes, such as synchronisation of logistics and business administration.&lt;/li&gt;</code></pre>
+</ul>
+<p>The calendar commonly adopted for general purposes is the Gregorian calendar.</p>
+<h1>
+Gregorian Calendar
+</h1>
+<p><strong>Fractional Approximation</strong></p>
+<p style="text-align:left;">
+<p>To understand the underlying structure of any calendric system we need some vocabulary. All solar calendars are based on the time period in which the Earth completes a full seasonal circuit called the <i>tropical year</i>. As of the year 2000, the mean tropical year is 365.242189 [1]. Although the duration of the tropical year changes, assume that it is known precisely. Note the fractional part 0.242189.</p>
+Let’s say we want our year to last 365 days. Every time we the year finishes, the error term is introduced. If the error was not adjusted in the long term, some time later the ignorant astronomer from New York or Kostroma would be freezing in July snow and drip sweat in the flourishing park in January! But how can the fractional part be approximated in such a way that the discrepancy with the accurate value is minimal? The problem of the calendar construction in other words can be simplified as follows:
+</p>
+<p style="text-align:center;">
+<em> Find an approximation of a real number</em> <em> in the form of a fraction with the denominator q.</em>
+</p>
+<p style="text-align:left;">
+If the real number line is constructed and all the rational numbers with the denominator q are marked on it, the number $ $ is either equal to one of the fractions or lies between two of them. The case of $ $ coinciding with one of the fractions is trivial.However, if $ $ is not equal to either of them, it satisfies the following pair of inequalities for some integer p:
+</p>
+<p style="text-align:center;">
+<span class="math inline">$\frac{p-1}{q} &amp;lt; \alpha &amp;lt;\frac{p}{q}$</span>
+</p>
+One of the two fractions $ $ and $  $, which is closer on the number line to $ $, constitutes the best rational approximation with the required denominator $ q $. For instance, let’s consider the approximation of represented in Figure 1.
+<p>
+<ul style="list-style-type:none; display:table;margin:auto;text-align:center;">
+<li>
+<img src="../files/assets/site/drawing.png" width="256px" />
+</li>
+<li>
+<em>Figure 1</em>
+</li>
+</ul>
+</p>
+<p>$ $ is closer to $  $, and hence $  $. If $ $ lies exactly between $  $ and $  $, $ $ is said to be best approximated by $  $ to eliminate indeterminate cases. When $ $ is approximated, a corresponding approximation error $ $ emerges:</p>
+<p style="text-align:center;">
+$ =- $
+</p>
+<p>If the approximation $  $ underestimates $ $, $ &lt; 0$ , if it overestimates, $ &gt; 0$ . The absolute value of the approximation error, $ ||$, is called an <em>absolute error</em>.</p>
+<p>From Figure 1 it is evident that the absolute error never exceeds half the length between the approximating fractions. Thus,</p>
+<p style="text-align:center;">
+$ || $
+</p>
+<p>The value $ $ is the <em>upper bound</em> of the absolute error. The upper bound of the absolute error is achieved when $ $ lies exactly between the approximating fractions.</p>
+<p style="text-align:left;">
+The approximation is optimal, if for the relatively small denominator $ q$ the approximation is as close to the true value as possible. This condition can be characterised by comparing the absolute error and its upper bound:
+</p>
+<p style="text-align:center;">
+$ | - | : =2|q -p| $
+</p>
+<p>The defining part of the above equation is $ |q-p|$. Let’s call this value the <em>reduced error</em> $ h$. Since the ratio of the absolute error to the upper bound of the absolute error lies between zero (in which case the approximation approaches the true value) and one,</p>
+<p style="text-align:center;">
+$ 0&lt;h  $
+</p>
+<p>The smaller $ h$, the more preferable the approximation is. Let $ $ be the <em>coefficient of optimality</em> defined as</p>
+<p style="text-align:center;">
+$ ==$
+</p>
+<p>The coefficient of optimality can be intuitively understood as the factor by which the absolute error is less than the upper bound of the absolute error. Thus, the greater $ $, the more preferable the approximation is. From (6) it follows that $ 1&lt;$ and $ h= $.</p>
+<p>How can we apply the idea of fractional approximation to the development of a solar calendric system? We will find out soon. Let’s acquiant ourselves with a wonderful tool in our mathematical apparatus.</p>
+<p>Let’s forget about the decimal number system. A mathematician Nikolai Nikolaevich Luzin said: “The advantages of the decimal number system are not mathematical but zoological. If humans had eight fingers instead of ten, the humankind would use the octal number system.” The decimal number system is useful in everyday life, but its use becomes superfluous if theoretical questions of arithmetic are investigated. Thus, we give up on using any specific base and focus on the following question: what is the most intuitive way of approximating a non-integer number? The answer seems to be straightforward: determine an integral interval (interval between two integers) which contains the approximated number. The number hence can be represented by identifying the lower bound of the interval:</p>
+<p><br /><span class="math display">$$ \exists(\alpha\_0 \in N,\  0 &amp;lt;r&amp;lt;1)(\\alpha \approx \\alpha\_0+r)$$</span><br /></p>
+<p>$ _0 $ is our first approximation. Since $ r$ is less than 1, it can be represented in the form $ r=$, where $ x_1$ is greater than 1. Hence, (9) can be written in the following form:</p>
+<p><br /><span class="math display">$$ \exists (\alpha\_0,\in\mathbb{N}, x\_1&amp;gt;1)(\alpha \approx \alpha\_0+\frac{1}{x\_1})$$</span><br /></p>
+<p>Now our approximation can be improved even further; we can repeat the procedure for approximating $ x_1$. Thus we obtain:</p>
+<p><br /><span class="math display">$$ \exists (\alpha\_0,\alpha\_1\in\mathbb{N}, x\_2&amp;gt;1)(\alpha \approx \alpha\_0+\frac{1}{\alpha\_1+\frac{1}{x\_2}}). $$</span><br /></p>
+<p>The expression <br /><span class="math display">$$ \alpha\_0+\frac{1}{\alpha\_1+\frac{1}{\alpha\_2+\frac{1}{\cdots+\frac{1}{\alpha\_{n-2}+\frac{1}{{\alpha\_{n-1} +\frac{1}{\alpha\_n}}}}}}}$$</span><br /> is called a continued fraction. $ _0, _1, , _n$ are called the <em>elements</em> of the continued fraction. We restrict the current definition to $ _0, _1, , _n $. Note the gawky notation which can be tedious to write on a piece of paper if there are more than, for instance, 5 elements. Let’s introduce the short-hand notation so that our continued fraction can be written in the following form: $ [_0;_1,_2,,_n]$.</p>
+<p>The following theorems can be proven:</p>
+<ul>
+<pre><code>&lt;li&gt;Any positive rational number can be represented as a unique continued fraction with a finite number of elements and the last element equal to one.&lt;/li&gt;
+&lt;li&gt;Two continued fractions are equal if and only if their corresponding elements are equal.&lt;/li&gt;</code></pre>
+</ul>
+<p>Irrational numbers cannot be represented as a finite continued fraction. However, there is a representation of each irrational number as a string of natural numbers in the form given above.</p>
+<p>Each continued fraction can be broken down into a <em>fit fraction</em> by writing down its first <em>n</em> elements and discarding all the others. The smaller <em>n</em>, the <em>simpler</em> the fit fraction is, i.e. it has a smaller denominator. The magnificent property of fit fractions is that <em>any</em> other approximation of <em>any</em> number by <em>any </em>fraction with the smaller denominator is worse than the approximation by a corresponding fit fraction.</p>
+<p>The proofs are omitted in the present discussion; rigorous development and further comprehensive study of continued fractions can be found in the book by A.Ya. Khinchin.</p>
+<p><strong>Application to the Tropical Year</strong></p>
+<p>Let’s return to our original problem. We need to approximate as closely as possible the mean length of the tropical year, $ y=365.242189$.</p>
+<p>Wouldn’t it be convenient for the length of the year to be such a nice integer 365? Nothing stops us to make our own conventions! Yet here is the downsize: our value would lose its physical meaning. Each ‘year’ the Earth would be found in a different point of its orbit! In four years the discrepancy would constitute almost a whole day. This inconvenience destroys all our hope for the practical method of time accounting, doesn’t it?</p>
+<p>It does not. Let’s devise the solution, remembering about the <a href="https://en.wikipedia.org/wiki/KISS\_principle">KISS principle</a>.</p>
+<p>$ y$ can be represented as the following continued fraction (verify!):</p>
+<p>$ [365; 4, 7, 1, 3, 40, 2, 3, 5]$</p>
+<p>Let’s calculate all the fit fractions.</p>
+<p>$ =365$</p>
+<p>$ =365+=365$</p>
+<p>$ =365+=365$</p>
+<p>$ =365+=365$</p>
+<p>$ =365+=365$</p>
+<p>$ =365+=365$</p>
+<p>$ =365+=365$</p>
+<p>$ =365+=365$</p>
+<p>$ =365+=365$</p>
+<p>We obtain the following table:</p>
+<table border="1" style="width:100%;">
+<tr>
+<pre><code>&lt;th&gt;Number&lt;/th&gt;
+    &lt;th&gt;Leap Years&lt;/th&gt;
+&lt;th&gt;Mean Year Length&lt;/th&gt;
+&lt;th&gt;Error&lt;/th&gt;      </code></pre>
+</tr>
+<tr>
+<pre><code>&lt;td&gt;1&lt;/td&gt;
+    &lt;td&gt;1 leap year for every 4&lt;/td&gt;
+&lt;td&gt;365 days 6 hours 0 minutes 0 seconds&lt;/td&gt;
+&lt;td&gt;+ 11 min 15 s&lt;/td&gt;       </code></pre>
+</tr>
+<tr>
+<pre><code>&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;7 per 29&lt;/td&gt;
+&lt;td&gt;365 d 5 h 47 min 35 s&lt;/td&gt;      
+&lt;td&gt;- 1 min 10 s&lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<pre><code>&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;8 per 33&lt;/td&gt;
+&lt;td&gt;365 d 5 h 49 min 05 s&lt;/td&gt;      
+&lt;td&gt;+ 20 s&lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<pre><code>&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;31 per 128&lt;/td&gt;
+&lt;td&gt;365 d 5 h 48 min 45 s&lt;/td&gt;      
+&lt;td&gt;- 0.13 s&lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<pre><code>&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;1248 per 5153&lt;/td&gt;
+&lt;td&gt;365 d 5 h 48 min 45 s&lt;/td&gt;      
+&lt;td&gt;+ $1.4 \times 10^{-3}$ s&lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<pre><code>&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;2527 per 10434&lt;/td&gt;
+&lt;td&gt;365 d 5 h 48 min 45 s&lt;/td&gt;      
+&lt;td&gt;- $2.2 \times 10^{-4}$ s&lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<pre><code>&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;8829 per 36455&lt;/td&gt;
+&lt;td&gt;365 d 5 h 48 min 45 s&lt;/td&gt;      
+&lt;td&gt;+ $1.2 \times 10^{-5}$ s&lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<pre><code>&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;46672 per 192709&lt;/td&gt;
+&lt;td&gt;365 d 5 h 48 min 45 s&lt;/td&gt;      
+&lt;td&gt;- $4.5 \times 10^{-7}$ s&lt;/td&gt;</code></pre>
+</tr>
+</table>
+<p>Changes in the optimality of all the other approximations are insignificant up to a second. Each new fit fraction gives a better approximation of the tropical year. In fact, the approximation number 1 is a backbone of the Julian calendar. With the help of Sosigenes of Alexandria, Julius Caesar ordered the adoption of a calendar with an added day once in four years in the Roman Empire. Omar Khayyam, a prolific mathematician, astronomer, philosopher and poet, suggested the adoption of the more accurate calendar with 8 leap years per 33-year cycle.</p>
+<p>Discrepancy of 130 milliseconds in the 4th approximation has no practical importance in casual use. It is much more accurate than the Gregorian year, which is precisely 365 days 5 hours 49 minutes and 12 seconds, lagging behind the tropical year by about 27 seconds. Yet the adoption of such a calendar is problematic: the occurence of leap years is not <i>round</i>, and transcendence of the cultural and administrative barriers requires a great leap from the humankind.</p>
+<p><strong>BIBLIOGRAPHY</strong></p>
+<ol>
+<pre><code>&lt;li&gt;Meeus, J. and Savoie, D, &lt;em&gt;T&lt;/em&gt;h&lt;em&gt;e history of the tropical year&lt;/em&gt;. Journal of the British Astronomical Association, 102(1), 40-42.&lt;/li&gt;
+&lt;li&gt;Khinchin, A.Ya. &lt;em&gt;Continued Fractions. &lt;/em&gt;The University Chicago Press, 1964&lt;/li&gt;
+    &lt;li&gt;Beskin, N.M. &lt;em&gt; Continued Fractions. &lt;/em&gt; KVANT magazine #1, 1970&lt;/li&gt;</code></pre>
+</ol>
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false},
+              ]
+          }
+      );
+</script>
+
+        </div>
+    </body>
+</html>
