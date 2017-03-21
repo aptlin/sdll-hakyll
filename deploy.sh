@@ -29,7 +29,7 @@ rm -rf !(.git|.gitignore|.nojekyll) # dont delete CNAME and README.md
 git add -A && git commit -m "delete old site"
 
 # switch to hakyll branch and rebuild website
-git checkout master
+git checkout shyll
 stack exec blog rebuild
 
 # switch to master, extract site and push
