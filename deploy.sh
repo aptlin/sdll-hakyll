@@ -92,5 +92,5 @@ case "$1" in
     deploy;;
   * )
     fail "invalid operation";;
-  esac
+esac
 
