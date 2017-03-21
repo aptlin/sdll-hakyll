@@ -65,9 +65,9 @@ deploy() {
   
   if [[ "$OSTYPE"x == "msys"x ]]; then
     # no unicode support in msys, so invoke powershell and establish code page
-    powershell "chcp 65001; ./site build" > /dev/null
-  else
-      stack exec site build > /dev/null
+      powershell "chcp 65001; stack exec site rebuild" > /dev/null
+  else      
+      stack exec site rebuild 
   fi
   
   cp -r "$SITE"/* $DEPLOY
