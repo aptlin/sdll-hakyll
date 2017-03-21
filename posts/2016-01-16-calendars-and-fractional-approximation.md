@@ -2,10 +2,10 @@
 title: Calendars and Fractional Approximation
 ---
 
-<script src="/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="/assets/scripts/katex/katex.min.css">
-<script src="/assets/scripts/katex/katex.min.js"></script>
-<script src="/assets/scripts/katex/contrib/auto-render.min.js"></script>
+<script src="/files/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="/files/assets/scripts/katex/katex.min.css">
+<script src="/files/assets/scripts/katex/katex.min.js"></script>
+<script src="/files/assets/scripts/katex/contrib/auto-render.min.js"></script>
 
 
 Have you ever wondered what a calendar <i>is</i>? How would you explain the notion of a calendar to an alien, albeit a very precocious one with some notion of homo sapiens common sense?
@@ -43,7 +43,7 @@ Let's say we want our year to last 365 days. Every time we the year finishes, th
 One of the two fractions $ \frac{p-1}{q}$ and $ \frac{p}{q} $, which is closer on the number line to $ \alpha $, constitutes the best rational approximation with the required denominator $ q $. For instance, let's consider the approximation of  represented in Figure 1.
 <p>
 <ul style="list-style-type:none; display:table;margin:auto;text-align:center;">
-<li><img src="/assets/site/drawing.png" width="256px"/></li>
+<li><img src="/files/assets/site/drawing.png" width="256px"/></li>
 <li> <em>Figure 1</em></li>
 </ul>
 </p>
