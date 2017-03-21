@@ -24,7 +24,7 @@ git commit -m "$1" || error\_exit "deploy script error: no changes to commit"
 git checkout master
 
 # delete old site
-rm -rf !(.|..|.git|.gitignore|.nojekyll|.stack-work)
+rm -rf !(.|..|.git|.gitignore|.nojekyll|.stack-work|_cache)
 git add -A && git commit -m "delete old site"
 
 # switch to hakyll branch and rebuild website
