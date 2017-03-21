@@ -1,96 +1,42 @@
-#!/usr/bin/env bash
-
-REMOTE="git@github.com:sdll/sdll.github.io.git"
-SITE="_site"
-DEPLOY="deploy/"
-
-info() {
-  printf "  \033[00;32m+\033[0m $1\n"
+#!/bin/bash
+shopt -s extglob
+function error_exit
+{
+   echo "$1" 1>&2
+   exit 1
 }
 
-success() {
-  printf "  \033[00;32m+\033[0m $1\n"
-}
+if [ -z "$1" ]
+then
+  echo "deploy script error: What changes did you make? Type a commit message."
+  exit 1
+fi
 
-fail() {
-  printf "  \033[0;31m-\033[0m $1\n"
-  exit
-}
+# Build successfuly or exit
+stack clean
+stack build || error\_exit "deploy script error: Build failed"
 
-# shouldn't happen since `site` binary is usually at root to
-# begin with, but doesn't hurt to check
-dir_check() {
-    if [ ! -f "site.hs" ]; then
-	fail "not at root dir"
-    fi
-}
+# Push changes on hakyll branch to github
+git add -A
+git commit -m "$1" || error\_exit "deploy script error: no changes to commit"
+git push origin shyll
 
-git_check() {
-  git rev-parse || fail "$PWD is already under git control"
-}
+# Switch to master branch
+git checkout master
 
-setup() {
-  dir_check
+# delete old site
+rm -rf !(.git|CNAME|README.md) # dont delete CNAME and README.md
+git add -A && git commit -m "delete old site"
 
-  rm -rf $DEPLOY
-  mkdir $DEPLOY
+# switch to hakyll branch and rebuild website
+git checkout master
+stack exec blog rebuild
 
-  info "created $DEPLOY"
-  cd $DEPLOY
-  git_check
+# switch to master, extract site and push
+git checkout master
+mv \_site/\* .
+git add -A && git commit --amend -m "$1"
+git push origin master
 
-  git init -q
-  info "initialized git"
-  git checkout --orphan master -q
-  info "established master branch"
-  git remote add origin $REMOTE
-  info "established git remote"
-
-  success "setup complete"
-}
-
-deploy() {
-  dir_check
-
-  COMMIT=$(git log -1 HEAD --pretty=format:%H)
-  SHA=${COMMIT:0:8}
-
-  info "commencing deploy operation based off of $SHA"
-
-  # clean out deploy and move in the new files
-  rm -rf "$DEPLOY"/*
-  info "cleaned out $DEPLOY"
-
-  info "building site"
-  
-  if [[ "$OSTYPE"x == "msys"x ]]; then
-    # no unicode support in msys, so invoke powershell and establish code page
-      powershell "chcp 65001; stack exec site rebuild" > /dev/null
-  else      
-      stack exec site rebuild 
-  fi
-  
-  cp -r "$SITE"/* $DEPLOY
-  info "copied $SITE into $DEPLOY"
-
-  cd $DEPLOY
-
-  git add --all .
-  info "added files to git"
-
-  git commit -m "generated from $SHA" -q
-  info "committed site"
-
-  git push origin master --force -q
-  success "deployed site"
-}
-
-case "$1" in
-  setup )
-    setup;;
-  deploy )
-    deploy;;
-  * )
-    fail "invalid operation";;
-esac
-
+# return to original branch
+git checkout shyll
