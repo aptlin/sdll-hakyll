@@ -92,3 +92,8 @@ pageCtx =
     field "description" (return . itemBody) `mappend`
     defaultContext
 
+--------------------------------------------------------------------------------
+--- Basic Configuration
+siteConfig :: Configuration
+siteConfig = defaultConfiguration{ deployCommand = "bash deploy.sh deploy" }
+--------------------------------------------------------------------------------
