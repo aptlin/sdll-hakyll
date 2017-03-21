@@ -19,7 +19,6 @@ stack build || error\_exit "deploy script error: Build failed"
 # Push changes on hakyll branch to github
 git add -A
 git commit -m "$1" || error\_exit "deploy script error: no changes to commit"
-git push origin shyll
 
 # Switch to master branch
 git checkout master
@@ -30,7 +29,7 @@ git add -A && git commit -m "delete old site"
 
 # switch to hakyll branch and rebuild website
 git checkout shyll
-stack exec site build
+stack exec site rebuild
 
 # switch to master, extract site and push
 git checkout master
