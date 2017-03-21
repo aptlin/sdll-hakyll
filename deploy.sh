@@ -33,8 +33,10 @@ stack exec site rebuild
 
 # switch to master, extract site and push
 git checkout master
-mv \_site/\* .
-git add -A && git commit --amend -m "$1"
+cd _site
+mv . ..
+cd ..
+git add . && git commit -m "$1"
 git push origin master
 
 # return to original branch
