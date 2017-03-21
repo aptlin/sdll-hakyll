@@ -26,7 +26,7 @@ git checkout master
 # delete old site
 rm -rf !(.|..|.git|.gitignore|.nojekyll|.stack-work|_cache|_site)
 cd _site
-mv . ..
+mv * ..
 cd ..
 git add -A
 git commit -m "$1"
