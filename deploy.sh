@@ -67,7 +67,7 @@ deploy() {
     # no unicode support in msys, so invoke powershell and establish code page
     powershell "chcp 65001; ./site build" > /dev/null
   else
-    ./site build > /dev/null
+      stack exec site build > /dev/null
   fi
   
   cp -r "$SITE"/* $DEPLOY
