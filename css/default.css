@@ -1,6 +1,5 @@
 body {
     color: black;
-    
     font-family: Tahoma, Verdana, Segoe, sans-serif;
     font-size: 16px;
     margin: 1em auto;
@@ -12,10 +11,12 @@ div#header {
     text-align: center;
     border-bottom: 2px solid black;
     margin-bottom: 30px;
-    padding: 15px 0px 0px 0px;
+    padding: 15px 15px 0px 15px;
     display: table;
     width:100%
 }
+div#content{
+    padding: 0 15px 0 15px;}
 div#header #logo {
     display: table-cell;
     vertical-align:middle;    
