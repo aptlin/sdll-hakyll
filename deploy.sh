@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 REMOTE="git@github.com:sdll/sdll.github.io.git"
-SITE="generated/deploy/out"
+SITE="_site"
 DEPLOY="deploy/"
 
 info() {
