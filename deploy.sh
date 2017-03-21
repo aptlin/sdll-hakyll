@@ -15,7 +15,7 @@ fi
 # Build successfuly or exit
 stack clean
 stack build || error\_exit "deploy script error: Build failed"
-
+stack exec site rebuild
 # Push changes on hakyll branch to github
 git add -A
 git commit -m "$1" || error\_exit "deploy script error: no changes to commit"
@@ -25,7 +25,6 @@ git checkout master
 
 # delete old site
 rm -rf !(.|..|.git|.gitignore|.nojekyll|.stack-work|_cache|_site)
-stack exec site rebuild
 cd _site
 mv . ..
 cd ..
@@ -35,3 +34,4 @@ git push origin master
 
 # return to original branch
 git checkout shyll
+git push origin shyll
