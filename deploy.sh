@@ -12,6 +12,7 @@ then
   exit 1
 fi
 
+pushd $BLOG_DIR
 # Build successfuly or exit
 stack clean
 stack build || error\_exit "deploy script error: Build failed"
@@ -22,7 +23,6 @@ git commit -m "$1" || error\_exit "deploy script error: no changes to commit"
 
 # Switch to master branch
 git checkout master
-cd $BLOG_DIR
 
 # delete old site
 rm -rf !(.|..|.git|.gitignore|.nojekyll|.stack-work|_cache|_site)
@@ -34,3 +34,4 @@ git push origin master
 # return to original branch
 git checkout shyll
 git push origin shyll
+popd
