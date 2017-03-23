@@ -57,7 +57,11 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170301MAT157_Approximating+Functions.pdf][20170301 MAT157: Approximating Functions]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170310MAT157_Taylor+Polynomial.pdf][20170310 MAT157: Taylor Polynomial]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170313MAT157_Taylor+Approximation.pdf][20170313 MAT157: Taylor Approximation]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170315MAT157_Irrationality+of+e.pdf][20170315 MAT157: Irrationality of e]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170315MAT157_Sequences+and+Series.pdf][20170315 MAT157: Sequences and Series I]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170317MAT157_Sequences+and+Series.pdf][20170317 MAT157: Sequences and Series II]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170320MAT157_More+on+Sequences.pdf][20170320 MAT157: More on Sequences]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170322MAT157_Series.pdf][20170322 MAT157: Series]]
 ** Linear Algebra
 *** MAT240: UToronto Algebra I
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20160913MAT240.pdf][20160913 MAT240: Introduction to Linear Algebra]]
@@ -103,7 +107,8 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170302MAT247_Canonical Forms.pdf][20170302 MAT247: Canonical Forms]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170302MAT247_Orthogonal+Projection+and+Spectres.pdf][20170302 MAT247: Orthogonal Projection and Spectres]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170309MAT247_More+on+JCF.pdf][20170309 MAT247: More on JCF]]
-
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170316MAT247_Uniqueness+of+JCF.pdf][20170316 MAT247: Uniqueness of JCF]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170321MAT247_Minimal+Polynomial.pdf][20170321 MAT247: Minimal Polynomial]]
 * Computer Science
 
 ** CSC148
@@ -150,6 +155,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170306CSC240_Further+Analysis+of+Algorithms.pdf][20170306 CSC240: Further Analysis of Algorithms]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170308CSC240_Correctness+of+Algorithms.pdf][20170308 CSC240: Correctness of Algorithms]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170313CSC240_More+on+Correctness+of+Algorithms.pdf][20170313 CSC240: More on Correctness of Algorithms]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170320CSC240_Correctness+of+Recursive+Algorithms.pdf][20170320 CSC240: Correctness of Recursive Algorithms]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170320CSC240_Language+Theory.pdf][20170320 CSC240: Language Theory]]
 * Physics
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170109PHY152_Fluid+Mechanics.pdf][20170109 PHY152: Fluid Mechanics]]
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170111PHY152_Buoyancy.pdf][20170111 PHY152: Buoyancy]]
@@ -211,3 +218,4 @@
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170216BIO130_Protein+Synthesis.pdf][20170216 BIO130: Protein Synthesis]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170302BIO130_Membrane+Proteins.pdf][20170302 BIO130: Membrane Proteins]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170309BIO130_Transport+Proteins+and+Critical+Cellular+Precesses.pdf][20170309 BIO130: Transport Proteins and Critical Cellular Precesses]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170316BIO130_Protein+Sorting+and+Modification.pdf][20170316 BIO130: Protein Sorting and Modification]]
