@@ -1,8 +1,9 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
-import           Data.Monoid (mconcat, (<>))
+import           Data.Monoid     (mappend)
+import           Data.Monoid     (mconcat, (<>))
 import           Hakyll
+import           System.FilePath
 
 
 --------------------------------------------------------------------------------
@@ -37,7 +38,7 @@ main = hakyll $ do
             >>= relativizeUrls
 
     match "pages/*.org" $ do
-        route   $ setExtension "html"
+        route $ setRoot `composeRoutes` cleanURL
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/page.html"    pageCtx
             >>= loadAndApplyTemplate "templates/default.html" pageCtx
@@ -51,7 +52,7 @@ main = hakyll $ do
             >>= relativizeUrls
 
     create ["log.html"] $ do
-        route idRoute
+        route $ idRoute `composeRoutes` cleanURL
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let archiveCtx =
@@ -81,7 +82,8 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateBodyCompiler
 
-
+--------------------------------------------------------------------------------
+--- Contexts
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
@@ -93,7 +95,22 @@ pageCtx =
     defaultContext
 
 --------------------------------------------------------------------------------
+--- Routes
+--------------------------------------------------------------------------------
+setRoot :: Routes
+setRoot = customRoute stripTopDir
+
+stripTopDir :: Identifier -> FilePath
+stripTopDir = joinPath . tail . splitPath . toFilePath
+
+cleanURL :: Routes
+cleanURL = customRoute fileToDirectory
+
+fileToDirectory :: Identifier -> FilePath
+fileToDirectory = (flip combine) "index.html" . dropExtension . toFilePath
+--------------------------------------------------------------------------------
 --- Basic Configuration
+--------------------------------------------------------------------------------
 siteConfig :: Configuration
 siteConfig = defaultConfiguration{ deployCommand = "bash deploy.sh deploy" }
 --------------------------------------------------------------------------------

@@ -108,7 +108,7 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170302MAT247_Orthogonal+Projection+and+Spectres.pdf][20170302 MAT247: Orthogonal Projection and Spectres]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170309MAT247_More+on+JCF.pdf][20170309 MAT247: More on JCF]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170316MAT247_Uniqueness+of+JCF.pdf][20170316 MAT247: Uniqueness of JCF]]
-   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170321MAT247_Minimal+Polynomial.pdf][20170321 MAT247: Minimal Polynomial]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170321MAT247_JCF+Review.pdf][20170321 MAT247: JCF Review]]
 * Computer Science
 
 ** CSC148
