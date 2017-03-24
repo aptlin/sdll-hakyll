@@ -1,0 +1,82 @@
+---
+title: Vieta Jumping and Legend of Problem VI
+---
+#+BEGIN_EXPORT html
+
+<script src="/files/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="/files/assets/scripts/katex/katex.min.css">
+<script src="/files/assets/scripts/katex/katex.min.js"></script>
+<script src="/files/assets/scripts/katex/contrib/auto-render.min.js"></script>
+
+#+END_EXPORT
+
+Consider the following challenge, the [[https://www.youtube.com/watch?v=Y30VF3cSIYQ][legendary]] Sixth Problem:
+
+* Problem (IMO 1988)
+
+  Let $a$ and $b$ be positive integers such that $ab + 1$ divides
+  $a^2 + b^2$. 
+
+  Prove that $\frac{a^2+b^2}{ab+1}$ is a perfect square.
+
+* Solution
+
+We proceed by Vieta jumping, which has an elegant [[https://youtu.be/L0Vj_7Y2-xY][geometric interpretation]].
+
+Assume there exists nonempty $M\subset\mathbb{Z}^+$ such that
+$$M=\{ m: (\exists a\in\mathbb{Z}^+.\exists b\in\mathbb{Z}^{+}.\left(\frac{a^2+b^2}{ab+1}=m\right) \text{and } m \text{ is not a perfect square} \}.$$ 
+Fix some $m\in M$.
+
+For such an integer $m$, let
+$S(m) = \{a+b;a\in\mathbb{Z}^+, b\in\mathbb{Z}^+, m = \frac{a^2+b^2}{ab+1}\}$ be a
+set of all the sums of integers corresponding to $m$ satisfying the given condition.
+
+Since $M$ is nonempty, then $S(m)$ is also a nonempty set of positive integers. By the Well-Ordering Principle, there exists the least sum $s\in S(m)$.
+
+ Suppose that $p\in\mathbb{Z}^+$ and $q\in\mathbb{Z}^+$ are such that $s = p+q$.
+
+Without loss of generality, assume that $p\geq q$.
+
+Note that $p^2+q^2 = m(pq+1)\ \Leftrightarrow\ p^{2}-(mq)p+(q^2-m) = 0$.
+
+Consider now the equation $x^2-(mq)x+(q^2-m) = 0$.
+
+Solving the quadratic for $x$ to obtain roots $x_1$ and $x_2$, we find that $x_1$ and $x_2$ are such that $x_1+x_2=mq$ and $q^2-m = x_1x_2$.
+
+From equation above we know that $p$ is one of the roots. 
+
+Therefore, $x_2$ is such that $x_2=mq-p$ and $x_2=\frac{q^2-m}{p}$.
+
+Since $mq-p \in\mathbb{Z}$, we know that $x_2$ is an integer. 
+
+By assumption, $m$ is not a perfect square, but $x_2=\frac{q^2-m}{p}$, and hence we know that $x_2\neq 0$.
+
+Since $x_2$ is the solution, we also know that $\frac{x_2^2+q^2}{x_2q+1} = m > 0$. Therefore, $x_2q+1 > 0$ and thus $x_2> -\frac{1}{q}$. 
+
+Since $q$ is a positive integer, while $x_2$ is nonzero, we deduce that $x_2> 0$.
+
+Since $p \geq q$, we have $p^2\geq q^2$ and thus
+$p \geq \frac{q^2}{p}$. 
+
+Because $x_2=\frac{q^2-m}{p}$, then $x < \frac{q^2}{p} \leq p$, which means that $x+q<p+q$.
+
+But $p+q = s$ was supposed to be minimal in $S$, and thus our
+assumption that there exists such an $m$ does not hold.
+
+Hence, if $ab +1$ divides $a^2+b^2$ and $m = \frac{a^2+b^2}{ab+1}$,
+then $m$ is a perfect square, as required.
+
+
+#+BEGIN_EXPORT html
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false},
+              ]
+          }
+      );
+</script>
+#+END_EXPORT

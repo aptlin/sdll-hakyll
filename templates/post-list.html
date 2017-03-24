@@ -1,7 +1,14 @@
 <ul>
+  <table id="archive">
     $for(posts)$
-        <li>
-            <a href="$url$">$title$</a> - $date$
-        </li>
+    <tr>
+      <td>
+        <a href="$url$">$title$</a>
+      </td>
+      <td>
+	$date$
+      </td>
+    </tr>
     $endfor$
+  </table>
 </ul>

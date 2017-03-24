@@ -1,8 +1,10 @@
 * Libraries
 ** [[http://www.mathnet.ru/php/presentation.phtml?&option_lang=eng][Mathnet.ru Video Library]]
 ** [[http://www.msri.org/web/msri/online-videos][MSRI Lectures]]
-* Blogs                                                              
+* Blogs
 ** [[http://blogs.ams.org/blogonmathblogs/#sthash.bSqyG4Jg.dpbs][AMS Blog on Blogs]]
+* Curricula
+** [[https://intelligence.org/research-guide/][MIRI Research Guide]]
 * People
 ** [[https://math.uchicago.edu/~jpwang/][Jonathan Wang]]
 ** [[http://yisun.io/index.html][Yi Sun]]

@@ -1,9 +1,15 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+import           Data.List       (sort)
 import           Data.Monoid     (mappend)
-import           Data.Monoid     (mconcat, (<>))
+import           Data.Monoid     (mconcat)
+import           Data.Monoid     ((<>))
 import           Hakyll
+import           Prelude         hiding (id)
 import           System.FilePath
+import           System.FilePath (replaceExtension, takeDirectory)
+import           System.Process  (system)
+import qualified Text.Pandoc     as Pandoc
 
 
 --------------------------------------------------------------------------------
@@ -27,9 +33,12 @@ main = hakyll $ do
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
 
-    match "css/*" $ do
-        route   idRoute
-        compile compressCssCompiler
+    match "css/*" $ compile compressCssCompiler
+    create ["style.css"] $ do
+        route idRoute
+        compile $ do
+            csses <- loadAll "css/*.css"
+            makeItem $ unlines $ map itemBody csses
 
     match (fromList ["about.org"]) $ do
         route   $ setExtension "html"
@@ -81,6 +90,11 @@ main = hakyll $ do
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
+
+--------------------------------------------------------------------------------
+--- Compilers
+--------------------------------------------------------------------------------
+
 
 --------------------------------------------------------------------------------
 --- Contexts
