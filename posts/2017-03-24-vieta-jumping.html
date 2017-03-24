@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vieta Jumping and Legend of Problem VI</title>
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+	      <a href="../">
+	      <img src="../images/logo.png" width="50" alt="@">
+	      </a>
+            </div>
+            <div id="navigation">
+                <a href="../">About</a>
+		<a href="../pub/">Papers</a>
+		<a href="../agenda/">Agenda</a>
+		<a href="../mikveh/">Mikveh</a>
+		<a href="../arbeit/">Arbeit</a>
+		<a href="../notes/">Notes</a>		
+                <a href="../log/">Log</a>
+		<a href="https://github.com/sdll">Hub</a>
+            </div>
+        </div>
+        <div id="content">
+            <div class="info">
+    Posted on March 24, 2017
+    
+</div>
+<h1>Vieta Jumping and Legend of Problem VI</h1>
+
+<script src="../files/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="../files/assets/scripts/katex/katex.min.css">
+<script src="../files/assets/scripts/katex/katex.min.js"></script>
+<script src="../files/assets/scripts/katex/contrib/auto-render.min.js"></script>
+
+
+<p>Consider the following challenge, the <a href="https://www.youtube.com/watch?v=Y30VF3cSIYQ">legendary</a> Sixth Problem:</p>
+<h1 id="problem-imo-1988">Problem (IMO 1988)</h1>
+<p>Let <span class="math inline"><em>a</em></span> and <span class="math inline"><em>b</em></span> be positive integers such that <span class="math inline"><em>a</em><em>b</em> + 1</span> divides <span class="math inline"><em>a</em><sup>2</sup> + <em>b</em><sup>2</sup></span>.</p>
+<p>Prove that <span class="math inline">$\frac{a^2+b^2}{ab+1}$</span> is a perfect square.</p>
+<h1 id="solution">Solution</h1>
+<p>We proceed by Vieta jumping, which has an elegant <a href="https://youtu.be/L0Vj_7Y2-xY">geometric interpretation</a>.</p>
+<p>Assume there exists nonempty <span class="math inline"><em>M</em> ⊂ ℤ<sup>+</sup></span> such that <br /><span class="math display">$$M=\{ m: (\exists a\in\mathbb{Z}^+.\exists b\in\mathbb{Z}^{+}.\left(\frac{a^2+b^2}{ab+1}=m\right) \text{and } m \text{ is not a perfect square} \}.$$</span><br /> Fix some <span class="math inline"><em>m</em> ∈ <em>M</em></span>.</p>
+<p>For such an integer <span class="math inline"><em>m</em></span>, let <span class="math inline">$S(m) = \{a+b;a\in\mathbb{Z}^+, b\in\mathbb{Z}^+, m = \frac{a^2+b^2}{ab+1}\}$</span> be a set of all the sums of integers corresponding to <span class="math inline"><em>m</em></span> satisfying the given condition.</p>
+<p>Since <span class="math inline"><em>M</em></span> is nonempty, then <span class="math inline"><em>S</em>(<em>m</em>)</span> is also a nonempty set of positive integers. By the Well-Ordering Principle, there exists the least sum <span class="math inline"><em>s</em> ∈ <em>S</em>(<em>m</em>)</span>.</p>
+<p>Suppose that <span class="math inline"><em>p</em> ∈ ℤ<sup>+</sup></span> and <span class="math inline"><em>q</em> ∈ ℤ<sup>+</sup></span> are such that <span class="math inline"><em>s</em> = <em>p</em> + <em>q</em></span>.</p>
+<p>Without loss of generality, assume that <span class="math inline"><em>p</em> ≥ <em>q</em></span>.</p>
+<p>Note that <span class="math inline"><em>p</em><sup>2</sup> + <em>q</em><sup>2</sup> = <em>m</em>(<em>p</em><em>q</em> + 1)  ⇔  <em>p</em><sup>2</sup> − (<em>m</em><em>q</em>)<em>p</em> + (<em>q</em><sup>2</sup> − <em>m</em>)=0</span>.</p>
+<p>Consider now the equation <span class="math inline"><em>x</em><sup>2</sup> − (<em>m</em><em>q</em>)<em>x</em> + (<em>q</em><sup>2</sup> − <em>m</em>)=0</span>.</p>
+<p>Solving the quadratic for <span class="math inline"><em>x</em></span> to obtain roots <span class="math inline"><em>x</em><sub>1</sub></span> and <span class="math inline"><em>x</em><sub>2</sub></span>, we find that <span class="math inline"><em>x</em><sub>1</sub></span> and <span class="math inline"><em>x</em><sub>2</sub></span> are such that <span class="math inline"><em>x</em><sub>1</sub> + <em>x</em><sub>2</sub> = <em>m</em><em>q</em></span> and <span class="math inline"><em>q</em><sup>2</sup> − <em>m</em> = <em>x</em><sub>1</sub><em>x</em><sub>2</sub></span>.</p>
+<p>From equation above we know that <span class="math inline"><em>p</em></span> is one of the roots.</p>
+<p>Therefore, <span class="math inline"><em>x</em><sub>2</sub></span> is such that <span class="math inline"><em>x</em><sub>2</sub> = <em>m</em><em>q</em> − <em>p</em></span> and <span class="math inline">$x_2=\frac{q^2-m}{p}$</span>.</p>
+<p>Since <span class="math inline"><em>m</em><em>q</em> − <em>p</em> ∈ ℤ</span>, we know that <span class="math inline"><em>x</em><sub>2</sub></span> is an integer.</p>
+<p>By assumption, <span class="math inline"><em>m</em></span> is not a perfect square, but <span class="math inline">$x_2=\frac{q^2-m}{p}$</span>, and hence we know that <span class="math inline"><em>x</em><sub>2</sub> ≠ 0</span>.</p>
+<p>Since <span class="math inline"><em>x</em><sub>2</sub></span> is the solution, we also know that <span class="math inline">$\frac{x_2^2+q^2}{x_2q+1} = m &gt; 0$</span>. Therefore, <span class="math inline"><em>x</em><sub>2</sub><em>q</em> + 1 &gt; 0</span> and thus <span class="math inline">$x_2&gt; -\frac{1}{q}$</span>.</p>
+<p>Since <span class="math inline"><em>q</em></span> is a positive integer, while <span class="math inline"><em>x</em><sub>2</sub></span> is nonzero, we deduce that <span class="math inline"><em>x</em><sub>2</sub> &gt; 0</span>.</p>
+<p>Since <span class="math inline"><em>p</em> ≥ <em>q</em></span>, we have <span class="math inline"><em>p</em><sup>2</sup> ≥ <em>q</em><sup>2</sup></span> and thus <span class="math inline">$p \geq \frac{q^2}{p}$</span>.</p>
+<p>Because <span class="math inline">$x_2=\frac{q^2-m}{p}$</span>, then <span class="math inline">$x &lt; \frac{q^2}{p} \leq p$</span>, which means that <span class="math inline"><em>x</em> + <em>q</em> &lt; <em>p</em> + <em>q</em></span>.</p>
+<p>But <span class="math inline"><em>p</em> + <em>q</em> = <em>s</em></span> was supposed to be minimal in <span class="math inline"><em>S</em></span>, and thus our assumption that there exists such an <span class="math inline"><em>m</em></span> does not hold.</p>
+<p>Hence, if <span class="math inline"><em>a</em><em>b</em> + 1</span> divides <span class="math inline"><em>a</em><sup>2</sup> + <em>b</em><sup>2</sup></span> and <span class="math inline">$m = \frac{a^2+b^2}{ab+1}$</span>, then <span class="math inline"><em>m</em></span> is a perfect square, as required.</p>
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false},
+              ]
+          }
+      );
+</script>
+
+
+        </div>
+    </body>
+</html>
