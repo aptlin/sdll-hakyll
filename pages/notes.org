@@ -109,6 +109,7 @@
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170309MAT247_More+on+JCF.pdf][20170309 MAT247: More on JCF]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170316MAT247_Uniqueness+of+JCF.pdf][20170316 MAT247: Uniqueness of JCF]]
    - [[https://github.com/sdll/NOTES/blob/master/MAT/20170321MAT247_JCF+Review.pdf][20170321 MAT247: JCF Review]]
+   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170323MAT247_Canonical+Forms.pdf][20170323 MAT247: Canonical Forms]]
 * Computer Science
 
 ** CSC148
@@ -219,3 +220,4 @@
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170302BIO130_Membrane+Proteins.pdf][20170302 BIO130: Membrane Proteins]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170309BIO130_Transport+Proteins+and+Critical+Cellular+Precesses.pdf][20170309 BIO130: Transport Proteins and Critical Cellular Precesses]]
    - [[https://github.com/sdll/NOTES/blob/master/BIO/20170316BIO130_Protein+Sorting+and+Modification.pdf][20170316 BIO130: Protein Sorting and Modification]]
+   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170323BIO130_Cytoskeleton+and+Interactions+Between+the+Cells+and+the+Environment.pdf][20170323 BIO130: Cytoskeleton and Interactions Between the Cells and the Environment]]
