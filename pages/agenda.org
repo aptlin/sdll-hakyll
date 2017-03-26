@@ -2,7 +2,7 @@
 #+OPTIONS: toc:3
 ** Absicht
 
-*** [[file:../assets/agenda/verbit_programme.txt][Misha Verbitsky's Programme]]
+*** [[file:../files/assets/agenda/verbit_programme.txt][Misha Verbitsky's Programme]]
 
 **** Metric Geometry and Topology
 
@@ -58,10 +58,10 @@
 + А. Шень. Простые и составные числа
 + И. Л. Кантор, А. С. Солодовников. Гиперкомплексные числа.
 + И. М. Гельфанд, А. Шень. Алгебра.
-+ [[http://www.mccme.ru/free-books/pdf/alekseev.pdf][В. Б. Алексеев. Теорема Абеля в задачах и решениях.]]
++ [[http://www.mccme.ru/free-books/pdf/alekseev.pdf][В. Б. Алексеев. Теорема Абеля в задачах и решениях.]] ([[http://www.maths.ed.ac.uk/~aar/papers/abel.pdf][Abel's Theorem in Problems and Solutions]])
 + М. М. Постников. Введение в теорию алгебраических чисел.
 + И. Р. Шафаревич. Основные понятия алгебры.
-+ А. А. Кириллов. Что такое число?
++ [[http://www.math.ru/lib/files/djvu/chislo.djvu][А. А. Кириллов. Что такое число?]]
 + А. И. Кострикин, Ю. И. Манин, Линейная алгебра и геометрия.
 + М.М. Постников. Лекции по геометрии. Линейная алгебра
 + S. Axler. "Linear algebra done Right"
