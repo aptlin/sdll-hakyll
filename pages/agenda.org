@@ -2,7 +2,9 @@
 #+OPTIONS: toc:3
 ** Absicht
 
-*** [[file:../files/assets/agenda/verbit_programme.txt][Misha Verbitsky's Programme]]
+*** Program
+
+The program is based on [[file:../files/assets/agenda/verbit_programme.txt][Misha Verbitsky's Curriculum]].
 
 **** Metric Geometry and Topology
 
@@ -281,11 +283,8 @@
 
 ** Miscellaneous
 
-*** [[http://yufeizhao.com/olympiad.html][Yufei Zhao's olympiad training handouts]]
-
-*** [[http://www.mit.edu/~alexrem/Math%2520Competitions.html][Alexander Remorov's Math Competition Handouts]]
-
-*** [[http://math.cmu.edu/~ploh/olympiad.shtml][Po-Shen Loh's Math Olympiad teaching notes]]
-
-    - [[http://math.cmu.edu/~ploh/docs/math/mop2011/prob-method.pdf][Probabilistic Methods in Combinatorics 2011]]
-    - [[http://math.cmu.edu/~ploh/docs/math/mop2012/combinatorics-black-soln.pdf][Probabilistic Methods in Combinatorics 2012]]
+- [[http://yufeizhao.com/olympiad.html][Yufei Zhao's olympiad training handouts]]
+- [[http://www.mit.edu/~alexrem/Math%2520Competitions.html][Alexander Remorov's Math Competition Handouts]]
+- [[http://math.cmu.edu/~ploh/olympiad.shtml][Po-Shen Loh's Math Olympiad teaching notes]]
+  + [[http://math.cmu.edu/~ploh/docs/math/mop2011/prob-method.pdf][Probabilistic Methods in Combinatorics 2011]]
+  + [[http://math.cmu.edu/~ploh/docs/math/mop2012/combinatorics-black-soln.pdf][Probabilistic Methods in Combinatorics 2012]]
