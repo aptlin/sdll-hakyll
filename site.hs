@@ -1,16 +1,10 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.List       (sort)
 import           Data.Monoid     (mappend)
-import           Data.Monoid     (mconcat)
-import           Data.Monoid     ((<>))
 import           Hakyll
 import           Prelude         hiding (id)
 import           System.FilePath
-import           System.FilePath (replaceExtension, takeDirectory)
-import           System.Process  (system)
-import qualified Text.Pandoc     as Pandoc
-
+import           Text.Pandoc
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -48,7 +42,9 @@ main = hakyll $ do
 
     match "pages/*.org" $ do
         route $ setRoot `composeRoutes` cleanURL
-        compile $ pandocCompiler
+        let readerOptions = defaultHakyllReaderOptions
+        compile $ pandocCompilerWith readerOptions woptions
+        -- compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/page.html"    pageCtx
             >>= loadAndApplyTemplate "templates/default.html" pageCtx
             >>= relativizeUrls
@@ -121,10 +117,17 @@ cleanURL :: Routes
 cleanURL = customRoute fileToDirectory
 
 fileToDirectory :: Identifier -> FilePath
-fileToDirectory = (flip combine) "index.html" . dropExtension . toFilePath
+fileToDirectory = flip combine "index.html" . dropExtension . toFilePath
 --------------------------------------------------------------------------------
 --- Basic Configuration
 --------------------------------------------------------------------------------
-siteConfig :: Configuration
-siteConfig = defaultConfiguration{ deployCommand = "bash deploy.sh deploy" }
---------------------------------------------------------------------------------
+
+woptions :: Text.Pandoc.WriterOptions
+woptions = defaultHakyllWriterOptions{ writerSectionDivs = True,
+                                       writerTableOfContents = True,
+                                       writerColumns = 120,
+                                       writerTemplate = Just "<div id=\"TOC\"><h2>Table of Contents:</h2> $toc$</div>\n<div id=\"body\">$body$</div>",
+                                       writerHtml5 = True,
+                                       writerHtmlQTags = True,
+                                       writerHTMLMathMethod = Text.Pandoc.MathML Nothing,
+                                       writerEmailObfuscation = NoObfuscation }
