@@ -38,6 +38,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170116Curtis+McMullen_A+Skeptical+History+of+Numbers.pdf][20170116: Curtis McMullen: A Skeptical History of Numbers]]
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170221_Umberto+Zannier_The+Concept+of+Height+and+its+Usefulness.pdf][20170221: Umberto Zannier: The Concept of Height and its Usefulness]]
   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170322Frank+Thome_Analytic+Perspectives+in+Arithmetic+Statistics.pdf][20170322: Frank Thome: Analytic Perspectives in Arithmetic Statistics]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170329Hector+Pasten_On+the+abc+Conjecture.pdf][20170329: Hector Pasten: On the abc Conjecture]]
 
 * Riemannian Geometry
 
