@@ -63,7 +63,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170320MAT157_More+on+Sequences.pdf][20170320 MAT157: More on Sequences]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170322MAT157_Series.pdf][20170322 MAT157: Series]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170324MAT157_Series+and+Absolute+Convergence.pdf][20170324 MAT157: Series and Absolute Convergence]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170327MAT157Convergence+of+Functions.pdf][20170327 MAT157: Convergence of Functions]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170329MAT157Power+Series.pdf][20170329 MAT157: Power Series]]
 ** Linear Algebra
 
 *** MAT240: UToronto Algebra I
@@ -114,7 +115,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170316MAT247_Uniqueness+of+JCF.pdf][20170316 MAT247: Uniqueness of JCF]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170321MAT247_JCF+Review.pdf][20170321 MAT247: JCF Review]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170323MAT247_Canonical+Forms.pdf][20170323 MAT247: Canonical Forms]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170328MAT247Minimal+Polynomials.pdf][20170328 MAT247: Minimal Polynomials]]
 * Computer Science
 
 ** CSC148
@@ -164,6 +165,9 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170320CSC240_Correctness+of+Recursive+Algorithms.pdf][20170320 CSC240: Correctness of Recursive Algorithms]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170320CSC240_Language+Theory.pdf][20170320 CSC240: Language Theory]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170324CSC240Tutorial_Finite+State+Transducers.pdf][20170324 CSC240 Tutorial: Finite State Transducers]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170327CSC240DFA+Proofs.pdf][20170327 CSC240: DFA Proofs]]
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170329CSC240Variants+of+NFAs.pdf][20170329 CSC240: Variants of NFAs]]
+
 * Physics
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170109PHY152_Fluid+Mechanics.pdf][20170109 PHY152: Fluid Mechanics]]
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170111PHY152_Buoyancy.pdf][20170111 PHY152: Buoyancy]]

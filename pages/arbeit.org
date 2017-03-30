@@ -526,6 +526,7 @@ space.
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170215CSC240_Pset+V.pdf][20170215 CSC240: Pset V]]
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170301CSC240_Pset+VI.pdf][20170301 CSC240: Pset VI]]
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170315CSC240_Pset+VII.pdf][20170315 CSC240: Pset VII]]
+*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170329CSC240_Pset+VIII.pdf][20170329 CSC240: Pset VIII]]
  #+begin_EXPORT html
  <script>
  renderMathInElement(
