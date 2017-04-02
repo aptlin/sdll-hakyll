@@ -65,6 +65,8 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170324MAT157_Series+and+Absolute+Convergence.pdf][20170324 MAT157: Series and Absolute Convergence]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170327MAT157Convergence+of+Functions.pdf][20170327 MAT157: Convergence of Functions]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170329MAT157Power+Series.pdf][20170329 MAT157: Power Series]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170331MAT157Math+Plum.pdf][20170331 MAT157 Math Plum]]
+
 ** Linear Algebra
 
 *** MAT240: UToronto Algebra I
@@ -116,6 +118,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170321MAT247_JCF+Review.pdf][20170321 MAT247: JCF Review]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170323MAT247_Canonical+Forms.pdf][20170323 MAT247: Canonical Forms]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170328MAT247Minimal+Polynomials.pdf][20170328 MAT247: Minimal Polynomials]]
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170330MAT247Rational+Canonical+Forms.pdf][20170330 MAT247: Rational Canonical Forms]]
 * Computer Science
 
 ** CSC148
@@ -233,3 +236,4 @@
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170309BIO130_Transport+Proteins+and+Critical+Cellular+Precesses.pdf][20170309 BIO130: Transport Proteins and Critical Cellular Precesses]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170316BIO130_Protein+Sorting+and+Modification.pdf][20170316 BIO130: Protein Sorting and Modification]]
   - [[https://github.com/sdll/NOTES/blob/master/BIO/20170323BIO130_Cytoskeleton+and+Interactions+Between+the+Cells+and+the+Environment.pdf][20170323 BIO130: Cytoskeleton and Interactions Between the Cells and the Environment]]
+  - [[https://github.com/sdll/NOTES/blob/master/BIO/20170330BIO130The+Cell+Cycle.pdf][20170330 BIO130: The Cell Cycle]]
