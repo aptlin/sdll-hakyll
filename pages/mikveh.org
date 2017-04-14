@@ -39,7 +39,7 @@
    - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170221_Umberto+Zannier_The+Concept+of+Height+and+its+Usefulness.pdf][20170221: Umberto Zannier: The Concept of Height and its Usefulness]]
    - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170322Frank+Thome_Analytic+Perspectives+in+Arithmetic+Statistics.pdf][20170322: Frank Thome: Analytic Perspectives in Arithmetic Statistics]]
    - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170329Hector+Pasten_On+the+abc+Conjecture.pdf][20170329: Hector Pasten: On the abc Conjecture]]
-
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170406Leonid+Monin_+Markov+Triples.pdf][20170406: Leonid Monin:  Markov Triples]]
 ** Riemannian Geometry
 
    - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/20170222MIKVEH_Bruce+Kleiner_Ricci+flow,+Singularities,+Stability,+and+the+Topology+of+3-manifolds.pdf][20170222 Bruce Kleiner: Ricci flow, Singularities, Stability, and the Topology of 3-manifolds]]

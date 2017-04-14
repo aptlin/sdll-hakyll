@@ -119,7 +119,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170323MAT247_Canonical+Forms.pdf][20170323 MAT247: Canonical Forms]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170328MAT247Minimal+Polynomials.pdf][20170328 MAT247: Minimal Polynomials]]
   - [[https://github.com/sdll/NOTES/blob/master/MAT/20170330MAT247Rational+Canonical+Forms.pdf][20170330 MAT247: Rational Canonical Forms]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/MAT/20170404MAT247Computational+Aspects+of+RCF.pdf][20170404 MAT247 Computational Aspects of RCF]]
 * Computer Science
 
 ** CSC148
@@ -171,7 +171,7 @@
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170324CSC240Tutorial_Finite+State+Transducers.pdf][20170324 CSC240 Tutorial: Finite State Transducers]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170327CSC240DFA+Proofs.pdf][20170327 CSC240: DFA Proofs]]
   - [[https://github.com/sdll/NOTES/blob/master/CSC/20170329CSC240Variants+of+NFAs.pdf][20170329 CSC240: Variants of NFAs]]
-
+  - [[https://github.com/sdll/NOTES/blob/master/CSC/20170403CSC240Nonregular+Languages.pdf][20170403 CSC240: Nonregular Languages]]
 * Physics
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170109PHY152_Fluid+Mechanics.pdf][20170109 PHY152: Fluid Mechanics]]
   - [[https://github.com/sdll/NOTES/blob/master/PHY/20170111PHY152_Buoyancy.pdf][20170111 PHY152: Buoyancy]]
