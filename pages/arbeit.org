@@ -234,7 +234,42 @@ Nonsense (%):
 ** Linear Algebra
 
 *** MAT247
+**** 20170406 MAT247: Pset X
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170406MAT247_Pset+X_1.pdf][20170406 MAT247: Pset X: 1]]
 
+    The argument assumes that $g(x)$ has the same degree as $f(x)$,
+    which is not necessarily the case. Use the fact that for all
+    $i\neq j$ a homomorphism $(T - \lambda_j I)$ is an isomorphism on
+    $K_{\lambda_i}$.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170406MAT247_Pset+X_2.pdf][20170406 MAT247: Pset X: 2]]
+
+    The remainder $v(t)$ is not necessarily monic, so an additional step is needed to show uniqueness.
+
+    The claim made in the proof of Theorem 1.2 does not hold --
+    $q(T)(x)=0$ does not imply that $q(T)=0$. The minimality of $T$
+    annihilator is enough to show that that the claim holds by the
+    corrected argument.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170406MAT247_Pset+X_3.pdf][20170406 MAT247: Pset X: 3]]
+
+    0 is not an eigenvalue of $T$, so the chosen subspace does not satisfy the conditions.
+
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170406MAT247_Pset+X_4.pdf][20170406 MAT247: Pset X: 4]]
+**** 20170330 MAT247: Pset IX
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170330MAT247_Pset+IX_1.pdf][20170330 MAT247: Pset IX: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170330MAT247_Pset+IX_2.pdf][20170330 MAT247: Pset IX: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170330MAT247_Pset+IX_3.pdf][20170330 MAT247: Pset IX: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170330MAT247_Pset+IX_4.pdf][20170330 MAT247: Pset IX: 4]]
+**** 20170322 MAT247: Pset VIII
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170322MAT247_Pset+VIII_1.pdf][20170322 MAT247: Pset VIII: 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170322MAT247_Pset+VIII_2.pdf][20170322 MAT247: Pset VIII: 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170322MAT247_Pset+VIII_3.pdf][20170322 MAT247: Pset VIII: 3]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170322MAT247_Pset+VIII_4.pdf][20170322 MAT247: Pset VIII: 4]]
+**** 20170315 MAT247: Pset VII
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170315MAT247_Pset+VII+1.pdf][20170315 MAT247: Pset VII 1]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170315MAT247_Pset+VII+2.pdf][20170315 MAT247: Pset VII 2]]
+  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170315MAT247_Pset+VII+3.pdf][20170315 MAT247: Pset VII 3]]
 **** 20170309 MAT247: Pset VI
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_1.pdf][20170309 MAT247: Pset VI: 1]]
   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_2.pdf][20170309 MAT247: Pset VI: 2]]
