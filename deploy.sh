@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-BLOG_DIR="~/WERKE/sdll.github.io/"
+BLOG_DIR="/home/aleph/WERKE/sdll.github.io/"
 shopt -s extglob
 function error_exit
 {
