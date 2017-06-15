@@ -1,0 +1,21 @@
+reset
+set output "sfscore.png"
+data = "/home/aleph/WERKE/sdll.github.io/files/assets/org/sfscore"
+A = "#d33682"; B = "#586e75"
+set terminal pngcairo size 1024,768 enhanced
+set style fill solid border rgb "black"
+set style histogram rowstacked
+set style data histograms
+set ylabel "SF Score"
+set boxwidth 0.5
+set auto x
+set yrange [0:150]
+stats data every ::1 using (sum[i=2:3] column(i)) nooutput
+total = int(STATS_sum)
+set title  "Dynamics of Nonsense\n" \
+.strftime("Total SF Score on %Y/%m/%d: ", time(0)) .sprintf('%d', total)
+set xtics rotate by -45
+plot data using 2:xtic(1) title col fc rgb A,\
+'' using 3:xtic(1) title col fc rgb B,\
+'' every ::1 using 0:(s = sum [i=2:3] column(i), s):(sprintf('%d', s)) \
+with labels offset 0,1 notitle
