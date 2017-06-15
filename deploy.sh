@@ -19,7 +19,7 @@ stack build || error\_exit "deploy script error: Build failed"
 stack exec site rebuild
 # Push changes on hakyll branch to github
 git add -A
-git commit -m "$1" || error\_exit "deploy script error: no changes to commit"
+git commit -m "$1" || echo "Commited no changes."
 
 # Switch to master branch
 git checkout master
