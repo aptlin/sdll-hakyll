@@ -1,9 +1,9 @@
 * 2015
 
-- [[/files/pub/qc/SDLL1.pdf][1]]: What is a Quasicrystal? Mathematical Foundations of Quasicrystallography
-  +  [[/files/pub/qc/SDLL1_P.pdf][1\_P]]: Presentation
-- [[/files/pub/rmtrh/SDLL2.pdf][2]]: Architecture of a Nucleus: Nuclear Spectra and Random Matrix Theory
-- [[/files/pub/quach/SDLL3.pdf][3]]: Classical Chaos and Quantum Chaology
+- [[../files/pub/qc/SDLL1.pdf][1]]: What is a Quasicrystal? Mathematical Foundations of Quasicrystallography
+  +  [[../files/pub/qc/SDLL1_P.pdf][1\_P]]: Presentation
+- [[../files/pub/rmtrh/SDLL2.pdf][2]]: Architecture of a Nucleus: Nuclear Spectra and Random Matrix Theory
+- [[../files/pub/quach/SDLL3.pdf][3]]: Classical Chaos and Quantum Chaology
 
 * 2016
-- [[/files/pub/ro/SDLL4.pdf][4]]: Reverse Osmosis and Water Purification: Process and Procedures
+- [[../files/pub/ro/SDLL4.pdf][4]]: Reverse Osmosis and Water Purification: Process and Procedures
