@@ -5,6 +5,7 @@
 ** [[http://blogs.ams.org/blogonmathblogs/#sthash.bSqyG4Jg.dpbs][AMS Blog on Blogs]]
 * Curricula
 ** [[https://intelligence.org/research-guide/][MIRI Research Guide]]
+** [[https://cache-mskdataline02.cdn.yandex.net/download.cdn.yandex.net/shad/shad_program_v3.pdf][Yandex School of Data Analysis Preparation Guide]]
 * People
 ** [[https://math.uchicago.edu/~jpwang/][Jonathan Wang]]
 ** [[http://yisun.io/index.html][Yi Sun]]
