@@ -9,7 +9,9 @@ In 2016 I embarked on the pure mathematics specialist program at
 [[https://umus.github.io/ut-umu][University of Toronto]].
 
 E-mail: [[mailto:sasha.illarionov@mail.utoronto.ca][sasha.illarionov@mail.utoronto.ca]]
+
 Twitter: [[https://twitter.com/0xSDLL][@sdll]]
+
 Here you can find:
 
 #+BEGIN_EXPORT html
