@@ -9,7 +9,7 @@ In 2016 I embarked on the pure mathematics specialist program at
 [[https://umus.github.io/ut-umu][University of Toronto]].
 
 E-mail: [[mailto:sasha.illarionov@mail.utoronto.ca][sasha.illarionov@mail.utoronto.ca]]
-
+Twitter: [[https://twitter.com/0xSDLL][@sdll]]
 Here you can find:
 
 #+BEGIN_EXPORT html
@@ -19,9 +19,7 @@ $partial("templates/page-list.html")$
 Let's live together, and when we die, we will stop getting dumber.
 
 #+BEGIN_QUOTE
-
 #+BEGIN_HTML
-
 
 <b>"Végre nem butulok tovább." — Erdős Pál, epitaph</b>
 
