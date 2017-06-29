@@ -1,0 +1,107 @@
+---
+title: In Search of a Smart Way to Remove Whitespaces
+---
+#+BEGIN_EXPORT html
+
+<script src="/files/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="/files/assets/scripts/katex/katex.min.css">
+<script src="/files/assets/scripts/katex/katex.min.js"></script>
+<script src="/files/assets/scripts/katex/contrib/auto-render.min.js"></script>
+
+#+END_EXPORT
+/This note was inspired by the problem 4 in Moscow Mathematical Olympiad 1993./
+
+* Introduction
+Suppose you have a text in need of your careful attention. The
+formatting is not to your pleasing, and, a pedant as you are, there is
+no way this pesky superfluous whitespaces are going to torture the
+eyes of any future reader. What algorithm are you going to implement
+to deal with the nuisance?
+
+Assume you have located all the whitespaces, and now you think of how
+you can minimise the number of steps required for the procedure. 
+
+First, we choose an integer $k$, and divide each sequence into
+subsequences of length $k$. One of the nonempty subsequences may be of
+length less than $k$. Let’s call such a sequence /incomplete/, and the
+rest we will call /complete/. Now, we reduce the number of whitespaces
+in each complete subsequence to one and leave the incomplete
+subsequence untouched.
+
+How can we optimise this technique?
+
+* Analysis
+
+Suppose that each whitespace sequence is no longer than $n$. Note that
+it is sufficient to consider a set of whitespace sequences of lengths
+ranging from 1 to $n$ to account for all the cases. 
+
+Assume one iteration of our algorithm is completed. Denote the length
+of a maximum edited whitespace sequence as $f(n,k)$. We claim that for
+any number $j$ between 1 and $f(n,k)$ there exists a whitespace of
+length $j$. In other words, sequence lengths again would form a
+subsequence of consecutive positive integers from 1 to $f(n,k)$.
+
+We proceed by reversed induction on $j$. Suppose there is a sequence
+of length $j$. Then there exists a number $m$, where $m$ is between
+$1$ and $n$, such that $j=q+r$, where $q$ and $r$ are such that $m =
+q\dot k + r$. If $r\neq 0$, then a sequence of length $m-1$ would be
+changed to a sequence of length $j-1$, since $m-1 = q\dot k + r - 1$.
+If $r=0$, then $j=q$, and we can consider a sequence of length $m-k$
+to obtain an edited sequence of length $q-1$. Thus, after one
+iteration, we have a set of sequences with lengths ranging from 1 to
+$f(n,k)$. 
+
+We show now that the maximal sequence has a length of $f(n, k) = \lbrack
+\frac{n+1}{k}\rbrac + k - 2$, where $n + 1 = qk+r$ and $0 \leq r < k$.
+
+Consider a sequence of length $(q-1)k + (k-1) = n-r \leq n$. After the
+application of the algorithm, a sequence of length $q+k-2$ is
+obtained. 
+
+Suppose there is a sequence of length $kq_1+r_1$ less than or equal to
+$n$. Then $r_{1} < r$ if $q_1 = q$, and after one application of our
+algorithm we have $q_1+r_1 \leq q + k -2$ whitespaces, since $r \leq
+k-1$ and $r_1 < r$. If, however, $q_1 < q$, we have $r_1 \leq k-1$ and
+$q_1+r_1 < q+k-1$, which means that $q_1 + r_1 \leq q+k-2$. The fact
+that these values can be achieved follows from our assumption that
+sequences range in length from 1 to $n$ and previous remarks in the
+induction argument.
+
+The value of $k$ at which $f(n, k)$ achieves the maximum is $\lbrack
+\sqrt{n+1} \rbrack + 1$, as we now show. 
+
+Note that $f(n, k) = \lbrack \frac{n+1}{k} + k - 2$. A function $h(x)
+= \frac{n+1}{x} + x$ has a derivative of $-\frac{n+1}{x^{2}}+1$, which
+means that at $x=\sqrt{n+1}$ there is a local minimum. Since $\lbrack x
+\rbrack$ is a nondecreasing function, $f(n, k)$ achieves the minimum
+at $k=\lbrack \sqrt{n+1} \rbrack$ or $k=\lbrack \sqrt{n+1} \rbrack +
+1$.
+
+Denote $k=\lbrack \sqrt{n+1} \rbrack$ as $s$. Then $s^2 \leq n+1 <
+(s+1)^2$, and thus $s \leq \lbrack \frac{n+1}{s} \rbrack$ and $s \geq
+\lbrack \frac{n+1}{s+1} \rbrack$. We now show that these equations
+cannot be both equalities.
+
+Suppose that $\lbrack \frac{n+1}{s} \rbrack = s$. Therefore,
+$\frac{n+1}{s} < s+1$, which means that $\frac{n+1}{s+1} < s$ and
+hence $\lbrack \frac{n+1}{s+1} \rbrack < s$.
+
+Since $\lbrack \frac{n+1}{s} \rbrack > \lbrack \frac{n+1}{s+1}
+\rbrack$, we conclude that at $k = s + 1$ the function $f(n,k)$
+achieves the minimum.
+
+
+#+BEGIN_EXPORT html
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false},
+              ]
+          }
+      );
+</script>
+#+END_EXPORT
