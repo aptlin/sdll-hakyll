@@ -28,7 +28,7 @@ rest we will call /complete/. Now, we reduce the number of whitespaces
 in each complete subsequence to one and leave the incomplete
 subsequence untouched.
 
-How can we optimise this technique?
+How can we optimise this technique? Is there the best choice of $k$?
 
 * Analysis
 
@@ -45,15 +45,16 @@ subsequence of consecutive positive integers from 1 to $f(n,k)$.
 We proceed by reversed induction on $j$. Suppose there is a sequence
 of length $j$. Then there exists a number $m$, where $m$ is between
 $1$ and $n$, such that $j=q+r$, where $q$ and $r$ are such that $m =
-q\dot k + r$. If $r\neq 0$, then a sequence of length $m-1$ would be
-changed to a sequence of length $j-1$, since $m-1 = q\dot k + r - 1$.
+qk + r$. If $r\neq 0$, then a sequence of length $m-1$ would be
+changed to a sequence of length $j-1$, since $m-1 = q k + r - 1$.
 If $r=0$, then $j=q$, and we can consider a sequence of length $m-k$
 to obtain an edited sequence of length $q-1$. Thus, after one
 iteration, we have a set of sequences with lengths ranging from 1 to
 $f(n,k)$. 
 
-We show now that the maximal sequence has a length of $f(n, k) = \lbrack
-\frac{n+1}{k}\rbrac + k - 2$, where $n + 1 = qk+r$ and $0 \leq r < k$.
+We show now that the maximal sequence has a length of 
+$f(n, k) = \lbrack \frac{n+1}{k}\rbrack + k - 2$, where $n + 1 = qk+r$ and $0 \leq
+r < k$.
 
 Consider a sequence of length $(q-1)k + (k-1) = n-r \leq n$. After the
 application of the algorithm, a sequence of length $q+k-2$ is
@@ -71,17 +72,17 @@ induction argument.
 The value of $k$ at which $f(n, k)$ achieves the maximum is $\lbrack
 \sqrt{n+1} \rbrack + 1$, as we now show. 
 
-Note that $f(n, k) = \lbrack \frac{n+1}{k} + k - 2$. A function $h(x)
-= \frac{n+1}{x} + x$ has a derivative of $-\frac{n+1}{x^{2}}+1$, which
-means that at $x=\sqrt{n+1}$ there is a local minimum. Since $\lbrack x
-\rbrack$ is a nondecreasing function, $f(n, k)$ achieves the minimum
-at $k=\lbrack \sqrt{n+1} \rbrack$ or $k=\lbrack \sqrt{n+1} \rbrack +
-1$.
+We have determined that $f(n, k) = \lbrack \frac{n+1}{k} + k \rbrack -
+2$. A function $h(x) = \frac{n+1}{x} + x$ has a derivative of
+$-\frac{n+1}{x^{2}}+1$, which means that at $x=\sqrt{n+1}$ there is a
+local minimum. Since $\lbrack x \rbrack$ is a nondecreasing function,
+$f(n, k)$ achieves the minimum at $k=\lbrack \sqrt{n+1} \rbrack$ or
+$k=\lbrack \sqrt{n+1} \rbrack + 1$.
 
 Denote $k=\lbrack \sqrt{n+1} \rbrack$ as $s$. Then $s^2 \leq n+1 <
 (s+1)^2$, and thus $s \leq \lbrack \frac{n+1}{s} \rbrack$ and $s \geq
 \lbrack \frac{n+1}{s+1} \rbrack$. We now show that these equations
-cannot be both equalities.
+cannot be equalities both at once.
 
 Suppose that $\lbrack \frac{n+1}{s} \rbrack = s$. Therefore,
 $\frac{n+1}{s} < s+1$, which means that $\frac{n+1}{s+1} < s$ and
@@ -91,7 +92,10 @@ Since $\lbrack \frac{n+1}{s} \rbrack > \lbrack \frac{n+1}{s+1}
 \rbrack$, we conclude that at $k = s + 1$ the function $f(n,k)$
 achieves the minimum.
 
+* Conclusion
 
+To make the algorithm efficient, making $k$ equal to $\lbrack
+\sqrt{n+1} \rbrack + 1$ is a go-to option.
 #+BEGIN_EXPORT html
 <script>
       renderMathInElement(
