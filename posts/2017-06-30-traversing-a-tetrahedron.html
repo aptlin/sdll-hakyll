@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Traversing a Tetrahedron</title>
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+	      <a href="../">
+	      <img src="../images/logo.png" width="50" alt="@">
+	      </a>
+            </div>
+            <div id="navigation">
+                <a href="../">About</a>
+		<a href="../pub/">Papers</a>
+		<a href="../agenda/">Agenda</a>
+		<a href="../mikveh/">Mikveh</a>
+		<a href="../arbeit/">Arbeit</a>
+		<a href="../notes/">Notes</a>		
+                <a href="../log/">Log</a>
+		<a href="https://github.com/sdll">Hub</a>
+            </div>
+        </div>
+        <div id="content">
+            <div class="info">
+    Posted on June 30, 2017
+    
+</div>
+<h1>Traversing a Tetrahedron</h1>
+
+<script src="../files/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="../files/assets/scripts/katex/katex.min.css">
+<script src="../files/assets/scripts/katex/katex.min.js"></script>
+<script src="../files/assets/scripts/katex/contrib/auto-render.min.js"></script>
+
+
+<p><em>This note was inspired by the problem 5 in Moscow Mathematical Olympiad 1993.</em></p>
+<h1 id="problem">Problem</h1>
+<p>Suppose you operate a fancy drone inside a mysterious pyramid your friends have dug out recently. This pyramid is uniquely shaped as a perfect tetrahedron with a side <span class="math inline"><em>a</em></span>. What is the minimum distance required to visit each side and return to the starting point?</p>
+<h1 id="analysis">Analysis</h1>
+<p>Let’s introduce some notation to make our analysis easier and denote our tetrahedron as <span class="math inline"><em>A</em><em>B</em><em>C</em><em>D</em></span>. Suppose that the drone visited all the sides and returned to the starting point. Without loss of generality, since the pyramid is mysteriously perfect, we may assume that the sides were visited in the succession from <span class="math inline"><em>A</em><em>B</em><em>C</em></span> to <span class="math inline"><em>B</em><em>C</em><em>D</em></span>, from <span class="math inline"><em>B</em><em>C</em><em>D</em></span> to <span class="math inline"><em>D</em><em>A</em><em>B</em></span>, and from <span class="math inline"><em>D</em><em>A</em><em>B</em></span> to <span class="math inline"><em>A</em><em>C</em><em>D</em></span>. We will mark the points at which the drone visited the side as <span class="math inline"><em>E</em>, <em>F</em>, <em>G</em>, <em>H</em></span> respectively. We are given that the minimum distance the drone must traverse is the perimeter of the spatial quadrilateral <span class="math inline"><em>E</em><em>F</em><em>G</em><em>H</em></span>. See the figure below.</p>
+<img style="width: 70%;float:left;margin:-20px; margin-right:-75px; margin-left:-100px;" src="../files/assets/posts/tt/tetrahedron.jpg">
+
+<p>Construct a plane perpendicular to <span class="math inline"><em>A</em><em>B</em></span> through <span class="math inline"><em>D</em><em>C</em></span>. Let the point of intersection of this plane with <span class="math inline"><em>A</em><em>B</em></span> be denoted as <span class="math inline"><em>T</em></span>. Note that this plane is a plane of symmetry for our tetrahedron. Now, reflect the points of <span class="math inline"><em>E</em><em>F</em><em>G</em><em>H</em></span> through the constructed plane to obtain a quadrilateral <span class="math inline"><em>E</em><sub>1</sub><em>F</em><sub>1</sub><em>G</em><sub>1</sub><em>H</em><sub>1</sub></span>. Notice that the point <span class="math inline"><em>E</em><sub>1</sub></span> will be on the side <span class="math inline"><em>A</em><em>B</em><em>C</em></span>, just as a <em>parent</em> point <span class="math inline"><em>E</em></span>. The situation is similar with the points <span class="math inline"><em>G</em><sub>1</sub></span> and <span class="math inline"><em>G</em></span>, both on the side <span class="math inline"><em>D</em><em>A</em><em>B</em></span>. <span class="math inline"><em>F</em><sub>1</sub></span>, however, will fall on the side <span class="math inline"><em>A</em><em>C</em><em>D</em></span>, on which the point <span class="math inline"><em>H</em></span> is located, and <span class="math inline"><em>H</em><sub>1</sub></span> will fall on the side <span class="math inline"><em>B</em><em>C</em><em>D</em></span>, containing <span class="math inline"><em>F</em></span>. Since the constructed plane is a mirror plane, perimeters of <span class="math inline"><em>E</em><em>F</em><em>G</em><em>H</em></span> and <span class="math inline"><em>E</em><sub>1</sub><em>F</em><sub>1</sub><em>G</em><sub>1</sub><em>H</em><sub>1</sub></span> are equal.</p>
+<p>To proceed, we prove a handy lemma.</p>
+<p>Consider an arbitrary spatial quadrilateral <span class="math inline"><em>K</em><em>L</em><em>M</em><em>N</em></span>. Let <span class="math inline"><em>P</em></span> and <span class="math inline"><em>Q</em></span> be the points of <span class="math inline"><em>K</em><em>L</em></span> and <span class="math inline"><em>M</em><em>N</em></span> respectively. Then <span class="math inline">$PQ \leq \frac{1}{2}
+(KN+LM)$</span>.</p>
+<p>The lemma is depicted below.</p>
+<img style="width: 50%;float:right;margin:-20px; margin-right:5px; margin-left:15px;" src="../files/assets/posts/tt/lemma.jpg">
+
+<p>Let <span class="math inline"><em>R</em></span> mark the midpoint of a diagonal <span class="math inline"><em>L</em><em>N</em></span>. Since <span class="math inline">$PR=\frac{1}{2}KN$</span> and <span class="math inline">$RQ=\frac{1}{2}LM$</span> from the similarity of corresponding triangles, by the triangle inequality we know that <span class="math inline"><em>P</em><em>Q</em> ≤ <em>P</em><em>R</em> + <em>R</em><em>Q</em></span>, which proves the lemma.</p>
+<p>Now, let <span class="math inline"><em>E</em><sub>2</sub>, <em>F</em><sub>2</sub>, <em>G</em><sub>2</sub>, <em>H</em><sub>2</sub></span> be the midpoints of the segments <span class="math inline"><em>E</em><em>E</em><sub>1</sub></span>, <span class="math inline"><em>F</em><em>H</em><sub>1</sub></span>, <span class="math inline"><em>G</em><em>G</em><sub>1</sub></span>, and <span class="math inline"><em>H</em><em>F</em><sub>1</sub></span> respectively. Vertices of the quadrilateral <span class="math inline"><em>E</em><sub>2</sub><em>F</em><sub>2</sub><em>G</em><sub>2</sub><em>H</em><sub>2</sub></span> also lie on the sides of the tetrahedron. The perimeter of <span class="math inline"><em>E</em><sub>2</sub><em>F</em><sub>2</sub><em>G</em><sub>2</sub><em>H</em><sub>2</sub></span> is less than the perimeter of <span class="math inline"><em>E</em><em>F</em><em>G</em><em>H</em></span>, as follows from our lemma. To convince yourself, see the figure below:</p>
+<img style="width: 50%;float:left;margin:-20px; margin-right:0px; margin-left:-30px;" src="../files/assets/posts/tt/quadrilateral.png">
+
+<p>Moreover, the points <span class="math inline"><em>E</em><sub>2</sub></span> and <span class="math inline"><em>G</em><sub>2</sub></span>, which are midpoints of <span class="math inline"><em>E</em><em>E</em><sub>1</sub></span> and <span class="math inline"><em>G</em><em>G</em><sub>1</sub></span> respectively, are going to belong to the plane of symmetry <span class="math inline"><em>T</em><em>C</em><em>D</em></span> we have constructed earlier. Notice that <span class="math inline"><em>C</em><em>T</em></span> and <span class="math inline"><em>D</em><em>T</em></span> are medians of the sides <span class="math inline"><em>A</em><em>B</em><em>C</em></span> and <span class="math inline"><em>A</em><em>B</em><em>D</em></span>.</p>
+<p>Now, mirror the quadrilateral <span class="math inline"><em>E</em><sub>2</sub><em>F</em><sub>2</sub><em>G</em><sub>2</sub><em>H</em><sub>2</sub></span> in the plane <span class="math inline"><em>A</em><em>B</em><em>S</em></span>, where <span class="math inline"><em>S</em></span> is the midpoint of <span class="math inline"><em>C</em><em>D</em></span>, to obtain <span class="math inline"><em>E</em><sub>3</sub><em>F</em><sub>3</sub><em>G</em><sub>3</sub><em>H</em><sub>3</sub></span>, and then, taking the midpoints of the segments defined by the points of <span class="math inline"><em>E</em><sub>2</sub><em>F</em><sub>2</sub><em>G</em><sub>2</sub><em>H</em><sub>2</sub></span> and <span class="math inline"><em>E</em><sub>3</sub><em>F</em><sub>3</sub><em>G</em><sub>3</sub><em>H</em><sub>3</sub></span> sharing the same side, construct the quadrilateral <span class="math inline"><em>E</em><sub>4</sub><em>F</em><sub>4</sub><em>G</em><sub>4</sub><em>H</em><sub>4</sub></span>. Consult the diagram below:</p>
+<img style="width: 50%;float:right;margin:-20px; margin-right:5px; margin-left:0px;" src="../files/assets/posts/tt/medians.jpg">
+
+<p>This quadrilateral is special in the following sense: <span class="math inline"><em>E</em><sub>4</sub></span> and <span class="math inline"><em>G</em><sub>4</sub></span> belong to the segments <span class="math inline"><em>C</em><em>T</em></span> and <span class="math inline"><em>D</em><em>T</em></span>, while vertices <span class="math inline"><em>F</em><sub>4</sub></span> and <span class="math inline"><em>H</em><sub>4</sub></span> lie on the medians <span class="math inline"><em>A</em><em>S</em></span> and <span class="math inline"><em>B</em><em>S</em></span> of the sides <span class="math inline"><em>A</em><em>C</em><em>D</em></span> and <span class="math inline"><em>B</em><em>C</em><em>D</em></span>, as seen in the figure:</p>
+<img style="width: 50%;float:left;margin:-20px; margin-right:0px; margin-left:-30px; margin-top: -20px;" src="../files/assets/posts/tt/projection.png">
+
+<p>Similarly, the perimeter of <span class="math inline"><em>E</em><sub>4</sub><em>F</em><sub>4</sub><em>G</em><sub>4</sub><em>H</em><sub>4</sub></span> is not bigger than the perimeter of <span class="math inline"><em>E</em><em>F</em><em>G</em><em>H</em></span>. Therefore, the perimeter of <span class="math inline"><em>E</em><em>F</em><em>G</em><em>H</em></span> is not less than <span class="math inline">4<em>d</em></span>, where <span class="math inline"><em>d</em></span> is the distance between the lines <span class="math inline"><em>C</em><em>T</em></span> and <span class="math inline"><em>B</em><em>S</em></span>.</p>
+<p>All we need to do now is to find a path of length <span class="math inline">4<em>d</em></span> and compute <span class="math inline"><em>d</em></span>.</p>
+<p>Let <span class="math inline"><em>E</em><sub>0</sub><em>F</em><sub>0</sub></span> denote the line perpendicular both to <span class="math inline"><em>C</em><em>T</em></span> and <span class="math inline"><em>B</em><em>S</em></span>, with <span class="math inline"><em>E</em><sub>0</sub></span> belonging to <span class="math inline"><em>C</em><em>T</em></span>, and <span class="math inline"><em>F</em><sub>0</sub></span> lying on <span class="math inline"><em>B</em><em>S</em></span>. Let <span class="math inline"><em>G</em><sub>0</sub></span> be a point symmetric to <span class="math inline"><em>E</em><sub>0</sub></span> with regards to the plane <span class="math inline"><em>A</em><em>B</em><em>S</em></span>. From symmetry in the plane <span class="math inline"><em>A</em><em>B</em><em>S</em></span> we can deduce that <span class="math inline"><em>F</em><sub>0</sub><em>G</em><sub>0</sub></span> is a common perpendicular of <span class="math inline"><em>B</em><em>S</em></span> and <span class="math inline"><em>D</em><em>T</em></span>.</p>
+<p>Proceeding in a similar way, we construct a point <span class="math inline"><em>H</em><sub>0</sub></span>, such that <span class="math inline"><em>G</em><sub>0</sub><em>H</em><sub>0</sub></span> and <span class="math inline"><em>H</em><sub>0</sub><em>E</em><sub>0</sub></span> are common perpendiculars of <span class="math inline"><em>D</em><em>T</em></span> and <span class="math inline"><em>A</em><em>S</em></span>, and of <span class="math inline"><em>A</em><em>S</em></span> and <span class="math inline"><em>C</em><em>T</em></span> respectively.</p>
+<img style="width: 50%;float:left;margin:-20px; margin-right:10px; margin-left:-30px; margin-top: -20px;" src="../files/assets/posts/tt/d.png">
+
+<p>The quadrilateral <span class="math inline"><em>E</em><sub>0</sub><em>F</em><sub>0</sub><em>G</em><sub>0</sub><em>H</em><sub>0</sub></span> has a perimeter of <span class="math inline">4<em>d</em></span>. We need to make sure, however, that the points of these common perpendiculars lie on the sides of our tetrahedron, and not on their continuations. Meanwhile, we will also calculate <span class="math inline"><em>d</em></span>.</p>
+<p>Erect a plane through <span class="math inline"><em>A</em><em>B</em></span> perpendicular to the base <span class="math inline"><em>A</em><em>B</em><em>C</em></span>. Project our tetrahedron on this plane to obtain a triangle <span class="math inline"><em>A</em><em>B</em><em>D</em>′</span>, in which <span class="math inline"><em>A</em><em>B</em> = <em>a</em></span>, <span class="math inline">$D'T = \sqrt{\frac{2}{3}}a$</span>, since <span class="math inline"><em>D</em>′<em>T</em></span> is the height of a regular tetrahedron, and <span class="math inline"><em>S</em>′</span> is the projection of <span class="math inline"><em>S</em></span> corresponding to the middle of <span class="math inline"><em>D</em>′<em>T</em></span>.</p>
+<p>Since <span class="math inline"><em>C</em><em>T</em></span> is perpendicular to <span class="math inline"><em>A</em><em>B</em></span> and thus the common perpendicular of <span class="math inline"><em>C</em><em>T</em></span> and <span class="math inline"><em>B</em><em>S</em></span> is parallel to the plane of projection, the distance from the point <span class="math inline"><em>T</em></span> to <span class="math inline"><em>B</em><em>S</em>′</span> in the triangle <span class="math inline"><em>A</em><em>B</em><em>D</em>′</span> has the length of exactly <span class="math inline"><em>d</em></span>. Moreover, since the base of a perpendicular from <span class="math inline"><em>T</em></span> to <span class="math inline"><em>B</em><em>S</em>′</span> lies inside <span class="math inline"><em>A</em><em>B</em><em>D</em>′</span> on the segment <span class="math inline"><em>B</em><em>S</em>′</span>, then <span class="math inline"><em>F</em><sub>0</sub></span> belongs to <span class="math inline"><em>B</em><em>S</em></span> and not to its continuation. Similarly, all the other points of the quadrilateral can be shown to lie on the medians themselves.</p>
+<p>Now, after all the work we have done, it is easy to compute <span class="math inline"><em>d</em></span>. We know that <span class="math inline">$BT = \frac{a}{2}$</span> and <span class="math inline">$TS' =
+\frac{a}{2}\sqrt{\frac{2}{3}}$</span>. Therefore, by the Pythagorean theorem, <span class="math inline">$BS' = \frac{a}{2}\sqrt{\frac{5}{3}}$</span>.</p>
+<p>Now, the area of the triangle <span class="math inline"><em>B</em><em>T</em><em>S</em>′</span> is <span class="math inline">$\frac{1}{2} BT \cdot TS'$</span>, and also <span class="math inline">$\frac{1}{2} d \cdot BS'$</span>, and hence <span class="math inline">$d = \frac{BT\cdot
+TS'}{BS'}$</span>, which means that <span class="math inline">$d = \frac{a}{\sqrt{10}}$</span>.</p>
+<h1 id="conclusion-and-discussion">Conclusion and Discussion</h1>
+<p>Our fancy drone must cover the distance of <span class="math inline">$\frac{2 \sqrt{10}}{5} a$</span> to traverse the walls of the mysterious pyramid efficiently. Moreover, our analysis has also shown that the number of the most efficient paths is exactly three, for each choice of two planes of the tetrahedron mirror symmetry.</p>
+<p>We could also ask ourselves an analogous question about a tiny crawling robot inside a triangle with sides <span class="math inline"><em>a</em>, <em>b</em>, <em>c</em></span>. What is the least distance required to visit each side and return to the initial position? For an acute triangle, this problem is also known as <em>Fagnano’s problem</em>.</p>
+<p>What can we say about simplices in higher dimensions?</p>
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false},
+              ]
+          }
+      );
+</script>
+
+
+        </div>
+    </body>
+</html>
