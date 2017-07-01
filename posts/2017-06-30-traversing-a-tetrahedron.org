@@ -30,7 +30,7 @@ that the minimum distance the drone must traverse is the perimeter of
 the spatial quadrilateral $EFGH$. See the figure below.
 
 #+BEGIN_EXPORT html
-<img style="width: 70%;float:left;margin:-20px; margin-right:-75px; margin-left:-100px;" src="../files/assets/posts/tt/tetrahedron.jpg">
+<img style="width: 70%;float:left;margin:0px; margin-right:-20px; margin-left:0px;word-wrap: break-word;" src="../files/assets/posts/tt/tetrahedron.jpg">
 #+END_EXPORT
 
 Construct a plane perpendicular to $AB$ through $DC$. Let the point of
@@ -54,7 +54,7 @@ the points of $KL$ and $MN$ respectively. Then $PQ \leq \frac{1}{2}
 The lemma is depicted below.
 
 #+BEGIN_EXPORT html
-<img style="width: 50%;float:right;margin:-20px; margin-right:5px; margin-left:15px;" src="../files/assets/posts/tt/lemma.jpg">
+<center><img style="width: 50%;margin:0px; margin-top:-30px; margin-bottom:-50px;margin-right:0px; margin-left:50px;" src="../files/assets/posts/tt/lemma.jpg"></center>
 #+END_EXPORT
 
 Let $R$ mark the midpoint of a diagonal $LN$. Since $PR=\frac{1}{2}KN$
@@ -69,7 +69,7 @@ of $E_2F_2G_2H_2$ is less than the perimeter of $EFGH$, as follows
 from our lemma. To convince yourself, see the figure below:
 
 #+BEGIN_EXPORT html
-<img style="width: 50%;float:left;margin:-20px; margin-right:0px; margin-left:-30px;" src="../files/assets/posts/tt/quadrilateral.png">
+<center><img style="width: 50%;margin-top:-30px; margin-bottom:-50px;margin-right:0px; margin-left:0px;" src="../files/assets/posts/tt/quadrilateral.png"></center>
 #+END_EXPORT
 
 Moreover, the points $E_2$ and $G_2$, which are midpoints of $EE_1$
@@ -84,7 +84,7 @@ $E_2F_2G_2H_2$ and $E_3F_3G_3H_3$ sharing the same side, construct the
 quadrilateral $E_4F_4G_4H_4$. Consult the diagram below:
 
 #+BEGIN_EXPORT html
-<img style="width: 50%;float:right;margin:-20px; margin-right:5px; margin-left:0px;" src="../files/assets/posts/tt/medians.jpg">
+<center><img style="width: 50%;margin-right:0px; margin-left:0px;margin-top:-10px; margin-bottom:-50px;" src="../files/assets/posts/tt/medians.jpg"></center>
 #+END_EXPORT
 
 This quadrilateral is special in the following sense: $E_4$ and $G_4$
@@ -93,7 +93,7 @@ lie on the medians $AS$ and $BS$ of the sides $ACD$ and $BCD$, as seen
 in the figure:
 
 #+BEGIN_EXPORT html
-<img style="width: 50%;float:left;margin:-20px; margin-right:0px; margin-left:-30px; margin-top: -20px;" src="../files/assets/posts/tt/projection.png">
+<center><img style="width: 50%;margin-right:0px; margin-left:0px; margin-top: 0px;margin-top:-40px; margin-bottom:-60px;" src="../files/assets/posts/tt/projection.png"></center>
 #+END_EXPORT
 
 Similarly, the perimeter of $E_4F_4G_4H_4$ is not bigger than the
@@ -113,7 +113,7 @@ $G_0H_0$ and $H_0E_0$ are common perpendiculars of $DT$ and $AS$, and
 of $AS$ and $CT$ respectively.
 
 #+BEGIN_EXPORT html
-<img style="width: 50%;float:left;margin:-20px; margin-right:10px; margin-left:-30px; margin-top: -20px;" src="../files/assets/posts/tt/d.png">
+<img style="width: 50%;float:left;margin:0px; margin-right:10px; margin-left:0px; margin-top: 0px;" src="../files/assets/posts/tt/d.png">
 #+END_EXPORT
 
 The quadrilateral $E_0F_0G_0H_0$ has a perimeter of $4d$. We need to
