@@ -2,15 +2,17 @@
 title: Hello, Universe!
 ---
 
-I am Sasha Illarionov, and my primary goal now is to have sound
-foundations in [[file:../assets/agenda/atiyah_singer_interview.pdf][core mathematics]].
+I am Sasha Illarionov, and my primary goal now is to have a solid
+background in core mathematics, computer science and programming.
 
 In 2016 I embarked on the pure mathematics specialist program at
 [[https://umus.github.io/ut-umu][University of Toronto]].
 
 Contact me via [[mailto:sasha.illarionov@mail.utoronto.ca][email]] or [[https://twitter.com/0xSDLL][twitter]].
 
-Here you can find:
+You can read a range of posts on miscellania in a [[/log/][weblog]].
+
+Here you can also find:
 
 #+BEGIN_EXPORT html
 $partial("templates/page-list.html")$

@@ -18,21 +18,21 @@ div#header {
 
 div#header #logo {
     display: table-cell;
-    vertical-align:middle;    
+    vertical-align:middle;
 }
 div#logo a {
     color: #259359;
     float: left;
     font-size: 18px;
     font-weight: bold;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 div#logo img{
     width: 2em;}
 
 div#header #navigation {
-    text-align: right; 
+    text-align: right;
     display: table-cell;
     vertical-align:middle;
     max-width: 740px;
@@ -44,7 +44,7 @@ div#header #navigation a {
     font-weight: bold;
     margin-left: 12px;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 div#footer {
@@ -80,6 +80,3 @@ div.info {
 :link:hover, :visited:hover {
     color: #2aa198
 }
-
-
-
