@@ -4,6 +4,7 @@ div#archive {
     padding: 0px 0px;
     margin-right: 20px;
     line-height: 130%;
+    width: 100%;
 }
 div#archive ul {
     list-style-type: none;

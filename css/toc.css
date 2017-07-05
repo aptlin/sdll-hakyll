@@ -2,8 +2,8 @@ div#TOC {
     border: 1px solid #cccccc;
     background-color: #f9f9f9;
     padding: 0px 0;
-    margin-right: 20px;
     line-height: 130%;
+    width: 100%;
 }
 
 div#TOC li {
@@ -16,4 +16,3 @@ div#TOC li:before {
 div#TOC li a {color: #0087ff;}
 div#TOC li li a { color: #00afaf; }
 div#TOC li li li a { color: #5f8700; }
-
