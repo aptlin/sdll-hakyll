@@ -10,7 +10,7 @@ In 2016 I embarked on the pure mathematics specialist program at
 
 Contact me via [[mailto:sasha.illarionov@mail.utoronto.ca][email]] or [[https://twitter.com/0xSDLL][twitter]].
 
-You can read a range of posts on miscellania in a [[/log/][weblog]].
+You can read a range of posts on miscellania in a [[./log/][weblog]].
 
 Here you can also find:
 
