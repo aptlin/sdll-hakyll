@@ -1,5 +1,5 @@
 ---
-title: Polyhedrons and their Many Faces
+title: Polyhedra and their Many Faces
 katex: on
 ---
 
