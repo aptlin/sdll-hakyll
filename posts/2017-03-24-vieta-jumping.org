@@ -1,14 +1,7 @@
 ---
 title: Vieta Jumping and Legend of Problem VI
+katex: on
 ---
-#+BEGIN_EXPORT html
-
-<script src="/files/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="/files/assets/scripts/katex/katex.min.css">
-<script src="/files/assets/scripts/katex/katex.min.js"></script>
-<script src="/files/assets/scripts/katex/contrib/auto-render.min.js"></script>
-
-#+END_EXPORT
 
 Consider the following challenge, the [[https://www.youtube.com/watch?v=Y30VF3cSIYQ][legendary]] Sixth Problem:
 
@@ -66,17 +59,3 @@ assumption that there exists such an $m$ does not hold.
 Hence, if $ab +1$ divides $a^2+b^2$ and $m = \frac{a^2+b^2}{ab+1}$,
 then $m$ is a perfect square, as required.
 
-
-#+BEGIN_EXPORT html
-<script>
-      renderMathInElement(
-          document.body,
-          {
-              delimiters: [
-                  {left: "$$", right: "$$", display: true},
-                  {left: "$", right: "$", display: false},
-              ]
-          }
-      );
-</script>
-#+END_EXPORT

@@ -1,13 +1,7 @@
 ---
 title: Simple Tests in Organic Chemistry
+katex: on
 ---
-<script src="/files/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="/files/assets/scripts/katex/katex.min.css">
-<script src="/files/assets/scripts/katex/katex.min.js"></script>
-<script src="/files/assets/scripts/katex/contrib/auto-render.min.js"></script>
-
-
-
 The standard A-level curriculum in the UK requires the knowledge of tests with the following reagents:
 
 * <a href="#dnph" >2,4-dinitrophenylhydrazine solution</a>
@@ -248,21 +242,5 @@ Let's go over them one by one:
     <br />
     Source: <a href="http://www.chemguide.co.uk/organicprops/carbonyls/iodoform.html">chemguide</a></em>
     </center>   
-    
 
-
-
-
-
-<script>
-      renderMathInElement(
-          document.body,
-          {
-              delimiters: [
-                  {left: "$$", right: "$$", display: true},
-                  {left: "$", right: "$", display: false},
-              ]
-          }
-      );
-</script>
 

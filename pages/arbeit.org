@@ -1,11 +1,11 @@
 #+STARTUP: showall
 #+OPTIONS: toc:3
 
+
 #+BEGIN_EXPORT html
-<script src="../files/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="../files/assets/scripts/katex/katex.min.css">
-<script src="../files/assets/scripts/katex/katex.min.js"></script>
-<script src="../files/assets/scripts/katex/contrib/auto-render.min.js"></script>
+<link rel="stylesheet" href="/js/katex/katex.min.css">
+<script src="/js/katex/katex.min.js"></script>
+<script src="/js/katex/contrib/auto-render.min.js"></script>
 #+END_EXPORT
 
 * Raw Data                                                         :noexport:
@@ -37,7 +37,7 @@
   A = "#d33682"; B = "#586e75"
   set terminal pngcairo size 1024,768 enhanced
   set style fill solid border rgb "black"
-  set style histogram rowstacked
+p  set style histogram rowstacked
   set style data histograms
   set ylabel "SF Score"
   set boxwidth 0.5
@@ -62,6 +62,7 @@
 #+BEGIN_EXPORT html
 <iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="/files/assets/demos/sfscore.html" marginwidth="0" marginheight="0" style="height:800px; width:100%; border:none;" scrolling="no">Sorry, your browser cannot open the iframe. Do you want to continue to the <a href="/files/assets/demos/sfscore.html">graph page</a>?</iframe>
 #+END_EXPORT
+
 * Motivation
 #+BEGIN_QUOTE
 
@@ -133,7 +134,7 @@ Nonsense (%):
     point $\alpha \in (c,y)$ such that $f'(\alpha) = \frac{f(y) -
     f(c)}{y-c}$. Then obtain that $f(y)> f(c)$. 
 
-    By similar procedure, fix $x$ on $(a, c)$such that $f(x) <
+    By similar procedure, fix $x$ on $(a, c)$ such that $f(x) <
     f(c)$.
 
     Thus, $f(x) < f(c) < f(y)$.
@@ -534,7 +535,7 @@ space.
 
          *BETTER*:
 
-         It is required to show that $\forall s \in S: s \in W $. If
+         It is required to show that $\forall s \in S: s \in W$. If
          $s=0$, the result is trivial. If $s\neq 0$, consider $tv
          \in W\cup S$ for some scalar $t$. Since $S$ is finite,
          there exists $t'$ such that $t's \in W\cup S$, but not in
@@ -564,18 +565,9 @@ space.
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170329CSC240_Pset+VIII.pdf][20170329 CSC240: Pset VIII]] 
 *** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170405CSC240Pset+IX.pdf][20170405 CSC240: Pset IX]]
 
- #+begin_EXPORT html
- <script>
- renderMathInElement(
-           document.body,
-           {
-               delimiters: [
-                   {left: "$", right: "$", display: false},
-                   {left: "\\[", right: "\\]", display: false},
-                   {left: "$$", right: "$$", display: true},
-                   {left: "\\(", right: "\\)", display: false}
-               ]
-           }
-       );
- </script>
- #+end_EXPORT
+#+BEGIN_EXPORT html
+<script>
+      renderMathInElement(document.body);
+</script>
+#+END_EXPORT
+

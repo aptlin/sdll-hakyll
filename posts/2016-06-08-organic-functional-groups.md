@@ -1,5 +1,6 @@
 ---
 title: Graph of Organic Functional Groups
+katex: on
 ---
 
 <script>

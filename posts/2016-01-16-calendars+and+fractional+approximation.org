@@ -4,10 +4,10 @@ title: Calendars and Fractional Approximation
 
 #+BEGIN_EXPORT html
 
-<script src="/files/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="/files/assets/scripts/katex/katex.min.css">
-<script src="/files/assets/scripts/katex/katex.min.js"></script>
-<script src="/files/assets/scripts/katex/contrib/auto-render.min.js"></script>
+<script src="/js/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="/js/katex/katex.min.css">
+<script src="/js/katex/katex.min.js"></script>
+<script src="/js/katex/contrib/auto-render.min.js"></script>
 
 <p>Have you ever wondered what a calendar <i>is</i>? How would you explain the notion of a calendar to an alien, albeit a very precocious one with some notion of homo sapiens common sense?</p>
 <p>The word <i>calendar</i> originates from Latin <i>calendae</i> , or “calends”. The calends was the first day of the month in the ancient Roman calendar, when the debts fell due and accounts were reckoned in accordance with the account book called <em>kalendaria</em>.</p>

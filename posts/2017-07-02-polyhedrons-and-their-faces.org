@@ -1,14 +1,8 @@
 ---
 title: Polyhedrons and their Many Faces
+katex: on
 ---
-#+BEGIN_EXPORT html
 
-<script src="/files/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="/files/assets/scripts/katex/katex.min.css">
-<script src="/files/assets/scripts/katex/katex.min.js"></script>
-<script src="/files/assets/scripts/katex/contrib/auto-render.min.js"></script>
-
-#+END_EXPORT
 /This note was inspired by the problem 1 in Moscow Mathematical Olympiad 1994./
 * Problem
 
@@ -84,7 +78,7 @@ thus $\alpha(A) > \frac{(k-2)\pi}{k} \geq \frac{\pi}{3}$, since $k
 Now, assume that there exists some $10n$-hedron with not more than $n$
 faces which are triangles, not more than $n$ faces which are
 rectangles and so on. Since there are $10n$ faces, the number of edges
-is not less than $(3+4+\dots+12)n = 75n$. The sum of exterior angles
+is not less than $(3+4+\ldots+12)n = 75n$. The sum of exterior angles
 of each face is $2\pi$, so the total sum of the exterior angles is
 $20\pi n$. Hence, the average outer angle must be less than
 $\frac{20\pi n}{75n} = \frac{4\pi}{15}$, which is less than
@@ -98,16 +92,4 @@ $kn$, where $k$ is some positive integer?
 
 1. Толпыго, Алексей. Тысяча задач Международного математического
    Турнира городов. 2017.
-#+BEGIN_EXPORT html
-<script>
-      renderMathInElement(
-          document.body,
-          {
-              delimiters: [
-                  {left: "$$", right: "$$", display: true},
-                  {left: "$", right: "$", display: false},
-              ]
-          }
-      );
-</script>
-#+END_EXPORT
+

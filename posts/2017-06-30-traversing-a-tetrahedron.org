@@ -1,14 +1,7 @@
 ---
 title: Traversing a Tetrahedron
+katex: on
 ---
-#+BEGIN_EXPORT html
-
-<script src="/files/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="/files/assets/scripts/katex/katex.min.css">
-<script src="/files/assets/scripts/katex/katex.min.js"></script>
-<script src="/files/assets/scripts/katex/contrib/auto-render.min.js"></script>
-
-#+END_EXPORT
 /This note was inspired by the problem 5 in Moscow Mathematical Olympiad 1993./
 * Problem
 
@@ -158,16 +151,3 @@ position? For an acute triangle, this problem is also known as
 
 What can we say about simplices in higher dimensions?
 
-#+BEGIN_EXPORT html
-<script>
-      renderMathInElement(
-          document.body,
-          {
-              delimiters: [
-                  {left: "$$", right: "$$", display: true},
-                  {left: "$", right: "$", display: false},
-              ]
-          }
-      );
-</script>
-#+END_EXPORT

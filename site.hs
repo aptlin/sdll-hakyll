@@ -1,6 +1,7 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid     (mappend)
+import           Data.Monoid     ((<>))
 import           Hakyll
 import           Prelude         hiding (id)
 import           System.FilePath
@@ -16,6 +17,10 @@ main = do
         compile copyFileCompiler
 
     match "files/**" $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match "js/**" $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -53,9 +58,10 @@ main = do
 
     match "posts/*" $ do
         route $ setExtension "html"
-        compile $ pandocCompiler
+        let readerOptions = defaultHakyllReaderOptions
+        compile $ pandocCompilerWith readerOptions woptions
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= loadAndApplyTemplate "templates/default.html" (mathCtx <> postCtx)
             >>= relativizeUrls
 
     create ["log.html"] $ do
@@ -106,6 +112,15 @@ pageCtx =
     field "description" (return . itemBody) `mappend`
     defaultContext
 
+mathCtx :: Context a
+mathCtx = field "katex" $ \item -> do
+    katex <- getMetadataField (itemIdentifier item) "katex"
+    return $ case katex of
+                Just "false" -> ""
+                Just "off" -> ""
+                _ -> "<link rel=\"stylesheet\" href=\"/js/katex/katex.min.css\">\n\
+                     \<script type=\"text/javascript\" src=\"/js/katex/katex.min.js\"></script>\n\
+                     \<script src=\"/js/katex/contrib/auto-render.min.js\"></script>"
 --------------------------------------------------------------------------------
 --- Routes
 --------------------------------------------------------------------------------
@@ -125,12 +140,12 @@ fileToDirectory = flip combine "index.html" . dropExtension . toFilePath
 --------------------------------------------------------------------------------
 
 woptions :: Text.Pandoc.WriterOptions
-woptions = defaultHakyllWriterOptions{ writerSectionDivs = True,
+woptions = defaultHakyllWriterOptions{ writerSectionDivs = False,
                                        writerTableOfContents = True,
                                        writerColumns = 120,
                                        writerTemplate = Just "<div id=\"TOC\">$toc$</div>\n<div id=\"body\">$body$</div>",
                                        -- "<div id=\"TOC\"><h2>Table of Contents:</h2> $toc$</div>\n<div id=\"body\">$body$</div>",
                                        writerHtml5 = True,
                                        writerHtmlQTags = True,
-                                       writerHTMLMathMethod = Text.Pandoc.MathML Nothing,
+                                       writerHTMLMathMethod =  MathJax "",
                                        writerEmailObfuscation = NoObfuscation }
