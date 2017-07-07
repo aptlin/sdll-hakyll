@@ -31,51 +31,47 @@
     
 </div>
 <h1>In Search of a Smart Way to Remove Whitespaces</h1>
-
-<script src="../files/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="../files/assets/scripts/katex/katex.min.css">
-<script src="../files/assets/scripts/katex/katex.min.js"></script>
-<script src="../files/assets/scripts/katex/contrib/auto-render.min.js"></script>
-
-
-<p><em>This note was inspired by the problem 4 in Moscow Mathematical Olympiad 1993.</em></p>
+<div id="TOC"><ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#analysis">Analysis</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul></div>
+<div id="body"><p><em>This note was inspired by the problem 4 in Moscow Mathematical Olympiad 1993.</em></p>
 <h1 id="introduction">Introduction</h1>
 <p>Suppose you have a text in need of your careful attention. The formatting is not to your pleasing, and, a pedant as you are, there is no way this pesky superfluous whitespaces are going to torture the eyes of any future reader. What algorithm are you going to implement to deal with the nuisance?</p>
 <p>Assume you have located all the whitespaces, and now you think of how you can minimise the number of steps required for the procedure.</p>
-<p>First, we choose an integer <span class="math inline"><em>k</em></span>, and divide each sequence into subsequences of length <span class="math inline"><em>k</em></span>. One of the nonempty subsequences may be of length less than <span class="math inline"><em>k</em></span>. Let’s call such a sequence <em>incomplete</em>, and the rest we will call <em>complete</em>. Now, we reduce the number of whitespaces in each complete subsequence to one and leave the incomplete subsequence untouched.</p>
-<p>How can we optimise this technique? Is there the best choice of <span class="math inline"><em>k</em></span>?</p>
+<p>First, we choose an integer <span class="math inline">\(k\)</span>, and divide each sequence into subsequences of length <span class="math inline">\(k\)</span>. One of the nonempty subsequences may be of length less than <span class="math inline">\(k\)</span>. Let’s call such a sequence <em>incomplete</em>, and the rest we will call <em>complete</em>. Now, we reduce the number of whitespaces in each complete subsequence to one and leave the incomplete subsequence untouched.</p>
+<p>How can we optimise this technique? Is there the best choice of <span class="math inline">\(k\)</span>?</p>
 <h1 id="analysis">Analysis</h1>
-<p>Suppose that each whitespace sequence is no longer than <span class="math inline"><em>n</em></span>. Note that it is sufficient to consider a set of whitespace sequences of lengths ranging from 1 to <span class="math inline"><em>n</em></span> to account for all the cases.</p>
-<p>Assume one iteration of our algorithm is completed. Denote the length of a maximum edited whitespace sequence as <span class="math inline"><em>f</em>(<em>n</em>, <em>k</em>)</span>. We claim that for any number <span class="math inline"><em>j</em></span> between 1 and <span class="math inline"><em>f</em>(<em>n</em>, <em>k</em>)</span> there exists a whitespace of length <span class="math inline"><em>j</em></span>. In other words, sequence lengths again would form a subsequence of consecutive positive integers from 1 to <span class="math inline"><em>f</em>(<em>n</em>, <em>k</em>)</span>.</p>
-<p>We proceed by reversed induction on <span class="math inline"><em>j</em></span>. Suppose there is a sequence of length <span class="math inline"><em>j</em></span>. Then there exists a number <span class="math inline"><em>m</em></span>, where <span class="math inline"><em>m</em></span> is between <span class="math inline">1</span> and <span class="math inline"><em>n</em></span>, such that <span class="math inline"><em>j</em> = <em>q</em> + <em>r</em></span>, where <span class="math inline"><em>q</em></span> and <span class="math inline"><em>r</em></span> are such that <span class="math inline"><em>m</em> = <em>q</em><em>k</em> + <em>r</em></span>. If <span class="math inline"><em>r</em> ≠ 0</span>, then a sequence of length <span class="math inline"><em>m</em> − 1</span> would be changed to a sequence of length <span class="math inline"><em>j</em> − 1</span>, since <span class="math inline"><em>m</em> − 1 = <em>q</em><em>k</em> + <em>r</em> − 1</span>. If <span class="math inline"><em>r</em> = 0</span>, then <span class="math inline"><em>j</em> = <em>q</em></span>, and we can consider a sequence of length <span class="math inline"><em>m</em> − <em>k</em></span> to obtain an edited sequence of length <span class="math inline"><em>q</em> − 1</span>. Thus, after one iteration, we have a set of sequences with lengths ranging from 1 to <span class="math inline"><em>f</em>(<em>n</em>, <em>k</em>)</span>.</p>
-<p>We show now that the maximal sequence has a length of <span class="math inline">$f(n, k) = \lbrack \frac{n+1}{k}\rbrack + k - 2$</span>, where <span class="math inline"><em>n</em> + 1 = <em>q</em><em>k</em> + <em>r</em></span> and <span class="math inline">0 ≤ <em>r</em> &lt; <em>k</em></span>.</p>
-<p>Consider a sequence of length <span class="math inline">(<em>q</em> − 1)<em>k</em> + (<em>k</em> − 1)=<em>n</em> − <em>r</em> ≤ <em>n</em></span>. After the application of the algorithm, a sequence of length <span class="math inline"><em>q</em> + <em>k</em> − 2</span> is obtained.</p>
-<p>Suppose there is a sequence of length <span class="math inline"><em>k</em><em>q</em><sub>1</sub> + <em>r</em><sub>1</sub></span> less than or equal to <span class="math inline"><em>n</em></span>. Then <span class="math inline"><em>r</em><sub>1</sub> &lt; <em>r</em></span> if <span class="math inline"><em>q</em><sub>1</sub> = <em>q</em></span>, and after one application of our algorithm we have <span class="math inline"><em>q</em><sub>1</sub> + <em>r</em><sub>1</sub> ≤ <em>q</em> + <em>k</em> − 2</span> whitespaces, since <span class="math inline"><em>r</em> ≤ <em>k</em> − 1</span> and <span class="math inline"><em>r</em><sub>1</sub> &lt; <em>r</em></span>. If, however, <span class="math inline"><em>q</em><sub>1</sub> &lt; <em>q</em></span>, we have <span class="math inline"><em>r</em><sub>1</sub> ≤ <em>k</em> − 1</span> and <span class="math inline"><em>q</em><sub>1</sub> + <em>r</em><sub>1</sub> &lt; <em>q</em> + <em>k</em> − 1</span>, which means that <span class="math inline"><em>q</em><sub>1</sub> + <em>r</em><sub>1</sub> ≤ <em>q</em> + <em>k</em> − 2</span>. The fact that these values can be achieved follows from our assumption that sequences range in length from 1 to <span class="math inline"><em>n</em></span> and previous remarks in the induction argument.</p>
-<p>The value of <span class="math inline"><em>k</em></span> at which <span class="math inline"><em>f</em>(<em>n</em>, <em>k</em>)</span> achieves the maximum is <span class="math inline">$\lbrack
-\sqrt{n+1} \rbrack + 1$</span>, as we now show.</p>
-<p>We have determined that <span class="math inline">$f(n, k) = \lbrack \frac{n+1}{k} + k \rbrack -
-2$</span>. A function <span class="math inline">$h(x) = \frac{n+1}{x} + x$</span> has a derivative of <span class="math inline">$-\frac{n+1}{x^{2}}+1$</span>, which means that at <span class="math inline">$x=\sqrt{n+1}$</span> there is a local minimum. Since <span class="math inline">[<em>x</em>]</span> is a nondecreasing function, <span class="math inline"><em>f</em>(<em>n</em>, <em>k</em>)</span> achieves the minimum at <span class="math inline">$k=\lbrack \sqrt{n+1} \rbrack$</span> or <span class="math inline">$k=\lbrack \sqrt{n+1} \rbrack + 1$</span>.</p>
-<p>Denote <span class="math inline">$k=\lbrack \sqrt{n+1} \rbrack$</span> as <span class="math inline"><em>s</em></span>. Then <span class="math inline"><em>s</em><sup>2</sup> ≤ <em>n</em> + 1 &lt; (<em>s</em> + 1)<sup>2</sup></span>, and thus <span class="math inline">$s \leq \lbrack \frac{n+1}{s} \rbrack$</span> and <span class="math inline">$s \geq
-\lbrack \frac{n+1}{s+1} \rbrack$</span>. We now show that these equations cannot be equalities both at once.</p>
-<p>Suppose that <span class="math inline">$\lbrack \frac{n+1}{s} \rbrack = s$</span>. Therefore, <span class="math inline">$\frac{n+1}{s} &lt; s+1$</span>, which means that <span class="math inline">$\frac{n+1}{s+1} &lt; s$</span> and hence <span class="math inline">$\lbrack \frac{n+1}{s+1} \rbrack &lt; s$</span>.</p>
-<p>Since <span class="math inline">$\lbrack \frac{n+1}{s} \rbrack &gt; \lbrack \frac{n+1}{s+1}
-\rbrack$</span>, we conclude that at <span class="math inline"><em>k</em> = <em>s</em> + 1</span> the function <span class="math inline"><em>f</em>(<em>n</em>, <em>k</em>)</span> achieves the minimum.</p>
+<p>Suppose that each whitespace sequence is no longer than <span class="math inline">\(n\)</span>. Note that it is sufficient to consider a set of whitespace sequences of lengths ranging from 1 to <span class="math inline">\(n\)</span> to account for all the cases.</p>
+<p>Assume one iteration of our algorithm is completed. Denote the length of a maximum edited whitespace sequence as <span class="math inline">\(f(n,k)\)</span>. We claim that for any number <span class="math inline">\(j\)</span> between 1 and <span class="math inline">\(f(n,k)\)</span> there exists a whitespace of length <span class="math inline">\(j\)</span>. In other words, sequence lengths again would form a subsequence of consecutive positive integers from 1 to <span class="math inline">\(f(n,k)\)</span>.</p>
+<p>We proceed by reversed induction on <span class="math inline">\(j\)</span>. Suppose there is a sequence of length <span class="math inline">\(j\)</span>. Then there exists a number <span class="math inline">\(m\)</span>, where <span class="math inline">\(m\)</span> is between <span class="math inline">\(1\)</span> and <span class="math inline">\(n\)</span>, such that <span class="math inline">\(j=q+r\)</span>, where <span class="math inline">\(q\)</span> and <span class="math inline">\(r\)</span> are such that <span class="math inline">\(m =
+qk + r\)</span>. If <span class="math inline">\(r\neq 0\)</span>, then a sequence of length <span class="math inline">\(m-1\)</span> would be changed to a sequence of length <span class="math inline">\(j-1\)</span>, since <span class="math inline">\(m-1 = q k + r - 1\)</span>. If <span class="math inline">\(r=0\)</span>, then <span class="math inline">\(j=q\)</span>, and we can consider a sequence of length <span class="math inline">\(m-k\)</span> to obtain an edited sequence of length <span class="math inline">\(q-1\)</span>. Thus, after one iteration, we have a set of sequences with lengths ranging from 1 to <span class="math inline">\(f(n,k)\)</span>.</p>
+<p>We show now that the maximal sequence has a length of <span class="math inline">\(f(n, k) = \lbrack \frac{n+1}{k}\rbrack + k - 2\)</span>, where <span class="math inline">\(n + 1 = qk+r\)</span> and <span class="math inline">\(0 \leq
+r &lt; k\)</span>.</p>
+<p>Consider a sequence of length <span class="math inline">\((q-1)k + (k-1) = n-r \leq n\)</span>. After the application of the algorithm, a sequence of length <span class="math inline">\(q+k-2\)</span> is obtained.</p>
+<p>Suppose there is a sequence of length <span class="math inline">\(kq_1+r_1\)</span> less than or equal to <span class="math inline">\(n\)</span>. Then <span class="math inline">\(r_{1} &lt; r\)</span> if <span class="math inline">\(q_1 = q\)</span>, and after one application of our algorithm we have <span class="math inline">\(q_1+r_1 \leq q + k -2\)</span> whitespaces, since <span class="math inline">\(r \leq
+k-1\)</span> and <span class="math inline">\(r_1 &lt; r\)</span>. If, however, <span class="math inline">\(q_1 &lt; q\)</span>, we have <span class="math inline">\(r_1 \leq k-1\)</span> and <span class="math inline">\(q_1+r_1 &lt; q+k-1\)</span>, which means that <span class="math inline">\(q_1 + r_1 \leq q+k-2\)</span>. The fact that these values can be achieved follows from our assumption that sequences range in length from 1 to <span class="math inline">\(n\)</span> and previous remarks in the induction argument.</p>
+<p>The value of <span class="math inline">\(k\)</span> at which <span class="math inline">\(f(n, k)\)</span> achieves the maximum is <span class="math inline">\(\lbrack
+\sqrt{n+1} \rbrack + 1\)</span>, as we now show.</p>
+<p>We have determined that <span class="math inline">\(f(n, k) = \lbrack \frac{n+1}{k} + k \rbrack -
+2\)</span>. A function <span class="math inline">\(h(x) = \frac{n+1}{x} + x\)</span> has a derivative of <span class="math inline">\(-\frac{n+1}{x^{2}}+1\)</span>, which means that at <span class="math inline">\(x=\sqrt{n+1}\)</span> there is a local minimum. Since <span class="math inline">\(\lbrack x \rbrack\)</span> is a nondecreasing function, <span class="math inline">\(f(n, k)\)</span> achieves the minimum at <span class="math inline">\(k=\lbrack \sqrt{n+1} \rbrack\)</span> or <span class="math inline">\(k=\lbrack \sqrt{n+1} \rbrack + 1\)</span>.</p>
+<p>Denote <span class="math inline">\(k=\lbrack \sqrt{n+1} \rbrack\)</span> as <span class="math inline">\(s\)</span>. Then <span class="math inline">\(s^2 \leq n+1 &lt;
+(s+1)^2\)</span>, and thus <span class="math inline">\(s \leq \lbrack \frac{n+1}{s} \rbrack\)</span> and <span class="math inline">\(s \geq
+\lbrack \frac{n+1}{s+1} \rbrack\)</span>. We now show that these equations cannot be equalities both at once.</p>
+<p>Suppose that <span class="math inline">\(\lbrack \frac{n+1}{s} \rbrack = s\)</span>. Therefore, <span class="math inline">\(\frac{n+1}{s} &lt; s+1\)</span>, which means that <span class="math inline">\(\frac{n+1}{s+1} &lt; s\)</span> and hence <span class="math inline">\(\lbrack \frac{n+1}{s+1} \rbrack &lt; s\)</span>.</p>
+<p>Since <span class="math inline">\(\lbrack \frac{n+1}{s} \rbrack &gt; \lbrack \frac{n+1}{s+1}
+\rbrack\)</span>, we conclude that at <span class="math inline">\(k = s + 1\)</span> the function <span class="math inline">\(f(n,k)\)</span> achieves the minimum.</p>
 <h1 id="conclusion">Conclusion</h1>
-<p>To make the algorithm efficient, making <span class="math inline"><em>k</em></span> equal to <span class="math inline">$\lbrack
-\sqrt{n+1} \rbrack + 1$</span> is a go-to option.</p>
-<script>
-      renderMathInElement(
-          document.body,
-          {
-              delimiters: [
-                  {left: "$$", right: "$$", display: true},
-                  {left: "$", right: "$", display: false},
-              ]
-          }
-      );
-</script>
+<p>To make the algorithm efficient, making <span class="math inline">\(k\)</span> equal to <span class="math inline">\(\lbrack
+\sqrt{n+1} \rbrack + 1\)</span> is a go-to option.</p></div>
 
+</div>
 
-        </div>
-    </body>
+<link rel="stylesheet" href="../js/katex/katex.min.css">
+<script type="text/javascript" src="../js/katex/katex.min.js"></script>
+<script src="../js/katex/contrib/auto-render.min.js"></script>
+<script src="../js/runkatex.js"></script>
+
+</body>
 </html>

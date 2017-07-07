@@ -31,19 +31,18 @@
     
 </div>
 <h1>Polyhedrons and their Many Faces</h1>
-
-<script src="../files/assets/scripts/jquery-1.12.2.min.js"></script>
-<link rel="stylesheet" href="../files/assets/scripts/katex/katex.min.css">
-<script src="../files/assets/scripts/katex/katex.min.js"></script>
-<script src="../files/assets/scripts/katex/contrib/auto-render.min.js"></script>
-
-
-<p><em>This note was inspired by the problem 1 in Moscow Mathematical Olympiad 1994.</em></p>
+<div id="TOC"><ul>
+<li><a href="#problem">Problem</a></li>
+<li><a href="#analysis">Analysis</a></li>
+<li><a href="#finding-relatives">Finding Relatives</a></li>
+<li><a href="#references">References</a></li>
+</ul></div>
+<div id="body"><p><em>This note was inspired by the problem 1 in Moscow Mathematical Olympiad 1994.</em></p>
 <h1 id="problem">Problem</h1>
 <p>Suppose you are sick of the tedious sameness in your surroundings and decide to enlighten your days with a polyhedron with as many different faces as possible, but with the least number of edges as well. What are you going to do?</p>
 <h1 id="analysis">Analysis</h1>
-<p>To begin with, let’s think how many unique faces we can have given an arbitrary convex polyhedron. Take a face with the greatest number of edges, and suppose that this number is <span class="math inline"><em>n</em></span>. All the other faces have an edge count in the range from <span class="math inline">3</span> to <span class="math inline"><em>n</em></span> inclusive.</p>
-<p>By the pigeonhole principle, since there are <span class="math inline">(<em>n</em> − 3)+1 = <em>n</em> − 2</span> possible unique faces, we know that at least two faces have the same number of edges.</p>
+<p>To begin with, let’s think how many unique faces we can have given an arbitrary convex polyhedron. Take a face with the greatest number of edges, and suppose that this number is <span class="math inline">\(n\)</span>. All the other faces have an edge count in the range from <span class="math inline">\(3\)</span> to <span class="math inline">\(n\)</span> inclusive.</p>
+<p>By the pigeonhole principle, since there are <span class="math inline">\((n-3) + 1 = n-2\)</span> possible unique faces, we know that at least two faces have the same number of edges.</p>
 <p>Now, let’s find a polyhedron with the least number of edges such that it has no three faces with the same edge count.</p>
 <p>We cannot make a proper polyhedron with just two triangles and two rectangles. Do not surrender! Take two pentagons and glue them together side by side. Then we just need two triangles and two quadrilaterals to make our polyhedron! In this way we obtain a tetrahedron with two adjacent corners truncated.</p>
 <p>Can we truncate some other polyhedron? Sure! Let’s try and truncate a cube.</p>
@@ -64,28 +63,23 @@
 <p>Can you come up with other examples? Please let me know!</p>
 <h1 id="finding-relatives">Finding Relatives</h1>
 <p>Now, let’s think now about a related problem from the Tournament of Towns 1999-2000.</p>
-<p>Suppose you have a polyhedron with <span class="math inline">10<em>n</em></span> faces, where <span class="math inline"><em>n</em></span> is some positive integer. How many faces with the same number of edges can you find?</p>
+<p>Suppose you have a polyhedron with <span class="math inline">\(10n\)</span> faces, where <span class="math inline">\(n\)</span> is some positive integer. How many faces with the same number of edges can you find?</p>
 <p>It seems that these faces-relatives must inflict some limit on the overall structure of our polyhedron. Let’s consider how they affect angles of the polyhedron.</p>
-<p>Take an arbitrary convex polyhedron. How can we estimate its average exterior angle? Since the polyhedron is convex, all the angles at some vertex <span class="math inline"><em>A</em></span> sum up to less than <span class="math inline">2<em>π</em></span> (otherwise, we could <em>flatten out</em> the vertex). Therefore, if there are <span class="math inline"><em>k</em></span> angles sharing <span class="math inline"><em>A</em></span> as their endpoint, then the sum of the corresponding exterior angles is more than <span class="math inline">(<em>k</em> − 2)<em>π</em></span>. The average size of an exterior angle at A is thus <span class="math inline">$\alpha(A) &gt; \frac{(k-2)\pi}{k} \geq \frac{\pi}{3}$</span>, since <span class="math inline"><em>k</em> ≥ 3</span>, which means that <span class="math inline"><em>α</em>(<em>A</em>)</span> is greater than <span class="math inline">$\frac{\pi}{3}$</span>.</p>
-<p>Now, assume that there exists some <span class="math inline">10<em>n</em></span>-hedron with not more than <span class="math inline"><em>n</em></span> faces which are triangles, not more than <span class="math inline"><em>n</em></span> faces which are rectangles and so on. Since there are <span class="math inline">10<em>n</em></span> faces, the number of edges is not less than <span class="math inline">(3 + 4 + … + 12)<em>n</em> = 75<em>n</em></span>. The sum of exterior angles of each face is <span class="math inline">2<em>π</em></span>, so the total sum of the exterior angles is <span class="math inline">20<em>π</em><em>n</em></span>. Hence, the average outer angle must be less than <span class="math inline">$\frac{20\pi n}{75n} = \frac{4\pi}{15}$</span>, which is less than <span class="math inline">$\frac{\pi}{3}$</span>. Hence, we arrive at a contradiction, thus proving that there exist at least <span class="math inline"><em>n</em></span> faces with the same number of edges.</p>
-<p>Can you figure out when the same proof works if we replace <span class="math inline">10<em>n</em></span> with <span class="math inline"><em>k</em><em>n</em></span>, where <span class="math inline"><em>k</em></span> is some positive integer?</p>
+<p>Take an arbitrary convex polyhedron. How can we estimate its average exterior angle? Since the polyhedron is convex, all the angles at some vertex <span class="math inline">\(A\)</span> sum up to less than <span class="math inline">\(2\pi\)</span> (otherwise, we could <em>flatten out</em> the vertex). Therefore, if there are <span class="math inline">\(k\)</span> angles sharing <span class="math inline">\(A\)</span> as their endpoint, then the sum of the corresponding exterior angles is more than <span class="math inline">\((k-2)\pi\)</span>. The average size of an exterior angle at A is thus <span class="math inline">\(\alpha(A) &gt; \frac{(k-2)\pi}{k} \geq \frac{\pi}{3}\)</span>, since <span class="math inline">\(k
+\geq 3\)</span>, which means that <span class="math inline">\(\alpha(A)\)</span> is greater than <span class="math inline">\(\frac{\pi}{3}\)</span>.</p>
+<p>Now, assume that there exists some <span class="math inline">\(10n\)</span>-hedron with not more than <span class="math inline">\(n\)</span> faces which are triangles, not more than <span class="math inline">\(n\)</span> faces which are rectangles and so on. Since there are <span class="math inline">\(10n\)</span> faces, the number of edges is not less than <span class="math inline">\((3+4+\ldots+12)n = 75n\)</span>. The sum of exterior angles of each face is <span class="math inline">\(2\pi\)</span>, so the total sum of the exterior angles is <span class="math inline">\(20\pi n\)</span>. Hence, the average outer angle must be less than <span class="math inline">\(\frac{20\pi n}{75n} = \frac{4\pi}{15}\)</span>, which is less than <span class="math inline">\(\frac{\pi}{3}\)</span>. Hence, we arrive at a contradiction, thus proving that there exist at least <span class="math inline">\(n\)</span> faces with the same number of edges.</p>
+<p>Can you figure out when the same proof works if we replace <span class="math inline">\(10n\)</span> with <span class="math inline">\(kn\)</span>, where <span class="math inline">\(k\)</span> is some positive integer?</p>
 <h1 id="references">References</h1>
 <ol>
 <li>Толпыго, Алексей. Тысяча задач Международного математического Турнира городов. 2017.</li>
-</ol>
-<script>
-      renderMathInElement(
-          document.body,
-          {
-              delimiters: [
-                  {left: "$$", right: "$$", display: true},
-                  {left: "$", right: "$", display: false},
-              ]
-          }
-      );
-</script>
+</ol></div>
 
+</div>
 
-        </div>
-    </body>
+<link rel="stylesheet" href="../js/katex/katex.min.css">
+<script type="text/javascript" src="../js/katex/katex.min.js"></script>
+<script src="../js/katex/contrib/auto-render.min.js"></script>
+<script src="../js/runkatex.js"></script>
+
+</body>
 </html>
