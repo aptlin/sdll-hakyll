@@ -46,8 +46,9 @@
    - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170405Robert+Guralnick_Maps+from+the+Generic+Riemann+Surface.pdf][2017-04-05 Robert Guralnick: Maps from the Generic Riemann Surface]]
 ** Probability Theory
    - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170224Mustazee+Rahman_From+Eigenvalues+To+Sorting.pdf][2017-02-24 Mustazee Rahman: From Eigenvalues To Sorting]]
+** Quantum Computing
+  - [[https://github.com/sdll/notes/blob/master/mikveh/mikveh-2017-07-14-john-martinis_quantum-computer_life-after-moores-law.pdf][2017-07-14 John Martinis: Quantum Computing: Life after Moore's Law]]
+
 ** Quantum Information
    - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170308Arthur+Jaffe_A+New+Look+at+the+Mathematics+of+Quantum+Information.pdf][2017-03-08 Arthur Jaffe: A New Look at the Mathematics of Quantum Information]]
 
-** Quantum Computing
-  - [[https://github.com/sdll/notes/blob/master/mikveh/mikveh-2017-07-14-john-martinis_quantum-computer_life-after-moores-law.pdf][2017-07-14 John Martinis: Quantum Computing: Life after Moore's Law]]
