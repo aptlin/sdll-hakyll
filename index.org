@@ -9,6 +9,9 @@ efficiency of distributed and decentralised systems.
 My primary goal now is to have a solid background in core mathematics,
 computer science and programming.
 
+In 2014 my education in [[https://en.wikipedia.org/wiki/Cheboksary][Cheboksary]] was extraordinarily diversified by
+a two-year-long GCE A-level courses at [[http://www.westminster.org.uk/westminster/][Westminster School]].
+
 In 2016 I embarked on the pure mathematics specialist program at
 [[https://umus.github.io/ut-umu][University of Toronto]].
 
