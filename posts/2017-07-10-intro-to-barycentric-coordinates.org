@@ -1,0 +1,12 @@
+---
+title: Polyhedra and their Many Faces
+katex: on
+---
+
+* Introduction
+
+* Preliminaries
+
+** Ceva's theorem
+
+** 

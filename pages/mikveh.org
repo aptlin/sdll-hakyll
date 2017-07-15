@@ -3,50 +3,51 @@
 
 ** Affine Geometric Analysis
 
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161104Professor+Burchard_Foldings+and+Symmetrization.pdf][20161104 Professor Burchard: Foldings and Symmetrization]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161104Professor+Burchard_Foldings+and+Symmetrization.pdf][2016-11-04 Professor Burchard: Foldings and Symmetrization]]
      + [[https://web.archive.org/web/20161107014052/http://www.birs.ca/events/2015/5-day-workshops/15w5014/videos/watch/201509210946-Burchard.html][Almut Burchard's 20150921 Presentation]]
 
 ** Algebraic Geometry
 
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161109Frank+Sottile_Galois+Groups+in+Enumerative+Geometry+and+Applications.pdf][20161109 Frank Sottile: Galois Groups in Enumerative Geometry and Applications]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161124Askold+Khovanskii_Newton-Okounkov+Bodies.pdf][20161124 Askold Khovanskii: Newton-Okounkov Bodies]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170117Curtis+McMullen_Almost+Simple+Loops+in+the+Plane.pdf][20170117 Curtis McMullen: Almost Simple Loops in the Plane]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170118Curtis+McMullen_Surfaces+in+the+Space+of+Surfaces.pdf][20170118 Curtis McMullen: Surfaces in the Space of Surfaces]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161109Frank+Sottile_Galois+Groups+in+Enumerative+Geometry+and+Applications.pdf][2016-11-09 Frank Sottile: Galois Groups in Enumerative Geometry and Applications]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161124Askold+Khovanskii_Newton-Okounkov+Bodies.pdf][2016-11-24 Askold Khovanskii: Newton-Okounkov Bodies]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170117Curtis+McMullen_Almost+Simple+Loops+in+the+Plane.pdf][2017-01-17 Curtis McMullen: Almost Simple Loops in the Plane]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170118Curtis+McMullen_Surfaces+in+the+Space+of+Surfaces.pdf][2017-01-18 Curtis McMullen: Surfaces in the Space of Surfaces]]
 
 ** Category Theory
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170224Fedor+Manin_Why+Should+You+Care+About+Model+Categories?.pdf][20170224 Fedor Manin: Why Should You Care About Model Categories?]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170224Fedor+Manin_Why+Should+You+Care+About+Model+Categories?.pdf][2017-02-24 Fedor Manin: Why Should You Care About Model Categories?]]
 ** Complexity Theory
 
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161116Madhu+Sudan_Imperfectly+Shared+Randomness+in+Communication.pdf][20161116 Madhu Sudan: Imperfectly Shared Randomness in Communication]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170301David+Gamarnik_Arguably+Hard+On+Average+Constraint+Satisfaction+Problems.pdf][20170301 David Gamarnik: Arguably Hard On Average Constraint Satisfaction Problems]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170315Gerard+Ben+Arous_Complexity+of+Random+Functions+of+Many+Variables.pdf][20170315 Gerard Ben Arous: Complexity of Random Functions of Many Variables]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161116Madhu+Sudan_Imperfectly+Shared+Randomness+in+Communication.pdf][2016-11-16 Madhu Sudan: Imperfectly Shared Randomness in Communication]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170301David+Gamarnik_Arguably+Hard+On+Average+Constraint+Satisfaction+Problems.pdf][2017-03-01 David Gamarnik: Arguably Hard On Average Constraint Satisfaction Problems]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170315Gerard+Ben+Arous_Complexity+of+Random+Functions+of+Many+Variables.pdf][2017-03-15 Gerard Ben Arous: Complexity of Random Functions of Many Variables]]
 ** Decision Theory
 
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161107_Professor+Gracia-Saz_Voting+Theory.pdf][20161107: Professor Gracia-Saz: Voting Theory]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161107_Professor+Gracia-Saz_Voting+Theory.pdf][2016-11-07: Professor Gracia-Saz: Voting Theory]]
 
 ** Mathematical Physics
 
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161123Stephen+Gustafson_Geometric+Schrodinger+Equations+and+Topological+Solitons.pdf][20161123 Stephen Gustafson: Geometric Schrodinger Equations and Topological Solitons]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20161123Stephen+Gustafson_Geometric+Schrodinger+Equations+and+Topological+Solitons.pdf][2016-11-23 Stephen Gustafson: Geometric Schrodinger Equations and Topological Solitons]]
 
 ** Network Theory
 
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170222_Peter+Marbach_Modeling+and+Analysis+of+Social,+Economic+and+Financial+Networks.pdf][20170222 Peter Marbach: Modeling and Analysis of Social, Economic and Financial Networks]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170222_Peter+Marbach_Modeling+and+Analysis+of+Social,+Economic+and+Financial+Networks.pdf][2017-02-22 Peter Marbach: Modeling and Analysis of Social, Economic and Financial Networks]]
 
 ** Number Theory
 
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170111_Bjorn+Poonen_Undecidability+in+Number+Theory.pdf][20170111: Bjorn Poonen: Undecidability in Number Theory]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170116Curtis+McMullen_A+Skeptical+History+of+Numbers.pdf][20170116: Curtis McMullen: A Skeptical History of Numbers]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170221_Umberto+Zannier_The+Concept+of+Height+and+its+Usefulness.pdf][20170221: Umberto Zannier: The Concept of Height and its Usefulness]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170322Frank+Thome_Analytic+Perspectives+in+Arithmetic+Statistics.pdf][20170322: Frank Thome: Analytic Perspectives in Arithmetic Statistics]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170329Hector+Pasten_On+the+abc+Conjecture.pdf][20170329: Hector Pasten: On the abc Conjecture]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170406Leonid+Monin_+Markov+Triples.pdf][20170406: Leonid Monin:  Markov Triples]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170111_Bjorn+Poonen_Undecidability+in+Number+Theory.pdf][2017-01-11: Bjorn Poonen: Undecidability in Number Theory]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170116Curtis+McMullen_A+Skeptical+History+of+Numbers.pdf][2017-01-16: Curtis McMullen: A Skeptical History of Numbers]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170221_Umberto+Zannier_The+Concept+of+Height+and+its+Usefulness.pdf][2017-02-21: Umberto Zannier: The Concept of Height and its Usefulness]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170322Frank+Thome_Analytic+Perspectives+in+Arithmetic+Statistics.pdf][2017-03-22: Frank Thome: Analytic Perspectives in Arithmetic Statistics]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170329Hector+Pasten_On+the+abc+Conjecture.pdf][2017-03-29: Hector Pasten: On the abc Conjecture]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170406Leonid+Monin_+Markov+Triples.pdf][2017-04-06: Leonid Monin:  Markov Triples]]
 ** Riemannian Geometry
 
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/20170222MIKVEH_Bruce+Kleiner_Ricci+flow,+Singularities,+Stability,+and+the+Topology+of+3-manifolds.pdf][20170222 Bruce Kleiner: Ricci flow, Singularities, Stability, and the Topology of 3-manifolds]]
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170405Robert+Guralnick_Maps+from+the+Generic+Riemann+Surface.pdf][20170405 Robert Guralnick: Maps from the Generic Riemann Surface]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/20170222MIKVEH_Bruce+Kleiner_Ricci+flow,+Singularities,+Stability,+and+the+Topology+of+3-manifolds.pdf][2017-02-22 Bruce Kleiner: Ricci flow, Singularities, Stability, and the Topology of 3-manifolds]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170405Robert+Guralnick_Maps+from+the+Generic+Riemann+Surface.pdf][2017-04-05 Robert Guralnick: Maps from the Generic Riemann Surface]]
 ** Probability Theory
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170224Mustazee+Rahman_From+Eigenvalues+To+Sorting.pdf][20170224 Mustazee Rahman: From Eigenvalues To Sorting]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170224Mustazee+Rahman_From+Eigenvalues+To+Sorting.pdf][2017-02-24 Mustazee Rahman: From Eigenvalues To Sorting]]
 ** Quantum Information
-   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170308Arthur+Jaffe_A+New+Look+at+the+Mathematics+of+Quantum+Information.pdf][20170308 Arthur Jaffe: A New Look at the Mathematics of Quantum Information]]
+   - [[https://github.com/sdll/NOTES/blob/master/MIKVEH/MIKVEH20170308Arthur+Jaffe_A+New+Look+at+the+Mathematics+of+Quantum+Information.pdf][2017-03-08 Arthur Jaffe: A New Look at the Mathematics of Quantum Information]]
 
-
+** Quantum Computing
+  - [[https://github.com/sdll/notes/blob/master/mikveh/mikveh-2017-07-14-john-martinis_quantum-computer_life-after-moores-law.pdf][2017-07-14 John Martinis: Quantum Computing: Life after Moore's Law]]

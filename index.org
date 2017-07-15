@@ -2,8 +2,12 @@
 title: Hello, Universe!
 ---
 
-I am Sasha Illarionov, and my primary goal now is to have a solid
-background in core mathematics, computer science and programming.
+I am Sasha Illarionov, and I am a budding mathematician aspiring to
+bring rigour to the field of machine learning and optimise the
+efficiency of distributed and decentralised systems. 
+
+My primary goal now is to have a solid background in core mathematics,
+computer science and programming.
 
 In 2016 I embarked on the pure mathematics specialist program at
 [[https://umus.github.io/ut-umu][University of Toronto]].
