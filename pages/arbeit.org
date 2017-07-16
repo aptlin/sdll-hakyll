@@ -122,7 +122,7 @@ Nonsense (%):
 
 ** Analysis
 
-***  [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161128MAT157_Pset+VIII.pdf][20161128 MAT157: Pset VIII]]
+***  [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161128MAT157_Pset+VIII.pdf][20161128 MAT157: Pset VIII]]
 
     Nonsense: 31.8%
 
@@ -139,14 +139,14 @@ Nonsense (%):
 
     Thus, $f(x) < f(c) < f(y)$.
 
-***  [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161104MAT157_PS+6.pdf][20161104 MAT157: Pset VI]]
+***  [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161104MAT157_PS+6.pdf][20161104 MAT157: Pset VI]]
 
     Nonsense: 26.3%
 
     4: Details matter. Yet another case of mindless, mechanical
     delta-epsilon pushing.
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT157_PS+5.pdf][20161028 MAT157: Pset V]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161028MAT157_PS+5.pdf][20161028 MAT157: Pset V]]
 
     Nonesense: 13.3%
 
@@ -160,26 +160,26 @@ Nonsense (%):
     disappointing.
 
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161021MAT157_Pset+IV.pdf][20161021 MAT157: Pset IV]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161021MAT157_Pset+IV.pdf][20161021 MAT157: Pset IV]]
 
     Nonsense: 44.4%
 
     Very bad work.
 
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161012MAT157_Pset+III.pdf][20161012 MAT157: Pset III]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161012MAT157_Pset+III.pdf][20161012 MAT157: Pset III]]
 
     Nonsense: 0.00%
 
     Try to use less unnecessary lemmas.
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT157_Midterm.pdf][Midterm Exam]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20160930MAT157_Midterm.pdf][Midterm Exam]]
 
     Nonsense: 50.0%
 
     Very bad work.
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160923MAT157.pdf][20160923MAT157: Pset II]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/MAT/MAT157/20160923MAT157.pdf][20160923MAT157: Pset II]]
 
     Nonsense: 30.0%
 
@@ -220,7 +220,7 @@ Nonsense (%):
        contradiction by assuming there exists $y < x$ and obtain
        that $\alpha$ is rational.
 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT157/20160919MAT157.pdf][20160919MAT157: Pset I]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/MAT/MAT157/20160919MAT157.pdf][20160919MAT157: Pset I]]
 
     Nonsense: 10.3%
 
@@ -236,14 +236,14 @@ Nonsense (%):
 
 *** MAT247
 **** 20170406 MAT247: Pset X
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170406MAT247_Pset+X_1.pdf][20170406 MAT247: Pset X: 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170406MAT247_Pset+X_1.pdf][20170406 MAT247: Pset X: 1]]
 
     The argument assumes that $g(x)$ has the same degree as $f(x)$,
     which is not necessarily the case. Use the fact that for all
     $i\neq j$ a homomorphism $(T - \lambda_j I)$ is an isomorphism on
     $K_{\lambda_i}$.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170406MAT247_Pset+X_2.pdf][20170406 MAT247: Pset X: 2]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170406MAT247_Pset+X_2.pdf][20170406 MAT247: Pset X: 2]]
 
     The remainder $v(t)$ is not necessarily monic, so an additional step is needed to show uniqueness.
 
@@ -252,83 +252,83 @@ Nonsense (%):
     annihilator is enough to show that that the claim holds by the
     corrected argument.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170406MAT247_Pset+X_3.pdf][20170406 MAT247: Pset X: 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170406MAT247_Pset+X_3.pdf][20170406 MAT247: Pset X: 3]]
 
     0 is not an eigenvalue of $T$, so the chosen subspace does not satisfy the conditions.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170406MAT247_Pset+X_4.pdf][20170406 MAT247: Pset X: 4]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170406MAT247_Pset+X_4.pdf][20170406 MAT247: Pset X: 4]]
 **** 20170330 MAT247: Pset IX
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170330MAT247_Pset+IX_1.pdf][20170330 MAT247: Pset IX: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170330MAT247_Pset+IX_2.pdf][20170330 MAT247: Pset IX: 2]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170330MAT247_Pset+IX_3.pdf][20170330 MAT247: Pset IX: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170330MAT247_Pset+IX_4.pdf][20170330 MAT247: Pset IX: 4]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170330MAT247_Pset+IX_1.pdf][20170330 MAT247: Pset IX: 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170330MAT247_Pset+IX_2.pdf][20170330 MAT247: Pset IX: 2]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170330MAT247_Pset+IX_3.pdf][20170330 MAT247: Pset IX: 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170330MAT247_Pset+IX_4.pdf][20170330 MAT247: Pset IX: 4]]
 **** 20170322 MAT247: Pset VIII
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170322MAT247_Pset+VIII_1.pdf][20170322 MAT247: Pset VIII: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170322MAT247_Pset+VIII_2.pdf][20170322 MAT247: Pset VIII: 2]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170322MAT247_Pset+VIII_3.pdf][20170322 MAT247: Pset VIII: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170322MAT247_Pset+VIII_4.pdf][20170322 MAT247: Pset VIII: 4]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170322MAT247_Pset+VIII_1.pdf][20170322 MAT247: Pset VIII: 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170322MAT247_Pset+VIII_2.pdf][20170322 MAT247: Pset VIII: 2]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170322MAT247_Pset+VIII_3.pdf][20170322 MAT247: Pset VIII: 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170322MAT247_Pset+VIII_4.pdf][20170322 MAT247: Pset VIII: 4]]
 **** 20170315 MAT247: Pset VII
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170315MAT247_Pset+VII+1.pdf][20170315 MAT247: Pset VII 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170315MAT247_Pset+VII+2.pdf][20170315 MAT247: Pset VII 2]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170315MAT247_Pset+VII+3.pdf][20170315 MAT247: Pset VII 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170315MAT247_Pset+VII+1.pdf][20170315 MAT247: Pset VII 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170315MAT247_Pset+VII+2.pdf][20170315 MAT247: Pset VII 2]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170315MAT247_Pset+VII+3.pdf][20170315 MAT247: Pset VII 3]]
 **** 20170309 MAT247: Pset VI
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_1.pdf][20170309 MAT247: Pset VI: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_2.pdf][20170309 MAT247: Pset VI: 2]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_3.pdf][20170309 MAT247: Pset VI: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170309MAT247_Pset+VI_4.pdf][20170309 MAT247: Pset VI: 4]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170309MAT247_Pset+VI_1.pdf][20170309 MAT247: Pset VI: 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170309MAT247_Pset+VI_2.pdf][20170309 MAT247: Pset VI: 2]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170309MAT247_Pset+VI_3.pdf][20170309 MAT247: Pset VI: 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170309MAT247_Pset+VI_4.pdf][20170309 MAT247: Pset VI: 4]]
 **** 20170302 MAT247: Pset V
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170302MAT247_Pset+V_1.pdf][20170302 MAT247: Pset V: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170302MAT247_Pset+V_2.pdf][20170302 MAT247: Pset V: 2]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170302MAT247_Pset+V_3.pdf][20170302 MAT247: Pset V: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170302MAT247_Pset+V_4.pdf][20170302 MAT247: Pset V: 4]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170302MAT247_Pset+V_1.pdf][20170302 MAT247: Pset V: 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170302MAT247_Pset+V_2.pdf][20170302 MAT247: Pset V: 2]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170302MAT247_Pset+V_3.pdf][20170302 MAT247: Pset V: 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170302MAT247_Pset+V_4.pdf][20170302 MAT247: Pset V: 4]]
 **** 20170208: Pset IV
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_1.pdf][20170208 MAT247: Pset IV: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_2.pdf][20170208 MAT247: Pset IV: 2]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_3.pdf][20170208 MAT247: Pset IV: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208MAT247_Pset+IV_4.pdf][20170208 MAT247: Pset IV: 4]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170208MAT247_Pset+IV_1.pdf][20170208 MAT247: Pset IV: 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170208MAT247_Pset+IV_2.pdf][20170208 MAT247: Pset IV: 2]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170208MAT247_Pset+IV_3.pdf][20170208 MAT247: Pset IV: 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170208MAT247_Pset+IV_4.pdf][20170208 MAT247: Pset IV: 4]]
 **** 20170201: Pset III
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_1.pdf][20170201 MAT247: Pset III: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_2.pdf][20170201 MAT247: Pset III: 2]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_3.pdf][20170201 MAT247: Pset III: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170201MAT247_Pset+III_4.pdf][20170201 MAT247: Pset III: 4]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170201MAT247_Pset+III_1.pdf][20170201 MAT247: Pset III: 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170201MAT247_Pset+III_2.pdf][20170201 MAT247: Pset III: 2]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170201MAT247_Pset+III_3.pdf][20170201 MAT247: Pset III: 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170201MAT247_Pset+III_4.pdf][20170201 MAT247: Pset III: 4]]
 **** 20170126: Pset II
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_1.pdf][20170126 MAT247: Pset II: 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170126MAT247_Pset+II_1.pdf][20170126 MAT247: Pset II: 1]]
   
   Wrong change-of-basis matrix -- think about what goes where.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_2.pdf][20170126 MAT247: Pset II: 2]] 
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170126MAT247_Pset+II_2.pdf][20170126 MAT247: Pset II: 2]] 
   
   Insufficient justification of why eigenvectors are in one and only
     one eigenspace.
     
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_3.pdf][20170126 MAT247: Pset II: 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170126MAT247_Pset+II_3.pdf][20170126 MAT247: Pset II: 3]]
 
   Complete misunderstanding of the problem.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170126MAT247_Pset+II_4.pdf][20170126 MAT247: Pset II: 4]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170126MAT247_Pset+II_4.pdf][20170126 MAT247: Pset II: 4]]
 
   Justify the relation between $|\bigcup \beta_i |$ and $\sum\dim W_i$.
 
 **** 20170118: Pset I
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_1.pdf][20170118 MAT247: Pset I: 1]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_2.pdf][20170118 MAT247: Pset I: 2]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170118MAT247_Pset+I_1.pdf][20170118 MAT247: Pset I: 1]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170118MAT247_Pset+I_2.pdf][20170118 MAT247: Pset I: 2]]
 
   $\beta$ in the given form is not a basis of a polynomial vector
 space.
 
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_3.pdf][20170118 MAT247: Pset I: 3]]
-  - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170118MAT247_Pset+I_4.pdf][20170118 MAT247: Pset I: 4]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170118MAT247_Pset+I_3.pdf][20170118 MAT247: Pset I: 3]]
+  - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170118MAT247_Pset+I_4.pdf][20170118 MAT247: Pset I: 4]]
 
   Explain better why conditions on the eigenspaces must hold.
 *** MAT240
 **** 20161202: Pset IX
      Nonsense: 18.0%
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_1.pdf][20161201 MAT240: 1]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/20161201MAT240ARBEIT_1.pdf][20161201 MAT240: 1]]
 
      Be careful with how you count.
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_2.pdf][20161201 MAT240: 2]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/20161201MAT240ARBEIT_2.pdf][20161201 MAT240: 2]]
 
      The argument lacks the substance -- a mishmash of terminology does
      no good to the reasoning.
@@ -342,8 +342,8 @@ space.
 
      Then argue that $f(t) = 12\det(C)$.
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_3.pdf][20161201 MAT240: 3]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161201MAT240ARBEIT_4.pdf][20161201 MAT240: 4]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/20161201MAT240ARBEIT_3.pdf][20161201 MAT240: 3]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/20161201MAT240ARBEIT_4.pdf][20161201 MAT240: 4]]
 
      Use less abstruse language.
 
@@ -354,32 +354,32 @@ space.
 
      Nonsense: 0.00%
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_1.pdf][20161124 MAT240: 1]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_2.pdf][20161124 MAT240: 2]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/20161124MAT240ARBEIT_1.pdf][20161124 MAT240: 1]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/20161124MAT240ARBEIT_2.pdf][20161124 MAT240: 2]]
 
      Do not put equal signs between things which are not equal.
 
      Avoid superfluous calculations (no need to look at the case
      $2=0$ separately).
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_3.pdf][20161124 MAT240: 3]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/20161124MAT240ARBEIT_4.pdf][20161124 MAT240: 4]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/20161124MAT240ARBEIT_3.pdf][20161124 MAT240: 3]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/20161124MAT240ARBEIT_4.pdf][20161124 MAT240: 4]]
 
 **** 20161118: Pset VII
 
      Nonsense: 0.00%
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_1.pdf][20161118 MAT240: 1]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_2.pdf][20161118 MAT240: 2]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_3.pdf][20161118 MAT240: 3]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161118MAT240_4.pdf][20161118 MAT240: 4]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161118MAT240_1.pdf][20161118 MAT240: 1]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161118MAT240_2.pdf][20161118 MAT240: 2]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161118MAT240_3.pdf][20161118 MAT240: 3]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161118MAT240_4.pdf][20161118 MAT240: 4]]
 
 **** 20161105: Pset VI
 
      Nonsense: 8.00%
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_1.pdf][20161105 MAT240: 1]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_2.pdf][20161105 MAT240: 2]] 
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161105MAT240_1.pdf][20161105 MAT240: 1]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161105MAT240_2.pdf][20161105 MAT240: 2]] 
     
      The $\Leftarrow$ part is wrong, atrocious and disappointing.
 
@@ -400,22 +400,22 @@ space.
      $w\in W$, and $T(w) = 0$, since $w\in W'$. Hence, $w=0$,
      and $V=W\oplus W'$.
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_3.pdf][20161105 MAT240: 3]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161105MAT240_4.pdf][20161105 MAT240: 4]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161105MAT240_3.pdf][20161105 MAT240: 3]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161105MAT240_4.pdf][20161105 MAT240: 4]]
 
 **** 20161028: Pset V
 
      Nonsense: 4.00%
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_1.pdf][20161028 MAT240: 1]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_2.pdf][20161028 MAT240: 2]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161028MAT240_1.pdf][20161028 MAT240: 1]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161028MAT240_2.pdf][20161028 MAT240: 2]]
 
      The construction of a linear map $U$ as given satisfies the
      condition for every vector in $W$ if and only if $v\neq
      0$. Remember that the value of $S$ depends on its input.
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_3.pdf][20161028 MAT240: 3]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161028MAT240_4.pdf][20161028 MAT240: 4]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161028MAT240_3.pdf][20161028 MAT240: 3]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161028MAT240_4.pdf][20161028 MAT240: 4]]
 
 **** 20161017: Midterm
     
@@ -434,20 +434,20 @@ space.
 
      Nonsense: 2.00%
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_1.pdf][20161014 MAT240: 1]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_2.pdf][20161014 MAT240: 2]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_3.pdf][20161014 MAT240: 3]]
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_4.pdf][20161014 MAT240: 4]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161014MAT240_1.pdf][20161014 MAT240: 1]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161014MAT240_2.pdf][20161014 MAT240: 2]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161014MAT240_3.pdf][20161014 MAT240: 3]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161014MAT240_4.pdf][20161014 MAT240: 4]]
 
      Argue about the dimensions to claim a basis.
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161014MAT240_5.pdf][20161014 MAT240: 5]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161014MAT240_5.pdf][20161014 MAT240: 5]]
 
 **** 20161006: Pset III
 
      Nonsense: 37.0%
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_1.pdf][20161006 MAT240: 1]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161006MAT240_1.pdf][20161006 MAT240: 1]]
 
      Show your work!
 
@@ -462,24 +462,24 @@ space.
      /the right answer isn't worth anything by itself./
 
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_2.pdf][20161006 MAT240: 2]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161006MAT240_2.pdf][20161006 MAT240: 2]]
   
      The explanation is not lucid, and throwing big-name principles in the
      face of the reader will not make it more so. It is much better to
      argue from the observation that any vector space must include all
      the scalar multiples of any vector it contains.
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_3.pdf][20161006 MAT240: 3]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161006MAT240_3.pdf][20161006 MAT240: 3]]
 
      Write the proof in the direction that makes it rigorous, not in
      the way it was obtained.
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_4.pdf][20161006 MAT240: 4]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161006MAT240_4.pdf][20161006 MAT240: 4]]
 
      The reasoning why $\phi$ exists is wrong: it is because
      $\sqrt{m^2+n^2} \neq 0$.
 
-   - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20161006MAT240_5.pdf][20161006 MAT240: 5]]
+   - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20161006MAT240_5.pdf][20161006 MAT240: 5]]
 
      Improve your writing. For example, fixing $u'$ is not necessary in
      the beginning.
@@ -491,16 +491,16 @@ space.
      Bad work. Unattentiveness and unfounded intuitions lead to
      misunderstandings.
 
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_1.pdf][20160930 MAT240: 1]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20160930MAT240_1.pdf][20160930 MAT240: 1]]
 
        Be careful with what you copy and paste.
 
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_2.pdf][20160930 MAT240: 2]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20160930MAT240_2.pdf][20160930 MAT240: 2]]
 
        Simplify the notation.
 
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_3.pdf][20160930 MAT240: 3]]
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_4.pdf][20160930 MAT240: 4]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20160930MAT240_3.pdf][20160930 MAT240: 3]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20160930MAT240_4.pdf][20160930 MAT240: 4]]
 
        + Theorem 0.1:
 
@@ -517,7 +517,7 @@ space.
          Missing the point of the exercise and the meaning of the
          property yet again.
 
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20160930MAT240_5.pdf][20160930 MAT240: 5]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20160930MAT240_5.pdf][20160930 MAT240: 5]]
 
        + 5.a $\Rightarrow$: Poor argument. What if $x=0$?
 
@@ -547,23 +547,23 @@ space.
 
      Nonsense: 10.0%
 
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_1.pdf][20160923MAT240 I]]
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_2.pdf][20160923MAT240 II]]
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_3.pdf][20160923MAT240 III]]
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_4.pdf][20160923MAT240 IV]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/MAT/MAT240/20160923MAT240_1.pdf][20160923MAT240 I]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/MAT/MAT240/20160923MAT240_2.pdf][20160923MAT240 II]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/MAT/MAT240/20160923MAT240_3.pdf][20160923MAT240 III]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/MAT/MAT240/20160923MAT240_4.pdf][20160923MAT240 IV]]
 
        be extremely careful with arithmetic and explicit in your reasoning
 
-     - [[https://github.com/sdll/NOTES/blob/master/ARBEIT/MAT/MAT240/20160923MAT240_5.pdf][20160923MAT240 V]]
+     - [[https://github.com/sdll/notes/blob/master/arbeit/MAT/MAT240/20160923MAT240_5.pdf][20160923MAT240 V]]
 ** Logic
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170124CSC240_Pset+II.pdf][20170124 CSC240: Pset II]]
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170131CSC240_Pset+III.pdf][20170131 CSC240: Pset III]]
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170208CSC240_Pset-IV.pdf][20170208 CSC240: Pset IV]]
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170215CSC240_Pset+V.pdf][20170215 CSC240: Pset V]]
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170301CSC240_Pset+VI.pdf][20170301 CSC240: Pset VI]]
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170315CSC240_Pset+VII.pdf][20170315 CSC240: Pset VII]]
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170329CSC240_Pset+VIII.pdf][20170329 CSC240: Pset VIII]] 
-*** [[https://github.com/sdll/NOTES/blob/master/ARBEIT/ARBEIT20170405CSC240Pset+IX.pdf][20170405 CSC240: Pset IX]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170124CSC240_Pset+II.pdf][20170124 CSC240: Pset II]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170131CSC240_Pset+III.pdf][20170131 CSC240: Pset III]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170208CSC240_Pset-IV.pdf][20170208 CSC240: Pset IV]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170215CSC240_Pset+V.pdf][20170215 CSC240: Pset V]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170301CSC240_Pset+VI.pdf][20170301 CSC240: Pset VI]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170315CSC240_Pset+VII.pdf][20170315 CSC240: Pset VII]]
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170329CSC240_Pset+VIII.pdf][20170329 CSC240: Pset VIII]] 
+*** [[https://github.com/sdll/notes/blob/master/arbeit/ARBEIT20170405CSC240Pset+IX.pdf][20170405 CSC240: Pset IX]]
 
 #+BEGIN_EXPORT html
 <script>
