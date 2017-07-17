@@ -10,8 +10,7 @@ body {
 div#header {
     vertical-align: middle;
     text-align: center;
-    border-bottom: 2px solid black;
-    margin-bottom: 30px;
+    border-bottom: 0px solid black;
     display: table;
     width:100%;
 }
@@ -28,11 +27,12 @@ div#logo a {
     text-decoration: none;
 }
 
-div#logo img{
-    width: 2em;}
+div#logo{
+    width: 2.3em;
+}
 
 div#header #navigation {
-    text-align: right;
+    text-align: left;
     display: table-cell;
     vertical-align:middle;
     max-width: 740px;
