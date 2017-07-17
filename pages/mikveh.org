@@ -14,7 +14,7 @@
    - [[https://github.com/sdll/notes/blob/master/mikveh/MIKVEH20170118Curtis+McMullen_Surfaces+in+the+Space+of+Surfaces.pdf][2017-01-18 Curtis McMullen: Surfaces in the Space of Surfaces]]
 
 ** Category Theory
-   - [[https://github.com/sdll/notes/raw/master/mikveh/MIKVEH20170224Fedor%252BManin_Why%252BShould%252BYou%252BCare%252BAbout%252BModel%252BCategories%253F.pdf][2017-02-24 Fedor Manin: Why Should You Care About Model Categories?]]
+   - [[https://github.com/sdll/notes/blob/master/mikveh/MIKVEH20170224Fedor+Manin_Why+Should+You+Care+About+Model+Categories.pdf][2017-02-24 Fedor Manin: Why Should You Care About Model Categories?]]
 ** Complexity Theory
 
    - [[https://github.com/sdll/notes/blob/master/mikveh/MIKVEH20161116Madhu+Sudan_Imperfectly+Shared+Randomness+in+Communication.pdf][2016-11-16 Madhu Sudan: Imperfectly Shared Randomness in Communication]]
