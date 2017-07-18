@@ -3,8 +3,9 @@ title: Hello, Universe!
 ---
 
 I am Sasha Illarionov, and I am a budding mathematician aspiring to
-bring rigour to the field of machine learning, while optimising the
-efficiency of distributed and decentralised systems.
+bring rigour to the field of machine learning. Optimising the
+efficiency of distributed and decentralised systems would also be
+[[http://worrydream.com/ClimateChange/][great]].
 
 My primary goal now is to have a solid background in core mathematics,
 computer science and programming.
