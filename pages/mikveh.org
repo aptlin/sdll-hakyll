@@ -61,6 +61,7 @@
   - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Дzhamay-Geometry-of-Discrete-Painleve-equations.pdf][2017-07-20 Дzhamay: Geometry of Discrete Painleve equations I]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-%D0%94zhamay-Geometry-of-Discrete-Painleve-equations.tex][(src)]]
   - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Дzhamay-Geometry-of-Discrete-Painleve-equations.pdf][2017-07-22 Дzhamay: Geometry of Discrete Painleve equations II]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-%D0%94zhamay-Geometry-of-Discrete-Painleve-equations.tex][(src)]]
 *** Kalinin
+See also [[Nikita's notes][Nikita's notes]] and [[https://www.mccme.ru/dubna/2017/notes/kalinin-ex.pdf][problems]]. 
   - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Kalinin_Model-of-Sand-Moving-and-Divisors-in-Graphs.pdf][2017-07-21 Kalinin: Model of Sand Moving and Divisors in Graphs]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Kalinin_Model-of-Sand-Moving-and-Divisors-in-Graphs.tex][(src)]]
 *** Losev
   - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Losev_Introduction-to-Representation-Theory.pdf][2017-07-20 Losev: Introduction to Representation Theory]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Losev_Introduction-to-Representation-Theory.tex][(src)]]
@@ -75,6 +76,5 @@
 *** Veselov
   - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Veselov_Special-Functions_From-Gamma-to-Zeta.pdf][2017-07-20 Veselov: Special Functions: From Gamma to Zeta]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Veselov_Special-Functions_From-Gamma-to-Zeta.tex][(src)]]
   - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Veselov_Around-Markov-Triples.pdf][2017-07-22 Veselov: Around Markov Triples]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Veselov_Around-Markov-Triples.tex][(src)]]
-
 *** Volk
   - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Volk_Brain-Maths.pdf][2017-07-21 Volk: Brain Maths]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Volk_Brain-Maths.tex][(src)]]
