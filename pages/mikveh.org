@@ -1,6 +1,60 @@
 - *Mikveh* :: from Hebrew, a collection (מקווה), usually of water.
                Most commonly used in the context of ritual purification.
-
+** Modern Mathematics 2017
+*** Arzhantsev
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Arzhantsev-Additive-Actions-and-Hassett-Tschinkel-Correspondence.pdf][2017-07-21 Arzhantsev: Additive Actions and Hassett-Tschinkel Correspondence]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Arzhantsev-Additive-Actions-and-Hassett-Tschinkel-Correspondence.tex][(src)]]
+*** Bragilevsky
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Bragilevsky_Curry-Howard-Correspondence.pdf][2017-07-26 Bragilevsky: Curry Howard Correspondence II]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Bragilevsky_Curry-Howard-Correspondence.pdf.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Bragilevsky_Curry--Howard-Correspondence.pdf][2017-07-28 Bragilevsky: Curry-Howard Correspondence III]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Bragilevsky_Curry--Howard-Correspondence.pdf.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Bragilevsky_Curry--Howard-Correspondence.pdf][2017-07-29 Bragilevsky: Curry-Howard Correspondence IV]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Bragilevsky_Curry--Howard-Correspondence.pdf.tex][(src)]]
+*** Bufetov
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Bufetov_Introduction-to-Markov-Processes.pdf][2017-07-21 Bufetov: Introduction to Markov Processes II]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Bufetov_Introduction-to-Markov-Processes.tex][(src)]]
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Bufetov_Introduction-to-Markov-Processes-III.pdf][2017-07-22 Bufetov: Introduction to Markov Processes III]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Bufetov_Introduction-to-Markov-Processes-III.tex][(src)]]
+*** Dzhamai
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-Дzhamay-Geometry-of-Discrete-Painleve-equations.pdf][2017-07-20 Дzhamay: Geometry of Discrete Painleve equations I]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-%D0%94zhamay-Geometry-of-Discrete-Painleve-equations.tex][(src)]]
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Дzhamay-Geometry-of-Discrete-Painleve-equations.pdf][2017-07-22 Дzhamay: Geometry of Discrete Painleve equations II]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-%D0%94zhamay-Geometry-of-Discrete-Painleve-equations.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Dzhamay_Beatiful-Geometry-of-Discrete-Painleve-Equations.pdf][2017-07-28 Dzhamay: Beatiful Geometry of Discrete Painleve Equations]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Dzhamay_Beatiful-Geometry-of-Discrete-Painleve-Equations.pdf.tex][(src)]]
+*** Gasnikov
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Gasnikov-Introduction-to-Gradient-Descent.pdf][2017-07-25 Gasnikov: Introduction to Gradient Descent]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Gasnikov-Introduction-to-Gradient-Descent.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Gasnikov_Introduction-to-Gradient-Descent-II.pdf][2017-07-26 Gasnikov: Introduction to Gradient Descent II]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Gasnikov_Introduction-to-Gradient-Descent-II.pdf.tex][(src)]]
+*** Ilyashenko
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Ilyashenko_Structural-Stability.pdf][2017-07-28 Ilyashenko: Structural Stability]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Ilyashenko_Structural-Stability.pdf.tex][(src)]]
+*** Kalinin
+See also [[http://mathcenter.spb.ru/nikaan/misc/sand.html][Nikita's notes]] and [[https://www.mccme.ru/dubna/2017/notes/kalinin-ex.pdf][problems]]. 
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Kalinin_Sandpile-Model-and-Divisors-in-Graphs.pdf][2017-07-21 Kalinin: Sandpile Model and Divisors in Graphs]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Kalinin_Sandpile-Model-and-Divisors-in-Graphs.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-II.pdf][2017-07-23 Kalinin: Sandpile Model and Divisors in Graphs II]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-II.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-III.pdf][2017-07-25 Kalinin: Sandpile Model and Divisors in Graphs III]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-III.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-IV.pdf][2017-07-26 Kalinin: Sandpile Model and Divisors in Graphs IV]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-IV.pdf.tex][(src)]]  
+*** Kleptsyn
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kleptsyn-Surface-Gluing,-Wigner-Circle-Law-and-Free-Convolution.pdf][2017-07-25 Kleptsyn: Surface Gluing, Wigner Circle Law and Free Convolutions]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kleptsyn-Surface-Gluing,-Wigner-Circle-Law-and-Free-Convolution.tex][(src)]]
+  - For further reference on related topics, see the following:
+    + [[https://terrytao.wordpress.com/2010/01/03/254a-notes-1-concentration-of-measure/][Tao's Notes on the Concentration of Measure]]
+    + General audience movies on [[http://dimensions-math.org/Dim_E.htm][higher dimensions]] and [[http://www.chaos-math.org/][chaos]]
+    + Ilyashenko's booklet on [[https://www.mccme.ru/free-books/dubna/ilyashenko-smale.pdf][evolutionary processes]]
+    + Anosov's book on [[https://www.mccme.ru/free-books/dubna/anosov.pdf][differential equations]]
+    + Anosov's [[http://nature.web.ru/db/msg.html?mid=1159456][more advanced notes]] on the development of dynamic systems
+*** Losev
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-Losev_Introduction-to-Representation-Theory.pdf][2017-07-20 Losev: Introduction to Representation Theory]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-Losev_Introduction-to-Representation-Theory.tex][(src)]]
+*** Raskin
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Raskin_Blind-Counting-I.pdf][2017-07-21 Raskin: Blind Counting I]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Raskin_Blind-Counting-I.tex][(src)]]
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Raskin_Blind-Counting-II.pdf][2017-07-22 Raskin: Blind Counting II]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Raskin_Blind-Counting-II.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Raskin_Probabilistic-Proofs-of-Existence.pdf][2017-07-28 Raskin: Probabilistic Proofs of Existence I]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Raskin_Probabilistic-Proofs-of-Existence.pdf.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Raskin_Probabilistic-Proofs-of-Existence.pdf][2017-07-29 Raskin: Probabilistic Proofs of Existence II]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Raskin_Probabilistic-Proofs-of-Existence.pdf.tex][(src)]]
+*** Razborov
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-Razborov_Inverse-Problems-of-Arithmetic-Combinatorics.pdf][2017-07-20 Razborov: Inverse Problems of Arithmetic Combinatorics]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-Razborov_Inverse-Problems-of-Arithmetic-Combinatorics.tex][(src)]]
+*** Smirnov
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Smirnov-Domino-Tilings.pdf][2017-07-25 Smirnov: Domino Tilings]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Smirnov-Domino-Tilings.tex][(src)]]
+*** Sossinsky
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Sossinsky_Mathematics-of-Linkage-Mechanisms.pdf][2017-07-27 Sossinsky: Mathematics of Linkage Mechanisms]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Sossinski_Mathematics-of-Linkage-Mechanisms.pdf.tex][(src)]]    
+*** Timorin
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Timorin_Twisted-Rabbits-I.pdf][2017-07-22 Timorin: Twisted Rabbits I]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Timorin_Twisted-Rabbits-I.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Timorin_Geometry-and-Dynamics-of-Fractals.pdf][2017-07-23 Timorin: Geometry and Dynamics of Fractals]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Timorin_Geometry-and-Dynamics-of-Fractals.tex][(src)]]
+*** Veselov
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-Veselov_Special-Functions_From-Gamma-to-Zeta.pdf][2017-07-20 Veselov: Special Functions: From Gamma to Zeta]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-Veselov_Special-Functions_From-Gamma-to-Zeta.tex][(src)]]
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Veselov_Around-Markov-Triples.pdf][2017-07-22 Veselov: Around Markov Triples]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Veselov_Around-Markov-Triples.tex][(src)]]
+*** Volk
+  - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Volk_Brain-Maths.pdf][2017-07-21 Volk: Brain Maths]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Volk_Brain-Maths.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Volk_Brain-Maths-III.pdf][2017-07-27 Volk: Brain Maths III]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Volk_Brain-Maths-III.pdf.tex][(src)]]
 ** Affine Geometric Analysis
 
    - [[https://github.com/sdll/notes/blob/master/mikveh/MIKVEH20161104Professor+Burchard_Foldings+and+Symmetrization.pdf][2016-11-04 Professor Burchard: Foldings and Symmetrization]]
@@ -51,49 +105,4 @@
 
 ** Quantum Information
    - [[https://github.com/sdll/notes/blob/master/mikveh/MIKVEH20170308Arthur+Jaffe_A+New+Look+at+the+Mathematics+of+Quantum+Information.pdf][2017-03-08 Arthur Jaffe: A New Look at the Mathematics of Quantum Information]]
-
-** Modern Mathematics 2017
-*** Arzhantsev
-  - [[https://github.com/sdll/NOTES/blob/master/mat/modmath2017-07-23-Arzhantsev-Additive-Actions-and-Hassett-Tschinkel-Correspondence.pdf][2017-07-21 Arzhantsev: Additive Actions and Hassett-Tschinkel Correspondence]] [[https://github.com/sdll/NOTES/blob/master/mat/modmath2017-07-23-Arzhantsev-Additive-Actions-and-Hassett-Tschinkel-Correspondence.tex][(src)]]
-*** Bragilevsky
-  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Bragilevsky_Curry-Howard-Correspondence.pdf][2017-07-26 Bragilevsky: Curry Howard Correspondence]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Bragilevsky_Curry-Howard-Correspondence.pdf.tex][(src)]]
-*** Bufetov
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Bufetov_Introduction-to-Markov-Processes.pdf][2017-07-21 Bufetov: Introduction to Markov Processes II]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Bufetov_Introduction-to-Markov-Processes.tex][(src)]]
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Bufetov_Introduction-to-Markov-Processes-III.pdf][2017-07-22 Bufetov: Introduction to Markov Processes III]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Bufetov_Introduction-to-Markov-Processes-III.tex][(src)]]
-*** Dzhamai
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Дzhamay-Geometry-of-Discrete-Painleve-equations.pdf][2017-07-20 Дzhamay: Geometry of Discrete Painleve equations I]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-%D0%94zhamay-Geometry-of-Discrete-Painleve-equations.tex][(src)]]
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Дzhamay-Geometry-of-Discrete-Painleve-equations.pdf][2017-07-22 Дzhamay: Geometry of Discrete Painleve equations II]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-%D0%94zhamay-Geometry-of-Discrete-Painleve-equations.tex][(src)]]
-*** Gasnikov
-  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Gasnikov-Introduction-to-Gradient-Descent.pdf][2017-07-25 Gasnikov: Introduction to Gradient Descent]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Gasnikov-Introduction-to-Gradient-Descent.tex][(src)]]
-  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Gasnikov_Introduction-to-Gradient-Descent-II.pdf][2017-07-26 Gasnikov: Introduction to Gradient Descent II]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Gasnikov_Introduction-to-Gradient-Descent-II.pdf.tex][(src)]]
-*** Kalinin
-See also [[http://mathcenter.spb.ru/nikaan/misc/sand.html][Nikita's notes]] and [[https://www.mccme.ru/dubna/2017/notes/kalinin-ex.pdf][problems]]. 
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Kalinin_Sandpile-Model-and-Divisors-in-Graphs.pdf][2017-07-21 Kalinin: Sandpile Model and Divisors in Graphs]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Kalinin_Sandpile-Model-and-Divisors-in-Graphs.tex][(src)]]
-  - [[https://github.com/sdll/NOTES/blob/master/mat/modmath2017-07-23-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-II.pdf][2017-07-23 Kalinin: Sandpile Model and Divisors in Graphs II]] [[https://github.com/sdll/NOTES/blob/master/mat/modmath2017-07-23-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-II.tex][(src)]]
-  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-III.pdf][2017-07-25 Kalinin: Sandpile Model and Divisors in Graphs III]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-III.tex][(src)]]
-  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-IV.pdf][2017-07-26 Kalinin: Sandpile Model and Divisors in Graphs IV]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-IV.pdf.tex][(src)]]  
-*** Kleptsyn
-  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kleptsyn-Surface-Gluing,-Wigner-Circle-Law-and-Free-Convolution.pdf][2017-07-25 Kleptsyn: Surface Gluing, Wigner Circle Law and Free Convolutions]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kleptsyn-Surface-Gluing,-Wigner-Circle-Law-and-Free-Convolution.tex][(src)]]
-*** Losev
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Losev_Introduction-to-Representation-Theory.pdf][2017-07-20 Losev: Introduction to Representation Theory]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Losev_Introduction-to-Representation-Theory.tex][(src)]]
-*** Raskin
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Raskin_Blind-Counting-I.pdf][2017-07-21 Raskin: Blind Counting I]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Raskin_Blind-Counting-I.tex][(src)]]
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Raskin_Blind-Counting-II.pdf][2017-07-22 Raskin: Blind Counting II]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Raskin_Blind-Counting-II.tex][(src)]]
-*** Razborov
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Razborov_Inverse-Problems-of-Arithmetic-Combinatorics.pdf][2017-07-20 Razborov: Inverse Problems of Arithmetic Combinatorics]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Razborov_Inverse-Problems-of-Arithmetic-Combinatorics.tex][(src)]]
-*** Smirnov
-  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Smirnov-Domino-Tilings.pdf][2017-07-25 Smirnov: Domino Tilings]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Smirnov-Domino-Tilings.tex][(src)]]
-*** Sossinski
-  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Sossinski_Mathematics-of-Linkage-Mechanisms.pdf][2017-07-27 Sossinski: Mathematics of Linkage Mechanisms]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Sossinski_Mathematics-of-Linkage-Mechanisms.pdf.tex][(src)]]    
-*** Timorin
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Timorin_Twisted-Rabbits-I.pdf][2017-07-22 Timorin: Twisted Rabbits I]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Timorin_Twisted-Rabbits-I.tex][(src)]]
-  - [[https://github.com/sdll/NOTES/blob/master/mat/modmath2017-07-23-Timorin_Geometry-and-Dynamics-of-Fractals.pdf][2017-07-23 Timorin: Geometry and Dynamics of Fractals]] [[https://github.com/sdll/NOTES/blob/master/mat/modmath2017-07-23-Timorin_Geometry-and-Dynamics-of-Fractals.tex][(src)]]
-*** Veselov
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Veselov_Special-Functions_From-Gamma-to-Zeta.pdf][2017-07-20 Veselov: Special Functions: From Gamma to Zeta]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-20-Veselov_Special-Functions_From-Gamma-to-Zeta.tex][(src)]]
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Veselov_Around-Markov-Triples.pdf][2017-07-22 Veselov: Around Markov Triples]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-22-Veselov_Around-Markov-Triples.tex][(src)]]
-*** Volk
-  - [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Volk_Brain-Maths.pdf][2017-07-21 Volk: Brain Maths]] [[https://github.com/sdll/notes/blob/master/mat/modmath2017-07-21-Volk_Brain-Maths.tex][(src)]]
-
-
-  
 
