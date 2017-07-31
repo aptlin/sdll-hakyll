@@ -27,6 +27,7 @@ See also [[http://mathcenter.spb.ru/nikaan/misc/sand.html][Nikita's notes]] and 
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-IV.pdf][2017-07-26 Kalinin: Sandpile Model and Divisors in Graphs IV]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Kalinin_Sandpile-Model-and-Divisors-in-Graphs-IV.pdf.tex][(src)]]  
 *** Kleptsyn
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kleptsyn-Surface-Gluing,-Wigner-Circle-Law-and-Free-Convolution.pdf][2017-07-25 Kleptsyn: Surface Gluing, Wigner Circle Law and Free Convolutions]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Kleptsyn-Surface-Gluing,-Wigner-Circle-Law-and-Free-Convolution.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Kleptsyn_Dynamical-Systems-and-Bifurcations.pdf][2017-07-29 Kleptsyn: Dynamical Systems and Bifurcations]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Kleptsyn_Dynamical-Systems-and-Bifurcations.pdf.tex][(src)]]
   - For further reference on related topics, see the following:
     + [[https://terrytao.wordpress.com/2010/01/03/254a-notes-1-concentration-of-measure/][Tao's Notes on the Concentration of Measure]]
     + General audience movies on [[http://dimensions-math.org/Dim_E.htm][higher dimensions]] and [[http://www.chaos-math.org/][chaos]]
@@ -55,6 +56,7 @@ See also [[http://mathcenter.spb.ru/nikaan/misc/sand.html][Nikita's notes]] and 
 *** Volk
   - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Volk_Brain-Maths.pdf][2017-07-21 Volk: Brain Maths]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-21-Volk_Brain-Maths.tex][(src)]]
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Volk_Brain-Maths-III.pdf][2017-07-27 Volk: Brain Maths III]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Volk_Brain-Maths-III.pdf.tex][(src)]]
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Volk_Brain-Maths-IV.pdf][2017-07-29 Volk: Brain Maths IV]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Volk_Brain-Maths-IV.pdf.tex][(src)]]
 ** Affine Geometric Analysis
 
    - [[https://github.com/sdll/notes/blob/master/mikveh/MIKVEH20161104Professor+Burchard_Foldings+and+Symmetrization.pdf][2016-11-04 Professor Burchard: Foldings and Symmetrization]]
