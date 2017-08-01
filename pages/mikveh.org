@@ -3,7 +3,8 @@
 ** Modern Mathematics 2017
 *** Arzhantsev
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Arzhantsev-Additive-Actions-and-Hassett-Tschinkel-Correspondence.pdf][2017-07-21 Arzhantsev: Additive Actions and Hassett-Tschinkel Correspondence]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Arzhantsev-Additive-Actions-and-Hassett-Tschinkel-Correspondence.tex][(src)]]
-*** Bragilevsky
+*** Bragilevsky-
+  - See also [[https://www.mccme.ru/dubna/2017/notes/bragilevsky-notes.pdf][more comprehensive notes]] by Vitaly
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Bragilevsky_Curry-Howard-Correspondence.pdf][2017-07-26 Bragilevsky: Curry Howard Correspondence II]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Bragilevsky_Curry-Howard-Correspondence.pdf.tex][(src)]]
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Bragilevsky_Curry--Howard-Correspondence.pdf][2017-07-28 Bragilevsky: Curry-Howard Correspondence III]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Bragilevsky_Curry--Howard-Correspondence.pdf.tex][(src)]]
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Bragilevsky_Curry--Howard-Correspondence.pdf][2017-07-29 Bragilevsky: Curry-Howard Correspondence IV]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-29-Bragilevsky_Curry--Howard-Correspondence.pdf.tex][(src)]]
@@ -15,6 +16,7 @@
   - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Дzhamay-Geometry-of-Discrete-Painleve-equations.pdf][2017-07-22 Дzhamay: Geometry of Discrete Painleve equations II]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-%D0%94zhamay-Geometry-of-Discrete-Painleve-equations.tex][(src)]]
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Dzhamay_Beautiful-Geometry-of-Discrete-Painleve-Equations.pdf][2017-07-28 Dzhamay: Beautiful Geometry of Discrete Painleve Equations]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Dzhamay_Beatiful-Geometry-of-Discrete-Painleve-Equations.pdf.tex][(src)]]
 *** Gasnikov
+  - See also [[https://www.mccme.ru/dubna/2017/notes/gasnikov-paper.pdf][Alexander's paper]]
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Gasnikov-Introduction-to-Gradient-Descent.pdf][2017-07-25 Gasnikov: Introduction to Gradient Descent]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Gasnikov-Introduction-to-Gradient-Descent.tex][(src)]]
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Gasnikov_Introduction-to-Gradient-Descent-II.pdf][2017-07-26 Gasnikov: Introduction to Gradient Descent II]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Gasnikov_Introduction-to-Gradient-Descent-II.pdf.tex][(src)]]
 *** Ilyashenko
