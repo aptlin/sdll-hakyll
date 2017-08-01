@@ -33,7 +33,8 @@ See also [[http://mathcenter.spb.ru/nikaan/misc/sand.html][Nikita's notes]] and 
     + General audience movies on [[http://dimensions-math.org/Dim_E.htm][higher dimensions]] and [[http://www.chaos-math.org/][chaos]]
     + Ilyashenko's booklet on [[https://www.mccme.ru/free-books/dubna/ilyashenko-smale.pdf][evolutionary processes]]
     + Anosov's book on [[https://www.mccme.ru/free-books/dubna/anosov.pdf][differential equations]]
-    + Anosov's [[http://nature.web.ru/db/msg.html?mid=1159456][more advanced notes]] on the development of dynamic systems
+    + Anosov's [[http://nature.web.ru/db/msg.html?mid=1159456][more advanced notes]] on the evolution of dynamical systems
+    + Sossinsky's [[https://www.mccme.ru/free-books/mmmf-lectures/book.6.pdf][booklet]] on soap films and random walks
 *** Losev
   - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-Losev_Introduction-to-Representation-Theory.pdf][2017-07-20 Losev: Introduction to Representation Theory]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-20-Losev_Introduction-to-Representation-Theory.tex][(src)]]
 *** Raskin
@@ -46,7 +47,7 @@ See also [[http://mathcenter.spb.ru/nikaan/misc/sand.html][Nikita's notes]] and 
 *** Smirnov
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Smirnov-Domino-Tilings.pdf][2017-07-25 Smirnov: Domino Tilings]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-25-Smirnov-Domino-Tilings.tex][(src)]]
 *** Sossinsky
-  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Sossinsky_Mathematics-of-Linkage-Mechanisms.pdf][2017-07-27 Sossinsky: Mathematics of Linkage Mechanisms]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Sossinski_Mathematics-of-Linkage-Mechanisms.pdf.tex][(src)]]    
+  - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Sossinsky_Mathematics-of-Linkage-Mechanisms.pdf][2017-07-27 Sossinsky: Mathematics of Linkage Mechanisms]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-27-Sossinski_Mathematics-of-Linkage-Mechanisms.pdf.tex][(src)]]
 *** Timorin
   - [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Timorin_Twisted-Rabbits-I.pdf][2017-07-22 Timorin: Twisted Rabbits I]] [[https://github.com/sdll/notes/blob/master/modmath/modmath2017-07-22-Timorin_Twisted-Rabbits-I.tex][(src)]]
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Timorin_Geometry-and-Dynamics-of-Fractals.pdf][2017-07-23 Timorin: Geometry and Dynamics of Fractals]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Timorin_Geometry-and-Dynamics-of-Fractals.tex][(src)]]
