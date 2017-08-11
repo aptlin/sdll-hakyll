@@ -12,7 +12,7 @@ The program is based on [[file:../files/assets/agenda/verbit_programme.txt][Mish
 Литература.
 ------------------------------------------------------------
 
-/cf. [[http://bogomolov-lab.ru/KURSY/TOP-2012/][HSΕ 2012 Course in Topology]]/
+/cf. [[http://bogomolov-lab.ru/KURSY/TOP-2012/][HSE 2012 Course in Topology]]/
 
 + [[http://www.pdmi.ras.ru/~olegviro/topoman/e-unstable.pdf][Elementary Topology. Textbook in Problems by O.Ya.Viro, O.A.Ivanov, V.M.Kharlamov, N.Y.Netsvetaev]]
 + [[http://verbit.ru/MATH/UCHEBNIK/top-book.pdf][Вербицкий М., Топология в задачах]]

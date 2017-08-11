@@ -1,0 +1,94 @@
+/* @font-face{ */
+/*     font-family: 'PT Sans'; */
+/*     src: url('/site/fonts/PT_Sans-Web-Regular.ttf');} */
+/* @import url('https://fonts.googleapis.com/css?family=PT+Sans'); */
+
+body {
+    color: black;
+    font-family: PT Sans, serif;
+    font-size: 16px;
+    margin: 1em auto;
+    max-width: 630px;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 0.1em;
+}
+
+#bar {
+    overflow: hidden;
+    display: flex;
+}
+.header {
+    vertical-align: middle;
+    padding:20px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    color: #ff691f;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header div#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header div#navigation ul li {
+    display:inline;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+}
+
+.header div#navigation ul li a{
+    text-align:center;
+    color: #ff691f;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div#footer {
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 16px;
+    font-style:italic;
+}
+div.info {
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+}
+
+:link {
+    color: #0087ff;
+    text-decoration: none;
+}
+:visited {
+    color: #808080;
+}
+:link:hover, :visited:hover {
+    color:  #00afaf
+}

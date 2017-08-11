@@ -32,7 +32,7 @@ main = do
     match "404.html" $ do
         route idRoute
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/base.html" defaultContext
 
     match "css/*" $ compile compressCssCompiler
     create ["style.css"] $ do
@@ -44,7 +44,7 @@ main = do
     match (fromList ["about.org"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/base.html" defaultContext
             >>= relativizeUrls
 
     match "pages/*.org" $ do
@@ -53,7 +53,7 @@ main = do
         compile $ pandocCompilerWith readerOptions woptions
         -- compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/page.html"    pageCtx
-            >>= loadAndApplyTemplate "templates/default.html" pageCtx
+            >>= loadAndApplyTemplate "templates/base.html" pageCtx
             >>= relativizeUrls
 
     match "posts/*" $ do
@@ -61,7 +61,7 @@ main = do
         let readerOptions = defaultHakyllReaderOptions
         compile $ pandocCompilerWith readerOptions woptions
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
-            >>= loadAndApplyTemplate "templates/default.html" (mathCtx <> postCtx)
+            >>= loadAndApplyTemplate "templates/base.html" (mathCtx <> postCtx)
             >>= relativizeUrls
 
     create ["log.html"] $ do
@@ -75,7 +75,7 @@ main = do
 
             makeItem ""
                 >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/base.html" archiveCtx
                 >>= relativizeUrls
 
 
@@ -90,7 +90,7 @@ main = do
 
             pandocCompiler
                 >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= loadAndApplyTemplate "templates/base.html" indexCtx
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler

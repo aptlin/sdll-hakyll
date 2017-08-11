@@ -3,7 +3,7 @@
 ** Modern Mathematics 2017
 *** Arzhantsev
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Arzhantsev-Additive-Actions-and-Hassett-Tschinkel-Correspondence.pdf][2017-07-21 Arzhantsev: Additive Actions and Hassett-Tschinkel Correspondence]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-23-Arzhantsev-Additive-Actions-and-Hassett-Tschinkel-Correspondence.tex][(src)]]
-*** Bragilevsky-
+*** Bragilevsky
   - See also [[https://www.mccme.ru/dubna/2017/notes/bragilevsky-notes.pdf][more comprehensive notes]] by Vitaly
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Bragilevsky_Curry-Howard-Correspondence.pdf][2017-07-26 Bragilevsky: Curry Howard Correspondence II]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-26-Bragilevsky_Curry-Howard-Correspondence.pdf.tex][(src)]]
   - [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Bragilevsky_Curry--Howard-Correspondence.pdf][2017-07-28 Bragilevsky: Curry-Howard Correspondence III]] [[https://github.com/sdll/NOTES/blob/master/modmath/modmath2017-07-28-Bragilevsky_Curry--Howard-Correspondence.pdf.tex][(src)]]
