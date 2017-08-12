@@ -1,0 +1,46 @@
+* Overviews
+
+  - [[http://www.asimovinstitute.org/neural-network-zoo/][The Neural Network Zoo]]
+
+* Methods
+
+** Autoencoders
+
+*** Guides
+
+  - [[https://blog.keras.io/building-autoencoders-in-keras.html][Building Autoencoders in Keras]]
+
+
+** Principal Component Analysis
+
+*** Overview
+
+  - [[http://setosa.io/ev/principal-component-analysis/][Principal Component Analysis Explained Visually]]
+
+** Recurrent Neural Networks
+
+*** Overview
+
+  - [[http://karpathy.github.io/2015/05/21/rnn-effectiveness/][The Unreasonable Effectiveness of Recurrent Neural Networks]]
+
+*** LSTM Networks
+
+  - [[http://colah.github.io/posts/2015-08-Understanding-LSTMs/][Understanding LSTM Networks]]
+
+** t-SNE
+
+*** Overview
+
+  - [[https://www.oreilly.com/learning/an-illustrated-introduction-to-the-t-sne-algorithm][An Illustrated Introduction To The t-SNE Algorithm]]
+  - [[https://distill.pub/2016/misread-tsne/][How to Use t-SNE Effectively]]
+
+*** Applications
+
+  - [[https://colah.github.io/posts/2014-10-Visualizing-MNIST/][Visualizing MNIST: An Exploration of Dimensionality Reduction]]
+
+
+* Problems & Solutions
+
+** Image Analysis
+
+  - [[https://research.fb.com/learning-to-segment/][FB Research: Learning to Segment]]
