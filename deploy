@@ -28,7 +28,7 @@ git checkout master
 
 # delete old site
 rm -rf !(.|..|.git|.gitignore|.nojekyll|.stack-work|_cache|_site)
-mv _site/* $BLOG_DIR/
+mv _site/* .
 git add -A
 git commit -m "$1"
 git push origin master

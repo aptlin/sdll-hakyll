@@ -1,19 +1,10 @@
 <div id="archive">
-<ul>
-  <!-- <table id="archive"> -->
-  <!--   $for(posts)$ -->
-  <!--   <tr> -->
-  <!--     <td> -->
-  <!--       <a href="$url$">$title$</a> -->
-  <!--     </td> -->
-  <!--     <td> -->
-  <!--   $date$ -->
-  <!--     </td> -->
-  <!--   </tr> -->
-  <!--   $endfor$ -->
-  <!-- </table> -->
+<table id="post-list">
   $for(posts)$
-  <li> <a href="$url$">$title$</a> | $date$ </li>
+    <tr>
+        <td><a href="$url$">$title$</a></td>
+        <td> $date$ </td>
+    </tr>
   $endfor$
-</ul>
+</table>
 </div>

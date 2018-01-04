@@ -6,12 +6,13 @@ div#archive {
     line-height: 130%;
     width: 100%;
 }
-div#archive ul {
-    list-style-type: none;
+
+table#post-list {
+    width: 100%;
 }
-div#archive li {
-    margin: 1em;
-    margin-left:0;}
-div#archive li:before {
-    content: '\2e05 \ \ ';
+table#post-list tr:hover {
+    background-color: #fffced;
+}
+table#post-list td{
+    padding: 0.3em;
 }
