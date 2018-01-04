@@ -11,7 +11,7 @@ div#TOC li {
     margin: 0.2em;
 }
 div#TOC li:before {
-    content: '\2e05 \ \ ';
+    content: '\235F \ \ ';
 }
 div#TOC li a {color: #0087ff;}
 div#TOC li li a { color: #00afaf; }

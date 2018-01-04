@@ -6,29 +6,19 @@ import           Hakyll
 import           Prelude         hiding (id)
 import           System.FilePath
 import           Text.Pandoc
+import           Hakyll.Favicon (faviconsRules, faviconsField)
 import qualified GHC.IO.Encoding as E
 --------------------------------------------------------------------------------
 main :: IO ()
 main = do
   E.setLocaleEncoding E.utf8
-  hakyll $ do
-    match "images/*" $ do
+  hakyllWith hakyllConfig $ do
+    faviconsRules "images/logo.svg"
+
+    match (fromGlob "files/**" .||. fromGlob "js/**" .||. fromGlob "images/**") $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "files/**" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-    match "js/**" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-    match "favicon.ico" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-  -- Render the 404 page, we don't relativize URL's here.
     match "404.html" $ do
         route idRoute
         compile $ pandocCompiler
@@ -52,7 +42,7 @@ main = do
         let readerOptions = defaultHakyllReaderOptions
         compile $ pandocCompilerWith readerOptions woptions
         -- compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/page.html"    pageCtx
+            >>= loadAndApplyTemplate "templates/page.html" pageCtx
             >>= loadAndApplyTemplate "templates/base.html" pageCtx
             >>= relativizeUrls
 
@@ -60,7 +50,7 @@ main = do
         route $ setExtension "html"
         let readerOptions = defaultHakyllReaderOptions
         compile $ pandocCompilerWith readerOptions woptions
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= loadAndApplyTemplate "templates/post.html" postCtx
             >>= loadAndApplyTemplate "templates/base.html" (mathCtx <> postCtx)
             >>= relativizeUrls
 
@@ -70,12 +60,12 @@ main = do
             posts <- recentFirst =<< loadAll "posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Log"            `mappend`
+                    constField "title" "Log"                 `mappend`
                     defaultContext
 
             makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-                >>= loadAndApplyTemplate "templates/base.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/archive.html" (faviconsField <> archiveCtx )
+                >>= loadAndApplyTemplate "templates/base.html" (faviconsField <> archiveCtx )
                 >>= relativizeUrls
 
 
@@ -86,7 +76,7 @@ main = do
             let indexCtx =
                     listField "pages" postCtx (return pages)  `mappend`
                     constField "title" "Hello, Universe!"     `mappend`
-                    defaultContext
+                    faviconsField <> defaultContext
 
             pandocCompiler
                 >>= applyAsTemplate indexCtx
@@ -96,21 +86,16 @@ main = do
     match "templates/*" $ compile templateBodyCompiler
 
 --------------------------------------------------------------------------------
---- Compilers
---------------------------------------------------------------------------------
-
-
---------------------------------------------------------------------------------
 --- Contexts
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
-    defaultContext
+    faviconsField <> defaultContext
 pageCtx :: Context String
 pageCtx =
     field "description" (return . itemBody) `mappend`
-    defaultContext
+    faviconsField <> defaultContext
 
 mathCtx :: Context a
 mathCtx = field "katex" $ \item -> do
@@ -138,6 +123,9 @@ fileToDirectory = flip combine "index.html" . dropExtension . toFilePath
 --------------------------------------------------------------------------------
 --- Basic Configuration
 --------------------------------------------------------------------------------
+hakyllConfig :: Configuration
+hakyllConfig =
+  defaultConfiguration{ previewHost = "0.0.0.0" }
 
 woptions :: Text.Pandoc.WriterOptions
 woptions = defaultHakyllWriterOptions{ writerSectionDivs = False,

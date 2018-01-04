@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 BLOG_DIR="/home/sdll/dev/sdll"
+SOURCE_BRANCH=source
+
 shopt -s extglob
 function error_exit
 {
@@ -15,9 +17,8 @@ fi
 
 pushd $BLOG_DIR
 # Build successfuly or exit
-stack clean
-stack build || error\_exit "deploy script error: Build failed"
-stack exec site rebuild
+make rebuild-site
+sleep 180
 # Push changes on hakyll branch to github
 git add -A
 git commit -m "$1" || echo "Commited no changes."
@@ -33,6 +34,6 @@ git commit -m "$1"
 git push origin master
 
 # return to original branch
-git checkout shyll
-git push origin shyll
+git checkout $SOURCE_BRANCH
+git push origin $SOURCE_BRANCH
 popd

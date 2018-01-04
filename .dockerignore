@@ -1,0 +1,5 @@
+.git*
+.stack-work*
+.caches*
+_cache*
+_site*
