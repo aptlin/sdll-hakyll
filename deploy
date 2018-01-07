@@ -28,6 +28,7 @@ git checkout master
 
 # delete old site
 rm -rf !(.|..|.git|.gitignore|.nojekyll|.stack-work|_cache|_site)
+sudo chown $(id -u -n):$(id -u -n) -R _site
 mv _site/* .
 git add -A
 git commit -m "$1"

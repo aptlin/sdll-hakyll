@@ -16,24 +16,16 @@ From 2014 to 2016 my [[https://en.wikipedia.org/wiki/Cheboksary][Cheboksary]] ed
 In 2016 I embarked on the pure mathematics specialist program at
 [[https://umus.github.io/ut-umu][University of Toronto]].
 
-Contact me via [[mailto:sasha.illarionov@mail.utoronto.ca][email]], [[https://twitter.com/0xSDLL][twitter]], [[https://t.me/sashill][telegram]], [[https://www.facebook.com/sasha.ill][facebook]] or [[https://vk.com/sashill][vk]].
+In 2017 I moved to [[https://cs.hse.ru][HSE]] to study [[https://github.com/sdll/michi][applied mathematics & informatics]].
 
-You can read a range of posts on miscellania in a [[./log/][weblog]].
+You can see what I am up to on [[https://github.com/sdll][GitHub]].
+
+Contact me via [[mailto:alex2i@mail.ru][email]], [[https://twitter.com/sdllio][twitter]], [[https://t.me/sdllio][telegram]], [[https://www.facebook.com/sdllai][facebook]] or [[https://vk.com/sdllio][vk]].
+
+There is also a range of posts on miscellania in a [[./log/][weblog]].
 
 Here you can also find:
 
 #+BEGIN_EXPORT html
 $partial("templates/page-list.html")$
 #+END_EXPORT
-
-Let's live together in productive peace, and when we die, we will stop
-getting dumber.
-
-#+BEGIN_QUOTE
-#+BEGIN_HTML
-
-<b>"Végre nem butulok tovább." — Erdős Pál, epitaph</b>
-
-#+END_HTML
-
-#+END_QUOTE 
